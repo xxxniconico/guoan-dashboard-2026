@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 data/dashboard_embed.json
-web/guoan_embed.json
 .DS_Store
 /tmp/

@@ -1,0 +1,6190 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-06-02T13:27:33.409645+00:00",
+    "season": "2026",
+    "last_match_round": "第30轮",
+    "source": "/home/xxxsuli/guoan-dashboard-2026/data/dashboard_embed.json"
+  },
+  "guoan": {
+    "standing": {
+      "club_name": "北京国安",
+      "played": 15,
+      "wins": 5,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 26,
+      "goals_against": 23,
+      "goal_difference": 3,
+      "match_points": 20,
+      "penalty_points": 5,
+      "effective_points": 15,
+      "position": 10,
+      "all_standings": [
+        {
+          "club_name": "成都蓉城",
+          "played": 15,
+          "wins": 12,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 33,
+          "goals_against": 13,
+          "goal_difference": 20,
+          "match_points": 37,
+          "penalty_points": 0,
+          "effective_points": 37
+        },
+        {
+          "club_name": "重庆铜梁龙",
+          "played": 15,
+          "wins": 6,
+          "draws": 6,
+          "losses": 3,
+          "goals_for": 19,
+          "goals_against": 16,
+          "goal_difference": 3,
+          "match_points": 24,
+          "penalty_points": 0,
+          "effective_points": 24
+        },
+        {
+          "club_name": "大连英博",
+          "played": 15,
+          "wins": 7,
+          "draws": 1,
+          "losses": 7,
+          "goals_for": 21,
+          "goals_against": 25,
+          "goal_difference": -4,
+          "match_points": 22,
+          "penalty_points": 0,
+          "effective_points": 22
+        },
+        {
+          "club_name": "云南玉昆",
+          "played": 15,
+          "wins": 6,
+          "draws": 3,
+          "losses": 6,
+          "goals_for": 27,
+          "goals_against": 24,
+          "goal_difference": 3,
+          "match_points": 21,
+          "penalty_points": 0,
+          "effective_points": 21
+        },
+        {
+          "club_name": "山东泰山",
+          "played": 15,
+          "wins": 7,
+          "draws": 3,
+          "losses": 5,
+          "goals_for": 25,
+          "goals_against": 25,
+          "goal_difference": 0,
+          "match_points": 24,
+          "penalty_points": 6,
+          "effective_points": 18
+        },
+        {
+          "club_name": "青岛西海岸",
+          "played": 15,
+          "wins": 3,
+          "draws": 9,
+          "losses": 3,
+          "goals_for": 17,
+          "goals_against": 23,
+          "goal_difference": -6,
+          "match_points": 18,
+          "penalty_points": 0,
+          "effective_points": 18
+        },
+        {
+          "club_name": "浙江",
+          "played": 15,
+          "wins": 6,
+          "draws": 4,
+          "losses": 5,
+          "goals_for": 20,
+          "goals_against": 23,
+          "goal_difference": -3,
+          "match_points": 22,
+          "penalty_points": 5,
+          "effective_points": 17
+        },
+        {
+          "club_name": "辽宁铁人",
+          "played": 15,
+          "wins": 5,
+          "draws": 2,
+          "losses": 8,
+          "goals_for": 20,
+          "goals_against": 23,
+          "goal_difference": -3,
+          "match_points": 17,
+          "penalty_points": 0,
+          "effective_points": 17
+        },
+        {
+          "club_name": "深圳新鹏城",
+          "played": 15,
+          "wins": 5,
+          "draws": 2,
+          "losses": 8,
+          "goals_for": 20,
+          "goals_against": 25,
+          "goal_difference": -5,
+          "match_points": 17,
+          "penalty_points": 0,
+          "effective_points": 17
+        },
+        {
+          "club_name": "北京国安",
+          "played": 15,
+          "wins": 5,
+          "draws": 5,
+          "losses": 5,
+          "goals_for": 26,
+          "goals_against": 23,
+          "goal_difference": 3,
+          "match_points": 20,
+          "penalty_points": 5,
+          "effective_points": 15
+        },
+        {
+          "club_name": "河南",
+          "played": 15,
+          "wins": 6,
+          "draws": 3,
+          "losses": 6,
+          "goals_for": 16,
+          "goals_against": 18,
+          "goal_difference": -2,
+          "match_points": 21,
+          "penalty_points": 6,
+          "effective_points": 15
+        },
+        {
+          "club_name": "上海申花",
+          "played": 15,
+          "wins": 6,
+          "draws": 5,
+          "losses": 4,
+          "goals_for": 29,
+          "goals_against": 24,
+          "goal_difference": 5,
+          "match_points": 23,
+          "penalty_points": 10,
+          "effective_points": 13
+        },
+        {
+          "club_name": "上海海港",
+          "played": 15,
+          "wins": 4,
+          "draws": 5,
+          "losses": 6,
+          "goals_for": 23,
+          "goals_against": 21,
+          "goal_difference": 2,
+          "match_points": 17,
+          "penalty_points": 5,
+          "effective_points": 12
+        },
+        {
+          "club_name": "青岛海牛",
+          "played": 15,
+          "wins": 5,
+          "draws": 2,
+          "losses": 8,
+          "goals_for": 22,
+          "goals_against": 25,
+          "goal_difference": -3,
+          "match_points": 17,
+          "penalty_points": 7,
+          "effective_points": 10
+        },
+        {
+          "club_name": "武汉三镇",
+          "played": 15,
+          "wins": 2,
+          "draws": 7,
+          "losses": 6,
+          "goals_for": 22,
+          "goals_against": 30,
+          "goal_difference": -8,
+          "match_points": 13,
+          "penalty_points": 5,
+          "effective_points": 8
+        },
+        {
+          "club_name": "天津津门虎",
+          "played": 15,
+          "wins": 3,
+          "draws": 6,
+          "losses": 6,
+          "goals_for": 19,
+          "goals_against": 21,
+          "goal_difference": -2,
+          "match_points": 15,
+          "penalty_points": 10,
+          "effective_points": 5
+        }
+      ]
+    },
+    "matches": [
+      {
+        "match_id": "5a5g5bg2i6bdznuqw4mjhal1w",
+        "round": "第1轮",
+        "date": "2026-03-08 19:00:00",
+        "venue": {
+          "name": "武汉体育中心体育场",
+          "city": null
+        },
+        "opponent": "武汉三镇",
+        "is_home": false,
+        "status": "finished",
+        "score": "0:2",
+        "guoan_goals": 2,
+        "opp_goals": 0,
+        "result": "W",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "恩科洛洛",
+            "player_name": "恩科洛洛",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 52
+          },
+          {
+            "type": "yellow_card",
+            "player": "阿不都海米提·阿不都格尼",
+            "player_name": "阿不都海米提·阿不都格尼",
+            "minute": 73
+          }
+        ],
+        "formation": {
+          "home": "532",
+          "away": "442"
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 14,
+          "current_form": "DDDDD",
+          "goals_for": 8,
+          "goals_against": 11,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5b7itquwb34mvwkmhkc3r4duc",
+        "round": "第2轮",
+        "date": "2026-03-14 15:30:00",
+        "venue": {
+          "name": "济南奥体中心体育场",
+          "city": null
+        },
+        "opponent": "山东泰山",
+        "is_home": false,
+        "status": "finished",
+        "score": "2:1",
+        "guoan_goals": 1,
+        "opp_goals": 2,
+        "result": "L",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "克雷桑",
+            "player_name": "克雷桑",
+            "minute": 21
+          },
+          {
+            "type": "yellow_card",
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "minute": 28
+          },
+          {
+            "type": "yellow_card",
+            "player": "李源一",
+            "player_name": "李源一",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "player": "谢文能",
+            "player_name": "谢文能",
+            "minute": 49
+          },
+          {
+            "type": "yellow_card",
+            "player": "马德鲁加",
+            "player_name": "马德鲁加",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 86
+          },
+          {
+            "type": "goal",
+            "player": "克雷桑",
+            "player_name": "克雷桑",
+            "minute": 88
+          }
+        ],
+        "formation": {
+          "home": "3421",
+          "away": "442"
+        },
+        "opponent_tier": "A",
+        "context_signals": {},
+        "form_before": "W",
+        "opponent_info": {
+          "current_rank": 8,
+          "current_form": "LDLWW",
+          "goals_for": 7,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "A"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5gb0r1v0fskczm4l8717r6bdg",
+        "round": "第3轮",
+        "date": "2026-03-21 15:30:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "上海申花",
+        "is_home": true,
+        "status": "finished",
+        "score": "1:1",
+        "guoan_goals": 1,
+        "opp_goals": 1,
+        "result": "D",
+        "events": [
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 23
+          },
+          {
+            "type": "yellow_card",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 44
+          },
+          {
+            "type": "yellow_card",
+            "player": "斯卢茨基",
+            "player_name": "斯卢茨基",
+            "minute": 46
+          },
+          {
+            "type": "yellow_card",
+            "player": "王世龙",
+            "player_name": "王世龙",
+            "minute": 48
+          },
+          {
+            "type": "yellow_card",
+            "player": "阿不都海米提·阿不都格尼",
+            "player_name": "阿不都海米提·阿不都格尼",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "player": "陈晋一",
+            "player_name": "陈晋一",
+            "minute": 68
+          },
+          {
+            "type": "yellow_card",
+            "player": "高天意",
+            "player_name": "高天意",
+            "minute": 74
+          },
+          {
+            "type": "yellow_card",
+            "player": "杨泽翔",
+            "player_name": "杨泽翔",
+            "minute": 85
+          }
+        ],
+        "formation": {
+          "home": "442",
+          "away": "4312"
+        },
+        "opponent_tier": "S",
+        "context_signals": {},
+        "form_before": "LW",
+        "opponent_info": {
+          "current_rank": 10,
+          "current_form": "DLDLD",
+          "goals_for": 11,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "S"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5l3dqoug6yyngwnpu3cgr2vbo",
+        "round": "第4轮",
+        "date": "2026-04-04 15:30:00",
+        "venue": {
+          "name": "铁西体育场",
+          "city": null
+        },
+        "opponent": "辽宁铁人",
+        "is_home": false,
+        "status": "finished",
+        "score": "2:1",
+        "guoan_goals": 1,
+        "opp_goals": 2,
+        "result": "L",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "韩镕泽",
+            "player_name": "韩镕泽",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "player": "姆本扎",
+            "player_name": "姆本扎",
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "player": "热菲尼奥",
+            "player_name": "热菲尼奥",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 57
+          },
+          {
+            "type": "yellow_card",
+            "player": "阿不都海米提·阿不都格尼",
+            "player_name": "阿不都海米提·阿不都格尼",
+            "minute": 62
+          },
+          {
+            "type": "yellow_card",
+            "player": "恩科洛洛",
+            "player_name": "恩科洛洛",
+            "minute": 86
+          },
+          {
+            "type": "yellow_card",
+            "player": "蒙哥马利",
+            "player_name": "蒙哥马利",
+            "minute": 91
+          }
+        ],
+        "formation": {
+          "home": "4411",
+          "away": "442"
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "DLW",
+        "opponent_info": {
+          "current_rank": 4,
+          "current_form": "WWWDL",
+          "goals_for": 6,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "C"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5u4gsr8kk1hlxsxw9owgcqnmc",
+        "round": "第5轮",
+        "date": "2026-04-12 19:35:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "成都蓉城",
+        "is_home": true,
+        "status": "finished",
+        "score": "1:2",
+        "guoan_goals": 1,
+        "opp_goals": 2,
+        "result": "L",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "韦世豪",
+            "player_name": "韦世豪",
+            "minute": 14
+          },
+          {
+            "type": "yellow_card",
+            "player": "胡荷韬",
+            "player_name": "胡荷韬",
+            "minute": 31
+          },
+          {
+            "type": "yellow_card",
+            "player": "马修斯·尤萨",
+            "player_name": "马修斯·尤萨",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 63
+          },
+          {
+            "type": "yellow_card",
+            "player": "孔特",
+            "player_name": "孔特",
+            "minute": 81
+          },
+          {
+            "type": "goal",
+            "player": "廖力生",
+            "player_name": "廖力生",
+            "minute": 84
+          },
+          {
+            "type": "yellow_card",
+            "player": "廖力生",
+            "player_name": "廖力生",
+            "minute": 88
+          },
+          {
+            "type": "goal",
+            "player": "韦世豪",
+            "player_name": "韦世豪",
+            "minute": 94
+          }
+        ],
+        "formation": {
+          "home": "442",
+          "away": "442"
+        },
+        "opponent_tier": "A",
+        "context_signals": {
+          "away_winless": true,
+          "away_winless_losses": true
+        },
+        "form_before": "LDLW",
+        "opponent_info": {
+          "current_rank": 2,
+          "current_form": "WLLWW",
+          "goals_for": 14,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "A"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5wqun7ch8f15eqo1f2e67h2j8",
+        "round": "第6轮",
+        "date": "2026-04-17 20:00:00",
+        "venue": {
+          "name": "黄龙体育中心体育场",
+          "city": null
+        },
+        "opponent": "浙江",
+        "is_home": false,
+        "status": "finished",
+        "score": "0:0",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "D",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "朴镇燮",
+            "player_name": "朴镇燮",
+            "minute": 46
+          },
+          {
+            "type": "yellow_card",
+            "player": "李磊",
+            "player_name": "李磊",
+            "minute": 48
+          },
+          {
+            "type": "yellow_card",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 76
+          },
+          {
+            "type": "yellow_card",
+            "player": "瓜里拉帕",
+            "player_name": "瓜里拉帕",
+            "minute": 89
+          },
+          {
+            "type": "yellow_card",
+            "player": "阿不都海米提·阿不都格尼",
+            "player_name": "阿不都海米提·阿不都格尼",
+            "minute": 90
+          }
+        ],
+        "formation": {
+          "home": "4231",
+          "away": "4132"
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "LLDLW",
+        "opponent_info": {
+          "current_rank": 9,
+          "current_form": "WLWDD",
+          "goals_for": 7,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "5zpjmjdkmnei1smbpd60yoydw",
+        "round": "第7轮",
+        "date": "2026-04-21 19:00:00",
+        "venue": {
+          "name": "深圳市体育场",
+          "city": null
+        },
+        "opponent": "深圳新鹏城",
+        "is_home": false,
+        "status": "finished",
+        "score": "0:1",
+        "guoan_goals": 1,
+        "opp_goals": 0,
+        "result": "W",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "王刚",
+            "player_name": "王刚",
+            "minute": 11
+          },
+          {
+            "type": "yellow_card",
+            "player": "卡尔采夫",
+            "player_name": "卡尔采夫",
+            "minute": 41
+          },
+          {
+            "type": "yellow_card",
+            "player": "玄智健",
+            "player_name": "玄智健",
+            "minute": 46
+          },
+          {
+            "type": "yellow_card",
+            "player": "曹永竞",
+            "player_name": "曹永竞",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 89
+          }
+        ],
+        "formation": {
+          "home": "343",
+          "away": "4141"
+        },
+        "opponent_tier": "B",
+        "context_signals": {
+          "away_winless": true
+        },
+        "form_before": "DLLDL",
+        "opponent_info": {
+          "current_rank": 6,
+          "current_form": "WWDLL",
+          "goals_for": 7,
+          "goals_against": 8,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "64ffce8ht6eewm1743tvjog0k",
+        "round": "第8轮",
+        "date": "2026-04-25 19:35:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "天津津门虎",
+        "is_home": true,
+        "status": "finished",
+        "score": "2:4",
+        "guoan_goals": 2,
+        "opp_goals": 4,
+        "result": "L",
+        "events": [
+          {
+            "type": "goal",
+            "player": "吉列尔梅·谢蒂内",
+            "player_name": "吉列尔梅·谢蒂内",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "player": "哈达斯",
+            "player_name": "哈达斯",
+            "minute": 49
+          },
+          {
+            "type": "yellow_card",
+            "player": "王秋明",
+            "player_name": "王秋明",
+            "minute": 56
+          },
+          {
+            "type": "yellow_card",
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "player": "基莱斯",
+            "player_name": "基莱斯",
+            "minute": 70
+          },
+          {
+            "type": "goal",
+            "player": "基莱斯",
+            "player_name": "基莱斯",
+            "minute": 89
+          },
+          {
+            "type": "yellow_card",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 97
+          }
+        ],
+        "formation": {
+          "home": "4231",
+          "away": "532"
+        },
+        "opponent_tier": "A",
+        "context_signals": {},
+        "form_before": "WDLLD",
+        "opponent_info": {
+          "current_rank": 16,
+          "current_form": "WDLLD",
+          "goals_for": 2,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "A"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6bzevs6czggnca6lchtpv8phw",
+        "round": "第9轮",
+        "date": "2026-05-02 20:00:00",
+        "venue": {
+          "name": "玉溪高原体育运动中心体育场",
+          "city": null
+        },
+        "opponent": "云南玉昆",
+        "is_home": false,
+        "status": "finished",
+        "score": "3:3",
+        "guoan_goals": 3,
+        "opp_goals": 3,
+        "result": "D",
+        "events": [
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "player": "约尼查",
+            "player_name": "约尼查",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "player": "克莱伯",
+            "player_name": "克莱伯",
+            "minute": 77
+          },
+          {
+            "type": "goal",
+            "player": "塞尔吉尼奥",
+            "player_name": "塞尔吉尼奥",
+            "minute": 81
+          },
+          {
+            "type": "goal",
+            "player": "奥斯卡",
+            "player_name": "奥斯卡",
+            "minute": 90
+          }
+        ],
+        "formation": {
+          "home": "4141",
+          "away": "4231"
+        },
+        "opponent_tier": "B",
+        "context_signals": {
+          "consecutive_home_losses": true,
+          "heavy_home_loss": true
+        },
+        "form_before": "LWDLL",
+        "opponent_info": {
+          "current_rank": 5,
+          "current_form": "DLDWW",
+          "goals_for": 9,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6fmqtjgcd0gl5lhc0zmg0d79w",
+        "round": "第10轮",
+        "date": "2026-05-06 19:35:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "大连英博",
+        "is_home": true,
+        "status": "finished",
+        "score": "3:0",
+        "guoan_goals": 3,
+        "opp_goals": 0,
+        "result": "W",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "毛伟杰",
+            "player_name": "毛伟杰",
+            "minute": 6
+          },
+          {
+            "type": "yellow_card",
+            "player": "杨铭锐",
+            "player_name": "杨铭锐",
+            "minute": 13
+          },
+          {
+            "type": "red_card",
+            "player": "曹永竞",
+            "player_name": "曹永竞",
+            "minute": 47
+          },
+          {
+            "type": "yellow_card",
+            "player": "孙康博",
+            "player_name": "孙康博",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "minute": 54
+          },
+          {
+            "type": "goal",
+            "player": "黄山",
+            "player_name": "黄山",
+            "minute": 58
+          },
+          {
+            "type": "yellow_card",
+            "player": "罗竞",
+            "player_name": "罗竞",
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 65
+          },
+          {
+            "type": "yellow_card",
+            "player": "吕鹏",
+            "player_name": "吕鹏",
+            "minute": 87
+          },
+          {
+            "type": "yellow_card",
+            "player": "王禹",
+            "player_name": "王禹",
+            "minute": 92
+          }
+        ],
+        "formation": {
+          "home": "3421",
+          "away": "4231"
+        },
+        "opponent_tier": "C",
+        "context_signals": {
+          "consecutive_home_losses": true,
+          "heavy_home_loss": true
+        },
+        "form_before": "DLWDL",
+        "opponent_info": {
+          "current_rank": 3,
+          "current_form": "LWDLL",
+          "goals_for": 10,
+          "goals_against": 10,
+          "top_scorers": [],
+          "tier": "C"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6ji89gerljwjnacpqtfx8bthw",
+        "round": "第11轮",
+        "date": "2026-05-10 19:35:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "上海海港",
+        "is_home": true,
+        "status": "finished",
+        "score": "2:2",
+        "guoan_goals": 2,
+        "opp_goals": 2,
+        "result": "D",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "莱昂纳多",
+            "player_name": "莱昂纳多",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "player": "马特乌斯·维塔尔",
+            "player_name": "马特乌斯·维塔尔",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 49
+          },
+          {
+            "type": "yellow_card",
+            "player": "李新翔",
+            "player_name": "李新翔",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "player": "莱昂纳多",
+            "player_name": "莱昂纳多",
+            "minute": 62
+          },
+          {
+            "type": "yellow_card",
+            "player": "张源",
+            "player_name": "张源",
+            "minute": 69
+          },
+          {
+            "type": "yellow_card",
+            "player": "王振澳",
+            "player_name": "王振澳",
+            "minute": 77
+          },
+          {
+            "type": "goal",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 86
+          },
+          {
+            "type": "yellow_card",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 91
+          }
+        ],
+        "formation": {
+          "home": "4132",
+          "away": "541"
+        },
+        "opponent_tier": "B",
+        "context_signals": {
+          "short_rest": true
+        },
+        "form_before": "WDLWD",
+        "opponent_info": {
+          "current_rank": 11,
+          "current_form": "LDWDD",
+          "goals_for": 7,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6mp58sl33ixv41i85c14vj6dw",
+        "round": "第12轮",
+        "date": "2026-05-15 20:00:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "青岛海牛",
+        "is_home": true,
+        "status": "finished",
+        "score": "4:2",
+        "guoan_goals": 4,
+        "opp_goals": 2,
+        "result": "W",
+        "events": [
+          {
+            "type": "goal",
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "player": "茹子楠",
+            "player_name": "茹子楠",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 37
+          },
+          {
+            "type": "yellow_card",
+            "player": "米兰·里斯蒂奇",
+            "player_name": "米兰·里斯蒂奇",
+            "minute": 43
+          },
+          {
+            "type": "yellow_card",
+            "player": "孔特",
+            "player_name": "孔特",
+            "minute": 47
+          },
+          {
+            "type": "yellow_card",
+            "player": "罗森文",
+            "player_name": "罗森文",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "player": "曹永竞",
+            "player_name": "曹永竞",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "player": "宋文杰",
+            "player_name": "宋文杰",
+            "minute": 67
+          },
+          {
+            "type": "yellow_card",
+            "player": "杨聪",
+            "player_name": "杨聪",
+            "minute": 75
+          },
+          {
+            "type": "yellow_card",
+            "player": "刘军帅",
+            "player_name": "刘军帅",
+            "minute": 87
+          },
+          {
+            "type": "goal",
+            "player": "颜卓彬",
+            "player_name": "颜卓彬",
+            "minute": 94
+          }
+        ],
+        "formation": {
+          "home": "442",
+          "away": "442"
+        },
+        "opponent_tier": "C",
+        "context_signals": {
+          "unbeaten_3": true
+        },
+        "form_before": "DWDLW",
+        "opponent_info": {
+          "current_rank": 15,
+          "current_form": "LLLLW",
+          "goals_for": 3,
+          "goals_against": 8,
+          "top_scorers": [],
+          "tier": "C"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6qmol9rqqrn9ucp5udkj9buvo",
+        "round": "第13轮",
+        "date": "2026-05-19 20:00:00",
+        "venue": {
+          "name": "青岛西海岸大学城体育场",
+          "city": null
+        },
+        "opponent": "青岛西海岸",
+        "is_home": false,
+        "status": "finished",
+        "score": "1:1",
+        "guoan_goals": 1,
+        "opp_goals": 1,
+        "result": "D",
+        "events": [
+          {
+            "type": "yellow_card",
+            "player": "孔特",
+            "player_name": "孔特",
+            "minute": 38
+          },
+          {
+            "type": "red_card",
+            "player": "雷森德",
+            "player_name": "雷森德",
+            "minute": 62
+          },
+          {
+            "type": "yellow_card",
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "minute": 72
+          },
+          {
+            "type": "goal",
+            "player": "戴维森",
+            "player_name": "戴维森",
+            "minute": 73
+          },
+          {
+            "type": "goal",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 78
+          },
+          {
+            "type": "yellow_card",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 81
+          },
+          {
+            "type": "yellow_card",
+            "player": "王鹏",
+            "player_name": "王鹏",
+            "minute": 85
+          }
+        ],
+        "formation": {
+          "home": "4231",
+          "away": "3421"
+        },
+        "opponent_tier": "B",
+        "context_signals": {
+          "short_rest": true,
+          "unbeaten_3": true
+        },
+        "form_before": "WDWDL",
+        "opponent_info": {
+          "current_rank": 7,
+          "current_form": "DWDWD",
+          "goals_for": 4,
+          "goals_against": 12,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "6ubut57hovxx1w3z1xuxvnw9g",
+        "round": "第14轮",
+        "date": "2026-05-23 19:35:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "河南",
+        "is_home": true,
+        "status": "finished",
+        "score": "1:2",
+        "guoan_goals": 1,
+        "opp_goals": 2,
+        "result": "L",
+        "events": [
+          {
+            "type": "goal",
+            "player": "达万",
+            "player_name": "达万",
+            "minute": 27
+          },
+          {
+            "type": "yellow_card",
+            "player": "姆布拉",
+            "player_name": "姆布拉",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 78
+          },
+          {
+            "type": "goal",
+            "player": "古斯塔沃",
+            "player_name": "古斯塔沃",
+            "minute": 87
+          },
+          {
+            "type": "yellow_card",
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "minute": 89
+          },
+          {
+            "type": "yellow_card",
+            "player": "阿卜杜肉苏力·阿不都拉木",
+            "player_name": "阿卜杜肉苏力·阿不都拉木",
+            "minute": 96
+          }
+        ],
+        "formation": {
+          "home": "3412",
+          "away": "4231"
+        },
+        "opponent_tier": "B",
+        "context_signals": {
+          "unbeaten_3": true
+        },
+        "form_before": "DWDWD",
+        "opponent_info": {
+          "current_rank": 12,
+          "current_form": "LWWWL",
+          "goals_for": 5,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "B"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "70t2weqq4dmvz48bzsgos84r8",
+        "round": "第15轮",
+        "date": "2026-05-30 20:00:00",
+        "venue": {
+          "name": "重庆龙兴足球场",
+          "city": null
+        },
+        "opponent": "重庆铜梁龙",
+        "is_home": false,
+        "status": "finished",
+        "score": "2:3",
+        "guoan_goals": 3,
+        "opp_goals": 2,
+        "result": "W",
+        "events": [
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 34
+          },
+          {
+            "type": "yellow_card",
+            "player": "陈纯新",
+            "player_name": "陈纯新",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "player": "迪马塔",
+            "player_name": "迪马塔",
+            "minute": 53
+          },
+          {
+            "type": "goal",
+            "player": "卢康",
+            "player_name": "卢康",
+            "minute": 68
+          },
+          {
+            "type": "yellow_card",
+            "player": "迪马塔",
+            "player_name": "迪马塔",
+            "minute": 72
+          },
+          {
+            "type": "yellow_card",
+            "player": "吴永强",
+            "player_name": "吴永强",
+            "minute": 79
+          },
+          {
+            "type": "goal",
+            "player": "塞尔吉尼奥",
+            "player_name": "塞尔吉尼奥",
+            "minute": 82
+          },
+          {
+            "type": "goal",
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "minute": 85
+          },
+          {
+            "type": "yellow_card",
+            "player": "侯森",
+            "player_name": "侯森",
+            "minute": 99
+          }
+        ],
+        "formation": {
+          "home": "541",
+          "away": "442"
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "LDWDW",
+        "opponent_info": {
+          "current_rank": 1,
+          "current_form": "LWDLD",
+          "goals_for": 7,
+          "goals_against": 4,
+          "top_scorers": [],
+          "tier": "C"
+        },
+        "season": "2026"
+      },
+      {
+        "match_id": "54389942",
+        "round": "第16轮",
+        "date": "2026-06-27 20:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "武汉三镇",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 14,
+          "current_form": "DDDDD",
+          "goals_for": 8,
+          "goals_against": 11,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389959",
+        "round": "第17轮",
+        "date": "2026-07-04 19:35",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "山东泰山",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "A",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 8,
+          "current_form": "LDLWW",
+          "goals_for": 7,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "A"
+        }
+      },
+      {
+        "match_id": "54389993",
+        "round": "第18轮",
+        "date": "2026-07-11 19:35",
+        "venue": {
+          "name": "上海体育场",
+          "city": null
+        },
+        "opponent": "上海申花",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "S",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 10,
+          "current_form": "DLDLD",
+          "goals_for": 11,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "S"
+        }
+      },
+      {
+        "match_id": "54389977",
+        "round": "第19轮",
+        "date": "2026-07-17 19:35",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "辽宁铁人",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 4,
+          "current_form": "WWWDL",
+          "goals_for": 6,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "C"
+        }
+      },
+      {
+        "match_id": "54389962",
+        "round": "第20轮",
+        "date": "2026-07-26 19:35",
+        "venue": {
+          "name": "五粮液文化体育中心专业足球场",
+          "city": null
+        },
+        "opponent": "成都蓉城",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "A",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 2,
+          "current_form": "WLLWW",
+          "goals_for": 14,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "A"
+        }
+      },
+      {
+        "match_id": "54390002",
+        "round": "第21轮",
+        "date": "2026-08-01 19:35",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "浙江",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 9,
+          "current_form": "WLWDD",
+          "goals_for": 7,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389968",
+        "round": "第22轮",
+        "date": "2026-08-07 19:35",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "深圳新鹏城",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 6,
+          "current_form": "WWDLL",
+          "goals_for": 7,
+          "goals_against": 8,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389961",
+        "round": "第23轮",
+        "date": "2026-08-15 19:35",
+        "venue": {
+          "name": "泰达足球场",
+          "city": null
+        },
+        "opponent": "天津津门虎",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "A",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 16,
+          "current_form": "WDLLD",
+          "goals_for": 2,
+          "goals_against": 7,
+          "top_scorers": [],
+          "tier": "A"
+        }
+      },
+      {
+        "match_id": "54389940",
+        "round": "第24轮",
+        "date": "2026-08-22 20:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "云南玉昆",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 5,
+          "current_form": "DLDWW",
+          "goals_for": 9,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389926",
+        "round": "第25轮",
+        "date": "2026-08-28 19:35",
+        "venue": {
+          "name": "大连梭鱼湾足球场",
+          "city": null
+        },
+        "opponent": "大连英博",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 3,
+          "current_form": "LWDLL",
+          "goals_for": 10,
+          "goals_against": 10,
+          "top_scorers": [],
+          "tier": "C"
+        }
+      },
+      {
+        "match_id": "54389903",
+        "round": "第26轮",
+        "date": "2026-09-05 19:35",
+        "venue": {
+          "name": "上汽浦东足球场",
+          "city": null
+        },
+        "opponent": "上海海港",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 11,
+          "current_form": "LDWDD",
+          "goals_for": 7,
+          "goals_against": 6,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389891",
+        "round": "第27轮",
+        "date": "2026-10-10 20:00",
+        "venue": {
+          "name": "青岛青春足球场",
+          "city": null
+        },
+        "opponent": "青岛海牛",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 15,
+          "current_form": "LLLLW",
+          "goals_for": 3,
+          "goals_against": 8,
+          "top_scorers": [],
+          "tier": "C"
+        }
+      },
+      {
+        "match_id": "54389876",
+        "round": "第28轮",
+        "date": "2026-10-18 19:00",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "青岛西海岸",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 7,
+          "current_form": "DWDWD",
+          "goals_for": 4,
+          "goals_against": 12,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389825",
+        "round": "第29轮",
+        "date": "2026-10-24 15:30",
+        "venue": {
+          "name": "郑州航海体育场",
+          "city": null
+        },
+        "opponent": "河南",
+        "is_home": false,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "B",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 12,
+          "current_form": "LWWWL",
+          "goals_for": 5,
+          "goals_against": 5,
+          "top_scorers": [],
+          "tier": "B"
+        }
+      },
+      {
+        "match_id": "54389815",
+        "round": "第30轮",
+        "date": "2026-11-08 15:30",
+        "venue": {
+          "name": "工人体育场",
+          "city": null
+        },
+        "opponent": "重庆铜梁龙",
+        "is_home": true,
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "C",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 1,
+          "current_form": "LWDLD",
+          "goals_for": 7,
+          "goals_against": 4,
+          "top_scorers": [],
+          "tier": "C"
+        }
+      }
+    ],
+    "player_performance": [
+      {
+        "player_name": "张玉宁",
+        "team_name": "北京国安",
+        "appearances": 7,
+        "goals": 7,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第1轮",
+            "date": "2026-03-08",
+            "opponent": "武汉三镇",
+            "goals": 1
+          },
+          {
+            "round": "第2轮",
+            "date": "2026-03-14",
+            "opponent": "山东泰山",
+            "goals": 1
+          },
+          {
+            "round": "第3轮",
+            "date": "2026-03-21",
+            "opponent": "上海申花",
+            "goals": 1
+          },
+          {
+            "round": "第5轮",
+            "date": "2026-04-12",
+            "opponent": "成都蓉城",
+            "goals": 1
+          },
+          {
+            "round": "第8轮",
+            "date": "2026-04-25",
+            "opponent": "天津津门虎",
+            "goals": 1
+          },
+          {
+            "round": "第9轮",
+            "date": "2026-05-02",
+            "opponent": "云南玉昆",
+            "goals": 1
+          },
+          {
+            "round": "第12轮",
+            "date": "2026-05-15",
+            "opponent": "青岛海牛",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 26.9,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续7场进球",
+        "position": "前锋",
+        "shirt_number": 9,
+        "cfl_profile": {
+          "height": "186",
+          "weight": "85",
+          "nationality": "中国",
+          "date_of_birth": "1997-01-05",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张玉宁_1.jpg",
+          "player_name_en": "ZhangYuning"
+        }
+      },
+      {
+        "player_name": "法比奥",
+        "team_name": "北京国安",
+        "appearances": 6,
+        "goals": 6,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第1轮",
+            "date": "2026-03-08",
+            "opponent": "武汉三镇",
+            "goals": 1
+          },
+          {
+            "round": "第4轮",
+            "date": "2026-04-04",
+            "opponent": "辽宁铁人",
+            "goals": 1
+          },
+          {
+            "round": "第11轮",
+            "date": "2026-05-10",
+            "opponent": "上海海港",
+            "goals": 1
+          },
+          {
+            "round": "第14轮",
+            "date": "2026-05-23",
+            "opponent": "河南",
+            "goals": 1
+          },
+          {
+            "round": "第15轮",
+            "date": "2026-05-30",
+            "opponent": "重庆铜梁龙",
+            "goals": 1
+          },
+          {
+            "round": "第15轮",
+            "date": "2026-05-30",
+            "opponent": "重庆铜梁龙",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第3轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 23.1,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续6场进球",
+        "position": "前锋",
+        "shirt_number": 29,
+        "cfl_profile": {
+          "height": "182",
+          "weight": "83",
+          "nationality": "安哥拉",
+          "date_of_birth": "1993-01-29",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/法比奥_1.jpg",
+          "player_name_en": "Gonçalves de AbreuFábio"
+        }
+      },
+      {
+        "player_name": "张稀哲",
+        "team_name": "北京国安",
+        "appearances": 6,
+        "goals": 4,
+        "assists": 0,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第7轮",
+            "date": "2026-04-21",
+            "opponent": "深圳新鹏城",
+            "goals": 1
+          },
+          {
+            "round": "第9轮",
+            "date": "2026-05-02",
+            "opponent": "云南玉昆",
+            "goals": 1
+          },
+          {
+            "round": "第11轮",
+            "date": "2026-05-10",
+            "opponent": "上海海港",
+            "goals": 1
+          },
+          {
+            "round": "第12轮",
+            "date": "2026-05-15",
+            "opponent": "青岛海牛",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第8轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第11轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第13轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 15.4,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续4场进球",
+        "position": "中场",
+        "shirt_number": 10,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "69",
+          "nationality": "中国",
+          "date_of_birth": "1991-01-23",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张稀哲_1.jpg",
+          "player_name_en": "Zhang Xizhe"
+        }
+      },
+      {
+        "player_name": "林良铭",
+        "team_name": "北京国安",
+        "appearances": 4,
+        "goals": 3,
+        "assists": 0,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第8轮",
+            "date": "2026-04-25",
+            "opponent": "天津津门虎",
+            "goals": 1
+          },
+          {
+            "round": "第10轮",
+            "date": "2026-05-06",
+            "opponent": "大连英博",
+            "goals": 1
+          },
+          {
+            "round": "第13轮",
+            "date": "2026-05-19",
+            "opponent": "青岛西海岸",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第6轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第13轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 11.5,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续3场进球",
+        "position": "前锋",
+        "shirt_number": 11,
+        "cfl_profile": {
+          "height": "181",
+          "weight": "76",
+          "nationality": "中国",
+          "date_of_birth": "1997-06-04",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/林良铭_1.jpg",
+          "player_name_en": "LinLiangming"
+        }
+      },
+      {
+        "player_name": "塞尔吉尼奥",
+        "team_name": "北京国安",
+        "appearances": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第9轮",
+            "date": "2026-05-02",
+            "opponent": "云南玉昆",
+            "goals": 1
+          },
+          {
+            "round": "第15轮",
+            "date": "2026-05-30",
+            "opponent": "重庆铜梁龙",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 7.7,
+        "form_5": [
+          "goal",
+          "goal"
+        ],
+        "streak": "连续2场进球",
+        "position": "中场",
+        "shirt_number": 7,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "84",
+          "nationality": "中国",
+          "date_of_birth": "1995-03-15",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/塞尔吉尼奥_1.jpg",
+          "player_name_en": "Soler de Oliveira JúniorSérgio Antônio"
+        }
+      },
+      {
+        "player_name": "拉莫斯",
+        "team_name": "北京国安",
+        "appearances": 4,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第10轮",
+            "date": "2026-05-06",
+            "opponent": "大连英博",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第2轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第8轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第14轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 3.8,
+        "form_5": [
+          "goal"
+        ],
+        "streak": "上场比赛有进球",
+        "position": "后卫",
+        "shirt_number": 5,
+        "cfl_profile": {
+          "height": "191",
+          "weight": "86",
+          "nationality": "葡萄牙",
+          "date_of_birth": "1997-08-11",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吉列尔梅-拉莫斯.jpg",
+          "player_name_en": "Magro Pires Ramos Guilherme"
+        }
+      },
+      {
+        "player_name": "曹永竞",
+        "team_name": "北京国安",
+        "appearances": 3,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 1,
+        "goal_calendar": [
+          {
+            "round": "第12轮",
+            "date": "2026-05-15",
+            "opponent": "青岛海牛",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第7轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第10轮",
+            "type": "red"
+          }
+        ],
+        "goal_contribution_pct": 3.8,
+        "form_5": [
+          "goal"
+        ],
+        "streak": "上场比赛有进球",
+        "position": "中场",
+        "shirt_number": 37,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "73",
+          "nationality": "中国",
+          "date_of_birth": "1997-02-15",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/曹永竞_1.jpg",
+          "player_name_en": "CaoYongjing"
+        }
+      },
+      {
+        "player_name": "茹子楠",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第12轮",
+            "date": "2026-05-15",
+            "opponent": "青岛海牛",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 3.8,
+        "form_5": [
+          "goal"
+        ],
+        "streak": "上场比赛有进球",
+        "position": "后卫",
+        "shirt_number": 21,
+        "cfl_profile": {
+          "height": "171",
+          "weight": "68",
+          "nationality": "中国香港",
+          "date_of_birth": "1998-05-12",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/茹子楠_1.jpg",
+          "player_name_en": "YueTze Nam"
+        }
+      },
+      {
+        "player_name": "达万",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第14轮",
+            "date": "2026-05-23",
+            "opponent": "河南",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 3.8,
+        "form_5": [
+          "goal"
+        ],
+        "streak": "上场比赛有进球",
+        "position": "中场",
+        "shirt_number": 23,
+        "cfl_profile": {
+          "height": "177",
+          "weight": "69",
+          "nationality": "巴西",
+          "date_of_birth": "1996-06-03",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
+          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
+        }
+      },
+      {
+        "player_name": "何宇鹏",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 3,
+        "cfl_profile": {
+          "height": "182",
+          "weight": "72",
+          "nationality": "中国",
+          "date_of_birth": "1999-12-05",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/何宇鹏.jpg",
+          "player_name_en": "HeYupeng"
+        }
+      },
+      {
+        "player_name": "侯森",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第15轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 34,
+        "cfl_profile": {
+          "height": "188",
+          "weight": "81",
+          "nationality": "中国",
+          "date_of_birth": "1989-06-30",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/侯森_1.jpg",
+          "player_name_en": "HouSen"
+        }
+      },
+      {
+        "player_name": "冯博轩",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 16,
+        "cfl_profile": {
+          "height": "181",
+          "weight": "75",
+          "nationality": "中国",
+          "date_of_birth": "1997-03-18",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/冯博轩_1.jpg",
+          "player_name_en": "FengBoxuan"
+        }
+      },
+      {
+        "player_name": "努尔艾力·阿巴斯",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 33,
+        "cfl_profile": {
+          "height": "193",
+          "weight": "77",
+          "nationality": "中国",
+          "date_of_birth": "2004-09-26",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/努尔艾力-阿巴斯.jpg",
+          "player_name_en": "AbbasNureli"
+        }
+      },
+      {
+        "player_name": "卢彤鋆",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 14,
+        "cfl_profile": {
+          "height": "194",
+          "weight": "79",
+          "nationality": "中国",
+          "date_of_birth": "2008-03-30",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/卢彤鋆.jpg",
+          "player_name_en": "LuTongyun"
+        }
+      },
+      {
+        "player_name": "吴少聪",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 2,
+        "cfl_profile": {
+          "height": "192",
+          "weight": "81",
+          "nationality": "中国",
+          "date_of_birth": "2000-03-20",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吴少聪_1.jpg",
+          "player_name_en": "WuShaocong"
+        }
+      },
+      {
+        "player_name": "孔特",
+        "team_name": "北京国安",
+        "appearances": 3,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第5轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第12轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第13轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 8,
+        "cfl_profile": {
+          "height": "176",
+          "weight": "69",
+          "nationality": "马里",
+          "date_of_birth": "2001-03-02",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/孔特.jpg",
+          "player_name_en": "Konté Boubacar"
+        }
+      },
+      {
+        "player_name": "张健智",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 39,
+        "cfl_profile": {
+          "height": "196",
+          "weight": "94",
+          "nationality": "中国",
+          "date_of_birth": "2000-01-28",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张健智_1.jpg",
+          "player_name_en": "ZhangJianzhi"
+        }
+      },
+      {
+        "player_name": "恩科洛洛",
+        "team_name": "北京国安",
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 2,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第1轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第4轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "前锋",
+        "shirt_number": 20,
+        "cfl_profile": {
+          "height": "178",
+          "weight": "75",
+          "nationality": "法国",
+          "date_of_birth": "1996-11-06",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/恩科洛洛.jpg",
+          "player_name_en": "Nkololo Béni"
+        }
+      },
+      {
+        "player_name": "李磊",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第6轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 4,
+        "cfl_profile": {
+          "height": "183",
+          "weight": "77",
+          "nationality": "中国",
+          "date_of_birth": "1992-05-30",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/李磊_1.jpg",
+          "player_name_en": "LiLei"
+        }
+      },
+      {
+        "player_name": "杨立瑜",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "前锋",
+        "shirt_number": 17,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "65",
+          "nationality": "中国",
+          "date_of_birth": "1997-02-13",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/杨立瑜_1.jpg",
+          "player_name_en": "YangLiyu"
+        }
+      },
+      {
+        "player_name": "林涵祺",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 42,
+        "cfl_profile": {
+          "height": "165",
+          "weight": "50",
+          "nationality": "中国",
+          "date_of_birth": "2009-06-15",
+          "player_icon": "",
+          "player_name_en": ""
+        }
+      },
+      {
+        "player_name": "柏杨",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 26,
+        "cfl_profile": {
+          "height": "190",
+          "weight": "75",
+          "nationality": "中国",
+          "date_of_birth": "1998-03-06",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/柏杨_1.jpg",
+          "player_name_en": "BaiYang"
+        }
+      },
+      {
+        "player_name": "江文豪",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 35,
+        "cfl_profile": {
+          "height": "176",
+          "weight": "69",
+          "nationality": "中国",
+          "date_of_birth": "2000-01-16",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/江文豪.jpg",
+          "player_name_en": "JiangWenhao"
+        }
+      },
+      {
+        "player_name": "池忠国",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 6,
+        "cfl_profile": {
+          "height": "172",
+          "weight": "66",
+          "nationality": "中国",
+          "date_of_birth": "1989-10-26",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/池忠国_1.jpg",
+          "player_name_en": "ChiZhongguo"
+        }
+      },
+      {
+        "player_name": "王刚",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第7轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 27,
+        "cfl_profile": {
+          "height": "188",
+          "weight": "81",
+          "nationality": "中国",
+          "date_of_birth": "1989-02-17",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王刚_1.jpg",
+          "player_name_en": "WangGang"
+        }
+      },
+      {
+        "player_name": "王思泽",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 32,
+        "cfl_profile": {
+          "height": "181",
+          "weight": "74",
+          "nationality": "中国",
+          "date_of_birth": "2009-03-21",
+          "player_icon": "",
+          "player_name_en": "Wang Size"
+        }
+      },
+      {
+        "player_name": "王禹",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第10轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 18,
+        "cfl_profile": {
+          "height": "178",
+          "weight": "70",
+          "nationality": "中国",
+          "date_of_birth": "2002-04-28",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王禹_1.jpg",
+          "player_name_en": "WangYu"
+        }
+      },
+      {
+        "player_name": "程熙",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 41,
+        "cfl_profile": {
+          "height": "171",
+          "weight": "57",
+          "nationality": "中国",
+          "date_of_birth": "2008-02-05",
+          "player_icon": "",
+          "player_name_en": "Cheng Xi"
+        }
+      },
+      {
+        "player_name": "范双杰",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 30,
+        "cfl_profile": {
+          "height": "177",
+          "weight": "69",
+          "nationality": "中国",
+          "date_of_birth": "2005-08-25",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/范双杰_1.jpg",
+          "player_name_en": "FanShuangjie"
+        }
+      },
+      {
+        "player_name": "蒙哥马利",
+        "team_name": "北京国安",
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第4轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "主教练",
+        "shirt_number": "",
+        "cfl_profile": {
+          "height": "175",
+          "weight": "74",
+          "nationality": "苏格兰",
+          "date_of_birth": "1981-10-28",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/蒙哥马利.jpg",
+          "player_name_en": "Montgomery Nick"
+        }
+      },
+      {
+        "player_name": "贾非凡",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 36,
+        "cfl_profile": {
+          "height": "178",
+          "weight": "80",
+          "nationality": "中国",
+          "date_of_birth": "2001-01-13",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/贾非凡_1.jpg",
+          "player_name_en": "JiaFeifan"
+        }
+      },
+      {
+        "player_name": "邓捷夫",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 47,
+        "cfl_profile": {
+          "height": "185",
+          "weight": "75",
+          "nationality": "中国",
+          "date_of_birth": "2007-06-28",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/邓捷夫.jpg",
+          "player_name_en": "Deng Jiefu"
+        }
+      },
+      {
+        "player_name": "阿不都海米提·阿不都格尼",
+        "team_name": "北京国安",
+        "appearances": 4,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 4,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第1轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第3轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第4轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第6轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 24,
+        "cfl_profile": {
+          "height": "185",
+          "weight": "75",
+          "nationality": "中国",
+          "date_of_birth": "1998-03-10",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/阿不都海米提_1.jpg",
+          "player_name_en": "AbdugheniAbduhamit"
+        }
+      },
+      {
+        "player_name": "陶伟",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "助理教练",
+        "shirt_number": "",
+        "cfl_profile": {
+          "height": "176",
+          "weight": "72",
+          "nationality": "中国",
+          "date_of_birth": "1978-03-11",
+          "player_icon": "",
+          "player_name_en": "TaoWei"
+        }
+      },
+      {
+        "player_name": "韩佳奇",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 22,
+        "cfl_profile": {
+          "height": "187",
+          "weight": "79",
+          "nationality": "中国",
+          "date_of_birth": "1999-07-03",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/韩佳奇.jpg",
+          "player_name_en": "HanJiaqi"
+        }
+      },
+      {
+        "player_name": "马名扬",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "前锋",
+        "shirt_number": 45,
+        "cfl_profile": {
+          "height": "183",
+          "weight": "74",
+          "nationality": "中国",
+          "date_of_birth": "2009-06-22",
+          "player_icon": "",
+          "player_name_en": "Ma Mingyang"
+        }
+      },
+      {
+        "player_name": "魏家傲",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 38,
+        "cfl_profile": {
+          "height": "168",
+          "weight": "56",
+          "nationality": "中国",
+          "date_of_birth": "2005-10-02",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/魏家傲.jpg",
+          "player_name_en": "WeiJia'ao"
+        }
+      }
+    ],
+    "h2h_records": {
+      "梅州客家": {
+        "all_time": {
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "gf": 16,
+          "ga": 7
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第1轮",
+            "date": "2023-04-15",
+            "venue": "",
+            "is_home": true,
+            "opponent": "梅州客家",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2023",
+            "round": "第16轮",
+            "date": "2023-07-12",
+            "venue": "",
+            "is_home": false,
+            "opponent": "梅州客家",
+            "score": "3:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第13轮",
+            "date": "2024-06-02",
+            "venue": "",
+            "is_home": true,
+            "opponent": "梅州客家",
+            "score": "5:2",
+            "result": "W",
+            "guoan_goals": 5,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第15轮",
+            "date": "2025-06-04",
+            "venue": "",
+            "is_home": false,
+            "opponent": "梅州客家",
+            "score": "0:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第30轮",
+            "date": "2025-11-22",
+            "venue": "",
+            "is_home": true,
+            "opponent": "梅州客家",
+            "score": "5:1",
+            "result": "W",
+            "guoan_goals": 5,
+            "opp_goals": 1
+          }
+        ]
+      },
+      "武汉三镇": {
+        "all_time": {
+          "played": 7,
+          "wins": 3,
+          "draws": 3,
+          "losses": 1,
+          "gf": 14,
+          "ga": 8
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第2轮",
+            "date": "2023-04-21",
+            "venue": "",
+            "is_home": false,
+            "opponent": "武汉三镇",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2023",
+            "round": "第17轮",
+            "date": "2023-07-16",
+            "venue": "",
+            "is_home": true,
+            "opponent": "武汉三镇",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第3轮",
+            "date": "2024-03-30",
+            "venue": "",
+            "is_home": false,
+            "opponent": "武汉三镇",
+            "score": "0:1",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第18轮",
+            "date": "2024-07-07",
+            "venue": "",
+            "is_home": true,
+            "opponent": "武汉三镇",
+            "score": "1:2",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第7轮",
+            "date": "2025-04-04",
+            "venue": "",
+            "is_home": false,
+            "opponent": "武汉三镇",
+            "score": "4:4",
+            "result": "D",
+            "guoan_goals": 4,
+            "opp_goals": 4
+          },
+          {
+            "season": "2025",
+            "round": "第22轮",
+            "date": "2025-08-10",
+            "venue": "",
+            "is_home": true,
+            "opponent": "武汉三镇",
+            "score": "4:0",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 0
+          },
+          {
+            "match_id": "5a5g5bg2i6bdznuqw4mjhal1w",
+            "round": "第1轮",
+            "date": "2026-03-08 19:00:00",
+            "venue": {
+              "name": "武汉体育中心体育场",
+              "city": null
+            },
+            "opponent": "武汉三镇",
+            "is_home": false,
+            "status": "finished",
+            "score": "0:2",
+            "guoan_goals": 2,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "恩科洛洛",
+                "player_name": "恩科洛洛",
+                "minute": 40
+              },
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 45
+              },
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 52
+              },
+              {
+                "type": "yellow_card",
+                "player": "阿不都海米提·阿不都格尼",
+                "player_name": "阿不都海米提·阿不都格尼",
+                "minute": 73
+              }
+            ],
+            "formation": {
+              "home": "532",
+              "away": "442"
+            },
+            "opponent_tier": "B",
+            "context_signals": {},
+            "form_before": "",
+            "opponent_info": {
+              "current_rank": 14,
+              "current_form": "DDDDD",
+              "goals_for": 8,
+              "goals_against": 11,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "青岛海牛": {
+        "all_time": {
+          "played": 7,
+          "wins": 3,
+          "draws": 1,
+          "losses": 3,
+          "gf": 15,
+          "ga": 12
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第3轮",
+            "date": "2023-04-25",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛海牛",
+            "score": "3:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "season": "2023",
+            "round": "第18轮",
+            "date": "2023-07-22",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛海牛",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第15轮",
+            "date": "2024-06-17",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛海牛",
+            "score": "4:0",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第16轮",
+            "date": "2024-06-24",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛海牛",
+            "score": "2:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第13轮",
+            "date": "2025-05-16",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛海牛",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第28轮",
+            "date": "2025-10-19",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛海牛",
+            "score": "2:4",
+            "result": "L",
+            "guoan_goals": 2,
+            "opp_goals": 4
+          },
+          {
+            "match_id": "6mp58sl33ixv41i85c14vj6dw",
+            "round": "第12轮",
+            "date": "2026-05-15 20:00:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "青岛海牛",
+            "is_home": true,
+            "status": "finished",
+            "score": "4:2",
+            "guoan_goals": 4,
+            "opp_goals": 2,
+            "result": "W",
+            "events": [
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 12
+              },
+              {
+                "type": "goal",
+                "player": "茹子楠",
+                "player_name": "茹子楠",
+                "minute": 24
+              },
+              {
+                "type": "goal",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 37
+              },
+              {
+                "type": "yellow_card",
+                "player": "米兰·里斯蒂奇",
+                "player_name": "米兰·里斯蒂奇",
+                "minute": 43
+              },
+              {
+                "type": "yellow_card",
+                "player": "孔特",
+                "player_name": "孔特",
+                "minute": 47
+              },
+              {
+                "type": "yellow_card",
+                "player": "罗森文",
+                "player_name": "罗森文",
+                "minute": 51
+              },
+              {
+                "type": "goal",
+                "player": "曹永竞",
+                "player_name": "曹永竞",
+                "minute": 64
+              },
+              {
+                "type": "goal",
+                "player": "宋文杰",
+                "player_name": "宋文杰",
+                "minute": 67
+              },
+              {
+                "type": "yellow_card",
+                "player": "杨聪",
+                "player_name": "杨聪",
+                "minute": 75
+              },
+              {
+                "type": "yellow_card",
+                "player": "刘军帅",
+                "player_name": "刘军帅",
+                "minute": 87
+              },
+              {
+                "type": "goal",
+                "player": "颜卓彬",
+                "player_name": "颜卓彬",
+                "minute": 94
+              }
+            ],
+            "formation": {
+              "home": "442",
+              "away": "442"
+            },
+            "opponent_tier": "C",
+            "context_signals": {
+              "unbeaten_3": true
+            },
+            "form_before": "DWDLW",
+            "opponent_info": {
+              "current_rank": 15,
+              "current_form": "LLLLW",
+              "goals_for": 3,
+              "goals_against": 8,
+              "top_scorers": [],
+              "tier": "C"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "山东泰山": {
+        "all_time": {
+          "played": 8,
+          "wins": 3,
+          "draws": 2,
+          "losses": 3,
+          "gf": 15,
+          "ga": 17
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第4轮",
+            "date": "2023-04-29",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "0:0",
+            "result": "D",
+            "guoan_goals": 0,
+            "opp_goals": 0
+          },
+          {
+            "season": "2023",
+            "round": "第19轮",
+            "date": "2023-07-29",
+            "venue": "",
+            "is_home": false,
+            "opponent": "山东泰山",
+            "score": "3:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第2轮",
+            "date": "2024-01-01",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "3:2",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 2
+          },
+          {
+            "season": "2024",
+            "round": "第8轮",
+            "date": "2024-04-27",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "3:1",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第24轮",
+            "date": "2024-08-22",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第8轮",
+            "date": "2025-04-11",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "6:1",
+            "result": "W",
+            "guoan_goals": 6,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第23轮",
+            "date": "2025-08-20",
+            "venue": "",
+            "is_home": false,
+            "opponent": "山东泰山",
+            "score": "6:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 6
+          },
+          {
+            "match_id": "5b7itquwb34mvwkmhkc3r4duc",
+            "round": "第2轮",
+            "date": "2026-03-14 15:30:00",
+            "venue": {
+              "name": "济南奥体中心体育场",
+              "city": null
+            },
+            "opponent": "山东泰山",
+            "is_home": false,
+            "status": "finished",
+            "score": "2:1",
+            "guoan_goals": 1,
+            "opp_goals": 2,
+            "result": "L",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "克雷桑",
+                "player_name": "克雷桑",
+                "minute": 21
+              },
+              {
+                "type": "yellow_card",
+                "player": "拉莫斯",
+                "player_name": "拉莫斯",
+                "minute": 28
+              },
+              {
+                "type": "yellow_card",
+                "player": "李源一",
+                "player_name": "李源一",
+                "minute": 39
+              },
+              {
+                "type": "goal",
+                "player": "谢文能",
+                "player_name": "谢文能",
+                "minute": 49
+              },
+              {
+                "type": "yellow_card",
+                "player": "马德鲁加",
+                "player_name": "马德鲁加",
+                "minute": 57
+              },
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 86
+              },
+              {
+                "type": "goal",
+                "player": "克雷桑",
+                "player_name": "克雷桑",
+                "minute": 88
+              }
+            ],
+            "formation": {
+              "home": "3421",
+              "away": "442"
+            },
+            "opponent_tier": "A",
+            "context_signals": {},
+            "form_before": "W",
+            "opponent_info": {
+              "current_rank": 8,
+              "current_form": "LDLWW",
+              "goals_for": 7,
+              "goals_against": 7,
+              "top_scorers": [],
+              "tier": "A"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "河南": {
+        "all_time": {
+          "played": 6,
+          "wins": 3,
+          "draws": 1,
+          "losses": 2,
+          "gf": 7,
+          "ga": 6
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第5轮",
+            "date": "2023-05-05",
+            "venue": "",
+            "is_home": false,
+            "opponent": "河南",
+            "score": "0:1",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2023",
+            "round": "第20轮",
+            "date": "2023-08-04",
+            "venue": "",
+            "is_home": true,
+            "opponent": "河南",
+            "score": "3:1",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第30轮",
+            "date": "2024-11-02",
+            "venue": "",
+            "is_home": true,
+            "opponent": "河南",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第9轮",
+            "date": "2025-04-18",
+            "venue": "",
+            "is_home": true,
+            "opponent": "河南",
+            "score": "1:0",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第24轮",
+            "date": "2025-09-01",
+            "venue": "",
+            "is_home": false,
+            "opponent": "河南",
+            "score": "2:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "6ubut57hovxx1w3z1xuxvnw9g",
+            "round": "第14轮",
+            "date": "2026-05-23 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "河南",
+            "is_home": true,
+            "status": "finished",
+            "score": "1:2",
+            "guoan_goals": 1,
+            "opp_goals": 2,
+            "result": "L",
+            "events": [
+              {
+                "type": "goal",
+                "player": "达万",
+                "player_name": "达万",
+                "minute": 27
+              },
+              {
+                "type": "yellow_card",
+                "player": "姆布拉",
+                "player_name": "姆布拉",
+                "minute": 59
+              },
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 78
+              },
+              {
+                "type": "goal",
+                "player": "古斯塔沃",
+                "player_name": "古斯塔沃",
+                "minute": 87
+              },
+              {
+                "type": "yellow_card",
+                "player": "拉莫斯",
+                "player_name": "拉莫斯",
+                "minute": 89
+              },
+              {
+                "type": "yellow_card",
+                "player": "阿卜杜肉苏力·阿不都拉木",
+                "player_name": "阿卜杜肉苏力·阿不都拉木",
+                "minute": 96
+              }
+            ],
+            "formation": {
+              "home": "3412",
+              "away": "4231"
+            },
+            "opponent_tier": "B",
+            "context_signals": {
+              "unbeaten_3": true
+            },
+            "form_before": "DWDWD",
+            "opponent_info": {
+              "current_rank": 12,
+              "current_form": "LWWWL",
+              "goals_for": 5,
+              "goals_against": 5,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "天津津门虎": {
+        "all_time": {
+          "played": 8,
+          "wins": 3,
+          "draws": 4,
+          "losses": 1,
+          "gf": 13,
+          "ga": 11
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第6轮",
+            "date": "2023-05-10",
+            "venue": "",
+            "is_home": true,
+            "opponent": "天津津门虎",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2023",
+            "round": "第21轮",
+            "date": "2023-08-09",
+            "venue": "",
+            "is_home": false,
+            "opponent": "天津津门虎",
+            "score": "0:0",
+            "result": "D",
+            "guoan_goals": 0,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第7轮",
+            "date": "2024-04-21",
+            "venue": "",
+            "is_home": true,
+            "opponent": "天津津门虎",
+            "score": "3:1",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第22轮",
+            "date": "2024-08-07",
+            "venue": "",
+            "is_home": true,
+            "opponent": "天津津门虎",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第29轮",
+            "date": "2024-10-20",
+            "venue": "",
+            "is_home": false,
+            "opponent": "天津津门虎",
+            "score": "0:1",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第4轮",
+            "date": "2025-03-14",
+            "venue": "",
+            "is_home": false,
+            "opponent": "天津津门虎",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第19轮",
+            "date": "2025-07-12",
+            "venue": "",
+            "is_home": true,
+            "opponent": "天津津门虎",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "64ffce8ht6eewm1743tvjog0k",
+            "round": "第8轮",
+            "date": "2026-04-25 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "天津津门虎",
+            "is_home": true,
+            "status": "finished",
+            "score": "2:4",
+            "guoan_goals": 2,
+            "opp_goals": 4,
+            "result": "L",
+            "events": [
+              {
+                "type": "goal",
+                "player": "吉列尔梅·谢蒂内",
+                "player_name": "吉列尔梅·谢蒂内",
+                "minute": 43
+              },
+              {
+                "type": "goal",
+                "player": "哈达斯",
+                "player_name": "哈达斯",
+                "minute": 49
+              },
+              {
+                "type": "yellow_card",
+                "player": "王秋明",
+                "player_name": "王秋明",
+                "minute": 56
+              },
+              {
+                "type": "yellow_card",
+                "player": "拉莫斯",
+                "player_name": "拉莫斯",
+                "minute": 57
+              },
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 66
+              },
+              {
+                "type": "goal",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 68
+              },
+              {
+                "type": "goal",
+                "player": "基莱斯",
+                "player_name": "基莱斯",
+                "minute": 70
+              },
+              {
+                "type": "goal",
+                "player": "基莱斯",
+                "player_name": "基莱斯",
+                "minute": 89
+              },
+              {
+                "type": "yellow_card",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 97
+              }
+            ],
+            "formation": {
+              "home": "4231",
+              "away": "532"
+            },
+            "opponent_tier": "A",
+            "context_signals": {},
+            "form_before": "WDLLD",
+            "opponent_info": {
+              "current_rank": 16,
+              "current_form": "WDLLD",
+              "goals_for": 2,
+              "goals_against": 7,
+              "top_scorers": [],
+              "tier": "A"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "南通支云": {
+        "all_time": {
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 5,
+          "ga": 0
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第7轮",
+            "date": "2023-05-14",
+            "venue": "",
+            "is_home": true,
+            "opponent": "南通支云",
+            "score": "1:0",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2023",
+            "round": "第22轮",
+            "date": "2023-08-13",
+            "venue": "",
+            "is_home": false,
+            "opponent": "南通支云",
+            "score": "0:1",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第25轮",
+            "date": "2024-08-30",
+            "venue": "",
+            "is_home": false,
+            "opponent": "南通支云",
+            "score": "0:3",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 0
+          }
+        ]
+      },
+      "上海申花": {
+        "all_time": {
+          "played": 7,
+          "wins": 2,
+          "draws": 3,
+          "losses": 2,
+          "gf": 10,
+          "ga": 11
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第8轮",
+            "date": "2023-05-19",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海申花",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2023",
+            "round": "第23轮",
+            "date": "2023-08-19",
+            "venue": "",
+            "is_home": true,
+            "opponent": "上海申花",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第9轮",
+            "date": "2024-05-04",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海申花",
+            "score": "2:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "season": "2024",
+            "round": "第21轮",
+            "date": "2024-07-31",
+            "venue": "",
+            "is_home": true,
+            "opponent": "上海申花",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第2轮",
+            "date": "2025-02-28",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海申花",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第17轮",
+            "date": "2025-06-23",
+            "venue": "",
+            "is_home": true,
+            "opponent": "上海申花",
+            "score": "1:3",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "match_id": "5gb0r1v0fskczm4l8717r6bdg",
+            "round": "第3轮",
+            "date": "2026-03-21 15:30:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "上海申花",
+            "is_home": true,
+            "status": "finished",
+            "score": "1:1",
+            "guoan_goals": 1,
+            "opp_goals": 1,
+            "result": "D",
+            "events": [
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 23
+              },
+              {
+                "type": "yellow_card",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 44
+              },
+              {
+                "type": "yellow_card",
+                "player": "斯卢茨基",
+                "player_name": "斯卢茨基",
+                "minute": 46
+              },
+              {
+                "type": "yellow_card",
+                "player": "王世龙",
+                "player_name": "王世龙",
+                "minute": 48
+              },
+              {
+                "type": "yellow_card",
+                "player": "阿不都海米提·阿不都格尼",
+                "player_name": "阿不都海米提·阿不都格尼",
+                "minute": 66
+              },
+              {
+                "type": "goal",
+                "player": "陈晋一",
+                "player_name": "陈晋一",
+                "minute": 68
+              },
+              {
+                "type": "yellow_card",
+                "player": "高天意",
+                "player_name": "高天意",
+                "minute": 74
+              },
+              {
+                "type": "yellow_card",
+                "player": "杨泽翔",
+                "player_name": "杨泽翔",
+                "minute": 85
+              }
+            ],
+            "formation": {
+              "home": "442",
+              "away": "4312"
+            },
+            "opponent_tier": "S",
+            "context_signals": {},
+            "form_before": "LW",
+            "opponent_info": {
+              "current_rank": 10,
+              "current_form": "DLDLD",
+              "goals_for": 11,
+              "goals_against": 7,
+              "top_scorers": [],
+              "tier": "S"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "沧州雄狮": {
+        "all_time": {
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "gf": 14,
+          "ga": 6
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第9轮",
+            "date": "2023-05-23",
+            "venue": "",
+            "is_home": true,
+            "opponent": "沧州雄狮",
+            "score": "6:2",
+            "result": "W",
+            "guoan_goals": 6,
+            "opp_goals": 2
+          },
+          {
+            "season": "2023",
+            "round": "第24轮",
+            "date": "2023-08-26",
+            "venue": "",
+            "is_home": false,
+            "opponent": "沧州雄狮",
+            "score": "1:5",
+            "result": "W",
+            "guoan_goals": 5,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第1轮",
+            "date": "2024-01-01",
+            "venue": "",
+            "is_home": false,
+            "opponent": "沧州雄狮",
+            "score": "2:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 2
+          },
+          {
+            "season": "2024",
+            "round": "第14轮",
+            "date": "2024-06-10",
+            "venue": "",
+            "is_home": false,
+            "opponent": "沧州雄狮",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第26轮",
+            "date": "2024-09-11",
+            "venue": "",
+            "is_home": true,
+            "opponent": "沧州雄狮",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          }
+        ]
+      },
+      "浙江": {
+        "all_time": {
+          "played": 8,
+          "wins": 3,
+          "draws": 3,
+          "losses": 2,
+          "gf": 12,
+          "ga": 10
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第10轮",
+            "date": "2023-05-28",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江",
+            "score": "1:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 1
+          },
+          {
+            "season": "2023",
+            "round": "第25轮",
+            "date": "2023-09-15",
+            "venue": "",
+            "is_home": true,
+            "opponent": "浙江",
+            "score": "0:1",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第4轮",
+            "date": "2024-04-03",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第10轮",
+            "date": "2024-05-11",
+            "venue": "",
+            "is_home": true,
+            "opponent": "浙江",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第20轮",
+            "date": "2024-07-24",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江",
+            "score": "3:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 3
+          },
+          {
+            "season": "2025",
+            "round": "第5轮",
+            "date": "2025-03-21",
+            "venue": "",
+            "is_home": true,
+            "opponent": "浙江",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第20轮",
+            "date": "2025-07-22",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江",
+            "score": "3:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 3
+          },
+          {
+            "match_id": "5wqun7ch8f15eqo1f2e67h2j8",
+            "round": "第6轮",
+            "date": "2026-04-17 20:00:00",
+            "venue": {
+              "name": "黄龙体育中心体育场",
+              "city": null
+            },
+            "opponent": "浙江",
+            "is_home": false,
+            "status": "finished",
+            "score": "0:0",
+            "guoan_goals": 0,
+            "opp_goals": 0,
+            "result": "D",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "朴镇燮",
+                "player_name": "朴镇燮",
+                "minute": 46
+              },
+              {
+                "type": "yellow_card",
+                "player": "李磊",
+                "player_name": "李磊",
+                "minute": 48
+              },
+              {
+                "type": "yellow_card",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 76
+              },
+              {
+                "type": "yellow_card",
+                "player": "瓜里拉帕",
+                "player_name": "瓜里拉帕",
+                "minute": 89
+              },
+              {
+                "type": "yellow_card",
+                "player": "阿不都海米提·阿不都格尼",
+                "player_name": "阿不都海米提·阿不都格尼",
+                "minute": 90
+              }
+            ],
+            "formation": {
+              "home": "4231",
+              "away": "4132"
+            },
+            "opponent_tier": "B",
+            "context_signals": {},
+            "form_before": "LLDLW",
+            "opponent_info": {
+              "current_rank": 9,
+              "current_form": "WLWDD",
+              "goals_for": 7,
+              "goals_against": 6,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "长春亚泰": {
+        "all_time": {
+          "played": 5,
+          "wins": 3,
+          "draws": 2,
+          "losses": 0,
+          "gf": 13,
+          "ga": 7
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第11轮",
+            "date": "2023-06-02",
+            "venue": "",
+            "is_home": true,
+            "opponent": "长春亚泰",
+            "score": "4:3",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 3
+          },
+          {
+            "season": "2023",
+            "round": "第26轮",
+            "date": "2023-09-23",
+            "venue": "",
+            "is_home": false,
+            "opponent": "长春亚泰",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第18轮",
+            "date": "2024-07-09",
+            "venue": "",
+            "is_home": true,
+            "opponent": "长春亚泰",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
+            "round": "第14轮",
+            "date": "2025-05-25",
+            "venue": "",
+            "is_home": true,
+            "opponent": "长春亚泰",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第29轮",
+            "date": "2025-10-31",
+            "venue": "",
+            "is_home": false,
+            "opponent": "长春亚泰",
+            "score": "0:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 0
+          }
+        ]
+      },
+      "大连人": {
+        "all_time": {
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gf": 4,
+          "ga": 2
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第12轮",
+            "date": "2023-06-08",
+            "venue": "",
+            "is_home": false,
+            "opponent": "大连人",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2023",
+            "round": "第27轮",
+            "date": "2023-09-30",
+            "venue": "",
+            "is_home": true,
+            "opponent": "大连人",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          }
+        ]
+      },
+      "上海海港": {
+        "all_time": {
+          "played": 7,
+          "wins": 2,
+          "draws": 1,
+          "losses": 4,
+          "gf": 12,
+          "ga": 15
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第13轮",
+            "date": "2023-06-29",
+            "venue": "",
+            "is_home": true,
+            "opponent": "上海海港",
+            "score": "1:2",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "season": "2023",
+            "round": "第28轮",
+            "date": "2023-10-20",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海海港",
+            "score": "1:2",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第3轮",
+            "date": "2024-03-29",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海海港",
+            "score": "3:2",
+            "result": "L",
+            "guoan_goals": 2,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第19轮",
+            "date": "2024-07-16",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海海港",
+            "score": "3:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "season": "2025",
+            "round": "第10轮",
+            "date": "2025-04-25",
+            "venue": "",
+            "is_home": false,
+            "opponent": "上海海港",
+            "score": "1:2",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第25轮",
+            "date": "2025-09-13",
+            "venue": "",
+            "is_home": true,
+            "opponent": "上海海港",
+            "score": "2:3",
+            "result": "L",
+            "guoan_goals": 2,
+            "opp_goals": 3
+          },
+          {
+            "match_id": "6ji89gerljwjnacpqtfx8bthw",
+            "round": "第11轮",
+            "date": "2026-05-10 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "上海海港",
+            "is_home": true,
+            "status": "finished",
+            "score": "2:2",
+            "guoan_goals": 2,
+            "opp_goals": 2,
+            "result": "D",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "莱昂纳多",
+                "player_name": "莱昂纳多",
+                "minute": 32
+              },
+              {
+                "type": "goal",
+                "player": "马特乌斯·维塔尔",
+                "player_name": "马特乌斯·维塔尔",
+                "minute": 45
+              },
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 49
+              },
+              {
+                "type": "yellow_card",
+                "player": "李新翔",
+                "player_name": "李新翔",
+                "minute": 51
+              },
+              {
+                "type": "goal",
+                "player": "莱昂纳多",
+                "player_name": "莱昂纳多",
+                "minute": 62
+              },
+              {
+                "type": "yellow_card",
+                "player": "张源",
+                "player_name": "张源",
+                "minute": 69
+              },
+              {
+                "type": "yellow_card",
+                "player": "王振澳",
+                "player_name": "王振澳",
+                "minute": 77
+              },
+              {
+                "type": "goal",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 86
+              },
+              {
+                "type": "yellow_card",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 91
+              }
+            ],
+            "formation": {
+              "home": "4132",
+              "away": "541"
+            },
+            "opponent_tier": "B",
+            "context_signals": {
+              "short_rest": true
+            },
+            "form_before": "WDLWD",
+            "opponent_info": {
+              "current_rank": 11,
+              "current_form": "LDWDD",
+              "goals_for": 7,
+              "goals_against": 6,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "成都蓉城": {
+        "all_time": {
+          "played": 8,
+          "wins": 2,
+          "draws": 1,
+          "losses": 5,
+          "gf": 9,
+          "ga": 15
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第14轮",
+            "date": "2023-07-03",
+            "venue": "",
+            "is_home": false,
+            "opponent": "成都蓉城",
+            "score": "0:1",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2023",
+            "round": "第29轮",
+            "date": "2023-10-29",
+            "venue": "",
+            "is_home": true,
+            "opponent": "成都蓉城",
+            "score": "2:3",
+            "result": "L",
+            "guoan_goals": 2,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第6轮",
+            "date": "2024-04-15",
+            "venue": "",
+            "is_home": false,
+            "opponent": "成都蓉城",
+            "score": "3:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第12轮",
+            "date": "2024-05-26",
+            "venue": "",
+            "is_home": true,
+            "opponent": "成都蓉城",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第27轮",
+            "date": "2024-09-24",
+            "venue": "",
+            "is_home": false,
+            "opponent": "成都蓉城",
+            "score": "3:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 3
+          },
+          {
+            "season": "2025",
+            "round": "第3轮",
+            "date": "2025-03-07",
+            "venue": "",
+            "is_home": true,
+            "opponent": "成都蓉城",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第18轮",
+            "date": "2025-07-03",
+            "venue": "",
+            "is_home": false,
+            "opponent": "成都蓉城",
+            "score": "2:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "5u4gsr8kk1hlxsxw9owgcqnmc",
+            "round": "第5轮",
+            "date": "2026-04-12 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "成都蓉城",
+            "is_home": true,
+            "status": "finished",
+            "score": "1:2",
+            "guoan_goals": 1,
+            "opp_goals": 2,
+            "result": "L",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "韦世豪",
+                "player_name": "韦世豪",
+                "minute": 14
+              },
+              {
+                "type": "yellow_card",
+                "player": "胡荷韬",
+                "player_name": "胡荷韬",
+                "minute": 31
+              },
+              {
+                "type": "yellow_card",
+                "player": "马修斯·尤萨",
+                "player_name": "马修斯·尤萨",
+                "minute": 62
+              },
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 63
+              },
+              {
+                "type": "yellow_card",
+                "player": "孔特",
+                "player_name": "孔特",
+                "minute": 81
+              },
+              {
+                "type": "goal",
+                "player": "廖力生",
+                "player_name": "廖力生",
+                "minute": 84
+              },
+              {
+                "type": "yellow_card",
+                "player": "廖力生",
+                "player_name": "廖力生",
+                "minute": 88
+              },
+              {
+                "type": "goal",
+                "player": "韦世豪",
+                "player_name": "韦世豪",
+                "minute": 94
+              }
+            ],
+            "formation": {
+              "home": "442",
+              "away": "442"
+            },
+            "opponent_tier": "A",
+            "context_signals": {
+              "away_winless": true,
+              "away_winless_losses": true
+            },
+            "form_before": "LDLW",
+            "opponent_info": {
+              "current_rank": 2,
+              "current_form": "WLLWW",
+              "goals_for": 14,
+              "goals_against": 5,
+              "top_scorers": [],
+              "tier": "A"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "深圳队": {
+        "all_time": {
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "gf": 8,
+          "ga": 0
+        },
+        "matches": [
+          {
+            "season": "2023",
+            "round": "第15轮",
+            "date": "2023-07-08",
+            "venue": "",
+            "is_home": true,
+            "opponent": "深圳队",
+            "score": "5:0",
+            "result": "W",
+            "guoan_goals": 5,
+            "opp_goals": 0
+          },
+          {
+            "season": "2023",
+            "round": "第30轮",
+            "date": "2023-11-04",
+            "venue": "",
+            "is_home": false,
+            "opponent": "深圳队",
+            "score": "0:3",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 0
+          }
+        ]
+      },
+      "青岛西海岸": {
+        "all_time": {
+          "played": 5,
+          "wins": 3,
+          "draws": 2,
+          "losses": 0,
+          "gf": 8,
+          "ga": 3
+        },
+        "matches": [
+          {
+            "season": "2024",
+            "round": "第11轮",
+            "date": "2024-05-19",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛西海岸",
+            "score": "0:0",
+            "result": "D",
+            "guoan_goals": 0,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第28轮",
+            "date": "2024-10-07",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛西海岸",
+            "score": "3:1",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第6轮",
+            "date": "2025-03-28",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛西海岸",
+            "score": "1:0",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第21轮",
+            "date": "2025-07-31",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛西海岸",
+            "score": "1:3",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "match_id": "6qmol9rqqrn9ucp5udkj9buvo",
+            "round": "第13轮",
+            "date": "2026-05-19 20:00:00",
+            "venue": {
+              "name": "青岛西海岸大学城体育场",
+              "city": null
+            },
+            "opponent": "青岛西海岸",
+            "is_home": false,
+            "status": "finished",
+            "score": "1:1",
+            "guoan_goals": 1,
+            "opp_goals": 1,
+            "result": "D",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "孔特",
+                "player_name": "孔特",
+                "minute": 38
+              },
+              {
+                "type": "red_card",
+                "player": "雷森德",
+                "player_name": "雷森德",
+                "minute": 62
+              },
+              {
+                "type": "yellow_card",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 72
+              },
+              {
+                "type": "goal",
+                "player": "戴维森",
+                "player_name": "戴维森",
+                "minute": 73
+              },
+              {
+                "type": "goal",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 78
+              },
+              {
+                "type": "yellow_card",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 81
+              },
+              {
+                "type": "yellow_card",
+                "player": "王鹏",
+                "player_name": "王鹏",
+                "minute": 85
+              }
+            ],
+            "formation": {
+              "home": "4231",
+              "away": "3421"
+            },
+            "opponent_tier": "B",
+            "context_signals": {
+              "short_rest": true,
+              "unbeaten_3": true
+            },
+            "form_before": "WDWDL",
+            "opponent_info": {
+              "current_rank": 7,
+              "current_form": "DWDWD",
+              "goals_for": 4,
+              "goals_against": 12,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "深圳新鹏城": {
+        "all_time": {
+          "played": 5,
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "gf": 8,
+          "ga": 4
+        },
+        "matches": [
+          {
+            "season": "2024",
+            "round": "第5轮",
+            "date": "2024-04-09",
+            "venue": "",
+            "is_home": true,
+            "opponent": "深圳新鹏城",
+            "score": "1:0",
+            "result": "W",
+            "guoan_goals": 1,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第17轮",
+            "date": "2024-07-02",
+            "venue": "",
+            "is_home": true,
+            "opponent": "深圳新鹏城",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第12轮",
+            "date": "2025-05-09",
+            "venue": "",
+            "is_home": true,
+            "opponent": "深圳新鹏城",
+            "score": "3:1",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第27轮",
+            "date": "2025-10-07",
+            "venue": "",
+            "is_home": false,
+            "opponent": "深圳新鹏城",
+            "score": "2:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "5zpjmjdkmnei1smbpd60yoydw",
+            "round": "第7轮",
+            "date": "2026-04-21 19:00:00",
+            "venue": {
+              "name": "深圳市体育场",
+              "city": null
+            },
+            "opponent": "深圳新鹏城",
+            "is_home": false,
+            "status": "finished",
+            "score": "0:1",
+            "guoan_goals": 1,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "王刚",
+                "player_name": "王刚",
+                "minute": 11
+              },
+              {
+                "type": "yellow_card",
+                "player": "卡尔采夫",
+                "player_name": "卡尔采夫",
+                "minute": 41
+              },
+              {
+                "type": "yellow_card",
+                "player": "玄智健",
+                "player_name": "玄智健",
+                "minute": 46
+              },
+              {
+                "type": "yellow_card",
+                "player": "曹永竞",
+                "player_name": "曹永竞",
+                "minute": 59
+              },
+              {
+                "type": "goal",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 89
+              }
+            ],
+            "formation": {
+              "home": "343",
+              "away": "4141"
+            },
+            "opponent_tier": "B",
+            "context_signals": {
+              "away_winless": true
+            },
+            "form_before": "DLLDL",
+            "opponent_info": {
+              "current_rank": 6,
+              "current_form": "WWDLL",
+              "goals_for": 7,
+              "goals_against": 8,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "云南玉昆": {
+        "all_time": {
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 7,
+          "ga": 4
+        },
+        "matches": [
+          {
+            "season": "2025",
+            "round": "第1轮",
+            "date": "2025-01-01",
+            "venue": "",
+            "is_home": false,
+            "opponent": "云南玉昆",
+            "score": "0:2",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第16轮",
+            "date": "2025-06-13",
+            "venue": "",
+            "is_home": true,
+            "opponent": "云南玉昆",
+            "score": "2:1",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 1
+          },
+          {
+            "match_id": "6bzevs6czggnca6lchtpv8phw",
+            "round": "第9轮",
+            "date": "2026-05-02 20:00:00",
+            "venue": {
+              "name": "玉溪高原体育运动中心体育场",
+              "city": null
+            },
+            "opponent": "云南玉昆",
+            "is_home": false,
+            "status": "finished",
+            "score": "3:3",
+            "guoan_goals": 3,
+            "opp_goals": 3,
+            "result": "D",
+            "events": [
+              {
+                "type": "goal",
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "minute": 22
+              },
+              {
+                "type": "goal",
+                "player": "约尼查",
+                "player_name": "约尼查",
+                "minute": 46
+              },
+              {
+                "type": "goal",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 60
+              },
+              {
+                "type": "goal",
+                "player": "克莱伯",
+                "player_name": "克莱伯",
+                "minute": 77
+              },
+              {
+                "type": "goal",
+                "player": "塞尔吉尼奥",
+                "player_name": "塞尔吉尼奥",
+                "minute": 81
+              },
+              {
+                "type": "goal",
+                "player": "奥斯卡",
+                "player_name": "奥斯卡",
+                "minute": 90
+              }
+            ],
+            "formation": {
+              "home": "4141",
+              "away": "4231"
+            },
+            "opponent_tier": "B",
+            "context_signals": {
+              "consecutive_home_losses": true,
+              "heavy_home_loss": true
+            },
+            "form_before": "LWDLL",
+            "opponent_info": {
+              "current_rank": 5,
+              "current_form": "DLDWW",
+              "goals_for": 9,
+              "goals_against": 5,
+              "top_scorers": [],
+              "tier": "B"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "大连英博": {
+        "all_time": {
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 9,
+          "ga": 2
+        },
+        "matches": [
+          {
+            "season": "2025",
+            "round": "第11轮",
+            "date": "2025-05-02",
+            "venue": "",
+            "is_home": false,
+            "opponent": "大连英博",
+            "score": "0:2",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第26轮",
+            "date": "2025-09-26",
+            "venue": "",
+            "is_home": true,
+            "opponent": "大连英博",
+            "score": "4:2",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "6fmqtjgcd0gl5lhc0zmg0d79w",
+            "round": "第10轮",
+            "date": "2026-05-06 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "大连英博",
+            "is_home": true,
+            "status": "finished",
+            "score": "3:0",
+            "guoan_goals": 3,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "毛伟杰",
+                "player_name": "毛伟杰",
+                "minute": 6
+              },
+              {
+                "type": "yellow_card",
+                "player": "杨铭锐",
+                "player_name": "杨铭锐",
+                "minute": 13
+              },
+              {
+                "type": "red_card",
+                "player": "曹永竞",
+                "player_name": "曹永竞",
+                "minute": 47
+              },
+              {
+                "type": "yellow_card",
+                "player": "孙康博",
+                "player_name": "孙康博",
+                "minute": 47
+              },
+              {
+                "type": "goal",
+                "player": "拉莫斯",
+                "player_name": "拉莫斯",
+                "minute": 54
+              },
+              {
+                "type": "goal",
+                "player": "黄山",
+                "player_name": "黄山",
+                "minute": 58
+              },
+              {
+                "type": "yellow_card",
+                "player": "罗竞",
+                "player_name": "罗竞",
+                "minute": 61
+              },
+              {
+                "type": "goal",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 65
+              },
+              {
+                "type": "yellow_card",
+                "player": "吕鹏",
+                "player_name": "吕鹏",
+                "minute": 87
+              },
+              {
+                "type": "yellow_card",
+                "player": "王禹",
+                "player_name": "王禹",
+                "minute": 92
+              }
+            ],
+            "formation": {
+              "home": "3421",
+              "away": "4231"
+            },
+            "opponent_tier": "C",
+            "context_signals": {
+              "consecutive_home_losses": true,
+              "heavy_home_loss": true
+            },
+            "form_before": "DLWDL",
+            "opponent_info": {
+              "current_rank": 3,
+              "current_form": "LWDLL",
+              "goals_for": 10,
+              "goals_against": 10,
+              "top_scorers": [],
+              "tier": "C"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "辽宁铁人": {
+        "all_time": {
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 2
+        },
+        "matches": [
+          {
+            "match_id": "5l3dqoug6yyngwnpu3cgr2vbo",
+            "round": "第4轮",
+            "date": "2026-04-04 15:30:00",
+            "venue": {
+              "name": "铁西体育场",
+              "city": null
+            },
+            "opponent": "辽宁铁人",
+            "is_home": false,
+            "status": "finished",
+            "score": "2:1",
+            "guoan_goals": 1,
+            "opp_goals": 2,
+            "result": "L",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "韩镕泽",
+                "player_name": "韩镕泽",
+                "minute": 1
+              },
+              {
+                "type": "goal",
+                "player": "姆本扎",
+                "player_name": "姆本扎",
+                "minute": 17
+              },
+              {
+                "type": "goal",
+                "player": "热菲尼奥",
+                "player_name": "热菲尼奥",
+                "minute": 45
+              },
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 57
+              },
+              {
+                "type": "yellow_card",
+                "player": "阿不都海米提·阿不都格尼",
+                "player_name": "阿不都海米提·阿不都格尼",
+                "minute": 62
+              },
+              {
+                "type": "yellow_card",
+                "player": "恩科洛洛",
+                "player_name": "恩科洛洛",
+                "minute": 86
+              },
+              {
+                "type": "yellow_card",
+                "player": "蒙哥马利",
+                "player_name": "蒙哥马利",
+                "minute": 91
+              }
+            ],
+            "formation": {
+              "home": "4411",
+              "away": "442"
+            },
+            "opponent_tier": "C",
+            "context_signals": {},
+            "form_before": "DLW",
+            "opponent_info": {
+              "current_rank": 4,
+              "current_form": "WWWDL",
+              "goals_for": 6,
+              "goals_against": 6,
+              "top_scorers": [],
+              "tier": "C"
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "重庆铜梁龙": {
+        "all_time": {
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 3,
+          "ga": 2
+        },
+        "matches": [
+          {
+            "match_id": "70t2weqq4dmvz48bzsgos84r8",
+            "round": "第15轮",
+            "date": "2026-05-30 20:00:00",
+            "venue": {
+              "name": "重庆龙兴足球场",
+              "city": null
+            },
+            "opponent": "重庆铜梁龙",
+            "is_home": false,
+            "status": "finished",
+            "score": "2:3",
+            "guoan_goals": 3,
+            "opp_goals": 2,
+            "result": "W",
+            "events": [
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 34
+              },
+              {
+                "type": "yellow_card",
+                "player": "陈纯新",
+                "player_name": "陈纯新",
+                "minute": 45
+              },
+              {
+                "type": "goal",
+                "player": "迪马塔",
+                "player_name": "迪马塔",
+                "minute": 53
+              },
+              {
+                "type": "goal",
+                "player": "卢康",
+                "player_name": "卢康",
+                "minute": 68
+              },
+              {
+                "type": "yellow_card",
+                "player": "迪马塔",
+                "player_name": "迪马塔",
+                "minute": 72
+              },
+              {
+                "type": "yellow_card",
+                "player": "吴永强",
+                "player_name": "吴永强",
+                "minute": 79
+              },
+              {
+                "type": "goal",
+                "player": "塞尔吉尼奥",
+                "player_name": "塞尔吉尼奥",
+                "minute": 82
+              },
+              {
+                "type": "goal",
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "minute": 85
+              },
+              {
+                "type": "yellow_card",
+                "player": "侯森",
+                "player_name": "侯森",
+                "minute": 99
+              }
+            ],
+            "formation": {
+              "home": "541",
+              "away": "442"
+            },
+            "opponent_tier": "C",
+            "context_signals": {},
+            "form_before": "LDWDW",
+            "opponent_info": {
+              "current_rank": 1,
+              "current_form": "LWDLD",
+              "goals_for": 7,
+              "goals_against": 4,
+              "top_scorers": [],
+              "tier": "C"
+            },
+            "season": "2026"
+          }
+        ]
+      }
+    },
+    "opponent_summary": {
+      "武汉三镇": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": null,
+        "away_result": "W",
+        "home_score": null,
+        "away_score": "2:0",
+        "record": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 0
+        }
+      },
+      "山东泰山": {
+        "tier": "A",
+        "tier_label": "强队",
+        "home_result": null,
+        "away_result": "L",
+        "home_score": null,
+        "away_score": "1:2",
+        "record": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 1
+        }
+      },
+      "上海申花": {
+        "tier": "S",
+        "tier_label": "争冠/死敌",
+        "home_result": "D",
+        "away_result": null,
+        "home_score": "1:1",
+        "away_score": null,
+        "record": {
+          "wins": 0,
+          "draws": 1,
+          "losses": 0
+        }
+      },
+      "辽宁铁人": {
+        "tier": "C",
+        "tier_label": "下游",
+        "home_result": null,
+        "away_result": "L",
+        "home_score": null,
+        "away_score": "1:2",
+        "record": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 1
+        }
+      },
+      "成都蓉城": {
+        "tier": "A",
+        "tier_label": "强队",
+        "home_result": "L",
+        "away_result": null,
+        "home_score": "1:2",
+        "away_score": null,
+        "record": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 1
+        }
+      },
+      "浙江": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": null,
+        "away_result": "D",
+        "home_score": null,
+        "away_score": "0:0",
+        "record": {
+          "wins": 0,
+          "draws": 1,
+          "losses": 0
+        }
+      },
+      "深圳新鹏城": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": null,
+        "away_result": "W",
+        "home_score": null,
+        "away_score": "1:0",
+        "record": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 0
+        }
+      },
+      "天津津门虎": {
+        "tier": "A",
+        "tier_label": "强队",
+        "home_result": "L",
+        "away_result": null,
+        "home_score": "2:4",
+        "away_score": null,
+        "record": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 1
+        }
+      },
+      "云南玉昆": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": null,
+        "away_result": "D",
+        "home_score": null,
+        "away_score": "3:3",
+        "record": {
+          "wins": 0,
+          "draws": 1,
+          "losses": 0
+        }
+      },
+      "大连英博": {
+        "tier": "C",
+        "tier_label": "下游",
+        "home_result": "W",
+        "away_result": null,
+        "home_score": "3:0",
+        "away_score": null,
+        "record": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 0
+        }
+      },
+      "上海海港": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": "D",
+        "away_result": null,
+        "home_score": "2:2",
+        "away_score": null,
+        "record": {
+          "wins": 0,
+          "draws": 1,
+          "losses": 0
+        }
+      },
+      "青岛海牛": {
+        "tier": "C",
+        "tier_label": "下游",
+        "home_result": "W",
+        "away_result": null,
+        "home_score": "4:2",
+        "away_score": null,
+        "record": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 0
+        }
+      },
+      "青岛西海岸": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": null,
+        "away_result": "D",
+        "home_score": null,
+        "away_score": "1:1",
+        "record": {
+          "wins": 0,
+          "draws": 1,
+          "losses": 0
+        }
+      },
+      "河南": {
+        "tier": "B",
+        "tier_label": "中游",
+        "home_result": "L",
+        "away_result": null,
+        "home_score": "1:2",
+        "away_score": null,
+        "record": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 1
+        }
+      },
+      "重庆铜梁龙": {
+        "tier": "C",
+        "tier_label": "下游",
+        "home_result": null,
+        "away_result": "W",
+        "home_score": null,
+        "away_score": "3:2",
+        "record": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 0
+        }
+      }
+    },
+    "form_streak": [
+      "W",
+      "L",
+      "D",
+      "L",
+      "L",
+      "D",
+      "W",
+      "L",
+      "D",
+      "W",
+      "D",
+      "W",
+      "D",
+      "L",
+      "W"
+    ],
+    "round_progression": [
+      {
+        "round": "第1轮",
+        "opponent": "武汉三镇",
+        "result": "W",
+        "score": "2:0",
+        "cumulative_points": 3,
+        "gf_total": 2,
+        "ga_total": 0
+      },
+      {
+        "round": "第2轮",
+        "opponent": "山东泰山",
+        "result": "L",
+        "score": "1:2",
+        "cumulative_points": 3,
+        "gf_total": 3,
+        "ga_total": 2
+      },
+      {
+        "round": "第3轮",
+        "opponent": "上海申花",
+        "result": "D",
+        "score": "1:1",
+        "cumulative_points": 4,
+        "gf_total": 4,
+        "ga_total": 3
+      },
+      {
+        "round": "第4轮",
+        "opponent": "辽宁铁人",
+        "result": "L",
+        "score": "1:2",
+        "cumulative_points": 4,
+        "gf_total": 5,
+        "ga_total": 5
+      },
+      {
+        "round": "第5轮",
+        "opponent": "成都蓉城",
+        "result": "L",
+        "score": "1:2",
+        "cumulative_points": 4,
+        "gf_total": 6,
+        "ga_total": 7
+      },
+      {
+        "round": "第6轮",
+        "opponent": "浙江",
+        "result": "D",
+        "score": "0:0",
+        "cumulative_points": 5,
+        "gf_total": 6,
+        "ga_total": 7
+      },
+      {
+        "round": "第7轮",
+        "opponent": "深圳新鹏城",
+        "result": "W",
+        "score": "1:0",
+        "cumulative_points": 8,
+        "gf_total": 7,
+        "ga_total": 7
+      },
+      {
+        "round": "第8轮",
+        "opponent": "天津津门虎",
+        "result": "L",
+        "score": "2:4",
+        "cumulative_points": 8,
+        "gf_total": 9,
+        "ga_total": 11
+      },
+      {
+        "round": "第9轮",
+        "opponent": "云南玉昆",
+        "result": "D",
+        "score": "3:3",
+        "cumulative_points": 9,
+        "gf_total": 12,
+        "ga_total": 14
+      },
+      {
+        "round": "第10轮",
+        "opponent": "大连英博",
+        "result": "W",
+        "score": "3:0",
+        "cumulative_points": 12,
+        "gf_total": 15,
+        "ga_total": 14
+      },
+      {
+        "round": "第11轮",
+        "opponent": "上海海港",
+        "result": "D",
+        "score": "2:2",
+        "cumulative_points": 13,
+        "gf_total": 17,
+        "ga_total": 16
+      },
+      {
+        "round": "第12轮",
+        "opponent": "青岛海牛",
+        "result": "W",
+        "score": "4:2",
+        "cumulative_points": 16,
+        "gf_total": 21,
+        "ga_total": 18
+      },
+      {
+        "round": "第13轮",
+        "opponent": "青岛西海岸",
+        "result": "D",
+        "score": "1:1",
+        "cumulative_points": 17,
+        "gf_total": 22,
+        "ga_total": 19
+      },
+      {
+        "round": "第14轮",
+        "opponent": "河南",
+        "result": "L",
+        "score": "1:2",
+        "cumulative_points": 17,
+        "gf_total": 23,
+        "ga_total": 21
+      },
+      {
+        "round": "第15轮",
+        "opponent": "重庆铜梁龙",
+        "result": "W",
+        "score": "3:2",
+        "cumulative_points": 20,
+        "gf_total": 26,
+        "ga_total": 23
+      }
+    ],
+    "goal_time_distribution": {
+      "0-15": 0,
+      "16-30": 0,
+      "31-45": 0,
+      "45+": 0,
+      "46-60": 0,
+      "61-75": 0,
+      "76-90": 0,
+      "90+": 0
+    },
+    "club_profile": {
+      "club_name": "北京国安足球俱乐部",
+      "full_name": "北京国安足球俱乐部",
+      "short_name": "国安",
+      "name_en": "Beijing Guoan Football Club",
+      "founded": "1992",
+      "city": "北京",
+      "stadium": {
+        "name": "北京工人体育场",
+        "capacity": 68000,
+        "opened": "1959",
+        "renovated": "2023",
+        "address": "北京市朝阳区工人体育场北路"
+      },
+      "colors": {
+        "primary": "绿色",
+        "secondary": "白色",
+        "primary_hex": "#00A651"
+      },
+      "league": "中超联赛",
+      "honors": [
+        {
+          "title": "中超联赛冠军",
+          "year": 2009,
+          "count": 1
+        },
+        {
+          "title": "中国足协杯冠军",
+          "years": [
+            1996,
+            1997,
+            2003,
+            2018
+          ],
+          "count": 4
+        },
+        {
+          "title": "中国超级杯冠军",
+          "years": [
+            1997,
+            2003
+          ],
+          "count": 2
+        }
+      ],
+      "coach": {
+        "name": "蒙哥马利",
+        "name_en": "Nick Montgomery",
+        "nationality": "苏格兰",
+        "born": "1981-10-28",
+        "role": "主教练"
+      },
+      "owner": "中赫集团",
+      "rivalries": [
+        {
+          "opponent": "上海申花",
+          "type": "京沪德比",
+          "since": "1994"
+        },
+        {
+          "opponent": "山东泰山",
+          "type": "京鲁德比",
+          "since": "1994"
+        },
+        {
+          "opponent": "天津津门虎",
+          "type": "京津德比",
+          "since": "1994"
+        }
+      ],
+      "history": "北京国安足球俱乐部成立于1992年，是中国足球甲A联赛和中国足球超级联赛的创始成员之一。三十余年来始终屹立顶级联赛，与城市共成长。主场北京工人体育场被誉为中国足球的圣地，以绿色为魂，拥有全国最忠实的球迷群体之一。"
+    }
+  },
+  "deductions": {
+    "season": "2026",
+    "competition": "中超联赛",
+    "policy_title": "中国足协行业纪律处罚中的「联赛积分扣分」",
+    "announcement_date": "2026-01-29",
+    "summary": "2026年1月，中国足球协会就足球行业「假赌黑」等违法违规问题公布处罚决定。其中多家中超俱乐部在2026赛季开赛前被处以联赛积分扣分；扣分依据为涉案不当交易的金额、性质、情节严重程度及社会影响等因素。下列扣分为赛季进行前已生效的纪律处罚，与单场比赛结果无关；官方积分榜以「赛场积分 − 赛前纪律扣分」排序。具体分值以足协正式文件为准；运行时会尝试从公开报道抓取更新并合并。",
+    "deductions_by_club": {
+      "上海申花": 10,
+      "天津津门虎": 10,
+      "青岛海牛": 7,
+      "山东泰山": 6,
+      "河南": 6,
+      "北京国安": 5,
+      "上海海港": 5,
+      "武汉三镇": 5,
+      "浙江": 5
+    },
+    "club_aliases": {
+      "申花": "上海申花",
+      "天津": "天津津门虎",
+      "青岛": "青岛海牛",
+      "泰山": "山东泰山",
+      "河南俱乐部": "河南",
+      "河南酒祖杜康": "河南",
+      "国安": "北京国安",
+      "海港": "上海海港",
+      "三镇": "武汉三镇",
+      "浙江队": "浙江"
+    },
+    "references": [
+      {
+        "title": "媒体报道：9支中超球队被扣分（新浪体育等）",
+        "url": "https://sports.sina.com.cn/china/2026-01-29/doc-inhiympw3148271.shtml"
+      },
+      {
+        "title": "Global Times: CSL point deductions overview",
+        "url": "https://www.globaltimes.cn/page/202603/1356225.shtml"
+      }
+    ]
+  },
+  "team_logos": {
+    "上海海港": "assets/team_logos/a26d9fbb0342e6d54677.png",
+    "上海申花": "assets/team_logos/91469528aeb15c37728e.png",
+    "云南玉昆": "assets/team_logos/e3797059ba59e4acc812.png",
+    "北京国安": "assets/team_logos/fa6ea93628b5de170048.png",
+    "大连英博": "assets/team_logos/f0a1a59f36d308bf4ec8.png",
+    "天津津门虎": "assets/team_logos/ae9884f476371aa26455.png",
+    "山东泰山": "assets/team_logos/41181c23e64739adc012.png",
+    "成都蓉城": "assets/team_logos/a6fb6193c5ad4eaa4945.png",
+    "武汉三镇": "assets/team_logos/2096512a047b9b2844a9.png",
+    "河南": "assets/team_logos/55b135463002a23b35a2.png",
+    "浙江": "assets/team_logos/44ff3b38e0ba2dbd39c2.png",
+    "深圳新鹏城": "assets/team_logos/c1a9b19592adae833a30.png",
+    "辽宁铁人": "assets/team_logos/fd56a67c37153dbcac8f.png",
+    "重庆铜梁龙": "assets/team_logos/6a1a42ad7079e24257fa.png",
+    "青岛海牛": "assets/team_logos/c98835007d3801568650.png",
+    "青岛西海岸": "assets/team_logos/6e61285455bb3980745d.png"
+  }
+}
