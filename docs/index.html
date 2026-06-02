@@ -340,10 +340,6 @@ header{
   <div class="card">
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px">
       <span class="card-title" style="margin-bottom:0">积分榜</span>
-      <div style="display:flex;gap:4px">
-        <button class="pill active" id="sortOfficial" onclick="renderStandings('official')">官方积分</button>
-        <button class="pill" id="sortMatch" onclick="renderStandings('match')">赛场积分</button>
-      </div>
     </div>
     <div id="standingsTable"></div>
   </div>
@@ -768,7 +764,7 @@ function closeModal(){$("modal").classList.remove("open");selMatchIdx=null}
 
 /* ═══════════ PLAYERS ═══════════ */
 function renderPlayers(){
-  var ps=(D.player_performance||[]).slice();
+  var ps=(D.player_performance||[]).filter(function(p){var cfl=p.cfl_profile||{};return cfl.player_icon||p.goals>0;});
   // Sort: goals desc, yellow cards desc, name asc
   ps.sort(function(a,b){
     if(a.goals!==b.goals)return b.goals-a.goals;
@@ -829,21 +825,12 @@ function showPlayer(idx){
 /* ═══════════ STANDINGS ═══════════ */
 var standingsMode='official';
 function renderStandings(mode){
-  standingsMode=mode||standingsMode;
-  document.getElementById('sortOfficial').classList.toggle('active',standingsMode==='official');
-  document.getElementById('sortMatch').classList.toggle('active',standingsMode==='match');
+  standingsMode='official';
 
   var all=(D.standing.all_standings||[]).slice();
-  // Sort
   all.sort(function(a,b){
-    var ea, eb;
-    if(standingsMode==='official'){
-      ea=n(a.effective_points)||(n(a.match_points)-n(a.penalty_points));
-      eb=n(b.effective_points)||(n(b.match_points)-n(b.penalty_points));
-    }else{
-      ea=n(a.match_points)||0;
-      eb=n(b.match_points)||0;
-    }
+    var ea=n(a.effective_points)||(n(a.match_points)-n(a.penalty_points));
+    var eb=n(b.effective_points)||(n(b.match_points)-n(b.penalty_points));
     if(ea!==eb)return eb-ea;
     var gda=n(a.goal_difference)||0;
     var gdb=n(b.goal_difference)||0;
@@ -858,7 +845,7 @@ function renderStandings(mode){
   $("standingsTable").innerHTML=hdr+all.map(function(r,i){
     var mp=n(r.match_points)||0;
     var pen=n(r.penalty_points)||0;
-    var eff=standingsMode==='official'?(n(r.effective_points)||(mp-pen)):mp;
+    var eff=n(r.effective_points)||(mp-pen);
     var gd=n(r.goal_difference)||0;
     var isG='国安'===String(r.club_name||'').slice(0,2);
     return'<div class="standings-row'+(isG?' guoan':'')+'"><span class="standings-pos">'+(i+1)+'</span><span style="display:flex;align-items:center;gap:6px">'+logoImg(r.club_name||'','club-logo-sm')+(isG?'<b>':'')+esc(r.club_name||'')+(isG?'</b>':'')+'</span><span style="text-align:center;font-size:.72rem">'+n(r.played)+'</span><span style="text-align:center;font-size:.72rem" class="'+(gd>0?'text-red':gd<0?'text-green':'')+'">'+(gd>0?'+':'')+gd+'</span><span style="text-align:center;font-size:.72rem">'+(pen>0?'<span class="text-green">-'+pen+'</span>':'—')+'</span><span class="standings-pts">'+eff+'</span></div>'
