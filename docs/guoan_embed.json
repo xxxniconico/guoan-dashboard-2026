@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T14:50:36.897524+00:00",
+    "generated_at_utc": "2026-06-02T14:53:46.474545+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/xxxsuli/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -99,19 +99,6 @@
           "effective_points": 18
         },
         {
-          "club_name": "辽宁铁人",
-          "played": 15,
-          "wins": 5,
-          "draws": 2,
-          "losses": 8,
-          "goals_for": 20,
-          "goals_against": 23,
-          "goal_difference": -3,
-          "match_points": 17,
-          "penalty_points": 0,
-          "effective_points": 17
-        },
-        {
           "club_name": "浙江",
           "played": 15,
           "wins": 6,
@@ -122,6 +109,19 @@
           "goal_difference": -3,
           "match_points": 22,
           "penalty_points": 5,
+          "effective_points": 17
+        },
+        {
+          "club_name": "辽宁铁人",
+          "played": 15,
+          "wins": 5,
+          "draws": 2,
+          "losses": 8,
+          "goals_for": 20,
+          "goals_against": 23,
+          "goal_difference": -3,
+          "match_points": 17,
+          "penalty_points": 0,
           "effective_points": 17
         },
         {
