@@ -27,7 +27,7 @@ from .player_analyzer import (
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 CONFIG_DIR = ROOT / "config"
-WEB_DIR = ROOT / "web"
+WEB_DIR = ROOT / "docs"
 
 # 在线 CSL 数据源 URL
 CSL_SOURCE_URL = os.environ.get(
