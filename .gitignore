@@ -1,0 +1,7 @@
+# 国安仪表盘
+__pycache__/
+*.pyc
+data/dashboard_embed.json
+web/guoan_embed.json
+.DS_Store
+/tmp/

@@ -1,0 +1,40 @@
+{
+  "club_name": "北京国安足球俱乐部",
+  "full_name": "北京国安足球俱乐部",
+  "short_name": "国安",
+  "name_en": "Beijing Guoan Football Club",
+  "founded": "1992",
+  "city": "北京",
+  "stadium": {
+    "name": "北京工人体育场",
+    "capacity": 68000,
+    "opened": "1959",
+    "renovated": "2023",
+    "address": "北京市朝阳区工人体育场北路"
+  },
+  "colors": {
+    "primary": "绿色",
+    "secondary": "白色",
+    "primary_hex": "#00A651"
+  },
+  "league": "中超联赛",
+  "honors": [
+    {"title": "中超联赛冠军", "year": 2009, "count": 1},
+    {"title": "中国足协杯冠军", "years": [1996, 1997, 2003, 2018], "count": 4},
+    {"title": "中国超级杯冠军", "years": [1997, 2003], "count": 2}
+  ],
+  "coach": {
+    "name": "蒙哥马利",
+    "name_en": "Nick Montgomery",
+    "nationality": "苏格兰",
+    "born": "1981-10-28",
+    "role": "主教练"
+  },
+  "owner": "中赫集团",
+  "rivalries": [
+    {"opponent": "上海申花", "type": "京沪德比", "since": "1994"},
+    {"opponent": "山东泰山", "type": "京鲁德比", "since": "1994"},
+    {"opponent": "天津津门虎", "type": "京津德比", "since": "1994"}
+  ],
+  "history": "北京国安足球俱乐部成立于1992年，是中国足球甲A联赛和中国足球超级联赛的创始成员之一。三十余年来始终屹立顶级联赛，与城市共成长。主场北京工人体育场被誉为中国足球的圣地，以绿色为魂，拥有全国最忠实的球迷群体之一。"
+}
