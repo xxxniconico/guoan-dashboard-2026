@@ -686,6 +686,16 @@ function renderMatches(){
   document.querySelectorAll("#matchFilters .pill").forEach(function(b){
     b.classList.toggle("active",b.dataset.filter===matchFilt)
   });
+  // 自动定位到最近一场比赛
+  if(matchFilt==="all"){
+    var finMs=ms.filter(function(m){return m.result!=="?"});
+    if(finMs.length){
+      var latest=finMs[finMs.length-1];
+      var idx=D.matches.indexOf(latest);
+      var el=document.getElementById("mc"+idx);
+      if(el)setTimeout(function(){el.scrollIntoView({behavior:"smooth",block:"center"})},100);
+    }
+  }
 }
 document.querySelectorAll("#matchFilters .pill").forEach(function(b){
   b.addEventListener("click",function(){matchFilt=this.dataset.filter;renderMatches()})
