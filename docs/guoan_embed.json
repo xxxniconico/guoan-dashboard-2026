@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T10:34:39.688714+00:00",
+    "generated_at_utc": "2026-07-02T10:37:26.847369+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "https://xxxniconico.github.io/csl-dashboard-2026/dashboard_embed.json"
@@ -112,7 +112,7 @@
           "effective_points": 18
         },
         {
-          "club_name": "浙江绿城",
+          "club_name": "浙江俱乐部",
           "played": 16,
           "wins": 6,
           "draws": 4,
@@ -177,7 +177,7 @@
           "effective_points": 15
         },
         {
-          "club_name": "河南彩陶坊",
+          "club_name": "河南俱乐部",
           "played": 16,
           "wins": 6,
           "draws": 3,
@@ -613,7 +613,7 @@
           "name": "黄龙体育中心体育场",
           "city": null
         },
-        "opponent": "浙江绿城",
+        "opponent": "浙江俱乐部",
         "is_home": false,
         "status": "finished",
         "score": "0:0",
@@ -660,10 +660,10 @@
         "context_signals": {},
         "form_before": "LLDLW",
         "opponent_info": {
-          "current_rank": "-",
+          "current_rank": 1,
           "current_form": "LWLWD",
-          "goals_for": 0,
-          "goals_against": 0,
+          "goals_for": 21,
+          "goals_against": 26,
           "top_scorers": [],
           "tier": "B"
         },
@@ -1270,7 +1270,7 @@
           "name": "工人体育场",
           "city": null
         },
-        "opponent": "河南彩陶坊",
+        "opponent": "河南俱乐部",
         "is_home": true,
         "status": "finished",
         "score": "1:2",
@@ -1325,10 +1325,10 @@
         },
         "form_before": "DWDWD",
         "opponent_info": {
-          "current_rank": "-",
+          "current_rank": 3,
           "current_form": "LLWWW",
-          "goals_for": 0,
-          "goals_against": 0,
+          "goals_for": 17,
+          "goals_against": 20,
           "top_scorers": [],
           "tier": "B"
         },
@@ -1634,7 +1634,7 @@
           "name": "工人体育场",
           "city": null
         },
-        "opponent": "浙江绿城",
+        "opponent": "浙江俱乐部",
         "is_home": true,
         "status": "scheduled",
         "score": {
@@ -1653,10 +1653,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": "-",
+          "current_rank": 1,
           "current_form": "LWLWD",
-          "goals_for": 0,
-          "goals_against": 0,
+          "goals_for": 21,
+          "goals_against": 26,
           "top_scorers": [],
           "tier": "B"
         }
@@ -1914,7 +1914,7 @@
           "name": null,
           "city": null
         },
-        "opponent": "河南彩陶坊",
+        "opponent": "河南俱乐部",
         "is_home": false,
         "status": "scheduled",
         "score": {
@@ -1933,10 +1933,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": "-",
+          "current_rank": 3,
           "current_form": "LLWWW",
-          "goals_for": 0,
-          "goals_against": 0,
+          "goals_for": 17,
+          "goals_against": 20,
           "top_scorers": [],
           "tier": "B"
         }
@@ -2080,7 +2080,7 @@
           {
             "round": "第14轮",
             "date": "2026-05-23",
-            "opponent": "河南彩陶坊",
+            "opponent": "河南俱乐部",
             "goals": 1
           },
           {
@@ -2425,7 +2425,7 @@
           {
             "round": "第14轮",
             "date": "2026-05-23",
-            "opponent": "河南彩陶坊",
+            "opponent": "河南俱乐部",
             "goals": 1
           }
         ],
@@ -5534,7 +5534,7 @@
           }
         ]
       },
-      "浙江绿城": {
+      "浙江俱乐部": {
         "all_time": {
           "played": 1,
           "wins": 0,
@@ -5552,7 +5552,7 @@
               "name": "黄龙体育中心体育场",
               "city": null
             },
-            "opponent": "浙江绿城",
+            "opponent": "浙江俱乐部",
             "is_home": false,
             "status": "finished",
             "score": "0:0",
@@ -5599,10 +5599,10 @@
             "context_signals": {},
             "form_before": "LLDLW",
             "opponent_info": {
-              "current_rank": "-",
+              "current_rank": 1,
               "current_form": "LWLWD",
-              "goals_for": 0,
-              "goals_against": 0,
+              "goals_for": 21,
+              "goals_against": 26,
               "top_scorers": [],
               "tier": "B"
             },
@@ -5610,7 +5610,7 @@
           }
         ]
       },
-      "河南彩陶坊": {
+      "河南俱乐部": {
         "all_time": {
           "played": 1,
           "wins": 0,
@@ -5628,7 +5628,7 @@
               "name": "工人体育场",
               "city": null
             },
-            "opponent": "河南彩陶坊",
+            "opponent": "河南俱乐部",
             "is_home": true,
             "status": "finished",
             "score": "1:2",
@@ -5683,10 +5683,10 @@
             },
             "form_before": "DWDWD",
             "opponent_info": {
-              "current_rank": "-",
+              "current_rank": 3,
               "current_form": "LLWWW",
-              "goals_for": 0,
-              "goals_against": 0,
+              "goals_for": 17,
+              "goals_against": 20,
               "top_scorers": [],
               "tier": "B"
             },
@@ -5861,7 +5861,7 @@
           "losses": 1
         }
       },
-      "浙江绿城": {
+      "浙江俱乐部": {
         "tier": "B",
         "tier_label": "中游",
         "home_result": null,
@@ -5965,7 +5965,7 @@
           "losses": 0
         }
       },
-      "河南彩陶坊": {
+      "河南俱乐部": {
         "tier": "B",
         "tier_label": "中游",
         "home_result": "L",
@@ -6058,7 +6058,7 @@
       },
       {
         "round": "第6轮",
-        "opponent": "浙江绿城",
+        "opponent": "浙江俱乐部",
         "result": "D",
         "score": "0:0",
         "cumulative_points": 5,
@@ -6130,7 +6130,7 @@
       },
       {
         "round": "第14轮",
-        "opponent": "河南彩陶坊",
+        "opponent": "河南俱乐部",
         "result": "L",
         "score": "1:2",
         "cumulative_points": 17,
@@ -6298,8 +6298,8 @@
     "青岛海牛": "assets/team_logos/c98835007d3801568650.png",
     "青岛西海岸": "assets/team_logos/6e61285455bb3980745d.png",
     "大连英博": "assets/team_logos/6658b76ba15ad3490e91.png",
-    "河南彩陶坊": "assets/team_logos/7c9445502e9e45ead0ff.png",
-    "浙江绿城": "assets/team_logos/dfb037638c93c947e534.png",
+    "河南俱乐部": "assets/team_logos/7c9445502e9e45ead0ff.png",
+    "浙江俱乐部": "assets/team_logos/dfb037638c93c947e534.png",
     "辽宁铁人": "assets/team_logos/76cad6d543b92f2b5eef.png"
   }
 }
