@@ -648,7 +648,6 @@ function renderMatchDetail(last, next){
   }
 
   $("matchDetail").innerHTML=h;
-  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}
 }
 
 /* ═══════════ MATCHES ═══════════ */
@@ -768,7 +767,6 @@ function openMatch(idx){
   }
 
   $("modalSheet").innerHTML=h;
-  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}$("modal").classList.add("open");
 }
 function closeModal(){$("modal").classList.remove("open");selMatchIdx=null}
 
@@ -830,7 +828,6 @@ function showPlayer(idx){
   }
 
   $("modalSheet").innerHTML=h;
-  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}$("modal").classList.add("open");
 }
 
 /* ═══════════ STANDINGS ═══════════ */
@@ -936,7 +933,6 @@ function renderClub(){
   }
 
   $("clubContent").innerHTML=h;
-  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}
 }
 
 /* ═══════════ RENDER ALL ═══════════ */
