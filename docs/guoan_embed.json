@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T10:25:00.488232+00:00",
+    "generated_at_utc": "2026-07-02T10:34:39.688714+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "https://xxxniconico.github.io/csl-dashboard-2026/dashboard_embed.json"
@@ -6198,9 +6198,10 @@
             1996,
             1997,
             2003,
-            2018
+            2018,
+            2025
           ],
-          "count": 4
+          "count": 5
         },
         {
           "title": "中国超级杯冠军",
