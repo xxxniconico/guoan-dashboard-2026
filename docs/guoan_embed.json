@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T10:04:53.927481+00:00",
+    "generated_at_utc": "2026-07-02T10:16:22.188064+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "https://xxxniconico.github.io/csl-dashboard-2026/dashboard_embed.json"
@@ -6271,6 +6271,10 @@
     "辽宁铁人楠波湾": "assets/team_logos/76cad6d543b92f2b5eef.png",
     "重庆铜梁龙": "assets/team_logos/6a1a42ad7079e24257fa.png",
     "青岛海牛": "assets/team_logos/c98835007d3801568650.png",
-    "青岛西海岸": "assets/team_logos/6e61285455bb3980745d.png"
+    "青岛西海岸": "assets/team_logos/6e61285455bb3980745d.png",
+    "大连英博": "assets/team_logos/6658b76ba15ad3490e91.png",
+    "河南": "assets/team_logos/7c9445502e9e45ead0ff.png",
+    "浙江": "assets/team_logos/dfb037638c93c947e534.png",
+    "辽宁铁人": "assets/team_logos/76cad6d543b92f2b5eef.png"
   }
 }

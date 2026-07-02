@@ -454,8 +454,21 @@ def main():
     # 11. 球队资料
     club_profile = load_club_profile()
 
-    # 12b. 队徽映射（从 CSL bundle 提取）
-    team_logos = csl_bundle.get("team_logos", {})
+    # 12b. 队徽映射（从 CSL bundle 提取，补充归一化 key）
+    team_logos = dict(csl_bundle.get("team_logos", {}))
+    # 为归一化后的俱乐部名添加队标映射
+    _logo_norm_map = {
+        "大连英博海发": "大连英博",
+        "河南俱乐部彩陶坊": "河南",
+        "河南俱乐部酒祖杜康": "河南",
+        "浙江俱乐部绿城": "浙江",
+        "辽宁铁人楠波湾": "辽宁铁人",
+    }
+    for orig_key, logo_path in list(team_logos.items()):
+        for variant, canonical in _logo_norm_map.items():
+            if variant in orig_key:
+                if canonical not in team_logos:
+                    team_logos[canonical] = logo_path
 
     # 13. 组装最终数据包
     embed = {
