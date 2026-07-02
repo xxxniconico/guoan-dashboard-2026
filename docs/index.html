@@ -424,6 +424,20 @@ function goView(v){
     b.classList.toggle("active",b.dataset.view===v)
   });
   if(v==="club")renderClub();
+  if(v==="matches")scrollToLatestMatch();
+}
+
+function scrollToLatestMatch(){
+  var allMs=D.matches;
+  var finMs=allMs.filter(function(m){return m.result!=="?"});
+  if(!finMs.length)return;
+  var latest=finMs[finMs.length-1];
+  var idx=allMs.indexOf(latest);
+  if(idx<0)return;
+  setTimeout(function(){
+    var el=document.getElementById("mc"+idx);
+    if(el)el.scrollIntoView({behavior:"smooth",block:"center"});
+  },200);
 }
 document.querySelectorAll(".pill,.nav-item").forEach(function(b){
   b.addEventListener("click",function(){goView(this.dataset.view)})
@@ -686,16 +700,7 @@ function renderMatches(){
   document.querySelectorAll("#matchFilters .pill").forEach(function(b){
     b.classList.toggle("active",b.dataset.filter===matchFilt)
   });
-  // 自动定位到最近一场比赛
-  if(matchFilt==="all"){
-    var finMs=ms.filter(function(m){return m.result!=="?"});
-    if(finMs.length){
-      var latest=finMs[finMs.length-1];
-      var idx=D.matches.indexOf(latest);
-      var el=document.getElementById("mc"+idx);
-      if(el)setTimeout(function(){el.scrollIntoView({behavior:"smooth",block:"center"})},100);
-    }
-  }
+
 }
 document.querySelectorAll("#matchFilters .pill").forEach(function(b){
   b.addEventListener("click",function(){matchFilt=this.dataset.filter;renderMatches()})
