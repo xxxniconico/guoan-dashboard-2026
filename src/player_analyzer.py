@@ -3,11 +3,16 @@
 纯 Python stdlib。
 """
 from collections import defaultdict, Counter
-from typing import Optional
+from typing import Optional, Set
 
 
-def analyze_goal_times(matches: list) -> dict:
+def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> dict:
     """按 15 分钟段统计国安所有进球的时间分布。
+    
+    Args:
+        matches: 国安比赛列表
+        guoan_player_names: 国安球员名字集合（用于过滤对手进球）。
+                            如果为 None，则统计所有进球（含对手）。
 
     Returns:
         {"0-15": N, "16-30": N, "31-45": N, "45+": N,
@@ -16,12 +21,25 @@ def analyze_goal_times(matches: list) -> dict:
     buckets = {"0-15": 0, "16-30": 0, "31-45": 0, "45+": 0,
                "46-60": 0, "61-75": 0, "76-90": 0, "90+": 0}
 
+    def _is_guoan_goal(evt: dict) -> bool:
+        """判断事件是否为国安进球。"""
+        if evt.get("type") != "goal":
+            return False
+        # 优先用球员名单判断
+        if guoan_player_names:
+            name = (evt.get("player") or evt.get("player_name", "")).strip()
+            # 模糊匹配：球员名可能在名单中
+            for gn in guoan_player_names:
+                if gn in name or name in gn:
+                    return True
+            return False
+        # 无名单时用 team_name fallback
+        team = str(evt.get("team_name", ""))
+        return "国安" in team
+
     for m in matches:
         for evt in m.get("events", []):
-            if evt.get("type") != "goal":
-                continue
-            team = evt.get("team_name", "")
-            if "国安" not in str(team):
+            if not _is_guoan_goal(evt):
                 continue
             minute = evt.get("minute")
             if minute is None:
@@ -29,7 +47,16 @@ def analyze_goal_times(matches: list) -> dict:
             try:
                 m_val = int(minute)
             except (ValueError, TypeError):
-                continue
+                # 可能有 "45+2" 格式
+                minute_str = str(minute)
+                if "+" in minute_str:
+                    parts = minute_str.split("+")
+                    try:
+                        m_val = int(parts[0])
+                    except ValueError:
+                        continue
+                else:
+                    continue
 
             if m_val <= 15:
                 buckets["0-15"] += 1
@@ -46,30 +73,21 @@ def analyze_goal_times(matches: list) -> dict:
             else:
                 buckets["90+"] += 1
 
-    # 上半场补时: 45+ 进球
+    # 上半场补时: 45+ 进球（使用球员名单过滤）
     for m in matches:
         for evt in m.get("events", []):
-            if evt.get("type") != "goal":
-                continue
-            team = evt.get("team_name", "")
-            if "国安" not in str(team):
+            if not _is_guoan_goal(evt):
                 continue
             minute_str = str(evt.get("minute", ""))
-            if "+" in minute_str:
-                parts = minute_str.split("+")
-                try:
-                    base = int(parts[0])
-                    if base == 45:
-                        buckets["45+"] += 1
-                except ValueError:
-                    pass
+            if "45+" in minute_str:
+                buckets["45+"] += 1
 
     return buckets
 
 
-def compute_goal_time_distribution(matches: list) -> dict:
+def compute_goal_time_distribution(matches: list, guoan_player_names: Set[str] = None) -> dict:
     """对 analyze_goal_times 的结果做百分比包装。"""
-    buckets = analyze_goal_times(matches)
+    buckets = analyze_goal_times(matches, guoan_player_names)
     total = sum(buckets.values())
     result = {}
     for k, v in buckets.items():
@@ -125,7 +143,20 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             "cfl_profile": {...}
         }]
     """
-    # Step 1: 从比赛事件汇总球员统计
+    # Step 1: 从比赛事件汇总球员统计（只统计国安一方的球员）
+    # 先构建国安球员名名单（从 CFL 档案）
+    EXCLUDE = {"郝昱丞"}
+    guoan_cfl_names = set()
+    cfl_by_name = {}
+    for prof in cfl_profiles:
+        club = str(prof.get("contestant_club_name", ""))
+        if "国安" not in club:
+            continue
+        name = _clean_player_name(prof.get("player_name", ""))
+        if name and name not in EXCLUDE:
+            guoan_cfl_names.add(name)
+            cfl_by_name[name] = prof
+
     player_map = {}
 
     for m in guoan_matches:
@@ -137,12 +168,22 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
 
         for evt in m.get("events", []):
             name = _clean_player_name(evt.get("player") or evt.get("player_name", ""))
+
+            # 只统计国安球员：名字必须在 CFL 国安名单中
             if not name:
                 continue
+            matched_name = name if name in guoan_cfl_names else None
+            if not matched_name:
+                for gn in guoan_cfl_names:
+                    if gn in name or name in gn:
+                        matched_name = gn
+                        break
+            if not matched_name:
+                continue  # 不是国安球员，跳过
 
-            if name not in player_map:
-                player_map[name] = {
-                    "player_name": name,
+            if matched_name not in player_map:
+                player_map[matched_name] = {
+                    "player_name": matched_name,
                     "team_name": "北京国安",
                     "appearances": 0,
                     "goals": 0, "assists": 0,
@@ -152,8 +193,8 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
                     "card_calendar": [],
                 }
 
-            p = player_map[name]
-            seen_players.add(name)
+            p = player_map[matched_name]
+            seen_players.add(matched_name)
 
             evt_type = str(evt.get("type", "")).lower()
             if "goal" in evt_type:
@@ -175,28 +216,15 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
 
         # 标记出场
         for name in seen_players:
-            player_map[name]["matches_played"].add(match_id)
+            if name in player_map:
+                player_map[name]["matches_played"].add(match_id)
 
-    # Step 2: Clean up sets -> int for event-derived player_map entries
+    # Step 2: Clean up sets -> int
     for p in player_map.values():
         p["appearances"] = len(p["matches_played"])
         del p["matches_played"]
 
-    # Step 3: 关联 CFL 档案，构建完整国安大名单
-    # 排除名单：CFL标记为国安但实际非国安球员
-    EXCLUDE = {"郝昱丞"}
-    guoan_cfl_names = set()
-    cfl_by_name = {}
-    for prof in cfl_profiles:
-        club = str(prof.get("contestant_club_name", ""))
-        if "国安" not in club:
-            continue
-        name = _clean_player_name(prof.get("player_name", ""))
-        if name and name not in EXCLUDE:
-            guoan_cfl_names.add(name)
-            cfl_by_name[name] = prof
-
-    # Build complete roster from CFL (all registered players, not just scorers)
+    # Step 3: 构建完整国安大名单（从 CFL 档案）
     all_guoan = {}
     for name in guoan_cfl_names:
         cfl = cfl_by_name.get(name, {})
@@ -225,15 +253,8 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
 
     # Merge event data into roster
     for name, p in player_map.items():
-        # Match to CFL name
-        matched_name = name if name in all_guoan else None
-        if not matched_name:
-            for gn in guoan_cfl_names:
-                if gn in name or name in gn:
-                    matched_name = gn
-                    break
-        if matched_name:
-            existing = all_guoan[matched_name]
+        if name in all_guoan:
+            existing = all_guoan[name]
             existing["goals"] = p["goals"]
             existing["assists"] = p["assists"]
             existing["yellow_cards"] = p["yellow_cards"]
