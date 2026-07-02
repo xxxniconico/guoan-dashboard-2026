@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T10:24:26.639980+00:00",
+    "generated_at_utc": "2026-07-02T10:25:00.488232+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "https://xxxniconico.github.io/csl-dashboard-2026/dashboard_embed.json"
@@ -177,7 +177,7 @@
           "effective_points": 15
         },
         {
-          "club_name": "河南俱乐部彩陶坊队",
+          "club_name": "河南彩陶坊",
           "played": 16,
           "wins": 6,
           "draws": 3,
@@ -1270,7 +1270,7 @@
           "name": "工人体育场",
           "city": null
         },
-        "opponent": "河南俱乐部彩陶坊队",
+        "opponent": "河南彩陶坊",
         "is_home": true,
         "status": "finished",
         "score": "1:2",
@@ -1914,7 +1914,7 @@
           "name": null,
           "city": null
         },
-        "opponent": "河南俱乐部彩陶坊队",
+        "opponent": "河南彩陶坊",
         "is_home": false,
         "status": "scheduled",
         "score": {
@@ -2080,7 +2080,7 @@
           {
             "round": "第14轮",
             "date": "2026-05-23",
-            "opponent": "河南俱乐部彩陶坊队",
+            "opponent": "河南彩陶坊",
             "goals": 1
           },
           {
@@ -2425,7 +2425,7 @@
           {
             "round": "第14轮",
             "date": "2026-05-23",
-            "opponent": "河南俱乐部彩陶坊队",
+            "opponent": "河南彩陶坊",
             "goals": 1
           }
         ],
@@ -5610,7 +5610,7 @@
           }
         ]
       },
-      "河南俱乐部彩陶坊队": {
+      "河南彩陶坊": {
         "all_time": {
           "played": 1,
           "wins": 0,
@@ -5628,7 +5628,7 @@
               "name": "工人体育场",
               "city": null
             },
-            "opponent": "河南俱乐部彩陶坊队",
+            "opponent": "河南彩陶坊",
             "is_home": true,
             "status": "finished",
             "score": "1:2",
@@ -5965,7 +5965,7 @@
           "losses": 0
         }
       },
-      "河南俱乐部彩陶坊队": {
+      "河南彩陶坊": {
         "tier": "B",
         "tier_label": "中游",
         "home_result": "L",
@@ -6130,7 +6130,7 @@
       },
       {
         "round": "第14轮",
-        "opponent": "河南俱乐部彩陶坊队",
+        "opponent": "河南彩陶坊",
         "result": "L",
         "score": "1:2",
         "cumulative_points": 17,
@@ -6297,7 +6297,7 @@
     "青岛海牛": "assets/team_logos/c98835007d3801568650.png",
     "青岛西海岸": "assets/team_logos/6e61285455bb3980745d.png",
     "大连英博": "assets/team_logos/6658b76ba15ad3490e91.png",
-    "河南俱乐部彩陶坊队": "assets/team_logos/7c9445502e9e45ead0ff.png",
+    "河南彩陶坊": "assets/team_logos/7c9445502e9e45ead0ff.png",
     "浙江绿城": "assets/team_logos/dfb037638c93c947e534.png",
     "辽宁铁人": "assets/team_logos/76cad6d543b92f2b5eef.png"
   }
