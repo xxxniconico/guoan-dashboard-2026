@@ -17,7 +17,7 @@ from .form_utils import (
     compute_form, form_before_match, get_opponent_form,
     get_opponent_top_scorers, last_completed_date, first_upcoming_date
 )
-from .guoan_context import get_guoan_matches, detect_ctx, CONTEXT_SIGNAL_LABELS
+from .guoan_context import get_guoan_matches, detect_ctx, CONTEXT_SIGNAL_LABELS, normalize_club
 from .h2h_builder import load_season_matches, build_h2h
 from .player_analyzer import (
     analyze_goal_times, compute_goal_time_distribution,
@@ -65,37 +65,54 @@ def fetch_csl_data() -> dict:
 
 
 def compute_standings_from_matches(all_matches: list, deductions: dict = None) -> list:
-    """从比赛结果实时计算积分榜（仿 CSL 仪表盘前端 buildLiveStandingsRows 逻辑）。"""
+    """从比赛结果实时计算积分榜（仿 CSL 仪表盘前端 buildLiveStandingsRows 逻辑）。
+    自动合并俱乐部名变体（如 浙江俱乐部绿城 → 浙江）。
+    优先保留 finished 版本（scheduled 重复记录会被跳过）。
+    """
     def _n(v): x = float(v) if v is not None else 0; return int(x) if x == int(x) else x
-    # Collect all clubs
-    clubs = set()
-    for m in all_matches:
-        h = str(m.get("home_club", "")).strip()
-        a = str(m.get("away_club", "")).strip()
-        if h: clubs.add(h)
-        if a: clubs.add(a)
 
-    # Load penalty points from deductions
+    # Load penalty points from deductions (normalize keys)
     penalty = {}
     if deductions:
         dbc = deductions.get("deductions_by_club", {})
         if isinstance(dbc, dict):
             for club, pts in dbc.items():
-                penalty[str(club)] = _n(pts)
+                penalty[normalize_club(str(club))] = _n(pts)
 
-    # Stats per club
-    stats = {c: {"played":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0} for c in clubs}
+    # 排序：finished 优先，有比分的优先
+    def _sort_key(m):
+        status = str(m.get("status","")).lower()
+        is_finished = 1 if status in ("finished","completed","ft") else 0
+        has_score = 1 if (m.get("score",{}).get("home") is not None
+                          and m.get("score",{}).get("away") is not None) else 0
+        return (-is_finished, -has_score, str(m.get("date","")))
+    
+    sorted_matches = sorted(all_matches, key=_sort_key)
+
+    # Stats per club (normalized names)
+    stats = {}
     seen = set()
-    for m in all_matches:
-        key = str(m.get("match_id","")) or f'{m.get("date","")}|{m.get("home_club","")}|{m.get("away_club","")}'
-        if key in seen: continue
+    for m in sorted_matches:
+        h_norm = normalize_club(str(m.get("home_club","")))
+        a_norm = normalize_club(str(m.get("away_club","")))
+        
+        # 去重：match_id + 归一化日期/主客队 双重 key
+        mid = str(m.get("match_id",""))
+        if mid:
+            key = f"id:{mid}"
+        else:
+            key = f"{m.get('date','')}|{h_norm}|{a_norm}"
+        dedup_key = f"norm:{m.get('date','')[:10]}|{h_norm}|{a_norm}"
+        if key in seen or dedup_key in seen:
+            continue
         seen.add(key)
+        seen.add(dedup_key)
 
         status = str(m.get("status","")).lower()
         if status not in ("finished","completed","ft"): continue
 
-        h = str(m.get("home_club","")).strip()
-        a = str(m.get("away_club","")).strip()
+        h = h_norm
+        a = a_norm
         if not h or not a: continue
 
         sc = m.get("score",{})
@@ -391,9 +408,9 @@ def main():
     print(f"[guoan_builder] 全联赛: {len(all_matches)} 场比赛, "
           f"{len(all_standings)} 支球队, {len(cfl_profiles)} 份CFL档案")
 
-    # 2. 筛选国安比赛
+    # 2. 筛选国安比赛（已自动去重俱乐部名变体）
     guoan_raw = get_guoan_matches(all_matches)
-    print(f"[guoan_builder] 国安比赛: {len(guoan_raw)} 场")
+    print(f"[guoan_builder] 国安比赛: {len(guoan_raw)} 场（已去重）")
 
     # 3a. 扣分配置（积分计算前置）
     deductions = load_deductions()
@@ -401,7 +418,7 @@ def main():
     # 3. 富化国安比赛
     guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, all_standings)
 
-    # 4. 积分榜（从比赛结果实时计算，与中超看板前端逻辑一致）
+    # 4. 积分榜（从比赛结果实时计算，使用归一化俱乐部名）
     computed_standings = compute_standings_from_matches(all_matches, deductions)
     guoan_standing = extract_guoan_standing(None, all_matches, deductions)
     guoan_standing["all_standings"] = computed_standings  # 完整实时积分榜
@@ -410,8 +427,9 @@ def main():
     player_performance = analyze_player_performance(guoan_matches, cfl_profiles)
     print(f"[guoan_builder] 球员: {len(player_performance)} 人")
 
-    # 6. 进球时间分布
-    goal_times = analyze_goal_times(guoan_matches)
+    # 6. 进球时间分布（传入国安球员名单以正确过滤）
+    guoan_player_names = {p["player_name"] for p in player_performance}
+    goal_times = analyze_goal_times(guoan_matches, guoan_player_names)
 
     # 7. 历史对战 H2H (2023~2026)
     h2h = {}

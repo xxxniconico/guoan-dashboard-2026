@@ -6,18 +6,69 @@ from datetime import datetime, timedelta
 from typing import Optional
 from .opponent_tiers import classify_opponent_tier, PROMOTED_BIG_CITY
 
+# ═══════════════════════════════════════════
+# 俱乐部名称归一化 — CSL 上游数据存在多名变体
+# ═══════════════════════════════════════════
+_CLUB_NAME_NORMALIZE = {
+    "浙江俱乐部绿城": "浙江",
+    "大连英博海发": "大连英博",
+    "辽宁铁人楠波湾": "辽宁铁人",
+    "河南俱乐部彩陶坊": "河南",
+    "河南俱乐部酒祖杜康": "河南",
+    "河南队俱乐部彩陶坊": "河南",
+}
+
+
+def normalize_club(name: str) -> str:
+    """将俱乐部名称变体归一化为标准名。"""
+    n = str(name).strip()
+    for variant, canonical in _CLUB_NAME_NORMALIZE.items():
+        if variant in n:
+            return canonical
+    return n
+
 
 def get_guoan_matches(matches: list) -> list:
-    """从所有比赛中提取国安比赛，标注 is_home 和 opponent。"""
+    """从所有比赛中提取国安比赛，标注 is_home 和 opponent。
+    自动去重：CSL 上游数据可能存在同一场比赛的多条记录（俱乐部名变体导致）。
+    """
     guoan = []
+    seen_dates = {}  # date_str -> set of normalized opponents (用于去重)
     for m in matches:
-        home = str(m.get("home_club", ""))
-        away = str(m.get("away_club", ""))
+        home = normalize_club(str(m.get("home_club", "")))
+        away = normalize_club(str(m.get("away_club", "")))
         if "国安" not in home and "国安" not in away:
             continue
         is_home = "国安" in home
         opponent = away if is_home else home
-        guoan.append({**m, "is_home": is_home, "opponent": opponent})
+
+        # 去重：同一天 + 同一对手 → 只保留第一条（优先有 score 的）
+        date_str = str(m.get("date", ""))[:10]
+        if date_str not in seen_dates:
+            seen_dates[date_str] = {}
+        if opponent in seen_dates[date_str]:
+            # 已有记录：如果新记录有比分而旧记录没有，则替换
+            existing = seen_dates[date_str][opponent]
+            new_has_score = (m.get("score", {}).get("home") is not None
+                             and m.get("score", {}).get("away") is not None)
+            old_has_score = (existing.get("score", {}).get("home") is not None
+                             and existing.get("score", {}).get("away") is not None)
+            if new_has_score and not old_has_score:
+                # 替换为有比分的记录
+                for i, gm in enumerate(guoan):
+                    if (str(gm.get("date", ""))[:10] == date_str
+                            and normalize_club(str(gm.get("opponent", ""))) == opponent):
+                        guoan[i] = {**m, "is_home": is_home, "opponent": opponent,
+                                    "home_club": home, "away_club": away}
+                        seen_dates[date_str][opponent] = guoan[i]
+                        break
+            continue
+
+        entry = {**m, "is_home": is_home, "opponent": opponent,
+                 "home_club": home, "away_club": away}
+        guoan.append(entry)
+        seen_dates[date_str][opponent] = entry
+
     return guoan
 
 
