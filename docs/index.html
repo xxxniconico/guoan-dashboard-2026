@@ -399,7 +399,7 @@ async function loadData(){
     renderAll();
     setInterval(refreshData,600000);
   }catch(e){
-    $("headerSub")var sb=document.getElementById("statusBar");if(sb){sb.style.display="block";sb.style.background="rgba(232,17,45,.12)";sb.style.color="var(--red)";sb.textContent="⚠️ 数据加载失败，请检查网络后刷新页面";}
+    var sb=document.getElementById("statusBar");if(sb){sb.style.display="block";sb.style.background="rgba(232,17,45,.12)";sb.style.color="var(--red)";sb.textContent="⚠️ 数据加载失败，请检查网络后刷新页面";}
     console.error(e);
   }
 }
