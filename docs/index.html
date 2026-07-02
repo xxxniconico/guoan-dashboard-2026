@@ -671,7 +671,7 @@ function renderMatches(){
     var penalty=D.standing.penalty_points||0;
     var effPts=cumMap[m.round]!==undefined?cumMap[m.round]-penalty:'—';
 
-    return'<div class="match-card '+cls+'" onclick="openMatch('+D.matches.indexOf(m)+')">'+
+    return'<div class="match-card '+cls+'" id="mc"+D.matches.indexOf(m)+" onclick="openMatch('+D.matches.indexOf(m)+')">'+
       '<div class="match-round">'+esc(m.round).replace("第","").replace("轮","")+'</div>'+
       '<div class="match-info"><div style="display:flex;align-items:center;gap:8px">'+logoImg(m.opponent,"club-logo-sm")+'<div><div class="match-opp">'+
         (m.is_home?'':'<span style="font-size:.7rem;color:var(--text2)">@ </span>')+
