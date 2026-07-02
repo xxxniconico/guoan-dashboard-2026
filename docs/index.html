@@ -2,12 +2,12 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0a1628">
 <meta name="description" content="北京国安足球俱乐部2026赛季数据追踪仪表盘">
 <meta property="og:title" content="北京国安 · 2026赛季追踪">
 <meta property="og:description" content="30场比赛、球员数据、积分榜、历史对战，一站式国安赛季追踪">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
 <title>北京国安足球俱乐部 · 2026 赛季追踪</title>
 <style>
 /* ═══════════════════════════════════════════
@@ -266,8 +266,8 @@ header{
 .text-red{color:var(--red)}.text-green{color:var(--green)}.text-amber{color:var(--amber)}
 .mt3{margin-top:12px}.mb3{margin-bottom:12px}
 </style>
-</head>
 <noscript><div style="padding:20px;text-align:center;color:#e8ecf1;background:#0c0f18;font-family:sans-serif">请启用 JavaScript 查看国安赛季数据</div></noscript>
+</head>
 <body>
 
 <!-- ══════════ HEADER ══════════ -->
@@ -403,7 +403,7 @@ document.addEventListener("visibilitychange",function(){
   else if(!_refreshTimer){_refreshTimer=setInterval(refreshData,600000)}
 });
   }catch(e){
-    var sb=document.getElementById("statusBar");if(sb){sb.style.display="block";sb.style.background="rgba(232,17,45,.12)";sb.style.color="var(--red)";sb.textContent="⚠️ 数据加载失败，请检查网络后刷新页面";}
+    $("headerSub")var sb=document.getElementById("statusBar");if(sb){sb.style.display="block";sb.style.background="rgba(232,17,45,.12)";sb.style.color="var(--red)";sb.textContent="⚠️ 数据加载失败，请检查网络后刷新页面";}
     console.error(e);
   }
 }
@@ -766,7 +766,7 @@ function openMatch(idx){
     h+='</div>';
   }
 
-  $("modalSheet").innerHTML=h;
+  $("modalSheet").innerHTML=h;$("modal").classList.add("open");
 }
 function closeModal(){$("modal").classList.remove("open");selMatchIdx=null}
 
@@ -827,7 +827,7 @@ function showPlayer(idx){
     h+=gc.map(function(g){return'<div style="padding:6px 0;border-bottom:1px solid rgba(255,255,255,.03);font-size:.8rem">'+esc(g.round)+' vs '+esc(g.opponent)+' ⚽ <span style="color:var(--text2)">'+esc(g.date)+'</span></div>'}).join("");
   }
 
-  $("modalSheet").innerHTML=h;
+  $("modalSheet").innerHTML=h;$("modal").classList.add("open");
 }
 
 /* ═══════════ STANDINGS ═══════════ */
