@@ -40,13 +40,8 @@ LOCAL_CSL_EMBED = DATA_DIR / "dashboard_embed.json"
 
 
 def fetch_csl_data() -> dict:
-    """拉取 CSL 仪表盘 embed JSON（优先在线，fallback 本地）。"""
-    # 优先本地
-    if LOCAL_CSL_EMBED.exists():
-        print(f"[guoan_builder] 使用本地数据: {LOCAL_CSL_EMBED}")
-        return json.loads(LOCAL_CSL_EMBED.read_text(encoding="utf-8"))
-
-    # 在线拉取
+    """拉取 CSL 仪表盘 embed JSON（优先在线，fallback 本地缓存）。"""
+    # 优先在线拉取
     try:
         from urllib.request import urlopen, Request
         print(f"[guoan_builder] 在线拉取: {CSL_SOURCE_URL}")
@@ -55,11 +50,17 @@ def fetch_csl_data() -> dict:
             "Cache-Control": "no-cache",
         })
         with urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
+            data = json.loads(resp.read().decode("utf-8"))
+            # 缓存到本地
+            LOCAL_CSL_EMBED.parent.mkdir(parents=True, exist_ok=True)
+            LOCAL_CSL_EMBED.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            print(f"[guoan_builder] 已缓存到本地: {LOCAL_CSL_EMBED}")
+            return data
     except Exception as e:
         print(f"[guoan_builder] 在线拉取失败: {e}")
+        # Fallback 本地缓存
         if LOCAL_CSL_EMBED.exists():
-            print(f"[guoan_builder] Fallback 本地: {LOCAL_CSL_EMBED}")
+            print(f"[guoan_builder] Fallback 本地缓存: {LOCAL_CSL_EMBED}")
             return json.loads(LOCAL_CSL_EMBED.read_text(encoding="utf-8"))
         raise RuntimeError("无法获取 CSL 数据（在线失败且本地无缓存）")
 

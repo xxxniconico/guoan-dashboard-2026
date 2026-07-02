@@ -12,7 +12,6 @@ def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> di
     Args:
         matches: 国安比赛列表
         guoan_player_names: 国安球员名字集合（用于过滤对手进球）。
-                            如果为 None，则统计所有进球（含对手）。
 
     Returns:
         {"0-15": N, "16-30": N, "31-45": N, "45+": N,
@@ -25,15 +24,12 @@ def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> di
         """判断事件是否为国安进球。"""
         if evt.get("type") != "goal":
             return False
-        # 优先用球员名单判断
         if guoan_player_names:
             name = (evt.get("player") or evt.get("player_name", "")).strip()
-            # 模糊匹配：球员名可能在名单中
             for gn in guoan_player_names:
                 if gn in name or name in gn:
                     return True
             return False
-        # 无名单时用 team_name fallback
         team = str(evt.get("team_name", ""))
         return "国安" in team
 
@@ -47,7 +43,6 @@ def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> di
             try:
                 m_val = int(minute)
             except (ValueError, TypeError):
-                # 可能有 "45+2" 格式
                 minute_str = str(minute)
                 if "+" in minute_str:
                     parts = minute_str.split("+")
@@ -58,7 +53,10 @@ def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> di
                 else:
                     continue
 
-            if m_val <= 15:
+            # 统一分桶：45+补时进球归入45+桶
+            if "45+" in str(minute) or (m_val >= 45 and m_val < 46 and "+" in str(minute)):
+                buckets["45+"] += 1
+            elif m_val <= 15:
                 buckets["0-15"] += 1
             elif m_val <= 30:
                 buckets["16-30"] += 1
@@ -73,17 +71,7 @@ def analyze_goal_times(matches: list, guoan_player_names: Set[str] = None) -> di
             else:
                 buckets["90+"] += 1
 
-    # 上半场补时: 45+ 进球（使用球员名单过滤）
-    for m in matches:
-        for evt in m.get("events", []):
-            if not _is_guoan_goal(evt):
-                continue
-            minute_str = str(evt.get("minute", ""))
-            if "45+" in minute_str:
-                buckets["45+"] += 1
-
     return buckets
-
 
 def compute_goal_time_distribution(matches: list, guoan_player_names: Set[str] = None) -> dict:
     """对 analyze_goal_times 的结果做百分比包装。"""

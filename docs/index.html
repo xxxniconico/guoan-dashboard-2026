@@ -2,8 +2,12 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0a1628">
+<meta name="description" content="北京国安足球俱乐部2026赛季数据追踪仪表盘">
+<meta property="og:title" content="北京国安 · 2026赛季追踪">
+<meta property="og:description" content="30场比赛、球员数据、积分榜、历史对战，一站式国安赛季追踪">
 <title>北京国安足球俱乐部 · 2026 赛季追踪</title>
 <style>
 /* ═══════════════════════════════════════════
@@ -182,7 +186,6 @@ header{
 .player-stat-item{text-align:left}
 .player-stat-val{font-size:.95rem;font-weight:800;line-height:1.2}
 .player-stat-label{font-size:.58rem;color:var(--text3)}
-.player-stat-label{font-size:.58rem;color:var(--text3)}
 
 /* ── Standings Mini Table ── */
 .standings-row{
@@ -220,9 +223,9 @@ header{
 .event-icon{font-size:1rem;width:24px;text-align:center;flex-shrink:0}
 
 /* ── Modal ── */
-.modal{position:fixed;inset:0;z-index:50;display:none}
+.modal{position:fixed;top:0;right:0;bottom:0;left:0;inset:0;z-index:50;display:none}
 .modal.open{display:flex;align-items:flex-end}
-.modal-overlay{position:absolute;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(3px)}
+.modal-overlay{position:absolute;top:0;right:0;bottom:0;left:0;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(3px)}
 .modal-sheet{
   position:relative;width:100%;max-height:88vh;
   background:var(--card);border-radius:20px 20px 0 0;
@@ -264,6 +267,7 @@ header{
 .mt3{margin-top:12px}.mb3{margin-bottom:12px}
 </style>
 </head>
+<noscript><div style="padding:20px;text-align:center;color:#e8ecf1;background:#0c0f18;font-family:sans-serif">请启用 JavaScript 查看国安赛季数据</div></noscript>
 <body>
 
 <!-- ══════════ HEADER ══════════ -->
@@ -275,6 +279,7 @@ header{
     </div>
   </div>
 </header>
+<div id="statusBar" class="card" style="display:none;text-align:center;padding:10px;margin:8px 16px;border-radius:12px;font-size:.78rem"></div>
 
 <!-- ══════════ TOP NAV ══════════ -->
 <nav class="top-nav" id="topNav">
@@ -296,7 +301,7 @@ header{
       <span class="card-title" style="margin-bottom:0">赛季数据总览</span>
       <img src="assets/csl_logo_white.png" alt="中超" style="height:28px;object-fit:contain">
     </div>
-    <div class="kpi-row" id="kpiRow"></div>
+    <div class="kpi-row" id="kpiRow"><div class="kpi-item"><div class="kpi-num" style="font-size:1rem;color:var(--text3)">加载中</div></div></div>
   </div>
 
   <!-- Match Hero: 上一场 ← → 下一场 侧滑切换 -->
@@ -373,7 +378,7 @@ var D=null,LOGOS={},curView="home",matchFilt="all",selMatchIdx=null;
 /* ═══════════ HELPERS ═══════════ */
 function $(id){return document.getElementById(id)}
 function n(v){var x=Number(v);return Number.isFinite(x)?x:0}
-function esc(s){return String(s||"").replaceAll("&","&amp;").replaceAll("<","&lt;")}
+function esc(s){var t=String(s||"");return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}
 function resultCls(r){return r==="W"?"win":r==="D"?"draw":"loss"}
 function resultLabel(r){return r==="W"?"胜":r==="D"?"平":"负"}
 function logoImg(name,cls){
@@ -388,12 +393,17 @@ async function loadData(){
   try{
     var u=location.href.replace(/\/[^/]*$/,"/guoan_embed.json");
     var r=await fetch(u+"?v="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
     var bundle=await r.json();
     D=bundle.guoan;LOGOS=bundle.team_logos||{};
     renderAll();
-    setInterval(refreshData,120000);
+    var _refreshTimer=setInterval(refreshData,600000);
+document.addEventListener("visibilitychange",function(){
+  if(document.hidden){clearInterval(_refreshTimer);_refreshTimer=null}
+  else if(!_refreshTimer){_refreshTimer=setInterval(refreshData,600000)}
+});
   }catch(e){
-    $("headerSub").textContent="加载失败 · 请刷新";
+    var sb=document.getElementById("statusBar");if(sb){sb.style.display="block";sb.style.background="rgba(232,17,45,.12)";sb.style.color="var(--red)";sb.textContent="⚠️ 数据加载失败，请检查网络后刷新页面";}
     console.error(e);
   }
 }
@@ -425,10 +435,10 @@ function renderHome(){
   var s=D.standing;
   var fin=D.matches.filter(function(m){return m.result!=="?"});
   var upcoming=D.matches.filter(function(m){return m.result==="?"});
-  var next=upcoming[0];
+  var next=upcoming.length?upcoming[0]:null;
 
   // Last match (left panel)
-  var last=fin[fin.length-1];
+  var last=fin.length?fin[fin.length-1]:null;
   if(last){
     $("heroLast").innerHTML=
       '<div class="hero-countdown" style="color:var(--text2)">上一场 · '+esc(last.round)+'</div>'+
@@ -638,6 +648,7 @@ function renderMatchDetail(last, next){
   }
 
   $("matchDetail").innerHTML=h;
+  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}
 }
 
 /* ═══════════ MATCHES ═══════════ */
@@ -756,7 +767,8 @@ function openMatch(idx){
     h+='</div>';
   }
 
-  $("modalSheet").innerHTML=h;$("modal").classList.add("open");
+  $("modalSheet").innerHTML=h;
+  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}$("modal").classList.add("open");
 }
 function closeModal(){$("modal").classList.remove("open");selMatchIdx=null}
 
@@ -817,7 +829,8 @@ function showPlayer(idx){
     h+=gc.map(function(g){return'<div style="padding:6px 0;border-bottom:1px solid rgba(255,255,255,.03);font-size:.8rem">'+esc(g.round)+' vs '+esc(g.opponent)+' ⚽ <span style="color:var(--text2)">'+esc(g.date)+'</span></div>'}).join("");
   }
 
-  $("modalSheet").innerHTML=h;$("modal").classList.add("open");
+  $("modalSheet").innerHTML=h;
+  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}$("modal").classList.add("open");
 }
 
 /* ═══════════ STANDINGS ═══════════ */
@@ -923,6 +936,7 @@ function renderClub(){
   }
 
   $("clubContent").innerHTML=h;
+  }else{.innerHTML='<div style="text-align:center;padding:30px;color:var(--text2)">暂无已完赛数据</div>';}
 }
 
 /* ═══════════ RENDER ALL ═══════════ */
@@ -931,6 +945,7 @@ function renderAll(){
   try{renderMatches()}catch(e){console.error('renderMatches',e)}
   try{renderPlayers()}catch(e){console.error('renderPlayers',e)}
   try{renderStandings()}catch(e){console.error('renderStandings',e)}
+  try{renderClub()}catch(e){console.error('renderClub',e)}
 }
 
 /* ═══════════ INIT ═══════════ */
