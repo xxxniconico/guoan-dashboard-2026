@@ -436,7 +436,7 @@ function scrollToLatestMatch(){
   if(idx<0)return;
   var el=document.getElementById("mc"+idx);
   if(!el)return;
-  el.scrollIntoView({behavior:"smooth",block:"center"});
+  requestAnimationFrame(function(){el.scrollIntoView({behavior:"auto",block:"center"})});
 }
 document.querySelectorAll(".pill,.nav-item").forEach(function(b){
   b.addEventListener("click",function(){goView(this.dataset.view)})
