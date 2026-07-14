@@ -126,13 +126,13 @@ header{
 .hero-dot.active{background:var(--green-bright);width:22px;border-radius:3px}
 
 /* ── KPI Row ── */
-.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
 .kpi-item{
   text-align:center;padding:14px 6px;border-radius:14px;
   background:var(--card);border:1px solid var(--border);
 }
-.kpi-num{font-size:1.7rem;font-weight:900;line-height:1.1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.kpi-label{font-size:.65rem;color:var(--text2);margin-top:4px}
+.kpi-num{font-size:1.35rem;font-weight:900;line-height:1.15;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.kpi-label{font-size:.58rem;color:var(--text2);margin-top:2px}
 .kpi-num.win{color:var(--red)}.kpi-num.loss{color:var(--green)}.kpi-num.draw{color:var(--amber)}
 
 /* ── Match Cards ── */
@@ -514,9 +514,11 @@ function renderHome(){
 
   // KPI
   $("kpiRow").innerHTML=[
-    {n:s.wins+"-"+s.draws+"-"+s.losses,l:"战绩",c:""},
-    {n:s.goals_for,l:"进球",c:"win"},
-    {n:s.goals_against,l:"失球",c:"loss"},
+    {n:s.wins,l:"胜",c:"win"},
+    {n:s.draws,l:"平",c:"draw"},
+    {n:s.losses,l:"负",c:"loss"},
+    {n:s.goals_for,l:"进球",c:""},
+    {n:s.goals_against,l:"失球",c:""},
     {n:s.position,l:"排名",c:""},
   ].map(function(k){return'<div class="kpi-item"><div class="kpi-num '+k.c+'">'+k.n+'</div><div class="kpi-label">'+k.l+'</div></div>'}).join("");
 
@@ -623,7 +625,20 @@ function renderMatchDetail(last, next){
     h+='<span class="text-sm" style="color:var(--text2)">#'+oppInfo.current_rank+'</span>';
     h+='</div>';
 
-    if(oppInfo.current_form){
+    if(oppInfo.recent_matches&&oppInfo.recent_matches.length){
+      h+='<div style="margin-bottom:14px">';
+      h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">对手近期战绩</span>';
+      oppInfo.recent_matches.forEach(function(rm){
+        var rc=rm.result==='W'?'w':rm.result==='D'?'d':'l';
+        h+='<div style="display:flex;align-items:center;gap:6px;padding:3px 0;font-size:.72rem;border-bottom:1px solid rgba(255,255,255,.03)">';
+        h+='<span class="form-ball form-'+rc+'" style="width:18px;height:18px;font-size:.5rem;flex-shrink:0">'+rm.result+'</span>';
+        h+='<span style="color:var(--text3);width:68px;flex-shrink:0">'+esc(rm.date)+'</span>';
+        h+='<span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(rm.is_home?'':'(客)')+esc(rm.opponent)+'</span>';
+        h+='<span style="font-weight:700;flex-shrink:0">'+esc(rm.score)+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }else if(oppInfo.current_form){
       h+='<div style="margin-bottom:14px">';
       h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">近期战绩</span>';
       h+='<div class="form-row" style="margin-top:4px">';
@@ -766,7 +781,37 @@ function openMatch(idx){
   if(oppInfo.current_rank||oppInfo.current_form){
     h+='<div style="margin-top:16px;padding:14px;border-radius:12px;background:rgba(255,255,255,.02)">';
     h+='<div style="display:flex;align-items:center;gap:8px;font-weight:700;font-size:.8rem;margin-bottom:6px">'+logoImg(m.opponent,'club-logo-sm')+esc(m.opponent)+'</div>';
-    h+='<div style="font-size:.78rem;color:var(--text2)">排名 #'+oppInfo.current_rank+' · 近期 '+esc(oppInfo.current_form||"—")+'</div>';
+    h+='<div style="font-size:.78rem;color:var(--text2)">排名 #'+oppInfo.current_rank+'</div>';
+    if(oppInfo.recent_matches&&oppInfo.recent_matches.length){
+      h+='<div style="margin-top:6px">';
+      oppInfo.recent_matches.forEach(function(rm){
+        var rc=rm.result==='W'?'w':rm.result==='D'?'d':'l';
+        h+='<div style="display:flex;align-items:center;gap:4px;padding:2px 0;font-size:.68rem">';
+        h+='<span class="form-ball form-'+rc+'" style="width:16px;height:16px;font-size:.45rem;flex-shrink:0">'+rm.result+'</span>';
+        h+='<span style="color:var(--text3);width:62px;flex-shrink:0">'+esc(rm.date)+'</span>';
+        h+='<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(rm.is_home?'':'(客)')+esc(rm.opponent)+'</span>';
+        h+='<span style="font-weight:700;flex-shrink:0">'+esc(rm.score)+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }else if(oppInfo.current_form){
+      h+='<div style="font-size:.78rem;color:var(--text2)">排名 #'+oppInfo.current_rank+'</div>';
+    if(oppInfo.recent_matches&&oppInfo.recent_matches.length){
+      h+='<div style="margin-top:6px">';
+      oppInfo.recent_matches.forEach(function(rm){
+        var rc=rm.result==='W'?'w':rm.result==='D'?'d':'l';
+        h+='<div style="display:flex;align-items:center;gap:4px;padding:2px 0;font-size:.68rem">';
+        h+='<span class="form-ball form-'+rc+'" style="width:16px;height:16px;font-size:.45rem;flex-shrink:0">'+rm.result+'</span>';
+        h+='<span style="color:var(--text3);width:62px;flex-shrink:0">'+esc(rm.date)+'</span>';
+        h+='<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(rm.is_home?'':'客')+esc(rm.opponent)+'</span>';
+        h+='<span style="font-weight:700;flex-shrink:0">'+esc(rm.score)+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }else if(oppInfo.current_form){
+      h+='<div style="font-size:.78rem;color:var(--text2)">排名 #'+oppInfo.current_rank+' · 近期 '+esc(oppInfo.current_form||"—")+'</div>';
+    }
+    }
     if(oppInfo.top_scorers&&oppInfo.top_scorers.length){
       h+='<div style="font-size:.72rem;color:var(--text2);margin-top:4px">射手: '+oppInfo.top_scorers.map(function(s){return esc(s.name)+'('+s.goals+'球)'}).join("、")+'</div>';
     }

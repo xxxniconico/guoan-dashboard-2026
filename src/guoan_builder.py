@@ -15,7 +15,8 @@ from collections import defaultdict
 from .opponent_tiers import classify_opponent_tier, get_tier_label, get_tier_color
 from .form_utils import (
     compute_form, form_before_match, get_opponent_form,
-    get_opponent_top_scorers, last_completed_date, first_upcoming_date
+    get_opponent_top_scorers, get_opponent_recent_matches,
+    last_completed_date, first_upcoming_date
 )
 from .guoan_context import get_guoan_matches, detect_ctx, CONTEXT_SIGNAL_LABELS, normalize_club
 from .h2h_builder import load_season_matches, build_h2h
@@ -204,6 +205,7 @@ def build_opponent_info(match: dict, all_matches: list, standings: list) -> dict
     # 对手等级
     tier = classify_opponent_tier(opponent)
 
+    recent_matches = get_opponent_recent_matches(all_matches, opponent)
     return {
         "current_rank": rank,
         "current_form": form,
@@ -211,6 +213,7 @@ def build_opponent_info(match: dict, all_matches: list, standings: list) -> dict
         "goals_against": ga_,
         "top_scorers": scorers[:3],
         "tier": tier,
+        "recent_matches": recent_matches,
     }
 
 

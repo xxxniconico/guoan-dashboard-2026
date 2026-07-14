@@ -133,3 +133,39 @@ def first_upcoming_date(matches: list) -> Optional[str]:
     if upcoming:
         return str(upcoming[0].get("date", ""))[:10]
     return None
+
+
+def get_opponent_recent_matches(matches: list, opponent: str, n: int = 5) -> list:
+    """获取对手最近 N 场比赛详情（日期/对手/比分/结果/主客）。"""
+    opp_norm = _norm(opponent)
+    finished = [m for m in matches if m.get("status") in ("finished", "completed", "ft")]
+    related = [m for m in finished
+               if opp_norm in _norm(str(m.get("home_club", "")))
+               or opp_norm in _norm(str(m.get("away_club", "")))]
+    related.sort(key=lambda m: str(m.get("date", "")), reverse=True)
+    result = []
+    for m in related[:n]:
+        hs = m.get("score", {}).get("home")
+        aw = m.get("score", {}).get("away")
+        if hs is None or aw is None:
+            continue
+        is_home = opp_norm in _norm(str(m.get("home_club", "")))
+        opp_side = _norm(str(m.get("away_club", ""))) if is_home else _norm(str(m.get("home_club", "")))
+        if is_home:
+            gf, ga = hs, aw
+        else:
+            gf, ga = aw, hs
+        if gf == ga:
+            res = "D"
+        elif gf > ga:
+            res = "W"
+        else:
+            res = "L"
+        result.append({
+            "date": str(m.get("date", ""))[:10],
+            "opponent": opp_side,
+            "is_home": is_home,
+            "score": f"{gf}:{ga}",
+            "result": res,
+        })
+    return result
