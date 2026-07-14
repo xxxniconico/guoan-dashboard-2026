@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T18:05:15.778974+00:00",
+    "generated_at_utc": "2026-07-14T18:23:28.242594+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dashboard-fix/data/dashboard_embed.json"
@@ -280,10 +280,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 18,
+          "current_rank": 16,
           "current_form": "LLDDD",
-          "goals_for": 8,
-          "goals_against": 11,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -393,10 +393,10 @@
         "context_signals": {},
         "form_before": "W",
         "opponent_info": {
-          "current_rank": 12,
+          "current_rank": 4,
           "current_form": "WLWLD",
-          "goals_for": 7,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -512,10 +512,10 @@
         "context_signals": {},
         "form_before": "LW",
         "opponent_info": {
-          "current_rank": 14,
+          "current_rank": 10,
           "current_form": "WWDLD",
-          "goals_for": 11,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "S",
           "recent_matches": [
@@ -625,10 +625,10 @@
         "context_signals": {},
         "form_before": "DLW",
         "opponent_info": {
-          "current_rank": 4,
+          "current_rank": 8,
           "current_form": "WLWWW",
-          "goals_for": 6,
-          "goals_against": 6,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -744,10 +744,10 @@
         "context_signals": {},
         "form_before": "LDLW",
         "opponent_info": {
-          "current_rank": 6,
+          "current_rank": 1,
           "current_form": "DDWWL",
-          "goals_for": 14,
-          "goals_against": 5,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -845,10 +845,10 @@
         "context_signals": {},
         "form_before": "LLDLW",
         "opponent_info": {
-          "current_rank": 2,
+          "current_rank": 11,
           "current_form": "LLWLW",
-          "goals_for": 23,
-          "goals_against": 29,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -946,10 +946,10 @@
         "context_signals": {},
         "form_before": "DLLDL",
         "opponent_info": {
-          "current_rank": 10,
+          "current_rank": 9,
           "current_form": "WLLWW",
-          "goals_for": 7,
-          "goals_against": 8,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -1071,10 +1071,10 @@
         "context_signals": {},
         "form_before": "WDLLD",
         "opponent_info": {
-          "current_rank": 20,
+          "current_rank": 15,
           "current_form": "WLWDL",
-          "goals_for": 2,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -1181,10 +1181,10 @@
         },
         "form_before": "LWDLL",
         "opponent_info": {
-          "current_rank": 9,
+          "current_rank": 5,
           "current_form": "LWLDL",
-          "goals_for": 9,
-          "goals_against": 5,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -1315,10 +1315,10 @@
         },
         "form_before": "DLWDL",
         "opponent_info": {
-          "current_rank": 1,
+          "current_rank": 3,
           "current_form": "WLLWD",
-          "goals_for": 10,
-          "goals_against": 10,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -1442,10 +1442,10 @@
         },
         "form_before": "WDLWD",
         "opponent_info": {
-          "current_rank": 15,
+          "current_rank": 12,
           "current_form": "LWLDW",
-          "goals_for": 7,
-          "goals_against": 6,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -1581,10 +1581,10 @@
         },
         "form_before": "DWDLW",
         "opponent_info": {
-          "current_rank": 19,
+          "current_rank": 14,
           "current_form": "DWLLL",
-          "goals_for": 3,
-          "goals_against": 8,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -1697,10 +1697,10 @@
         },
         "form_before": "WDWDL",
         "opponent_info": {
-          "current_rank": 11,
+          "current_rank": 6,
           "current_form": "LWWDW",
-          "goals_for": 4,
-          "goals_against": 12,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -1806,10 +1806,10 @@
         },
         "form_before": "DWDWD",
         "opponent_info": {
-          "current_rank": 3,
+          "current_rank": 13,
           "current_form": "LLLWW",
-          "goals_for": 18,
-          "goals_against": 22,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -1931,10 +1931,10 @@
         "context_signals": {},
         "form_before": "LDWDW",
         "opponent_info": {
-          "current_rank": 5,
+          "current_rank": 2,
           "current_form": "DLWLW",
-          "goals_for": 7,
-          "goals_against": 4,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -2032,10 +2032,10 @@
         "context_signals": {},
         "form_before": "WLDWD",
         "opponent_info": {
-          "current_rank": 18,
+          "current_rank": 16,
           "current_form": "LLDDD",
-          "goals_for": 8,
-          "goals_against": 11,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2133,10 +2133,10 @@
         "context_signals": {},
         "form_before": "WWLDW",
         "opponent_info": {
-          "current_rank": 12,
+          "current_rank": 4,
           "current_form": "WLWLD",
-          "goals_for": 7,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -2206,10 +2206,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 14,
+          "current_rank": 10,
           "current_form": "WWDLD",
-          "goals_for": 11,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "S",
           "recent_matches": [
@@ -2278,10 +2278,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 4,
+          "current_rank": 8,
           "current_form": "WLWWW",
-          "goals_for": 6,
-          "goals_against": 6,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -2350,10 +2350,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 6,
+          "current_rank": 1,
           "current_form": "DDWWL",
-          "goals_for": 14,
-          "goals_against": 5,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -2422,10 +2422,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 2,
+          "current_rank": 11,
           "current_form": "LLWLW",
-          "goals_for": 23,
-          "goals_against": 29,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2494,10 +2494,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 10,
+          "current_rank": 9,
           "current_form": "WLLWW",
-          "goals_for": 7,
-          "goals_against": 8,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2566,10 +2566,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 20,
+          "current_rank": 15,
           "current_form": "WLWDL",
-          "goals_for": 2,
-          "goals_against": 7,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
@@ -2638,10 +2638,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 9,
+          "current_rank": 5,
           "current_form": "LWLDL",
-          "goals_for": 9,
-          "goals_against": 5,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2710,10 +2710,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 1,
+          "current_rank": 3,
           "current_form": "WLLWD",
-          "goals_for": 10,
-          "goals_against": 10,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -2782,10 +2782,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 15,
+          "current_rank": 12,
           "current_form": "LWLDW",
-          "goals_for": 7,
-          "goals_against": 6,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2854,10 +2854,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 19,
+          "current_rank": 14,
           "current_form": "DWLLL",
-          "goals_for": 3,
-          "goals_against": 8,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -2926,10 +2926,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 11,
+          "current_rank": 6,
           "current_form": "LWWDW",
-          "goals_for": 4,
-          "goals_against": 12,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -2998,10 +2998,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 3,
+          "current_rank": 13,
           "current_form": "LLLWW",
-          "goals_for": 18,
-          "goals_against": 22,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
@@ -3070,10 +3070,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 5,
+          "current_rank": 2,
           "current_form": "DLWLW",
-          "goals_for": 7,
-          "goals_against": 4,
+          "goals_for": 0,
+          "goals_against": 0,
           "top_scorers": [],
           "tier": "C",
           "recent_matches": [
@@ -4555,10 +4555,10 @@
             "context_signals": {},
             "form_before": "",
             "opponent_info": {
-              "current_rank": 18,
+              "current_rank": 16,
               "current_form": "LLDDD",
-              "goals_for": 8,
-              "goals_against": 11,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -4656,10 +4656,10 @@
             "context_signals": {},
             "form_before": "WLDWD",
             "opponent_info": {
-              "current_rank": 18,
+              "current_rank": 16,
               "current_form": "LLDDD",
-              "goals_for": 8,
-              "goals_against": 11,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -4879,10 +4879,10 @@
             },
             "form_before": "DWDLW",
             "opponent_info": {
-              "current_rank": 19,
+              "current_rank": 14,
               "current_form": "DWLLL",
-              "goals_for": 3,
-              "goals_against": 8,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "C",
               "recent_matches": [
@@ -5088,10 +5088,10 @@
             "context_signals": {},
             "form_before": "W",
             "opponent_info": {
-              "current_rank": 12,
+              "current_rank": 4,
               "current_form": "WLWLD",
-              "goals_for": 7,
-              "goals_against": 7,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
@@ -5189,10 +5189,10 @@
             "context_signals": {},
             "form_before": "WWLDW",
             "opponent_info": {
-              "current_rank": 12,
+              "current_rank": 4,
               "current_form": "WLWLD",
-              "goals_for": 7,
-              "goals_against": 7,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
@@ -5482,10 +5482,10 @@
             "context_signals": {},
             "form_before": "WDLLD",
             "opponent_info": {
-              "current_rank": 20,
+              "current_rank": 15,
               "current_form": "WLWDL",
-              "goals_for": 2,
-              "goals_against": 7,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
@@ -5733,10 +5733,10 @@
             "context_signals": {},
             "form_before": "LW",
             "opponent_info": {
-              "current_rank": 14,
+              "current_rank": 10,
               "current_form": "WWDLD",
-              "goals_for": 11,
-              "goals_against": 7,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "S",
               "recent_matches": [
@@ -6220,10 +6220,10 @@
             },
             "form_before": "WDLWD",
             "opponent_info": {
-              "current_rank": 15,
+              "current_rank": 12,
               "current_form": "LWLDW",
-              "goals_for": 7,
-              "goals_against": 6,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -6435,10 +6435,10 @@
             "context_signals": {},
             "form_before": "LDLW",
             "opponent_info": {
-              "current_rank": 6,
+              "current_rank": 1,
               "current_form": "DDWWL",
-              "goals_for": 14,
-              "goals_against": 5,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
@@ -6647,10 +6647,10 @@
             },
             "form_before": "WDWDL",
             "opponent_info": {
-              "current_rank": 11,
+              "current_rank": 6,
               "current_form": "LWWDW",
-              "goals_for": 4,
-              "goals_against": 12,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -6808,10 +6808,10 @@
             "context_signals": {},
             "form_before": "DLLDL",
             "opponent_info": {
-              "current_rank": 10,
+              "current_rank": 9,
               "current_form": "WLLWW",
-              "goals_for": 7,
-              "goals_against": 8,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -6954,10 +6954,10 @@
             },
             "form_before": "LWDLL",
             "opponent_info": {
-              "current_rank": 9,
+              "current_rank": 5,
               "current_form": "LWLDL",
-              "goals_for": 9,
-              "goals_against": 5,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -7124,10 +7124,10 @@
             },
             "form_before": "DLWDL",
             "opponent_info": {
-              "current_rank": 1,
+              "current_rank": 3,
               "current_form": "WLLWD",
-              "goals_for": 10,
-              "goals_against": 10,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "C",
               "recent_matches": [
@@ -7249,10 +7249,10 @@
             "context_signals": {},
             "form_before": "DLW",
             "opponent_info": {
-              "current_rank": 4,
+              "current_rank": 8,
               "current_form": "WLWWW",
-              "goals_for": 6,
-              "goals_against": 6,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "C",
               "recent_matches": [
@@ -7362,10 +7362,10 @@
             "context_signals": {},
             "form_before": "LLDLW",
             "opponent_info": {
-              "current_rank": 2,
+              "current_rank": 11,
               "current_form": "LLWLW",
-              "goals_for": 23,
-              "goals_against": 29,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -7483,10 +7483,10 @@
             },
             "form_before": "DWDWD",
             "opponent_info": {
-              "current_rank": 3,
+              "current_rank": 13,
               "current_form": "LLLWW",
-              "goals_for": 18,
-              "goals_against": 22,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
@@ -7620,10 +7620,10 @@
             "context_signals": {},
             "form_before": "LDWDW",
             "opponent_info": {
-              "current_rank": 5,
+              "current_rank": 2,
               "current_form": "DLWLW",
-              "goals_for": 7,
-              "goals_against": 4,
+              "goals_for": 0,
+              "goals_against": 0,
               "top_scorers": [],
               "tier": "C",
               "recent_matches": [

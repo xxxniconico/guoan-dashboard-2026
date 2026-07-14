@@ -419,11 +419,11 @@ def main():
     # 3a. 扣分配置（积分计算前置）
     deductions = load_deductions()
 
-    # 3. 富化国安比赛
-    guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, all_standings)
-
-    # 4. 积分榜（从比赛结果实时计算，使用归一化俱乐部名）
+    # 3. 积分榜（从比赛结果实时计算，使用归一化俱乐部名）
     computed_standings = compute_standings_from_matches(all_matches, deductions)
+
+    # 4. 富化国安比赛（使用修正后的积分榜计算对手排名）
+    guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, computed_standings)
     guoan_standing = extract_guoan_standing(None, all_matches, deductions)
     guoan_standing["all_standings"] = computed_standings  # 完整实时积分榜
 
