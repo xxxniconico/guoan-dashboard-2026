@@ -126,7 +126,7 @@ header{
 .hero-dot.active{background:var(--green-bright);width:22px;border-radius:3px}
 
 /* ── KPI Row ── */
-.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
+.kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
 .kpi-item{
   text-align:center;padding:14px 6px;border-radius:14px;
   background:var(--card);border:1px solid var(--border);
@@ -513,13 +513,13 @@ function renderHome(){
   updateDetail(1);
 
   // KPI
+    var gd=s.goals_for-s.goals_against;
   $("kpiRow").innerHTML=[
-    {n:s.wins,l:"胜",c:"win"},
-    {n:s.draws,l:"平",c:"draw"},
-    {n:s.losses,l:"负",c:"loss"},
+    {n:"#"+s.position,l:"排名",c:""},
+    {n:s.wins+"胜"+s.draws+"平"+s.losses+"负",l:"战绩",c:""},
     {n:s.goals_for,l:"进球",c:""},
     {n:s.goals_against,l:"失球",c:""},
-    {n:s.position,l:"排名",c:""},
+    {n:(gd>0?"+":"")+gd,l:"净胜",c:gd>0?"win":gd<0?"loss":""},
   ].map(function(k){return'<div class="kpi-item"><div class="kpi-num '+k.c+'">'+k.n+'</div><div class="kpi-label">'+k.l+'</div></div>'}).join("");
 
 }
