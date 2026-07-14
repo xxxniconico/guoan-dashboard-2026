@@ -161,7 +161,7 @@ header{
 .result-w{background:rgba(232,17,45,.15);color:var(--red)}
 .result-d{background:rgba(245,166,35,.15);color:var(--amber)}
 .result-l{background:rgba(15,120,60,.15);color:var(--green)}
-.result-up{background:rgba(15,120,60,.15);color:var(--green-bright)}
+.result-up{background:rgba(15,120,60,.15);color:var(--green-bright)}.result-pp{background:rgba(245,166,35,.12);color:var(--amber)}
 
 /* ── Player Cards ── */
 .player-card{
@@ -711,7 +711,7 @@ function renderMatches(){
       '</div><div class="match-venue">'+(m.is_home?'🏟 主场':'✈ 客场')+' · '+esc((m.date||"").slice(0,10))+'</div></div></div></div>'+
       '<div class="match-right">'+
         (isFin?'<div style="display:flex;align-items:center;gap:8px"><div class="match-score">'+m.guoan_goals+':'+m.opp_goals+'</div><span class="match-result result-'+resultCls(m.result)+'">'+resultLabel(m.result)+'</span></div><div style="font-size:.58rem;color:var(--text2);margin-top:2px;text-align:right">'+(effPts!=='—'?'+'+cumMap[m.round]+' 分':'')+'</div>':
-         '<span class="match-result result-up">未赛</span>')+
+         '<span class="match-result '+(m.date&&(m.date||'').slice(0,10)<new Date().toISOString().slice(0,10)?'result-pp">延期':'result-up">未赛')+'</span>')+
       '</div></div>';
   }).join("");
 
