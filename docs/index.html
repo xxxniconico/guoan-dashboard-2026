@@ -969,7 +969,7 @@ function renderClub(){
   if(cp.history){
     h+='<div class="card"><div class="card-title">📖 球队简介</div>';
     h+='<div style="font-size:.8rem;line-height:1.7;color:var(--text2)">'+(cp.history||'').split('
-').map(function(p){return esc(p)}).join('<br>')+'</div>';
+')).map(function(p){return esc(p)}).join('<br>')+'</div>';
     h+='</div>';
   }
 
