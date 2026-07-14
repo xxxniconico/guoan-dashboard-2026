@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T18:23:28.242594+00:00",
+    "generated_at_utc": "2026-07-14T18:30:08.804903+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dashboard-fix/data/dashboard_embed.json"
@@ -4146,30 +4146,6 @@
         }
       },
       {
-        "player_name": "蒙哥马利",
-        "team_name": "北京国安",
-        "appearances": 0,
-        "goals": 0,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [],
-        "card_calendar": [],
-        "goal_contribution_pct": 0.0,
-        "form_5": [],
-        "streak": "",
-        "position": "主教练",
-        "shirt_number": "",
-        "cfl_profile": {
-          "height": "175",
-          "weight": "74",
-          "nationality": "苏格兰",
-          "date_of_birth": "1981-10-28",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/蒙哥马利.jpg",
-          "player_name_en": "Montgomery Nick"
-        }
-      },
-      {
         "player_name": "贾非凡",
         "team_name": "北京国安",
         "appearances": 0,
@@ -4252,30 +4228,6 @@
           "date_of_birth": "1998-03-10",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/阿不都海米提_1.jpg",
           "player_name_en": "AbdugheniAbduhamit"
-        }
-      },
-      {
-        "player_name": "陶伟",
-        "team_name": "北京国安",
-        "appearances": 0,
-        "goals": 0,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [],
-        "card_calendar": [],
-        "goal_contribution_pct": 0.0,
-        "form_5": [],
-        "streak": "",
-        "position": "助理教练",
-        "shirt_number": "",
-        "cfl_profile": {
-          "height": "176",
-          "weight": "72",
-          "nationality": "中国",
-          "date_of_birth": "1978-03-11",
-          "player_icon": "",
-          "player_name_en": "TaoWei"
         }
       },
       {
