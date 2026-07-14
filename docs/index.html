@@ -597,15 +597,16 @@ function renderMatchDetail(last, next){
     if(rec&&rec.all_time&&rec.all_time.played>0){
       var a=rec.all_time;
       h+='<div style="border-top:1px solid var(--border);margin-top:10px;padding-top:10px">';
-      h+='<div style="font-size:.7rem;color:var(--text2);font-weight:600;margin-bottom:6px">vs '+esc(last.opponent)+' 历史交锋 · 共'+a.played+'场 · '+a.wins+'胜'+a.draws+'平'+a.losses+'负</div>';
+      h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">📊 vs '+esc(last.opponent)+' 历史交锋 · 共'+a.played+'场 · '+a.wins+'胜'+a.draws+'平'+a.losses+'负</span>';
       var ms=(rec.matches||[]).slice().sort(function(x,y){return (x.date||'').localeCompare(y.date||'')}).slice(-5);
-      h+='<div style="display:flex;gap:4px;overflow-x:auto;padding-bottom:2px">';
+      h+='<div style="margin-top:4px">';
       ms.forEach(function(m){
         var cls='form-ball form-'+(m.result==='W'?'w':m.result==='D'?'d':'l');
-        h+='<div style="display:flex;flex-direction:column;align-items:center;gap:1px;flex-shrink:0;min-width:34px">';
-        h+='<span class="'+cls+'" style="font-size:.55rem;width:22px;height:22px">'+m.result+'</span>';
-        h+='<span style="font-size:.5rem;color:var(--text3)">'+m.season+'/'+(m.date||'').slice(5,10)+'</span>';
-        h+='<span style="font-size:.55rem;color:var(--text2)">'+(m.score||'?')+'</span>';
+        h+='<div style="display:flex;align-items:center;gap:6px;padding:2px 0;font-size:.7rem;border-bottom:1px solid rgba(255,255,255,.03)">';
+        h+='<span class="'+cls+'" style="width:16px;height:16px;font-size:.45rem;flex-shrink:0">'+m.result+'</span>';
+        h+='<span style="color:var(--text3);width:70px;flex-shrink:0;font-size:.6rem">'+m.season+'/'+(m.date||'').slice(5,10)+'</span>';
+        h+='<span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(m.is_home?'':'客')+esc(m.opponent)+'</span>';
+        h+='<span style="font-weight:700;flex-shrink:0">'+esc(m.score||'?')+'</span>';
         h+='</div>';
       });
       h+='</div></div>';
@@ -657,19 +658,20 @@ function renderMatchDetail(last, next){
       var ms=(rec.matches||[]).slice().sort(function(x,y){return (x.date||'').localeCompare(y.date||'')});
       var seasons=[...new Set(ms.map(function(m){return m.season}))].sort();
       h+='<div style="border-top:1px solid var(--border);padding-top:10px">';
-      h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">历史交锋 · '+seasons.join('～')+'赛季 · 共'+a.played+'场</span>';
-      h+='<div style="display:flex;gap:8px;margin:6px 0;font-size:.78rem">';
+      h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">📊 历史交锋 · '+seasons.join('～')+'赛季 · 共'+a.played+'场</span>';
+      h+='<div style="display:flex;gap:8px;margin:4px 0;font-size:.72rem;flex-wrap:wrap">';
       h+='<span class="text-red"><b>'+a.wins+'胜</b></span><span class="text-amber"><b>'+a.draws+'平</b></span><span class="text-green"><b>'+a.losses+'负</b></span>';
       h+='<span style="color:var(--text2)">进'+a.gf+'失'+a.ga+'</span>';
       if(a.played>0)h+='<span style="color:var(--text2)">胜率'+(a.wins/a.played*100).toFixed(0)+'%</span>';
       h+='</div>';
-      h+='<div style="display:flex;gap:4px;overflow-x:auto;padding-bottom:4px">';
+      h+='<div style="margin-top:2px">';
       ms.forEach(function(m){
         var cls='form-ball form-'+(m.result==='W'?'w':m.result==='D'?'d':'l');
-        h+='<div style="display:flex;flex-direction:column;align-items:center;gap:1px;flex-shrink:0;min-width:34px">';
-        h+='<span class="'+cls+'" style="font-size:.55rem;width:22px;height:22px">'+m.result+'</span>';
-        h+='<span style="font-size:.5rem;color:var(--text3)">'+m.season+'/'+(m.date||'').slice(5,10)+'</span>';
-        h+='<span style="font-size:.55rem;color:var(--text2)">'+(m.score||'?')+'</span>';
+        h+='<div style="display:flex;align-items:center;gap:6px;padding:2px 0;font-size:.72rem;border-bottom:1px solid rgba(255,255,255,.03)">';
+        h+='<span class="'+cls+'" style="width:18px;height:18px;font-size:.5rem;flex-shrink:0">'+m.result+'</span>';
+        h+='<span style="color:var(--text3);width:74px;flex-shrink:0;font-size:.65rem">'+m.season+'/'+(m.date||'').slice(5,10)+'</span>';
+        h+='<span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(m.is_home?'':'客')+esc(m.opponent)+'</span>';
+        h+='<span style="font-weight:700;flex-shrink:0">'+esc(m.score||'?')+'</span>';
         h+='</div>';
       });
       h+='</div></div>';
@@ -821,9 +823,22 @@ function openMatch(idx){
   // H2H
   if(h2h&&h2h.all_time&&h2h.all_time.played>0){
     var a=h2h.all_time;
+    var ms=(h2h.matches||[]).slice().sort(function(x,y){return (x.date||'').localeCompare(y.date||'')});
     h+='<div style="margin-top:12px;padding:14px;border-radius:12px;background:rgba(15,120,60,.04)">';
-    h+='<div style="font-weight:700;font-size:.8rem;margin-bottom:4px">📊 历史交锋</div>';
-    h+='<div style="font-size:.8rem">'+a.wins+'胜 '+a.draws+'平 '+a.losses+'负 · 进'+a.gf+'失'+a.ga+' · '+(a.played>0?'胜率'+(a.wins/a.played*100).toFixed(0)+'%':'')+'</div>';
+    h+='<div style="font-weight:700;font-size:.8rem;margin-bottom:6px">📊 历史交锋 · 共'+a.played+'场 · '+(a.played>0?'胜率'+(a.wins/a.played*100).toFixed(0)+'%':'')+'</div>';
+    h+='<div style="display:flex;gap:8px;margin-bottom:6px;font-size:.72rem;flex-wrap:wrap">';
+    h+='<span class="text-red"><b>'+a.wins+'胜</b></span><span class="text-amber"><b>'+a.draws+'平</b></span><span class="text-green"><b>'+a.losses+'负</b></span>';
+    h+='<span style="color:var(--text2)">进'+a.gf+'失'+a.ga+'</span>';
+    h+='</div>';
+    ms.forEach(function(m){
+      var cls='form-ball form-'+(m.result==='W'?'w':m.result==='D'?'d':'l');
+      h+='<div style="display:flex;align-items:center;gap:6px;padding:2px 0;font-size:.72rem;border-bottom:1px solid rgba(255,255,255,.03)">';
+      h+='<span class="'+cls+'" style="width:18px;height:18px;font-size:.5rem;flex-shrink:0">'+m.result+'</span>';
+      h+='<span style="color:var(--text3);width:74px;flex-shrink:0;font-size:.65rem">'+m.season+'/'+(m.date||'').slice(5,10)+'</span>';
+      h+='<span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(m.is_home?'':'客')+esc(m.opponent)+'</span>';
+      h+='<span style="font-weight:700;flex-shrink:0">'+esc(m.score||'?')+'</span>';
+      h+='</div>';
+    });
     h+='</div>';
   }
 
