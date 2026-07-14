@@ -961,7 +961,7 @@ function renderClub(){
   if(cp.stadium){
     h+='<div class="card"><div class="card-title">🏟 主场</div>';
     h+='<div style="font-size:.95rem;font-weight:700">'+esc(cp.stadium.name)+'</div>';
-    h+='<div style="font-size:.75rem;color:var(--text2)">'+(cp.stadium.capacity?cp.stadium.capacity.toLocaleString()+'座 · ':'')+esc(cp.stadium.opened||'')+'年建成'+(cp.stadium.renovated?' · '+esc(cp.stadium.renovated)+'年翻新':'')+'</div>';
+    h+='<div style="font-size:.75rem;color:var(--text2)">'+(cp.stadium.capacity?cp.stadium.capacity.toLocaleString()+'座 · ':'')+esc(cp.stadium.opened||'')+'年建成'+(cp.stadium.renovated?' · '+esc(cp.stadium.renovated):'')+'</div>';
     if(cp.stadium.address)h+='<div style="font-size:.7rem;color:var(--text3);margin-top:2px">📍 '+esc(cp.stadium.address)+'</div>';
     h+='</div>';
   }
