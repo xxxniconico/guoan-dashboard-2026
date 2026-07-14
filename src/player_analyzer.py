@@ -214,8 +214,13 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
 
     # Step 3: 构建完整国安大名单（从 CFL 档案）
     all_guoan = {}
+    # 过滤教练
+    COACH_POSITIONS = {'主教练', '助理教练', 'head coach', 'assistant coach'}
     for name in guoan_cfl_names:
         cfl = cfl_by_name.get(name, {})
+        pos = str(cfl.get('position_name', '')).strip()
+        if pos in COACH_POSITIONS or '教练' in pos:
+            continue
         all_guoan[name] = {
             "player_name": name,
             "team_name": "北京国安",
