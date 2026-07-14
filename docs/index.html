@@ -574,7 +574,7 @@ function renderMatchDetail(last, next){
       h+='<div style="font-size:.7rem;color:var(--text2);font-weight:600;margin-bottom:4px">比赛事件</div>';
       evs.forEach(function(e){
         var icon=e.type==="goal"?"⚽":e.type==="yellow_card"?"🟨":"🟥";
-        var teamTag=e.team_name&&e.team_name.indexOf('国安')>=0?' <span style=\"font-size:.6rem;color:var(--green-bright)\">国安</span>':' <span style=\"font-size:.6rem;color:var(--text3)\">客</span>';
+        var teamTag=e.team_name?(e.team_name.indexOf('国安')>=0?' <span style=\"font-size:.6rem;color:var(--green-bright)\">国安</span>':' <span style=\"font-size:.6rem;color:var(--text3)\">客</span>':'';
         h+='<div class="event"><span class="event-min">'+(e.minute||"?")+"'"+'</span><span class="event-icon">'+icon+'</span><span style="font-size:.78rem">'+esc(e.player||e.player_name||"未知")+teamTag+'</span></div>';
       });
       h+='</div>';
