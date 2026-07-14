@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T10:47:09.824675+00:00",
+    "generated_at_utc": "2026-07-14T17:52:39.588337+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dashboard-fix/data/dashboard_embed.json"
@@ -8,225 +8,225 @@
   "guoan": {
     "standing": {
       "club_name": "北京国安",
-      "played": 16,
-      "wins": 6,
+      "played": 17,
+      "wins": 7,
       "draws": 5,
       "losses": 5,
-      "goals_for": 27,
+      "goals_for": 29,
       "goals_against": 23,
-      "goal_difference": 4,
-      "match_points": 23,
+      "goal_difference": 6,
+      "match_points": 26,
       "penalty_points": 5,
-      "effective_points": 18,
+      "effective_points": 21,
       "position": 7,
       "all_standings": [
         {
           "club_name": "成都蓉城",
-          "played": 16,
+          "played": 18,
           "wins": 13,
-          "draws": 1,
+          "draws": 3,
           "losses": 2,
-          "goals_for": 36,
-          "goals_against": 15,
+          "goals_for": 38,
+          "goals_against": 17,
           "goal_difference": 21,
-          "match_points": 40,
+          "match_points": 42,
           "penalty_points": 0,
-          "effective_points": 40
+          "effective_points": 42
         },
         {
           "club_name": "重庆铜梁龙",
-          "played": 16,
+          "played": 18,
           "wins": 7,
-          "draws": 6,
-          "losses": 3,
-          "goals_for": 20,
-          "goals_against": 16,
-          "goal_difference": 4,
-          "match_points": 27,
+          "draws": 7,
+          "losses": 4,
+          "goals_for": 22,
+          "goals_against": 20,
+          "goal_difference": 2,
+          "match_points": 28,
           "penalty_points": 0,
-          "effective_points": 27
+          "effective_points": 28
         },
         {
           "club_name": "大连英博",
-          "played": 16,
-          "wins": 7,
+          "played": 17,
+          "wins": 8,
           "draws": 1,
           "losses": 8,
-          "goals_for": 22,
-          "goals_against": 29,
-          "goal_difference": -7,
-          "match_points": 22,
+          "goals_for": 25,
+          "goals_against": 31,
+          "goal_difference": -6,
+          "match_points": 25,
           "penalty_points": 0,
-          "effective_points": 22
+          "effective_points": 25
         },
         {
           "club_name": "山东泰山",
-          "played": 16,
-          "wins": 8,
+          "played": 18,
+          "wins": 9,
           "draws": 3,
-          "losses": 5,
-          "goals_for": 30,
-          "goals_against": 26,
-          "goal_difference": 4,
-          "match_points": 27,
+          "losses": 6,
+          "goals_for": 34,
+          "goals_against": 31,
+          "goal_difference": 3,
+          "match_points": 30,
           "penalty_points": 6,
-          "effective_points": 21
+          "effective_points": 24
         },
         {
           "club_name": "云南玉昆",
-          "played": 16,
-          "wins": 6,
+          "played": 18,
+          "wins": 7,
           "draws": 3,
-          "losses": 7,
-          "goals_for": 29,
-          "goals_against": 28,
+          "losses": 8,
+          "goals_for": 34,
+          "goals_against": 33,
           "goal_difference": 1,
-          "match_points": 21,
+          "match_points": 24,
           "penalty_points": 0,
-          "effective_points": 21
+          "effective_points": 24
         },
         {
           "club_name": "青岛西海岸",
-          "played": 16,
-          "wins": 4,
+          "played": 18,
+          "wins": 5,
           "draws": 9,
-          "losses": 3,
-          "goals_for": 20,
-          "goals_against": 24,
-          "goal_difference": -4,
-          "match_points": 21,
+          "losses": 4,
+          "goals_for": 22,
+          "goals_against": 28,
+          "goal_difference": -6,
+          "match_points": 24,
           "penalty_points": 0,
-          "effective_points": 21
+          "effective_points": 24
         },
         {
           "club_name": "北京国安",
-          "played": 16,
-          "wins": 6,
+          "played": 17,
+          "wins": 7,
           "draws": 5,
           "losses": 5,
-          "goals_for": 27,
+          "goals_for": 29,
           "goals_against": 23,
-          "goal_difference": 4,
-          "match_points": 23,
+          "goal_difference": 6,
+          "match_points": 26,
           "penalty_points": 5,
-          "effective_points": 18
+          "effective_points": 21
+        },
+        {
+          "club_name": "辽宁铁人",
+          "played": 17,
+          "wins": 6,
+          "draws": 2,
+          "losses": 9,
+          "goals_for": 24,
+          "goals_against": 29,
+          "goal_difference": -5,
+          "match_points": 20,
+          "penalty_points": 0,
+          "effective_points": 20
+        },
+        {
+          "club_name": "深圳新鹏城",
+          "played": 18,
+          "wins": 6,
+          "draws": 2,
+          "losses": 10,
+          "goals_for": 25,
+          "goals_against": 31,
+          "goal_difference": -6,
+          "match_points": 20,
+          "penalty_points": 0,
+          "effective_points": 20
+        },
+        {
+          "club_name": "上海申花",
+          "played": 17,
+          "wins": 8,
+          "draws": 5,
+          "losses": 4,
+          "goals_for": 36,
+          "goals_against": 27,
+          "goal_difference": 9,
+          "match_points": 29,
+          "penalty_points": 10,
+          "effective_points": 19
         },
         {
           "club_name": "浙江俱乐部",
-          "played": 16,
+          "played": 17,
           "wins": 6,
           "draws": 4,
-          "losses": 6,
-          "goals_for": 21,
-          "goals_against": 26,
-          "goal_difference": -5,
+          "losses": 7,
+          "goals_for": 23,
+          "goals_against": 29,
+          "goal_difference": -6,
           "match_points": 22,
           "penalty_points": 5,
           "effective_points": 17
         },
         {
-          "club_name": "深圳新鹏城",
-          "played": 16,
-          "wins": 5,
-          "draws": 2,
-          "losses": 9,
-          "goals_for": 22,
-          "goals_against": 28,
-          "goal_difference": -6,
-          "match_points": 17,
-          "penalty_points": 0,
-          "effective_points": 17
-        },
-        {
-          "club_name": "辽宁铁人",
-          "played": 16,
-          "wins": 5,
-          "draws": 2,
-          "losses": 9,
-          "goals_for": 21,
-          "goals_against": 28,
-          "goal_difference": -7,
-          "match_points": 17,
-          "penalty_points": 0,
-          "effective_points": 17
-        },
-        {
-          "club_name": "上海申花",
-          "played": 16,
-          "wins": 7,
-          "draws": 5,
-          "losses": 4,
-          "goals_for": 33,
-          "goals_against": 25,
-          "goal_difference": 8,
-          "match_points": 26,
-          "penalty_points": 10,
-          "effective_points": 16
-        },
-        {
           "club_name": "上海海港",
-          "played": 16,
+          "played": 17,
           "wins": 5,
           "draws": 5,
-          "losses": 6,
-          "goals_for": 25,
-          "goals_against": 22,
-          "goal_difference": 3,
+          "losses": 7,
+          "goals_for": 26,
+          "goals_against": 24,
+          "goal_difference": 2,
           "match_points": 20,
           "penalty_points": 5,
           "effective_points": 15
         },
         {
           "club_name": "河南俱乐部",
-          "played": 16,
+          "played": 17,
           "wins": 6,
           "draws": 3,
-          "losses": 7,
-          "goals_for": 17,
-          "goals_against": 20,
-          "goal_difference": -3,
+          "losses": 8,
+          "goals_for": 18,
+          "goals_against": 22,
+          "goal_difference": -4,
           "match_points": 21,
           "penalty_points": 6,
           "effective_points": 15
         },
         {
           "club_name": "青岛海牛",
-          "played": 16,
+          "played": 17,
           "wins": 6,
-          "draws": 2,
+          "draws": 3,
           "losses": 8,
-          "goals_for": 26,
-          "goals_against": 27,
+          "goals_for": 27,
+          "goals_against": 28,
           "goal_difference": -1,
-          "match_points": 20,
+          "match_points": 21,
           "penalty_points": 7,
-          "effective_points": 13
-        },
-        {
-          "club_name": "武汉三镇",
-          "played": 16,
-          "wins": 2,
-          "draws": 7,
-          "losses": 7,
-          "goals_for": 22,
-          "goals_against": 31,
-          "goal_difference": -9,
-          "match_points": 13,
-          "penalty_points": 5,
-          "effective_points": 8
+          "effective_points": 14
         },
         {
           "club_name": "天津津门虎",
-          "played": 16,
-          "wins": 3,
+          "played": 17,
+          "wins": 4,
           "draws": 6,
           "losses": 7,
-          "goals_for": 19,
+          "goals_for": 22,
           "goals_against": 22,
-          "goal_difference": -3,
-          "match_points": 15,
+          "goal_difference": 0,
+          "match_points": 18,
           "penalty_points": 10,
-          "effective_points": 5
+          "effective_points": 8
+        },
+        {
+          "club_name": "武汉三镇",
+          "played": 17,
+          "wins": 2,
+          "draws": 7,
+          "losses": 8,
+          "goals_for": 24,
+          "goals_against": 34,
+          "goal_difference": -10,
+          "match_points": 13,
+          "penalty_points": 5,
+          "effective_points": 8
         }
       ]
     },
@@ -281,7 +281,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 18,
-          "current_form": "LDDDD",
+          "current_form": "LLDDD",
           "goals_for": 8,
           "goals_against": 11,
           "top_scorers": [],
@@ -357,7 +357,7 @@
         "form_before": "W",
         "opponent_info": {
           "current_rank": 12,
-          "current_form": "WLDLW",
+          "current_form": "WLWLD",
           "goals_for": 7,
           "goals_against": 7,
           "top_scorers": [],
@@ -439,7 +439,7 @@
         "form_before": "LW",
         "opponent_info": {
           "current_rank": 14,
-          "current_form": "WDLDL",
+          "current_form": "WWDLD",
           "goals_for": 11,
           "goals_against": 7,
           "top_scorers": [],
@@ -515,7 +515,7 @@
         "form_before": "DLW",
         "opponent_info": {
           "current_rank": 4,
-          "current_form": "LWWWD",
+          "current_form": "WLWWW",
           "goals_for": 6,
           "goals_against": 6,
           "top_scorers": [],
@@ -597,7 +597,7 @@
         "form_before": "LDLW",
         "opponent_info": {
           "current_rank": 6,
-          "current_form": "WWLLW",
+          "current_form": "DDWWL",
           "goals_for": 14,
           "goals_against": 5,
           "top_scorers": [],
@@ -660,10 +660,10 @@
         "context_signals": {},
         "form_before": "LLDLW",
         "opponent_info": {
-          "current_rank": 1,
-          "current_form": "LWLWD",
-          "goals_for": 21,
-          "goals_against": 26,
+          "current_rank": 2,
+          "current_form": "LLWLW",
+          "goals_for": 23,
+          "goals_against": 29,
           "top_scorers": [],
           "tier": "B"
         },
@@ -725,7 +725,7 @@
         "form_before": "DLLDL",
         "opponent_info": {
           "current_rank": 10,
-          "current_form": "LWWDL",
+          "current_form": "WLLWW",
           "goals_for": 7,
           "goals_against": 8,
           "top_scorers": [],
@@ -813,7 +813,7 @@
         "form_before": "WDLLD",
         "opponent_info": {
           "current_rank": 20,
-          "current_form": "LWDLL",
+          "current_form": "WLWDL",
           "goals_for": 2,
           "goals_against": 7,
           "top_scorers": [],
@@ -886,7 +886,7 @@
         "form_before": "LWDLL",
         "opponent_info": {
           "current_rank": 9,
-          "current_form": "LDLDW",
+          "current_form": "LWLDL",
           "goals_for": 9,
           "goals_against": 5,
           "top_scorers": [],
@@ -982,8 +982,8 @@
         },
         "form_before": "DLWDL",
         "opponent_info": {
-          "current_rank": 2,
-          "current_form": "LLWDL",
+          "current_rank": 1,
+          "current_form": "WLLWD",
           "goals_for": 10,
           "goals_against": 10,
           "top_scorers": [],
@@ -1073,7 +1073,7 @@
         "form_before": "WDLWD",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "WLDWD",
+          "current_form": "LWLDW",
           "goals_for": 7,
           "goals_against": 6,
           "top_scorers": [],
@@ -1175,7 +1175,7 @@
         "form_before": "DWDLW",
         "opponent_info": {
           "current_rank": 19,
-          "current_form": "WLLLL",
+          "current_form": "DWLLL",
           "goals_for": 3,
           "goals_against": 8,
           "top_scorers": [],
@@ -1254,7 +1254,7 @@
         "form_before": "WDWDL",
         "opponent_info": {
           "current_rank": 11,
-          "current_form": "WDWDW",
+          "current_form": "LWWDW",
           "goals_for": 4,
           "goals_against": 12,
           "top_scorers": [],
@@ -1326,9 +1326,9 @@
         "form_before": "DWDWD",
         "opponent_info": {
           "current_rank": 3,
-          "current_form": "LLWWW",
-          "goals_for": 17,
-          "goals_against": 20,
+          "current_form": "LLLWW",
+          "goals_for": 18,
+          "goals_against": 22,
           "top_scorers": [],
           "tier": "B"
         },
@@ -1414,7 +1414,7 @@
         "form_before": "LDWDW",
         "opponent_info": {
           "current_rank": 5,
-          "current_form": "WLWDL",
+          "current_form": "DLWLW",
           "goals_for": 7,
           "goals_against": 4,
           "top_scorers": [],
@@ -1478,7 +1478,7 @@
         "form_before": "WLDWD",
         "opponent_info": {
           "current_rank": 18,
-          "current_form": "LDDDD",
+          "current_form": "LLDDD",
           "goals_for": 8,
           "goals_against": 11,
           "top_scorers": [],
@@ -1487,39 +1487,68 @@
         "season": "2026"
       },
       {
-        "match_id": "54389959",
+        "match_id": "78p0qx7lcrmr2odvb7akj6ihg",
         "round": "第17轮",
-        "date": "2026-07-04 19:35",
+        "date": "2026-07-04 19:35:00",
         "venue": {
           "name": "工人体育场",
           "city": null
         },
         "opponent": "山东泰山",
         "is_home": true,
-        "status": "scheduled",
-        "score": {
-          "home": null,
-          "away": null
-        },
-        "guoan_goals": 0,
+        "status": "finished",
+        "score": "2:0",
+        "guoan_goals": 2,
         "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "result": "W",
+        "events": [
+          {
+            "type": "red_card",
+            "player": "郑铮",
+            "player_name": "郑铮",
+            "minute": 23
+          },
+          {
+            "type": "yellow_card",
+            "player": "恩科洛洛",
+            "player_name": "恩科洛洛",
+            "minute": 36
+          },
+          {
+            "type": "yellow_card",
+            "player": "黄政宇",
+            "player_name": "黄政宇",
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "player": "塞尔吉尼奥",
+            "player_name": "塞尔吉尼奥",
+            "minute": 74
+          },
+          {
+            "type": "goal",
+            "player": "林良铭",
+            "player_name": "林良铭",
+            "minute": 81
+          }
+        ],
         "formation": {
-          "home": "",
-          "away": ""
+          "home": "442",
+          "away": "442"
         },
         "opponent_tier": "A",
         "context_signals": {},
-        "form_before": "",
+        "form_before": "WWLDW",
         "opponent_info": {
           "current_rank": 12,
-          "current_form": "WLDLW",
+          "current_form": "WLWLD",
           "goals_for": 7,
           "goals_against": 7,
           "top_scorers": [],
           "tier": "A"
-        }
+        },
+        "season": "2026"
       },
       {
         "match_id": "54389993",
@@ -1549,7 +1578,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 14,
-          "current_form": "WDLDL",
+          "current_form": "WWDLD",
           "goals_for": 11,
           "goals_against": 7,
           "top_scorers": [],
@@ -1584,7 +1613,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 4,
-          "current_form": "LWWWD",
+          "current_form": "WLWWW",
           "goals_for": 6,
           "goals_against": 6,
           "top_scorers": [],
@@ -1619,7 +1648,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 6,
-          "current_form": "WWLLW",
+          "current_form": "DDWWL",
           "goals_for": 14,
           "goals_against": 5,
           "top_scorers": [],
@@ -1653,10 +1682,10 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 1,
-          "current_form": "LWLWD",
-          "goals_for": 21,
-          "goals_against": 26,
+          "current_rank": 2,
+          "current_form": "LLWLW",
+          "goals_for": 23,
+          "goals_against": 29,
           "top_scorers": [],
           "tier": "B"
         }
@@ -1689,7 +1718,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 10,
-          "current_form": "LWWDL",
+          "current_form": "WLLWW",
           "goals_for": 7,
           "goals_against": 8,
           "top_scorers": [],
@@ -1724,7 +1753,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 20,
-          "current_form": "LWDLL",
+          "current_form": "WLWDL",
           "goals_for": 2,
           "goals_against": 7,
           "top_scorers": [],
@@ -1759,7 +1788,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 9,
-          "current_form": "LDLDW",
+          "current_form": "LWLDL",
           "goals_for": 9,
           "goals_against": 5,
           "top_scorers": [],
@@ -1793,8 +1822,8 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 2,
-          "current_form": "LLWDL",
+          "current_rank": 1,
+          "current_form": "WLLWD",
           "goals_for": 10,
           "goals_against": 10,
           "top_scorers": [],
@@ -1829,7 +1858,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "WLDWD",
+          "current_form": "LWLDW",
           "goals_for": 7,
           "goals_against": 6,
           "top_scorers": [],
@@ -1864,7 +1893,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 19,
-          "current_form": "WLLLL",
+          "current_form": "DWLLL",
           "goals_for": 3,
           "goals_against": 8,
           "top_scorers": [],
@@ -1899,7 +1928,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 11,
-          "current_form": "WDWDW",
+          "current_form": "LWWDW",
           "goals_for": 4,
           "goals_against": 12,
           "top_scorers": [],
@@ -1934,9 +1963,9 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 3,
-          "current_form": "LLWWW",
-          "goals_for": 17,
-          "goals_against": 20,
+          "current_form": "LLLWW",
+          "goals_for": 18,
+          "goals_against": 22,
           "top_scorers": [],
           "tier": "B"
         }
@@ -1969,7 +1998,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 5,
-          "current_form": "WLWDL",
+          "current_form": "DLWLW",
           "goals_for": 7,
           "goals_against": 4,
           "top_scorers": [],
@@ -2036,7 +2065,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 26.9,
+        "goal_contribution_pct": 25.0,
         "form_5": [
           "goal",
           "goal",
@@ -2102,7 +2131,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 19.2,
+        "goal_contribution_pct": 17.9,
         "form_5": [
           "goal",
           "goal",
@@ -2170,7 +2199,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 15.4,
+        "goal_contribution_pct": 14.3,
         "form_5": [
           "goal",
           "goal",
@@ -2192,8 +2221,8 @@
       {
         "player_name": "林良铭",
         "team_name": "北京国安",
-        "appearances": 4,
-        "goals": 3,
+        "appearances": 5,
+        "goals": 4,
         "assists": 0,
         "yellow_cards": 2,
         "red_cards": 0,
@@ -2215,6 +2244,12 @@
             "date": "2026-05-19",
             "opponent": "青岛西海岸",
             "goals": 1
+          },
+          {
+            "round": "第17轮",
+            "date": "2026-07-04",
+            "opponent": "山东泰山",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -2227,13 +2262,14 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 11.5,
+        "goal_contribution_pct": 14.3,
         "form_5": [
+          "goal",
           "goal",
           "goal",
           "goal"
         ],
-        "streak": "连续3场进球",
+        "streak": "连续4场进球",
         "position": "前锋",
         "shirt_number": 11,
         "cfl_profile": {
@@ -2248,8 +2284,8 @@
       {
         "player_name": "塞尔吉尼奥",
         "team_name": "北京国安",
-        "appearances": 2,
-        "goals": 2,
+        "appearances": 3,
+        "goals": 3,
         "assists": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -2265,15 +2301,22 @@
             "date": "2026-05-30",
             "opponent": "重庆铜梁龙",
             "goals": 1
+          },
+          {
+            "round": "第17轮",
+            "date": "2026-07-04",
+            "opponent": "山东泰山",
+            "goals": 1
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 7.7,
+        "goal_contribution_pct": 10.7,
         "form_5": [
+          "goal",
           "goal",
           "goal"
         ],
-        "streak": "连续2场进球",
+        "streak": "连续3场进球",
         "position": "中场",
         "shirt_number": 7,
         "cfl_profile": {
@@ -2321,7 +2364,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 7.7,
+        "goal_contribution_pct": 7.1,
         "form_5": [
           "goal",
           "goal"
@@ -2364,7 +2407,7 @@
             "type": "red"
           }
         ],
-        "goal_contribution_pct": 3.8,
+        "goal_contribution_pct": 3.6,
         "form_5": [
           "goal"
         ],
@@ -2397,7 +2440,7 @@
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 3.8,
+        "goal_contribution_pct": 3.6,
         "form_5": [
           "goal"
         ],
@@ -2430,7 +2473,7 @@
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 3.8,
+        "goal_contribution_pct": 3.6,
         "form_5": [
           "goal"
         ],
@@ -2515,12 +2558,36 @@
         "position": "后卫",
         "shirt_number": 16,
         "cfl_profile": {
-          "height": "181",
-          "weight": "75",
+          "height": "182",
+          "weight": "77",
           "nationality": "中国",
           "date_of_birth": "1997-03-18",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/冯博轩_1.jpg",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/球员万能图_23.png",
           "player_name_en": "FengBoxuan"
+        }
+      },
+      {
+        "player_name": "刘邵子洋",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "门将",
+        "shirt_number": 31,
+        "cfl_profile": {
+          "height": "191",
+          "weight": "88",
+          "nationality": "中国",
+          "date_of_birth": "2003-12-11",
+          "player_icon": "",
+          "player_name_en": "Liu Shaoziyang"
         }
       },
       {
@@ -2659,15 +2726,19 @@
       {
         "player_name": "恩科洛洛",
         "team_name": "北京国安",
-        "appearances": 1,
+        "appearances": 2,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
           {
             "round": "第1轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第17轮",
             "type": "yellow"
           }
         ],
@@ -2803,10 +2874,10 @@
         "shirt_number": 35,
         "cfl_profile": {
           "height": "176",
-          "weight": "69",
+          "weight": "70",
           "nationality": "中国",
           "date_of_birth": "2000-01-16",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/江文豪.jpg",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/球员万能图_23.png",
           "player_name_en": "JiangWenhao"
         }
       },
@@ -3161,11 +3232,11 @@
         "position": "中场",
         "shirt_number": 38,
         "cfl_profile": {
-          "height": "168",
-          "weight": "56",
+          "height": "178",
+          "weight": "71",
           "nationality": "中国",
           "date_of_birth": "2005-10-02",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/魏家傲.jpg",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/球员万能图_23.png",
           "player_name_en": "WeiJia'ao"
         }
       }
@@ -3375,7 +3446,7 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 18,
-              "current_form": "LDDDD",
+              "current_form": "LLDDD",
               "goals_for": 8,
               "goals_against": 11,
               "top_scorers": [],
@@ -3439,7 +3510,7 @@
             "form_before": "WLDWD",
             "opponent_info": {
               "current_rank": 18,
-              "current_form": "LDDDD",
+              "current_form": "LLDDD",
               "goals_for": 8,
               "goals_against": 11,
               "top_scorers": [],
@@ -3625,7 +3696,7 @@
             "form_before": "DWDLW",
             "opponent_info": {
               "current_rank": 19,
-              "current_form": "WLLLL",
+              "current_form": "DWLLL",
               "goals_for": 3,
               "goals_against": 8,
               "top_scorers": [],
@@ -3637,11 +3708,11 @@
       },
       "山东泰山": {
         "all_time": {
-          "played": 8,
-          "wins": 3,
+          "played": 9,
+          "wins": 4,
           "draws": 2,
           "losses": 3,
-          "gf": 15,
+          "gf": 17,
           "ga": 17
         },
         "matches": [
@@ -3797,7 +3868,71 @@
             "form_before": "W",
             "opponent_info": {
               "current_rank": 12,
-              "current_form": "WLDLW",
+              "current_form": "WLWLD",
+              "goals_for": 7,
+              "goals_against": 7,
+              "top_scorers": [],
+              "tier": "A"
+            },
+            "season": "2026"
+          },
+          {
+            "match_id": "78p0qx7lcrmr2odvb7akj6ihg",
+            "round": "第17轮",
+            "date": "2026-07-04 19:35:00",
+            "venue": {
+              "name": "工人体育场",
+              "city": null
+            },
+            "opponent": "山东泰山",
+            "is_home": true,
+            "status": "finished",
+            "score": "2:0",
+            "guoan_goals": 2,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "red_card",
+                "player": "郑铮",
+                "player_name": "郑铮",
+                "minute": 23
+              },
+              {
+                "type": "yellow_card",
+                "player": "恩科洛洛",
+                "player_name": "恩科洛洛",
+                "minute": 36
+              },
+              {
+                "type": "yellow_card",
+                "player": "黄政宇",
+                "player_name": "黄政宇",
+                "minute": 63
+              },
+              {
+                "type": "goal",
+                "player": "塞尔吉尼奥",
+                "player_name": "塞尔吉尼奥",
+                "minute": 74
+              },
+              {
+                "type": "goal",
+                "player": "林良铭",
+                "player_name": "林良铭",
+                "minute": 81
+              }
+            ],
+            "formation": {
+              "home": "442",
+              "away": "442"
+            },
+            "opponent_tier": "A",
+            "context_signals": {},
+            "form_before": "WWLDW",
+            "opponent_info": {
+              "current_rank": 12,
+              "current_form": "WLWLD",
               "goals_for": 7,
               "goals_against": 7,
               "top_scorers": [],
@@ -4053,7 +4188,7 @@
             "form_before": "WDLLD",
             "opponent_info": {
               "current_rank": 20,
-              "current_form": "LWDLL",
+              "current_form": "WLWDL",
               "goals_for": 2,
               "goals_against": 7,
               "top_scorers": [],
@@ -4267,7 +4402,7 @@
             "form_before": "LW",
             "opponent_info": {
               "current_rank": 14,
-              "current_form": "WDLDL",
+              "current_form": "WWDLD",
               "goals_for": 11,
               "goals_against": 7,
               "top_scorers": [],
@@ -4717,7 +4852,7 @@
             "form_before": "WDLWD",
             "opponent_info": {
               "current_rank": 15,
-              "current_form": "WLDWD",
+              "current_form": "LWLDW",
               "goals_for": 7,
               "goals_against": 6,
               "top_scorers": [],
@@ -4895,7 +5030,7 @@
             "form_before": "LDLW",
             "opponent_info": {
               "current_rank": 6,
-              "current_form": "WWLLW",
+              "current_form": "DDWWL",
               "goals_for": 14,
               "goals_against": 5,
               "top_scorers": [],
@@ -5070,7 +5205,7 @@
             "form_before": "WDWDL",
             "opponent_info": {
               "current_rank": 11,
-              "current_form": "WDWDW",
+              "current_form": "LWWDW",
               "goals_for": 4,
               "goals_against": 12,
               "top_scorers": [],
@@ -5194,7 +5329,7 @@
             "form_before": "DLLDL",
             "opponent_info": {
               "current_rank": 10,
-              "current_form": "LWWDL",
+              "current_form": "WLLWW",
               "goals_for": 7,
               "goals_against": 8,
               "top_scorers": [],
@@ -5303,7 +5438,7 @@
             "form_before": "LWDLL",
             "opponent_info": {
               "current_rank": 9,
-              "current_form": "LDLDW",
+              "current_form": "LWLDL",
               "goals_for": 9,
               "goals_against": 5,
               "top_scorers": [],
@@ -5435,8 +5570,8 @@
             },
             "form_before": "DLWDL",
             "opponent_info": {
-              "current_rank": 2,
-              "current_form": "LLWDL",
+              "current_rank": 1,
+              "current_form": "WLLWD",
               "goals_for": 10,
               "goals_against": 10,
               "top_scorers": [],
@@ -5524,7 +5659,7 @@
             "form_before": "DLW",
             "opponent_info": {
               "current_rank": 4,
-              "current_form": "LWWWD",
+              "current_form": "WLWWW",
               "goals_for": 6,
               "goals_against": 6,
               "top_scorers": [],
@@ -5599,10 +5734,10 @@
             "context_signals": {},
             "form_before": "LLDLW",
             "opponent_info": {
-              "current_rank": 1,
-              "current_form": "LWLWD",
-              "goals_for": 21,
-              "goals_against": 26,
+              "current_rank": 2,
+              "current_form": "LLWLW",
+              "goals_for": 23,
+              "goals_against": 29,
               "top_scorers": [],
               "tier": "B"
             },
@@ -5684,9 +5819,9 @@
             "form_before": "DWDWD",
             "opponent_info": {
               "current_rank": 3,
-              "current_form": "LLWWW",
-              "goals_for": 17,
-              "goals_against": 20,
+              "current_form": "LLLWW",
+              "goals_for": 18,
+              "goals_against": 22,
               "top_scorers": [],
               "tier": "B"
             },
@@ -5784,7 +5919,7 @@
             "form_before": "LDWDW",
             "opponent_info": {
               "current_rank": 5,
-              "current_form": "WLWDL",
+              "current_form": "DLWLW",
               "goals_for": 7,
               "goals_against": 4,
               "top_scorers": [],
@@ -5812,12 +5947,12 @@
       "山东泰山": {
         "tier": "A",
         "tier_label": "强队",
-        "home_result": null,
+        "home_result": "W",
         "away_result": "L",
-        "home_score": null,
+        "home_score": "2:0",
         "away_score": "1:2",
         "record": {
-          "wins": 0,
+          "wins": 1,
           "draws": 0,
           "losses": 1
         }
@@ -6008,6 +6143,7 @@
       "D",
       "L",
       "W",
+      "W",
       "W"
     ],
     "round_progression": [
@@ -6154,6 +6290,15 @@
         "cumulative_points": 23,
         "gf_total": 27,
         "ga_total": 23
+      },
+      {
+        "round": "第17轮",
+        "opponent": "山东泰山",
+        "result": "W",
+        "score": "2:0",
+        "cumulative_points": 26,
+        "gf_total": 29,
+        "ga_total": 23
       }
     ],
     "goal_time_distribution": {
@@ -6162,8 +6307,8 @@
       "31-45": 3,
       "45+": 0,
       "46-60": 4,
-      "61-75": 6,
-      "76-90": 8,
+      "61-75": 7,
+      "76-90": 9,
       "90+": 0
     },
     "club_profile": {
