@@ -446,7 +446,10 @@ document.querySelectorAll(".pill,.nav-item").forEach(function(b){
 function renderHome(){
   var s=D.standing;
   var fin=D.matches.filter(function(m){return m.result!=="?"});
-  var upcoming=D.matches.filter(function(m){return m.result==="?"});
+  var todayStr=new Date().toISOString().slice(0,10);
+  var upcoming=D.matches.filter(function(m){
+    return m.result==="?" && (m.date||"").slice(0,10) >= todayStr;
+  });
   var next=upcoming.length?upcoming[0]:null;
 
   // Last match (left panel)
@@ -691,7 +694,7 @@ function renderMatches(){
         esc(m.opponent)+
       '</div><div class="match-venue">'+(m.is_home?'🏟 主场':'✈ 客场')+' · '+esc((m.date||"").slice(0,10))+'</div></div></div></div>'+
       '<div class="match-right">'+
-        (isFin?'<div style="display:flex;align-items:center;gap:8px"><div class="match-score">'+m.guoan_goals+':'+m.opp_goals+'</div><span class="match-result result-'+resultCls(m.result)+'">'+resultLabel(m.result)+'</span></div><div style="font-size:.58rem;color:var(--text2);margin-top:2px;text-align:right">'+(effPts!=='—'?'+'+(cumMap[m.round]-penalty)+' 分':'')+'</div>':
+        (isFin?'<div style="display:flex;align-items:center;gap:8px"><div class="match-score">'+m.guoan_goals+':'+m.opp_goals+'</div><span class="match-result result-'+resultCls(m.result)+'">'+resultLabel(m.result)+'</span></div><div style="font-size:.58rem;color:var(--text2);margin-top:2px;text-align:right">'+(effPts!=='—'?'+'+cumMap[m.round]+' 分':'')+'</div>':
          '<span class="match-result result-up">未赛</span>')+
       '</div></div>';
   }).join("");
