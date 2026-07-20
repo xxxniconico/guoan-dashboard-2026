@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T14:03:34.055297+00:00",
+    "generated_at_utc": "2026-07-20T14:27:37.529460+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dashboard-fix/data/dashboard_embed.json"
@@ -5989,12 +5989,12 @@
       },
       "浙江俱乐部": {
         "all_time": {
-          "played": 8,
-          "wins": 3,
+          "played": 7,
+          "wins": 2,
           "draws": 3,
           "losses": 2,
-          "gf": 12,
-          "ga": 10
+          "gf": 8,
+          "ga": 7
         },
         "matches": [
           {
@@ -6044,18 +6044,6 @@
             "result": "D",
             "guoan_goals": 1,
             "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第20轮",
-            "date": "2024-07-24",
-            "venue": "",
-            "is_home": false,
-            "opponent": "浙江俱乐部",
-            "score": "3:4",
-            "result": "W",
-            "guoan_goals": 4,
-            "opp_goals": 3
           },
           {
             "season": "2025",
