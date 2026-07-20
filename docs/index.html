@@ -596,7 +596,7 @@ function renderMatchDetail(last, next){
       var a=rec.all_time;
       h+='<div style="border-top:1px solid var(--border);margin-top:10px;padding-top:10px">';
       h+='<span style="font-size:.7rem;color:var(--text2);font-weight:600">📊 vs '+esc(last.opponent)+' 历史交锋 · 共'+a.played+'场 · '+a.wins+'胜'+a.draws+'平'+a.losses+'负</span>';
-      var ms=(rec.matches||[]).slice().sort(function(x,y){return (y.date||'').localeCompare(x.date||'')};
+      var ms=(rec.matches||[]).slice().sort(function(x,y){return (y.date||'').localeCompare(x.date||'')}).slice(0,5);
       h+='<div style="margin-top:4px">';
       ms.forEach(function(m){
         var cls='form-ball form-'+(m.result==='W'?'w':m.result==='D'?'d':'l');
