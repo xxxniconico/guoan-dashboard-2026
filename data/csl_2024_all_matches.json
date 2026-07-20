@@ -1,1 +1,2416 @@
-{"season": "2024", "name": "中超联赛 2024", "matches": [{"round": "第30轮", "date": "2024-11-02", "home": "北京国安", "away": "河南", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "长春亚泰", "away": "浙江", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "成都蓉城", "away": "上海申花", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "青岛海牛", "away": "沧州雄狮", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "山东泰山", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "上海海港", "away": "天津津门虎", "home_goals": 5, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "深圳新鹏城", "away": "南通支云", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第30轮", "date": "2024-11-02", "home": "武汉三镇", "away": "青岛西海岸", "home_goals": 1, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "河南", "away": "上海海港", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "浙江", "away": "成都蓉城", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "沧州雄狮", "away": "上海申花", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "天津津门虎", "away": "北京国安", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "南通支云", "away": "山东泰山", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "梅州客家", "away": "长春亚泰", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "青岛西海岸", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第29轮", "date": "2024-10-20", "home": "青岛海牛", "away": "武汉三镇", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "上海海港", "away": "成都蓉城", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "上海申花", "away": "青岛海牛", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "北京国安", "away": "青岛西海岸", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "山东泰山", "away": "沧州雄狮", "home_goals": 4, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "长春亚泰", "away": "河南", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "深圳新鹏城", "away": "浙江", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "武汉三镇", "away": "天津津门虎", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第28轮", "date": "2024-10-07", "home": "南通支云", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "成都蓉城", "away": "北京国安", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "青岛海牛", "away": "天津津门虎", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "浙江", "away": "上海申花", "home_goals": 1, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "河南", "away": "武汉三镇", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "青岛西海岸", "away": "南通支云", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "长春亚泰", "away": "上海海港", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "沧州雄狮", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第27轮", "date": "2024-09-24", "home": "梅州客家", "away": "山东泰山", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "上海海港", "away": "深圳新鹏城", "home_goals": 4, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "上海申花", "away": "长春亚泰", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "北京国安", "away": "沧州雄狮", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "山东泰山", "away": "浙江", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "天津津门虎", "away": "青岛西海岸", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "武汉三镇", "away": "南通支云", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "成都蓉城", "away": "河南", "home_goals": 4, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第26轮", "date": "2024-09-11", "home": "青岛海牛", "away": "梅州客家", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "浙江", "away": "天津津门虎", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "深圳新鹏城", "away": "上海申花", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "青岛西海岸", "away": "长春亚泰", "home_goals": 3, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "河南", "away": "青岛海牛", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "沧州雄狮", "away": "成都蓉城", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "南通支云", "away": "北京国安", "home_goals": 0, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "梅州客家", "away": "武汉三镇", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第25轮", "date": "2024-08-30", "home": "上海海港", "away": "山东泰山", "home_goals": 5, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "上海申花", "away": "上海海港", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "北京国安", "away": "山东泰山", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "天津津门虎", "away": "梅州客家", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "长春亚泰", "away": "沧州雄狮", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "浙江", "away": "武汉三镇", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "青岛西海岸", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第24轮", "date": "2024-08-22", "home": "河南", "away": "南通支云", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "上海海港", "away": "青岛海牛", "home_goals": 6, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "山东泰山", "away": "成都蓉城", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "青岛西海岸", "away": "浙江", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "深圳新鹏城", "away": "长春亚泰", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "沧州雄狮", "away": "河南", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "梅州客家", "away": "南通支云", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第23轮", "date": "2024-08-15", "home": "天津津门虎", "away": "上海申花", "home_goals": 2, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "北京国安", "away": "天津津门虎", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "上海申花", "away": "梅州客家", "home_goals": 4, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "成都蓉城", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "浙江", "away": "青岛海牛", "home_goals": 2, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "青岛西海岸", "away": "山东泰山", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "长春亚泰", "away": "武汉三镇", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "河南", "away": "上海海港", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第22轮", "date": "2024-08-07", "home": "南通支云", "away": "沧州雄狮", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "青岛西海岸", "away": "沧州雄狮", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "浙江", "away": "青岛海牛", "home_goals": 4, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "山东泰山", "away": "上海海港", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "梅州客家", "away": "天津津门虎", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "武汉三镇", "away": "深圳新鹏城", "home_goals": 4, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "成都蓉城", "away": "长春亚泰", "home_goals": 4, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "北京国安", "away": "上海申花", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第21轮", "date": "2024-07-31", "home": "南通支云", "away": "河南", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "大连英博", "away": "成都蓉城", "home_goals": 0, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "河南", "away": "深圳新鹏城", "home_goals": 4, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "山东泰山", "away": "长春亚泰", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "上海申花", "away": "上海海港", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "青岛海牛", "away": "云南玉昆", "home_goals": 5, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "天津津门虎", "away": "青岛西海岸", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第20轮", "date": "2024-07-24", "home": "武汉三镇", "away": "梅州客家", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "上海海港", "away": "北京国安", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "上海申花", "away": "武汉三镇", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "成都蓉城", "away": "浙江", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "青岛海牛", "away": "河南", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "长春亚泰", "away": "南通支云", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "深圳新鹏城", "away": "青岛西海岸", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "天津津门虎", "away": "山东泰山", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第19轮", "date": "2024-07-16", "home": "沧州雄狮", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "北京国安", "away": "长春亚泰", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "山东泰山", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "浙江", "away": "天津津门虎", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "青岛西海岸", "away": "青岛海牛", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "武汉三镇", "away": "沧州雄狮", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "河南", "away": "上海申花", "home_goals": 0, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "南通支云", "away": "成都蓉城", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第18轮", "date": "2024-07-09", "home": "梅州客家", "away": "上海海港", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "上海海港", "away": "浙江", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "上海申花", "away": "青岛西海岸", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "北京国安", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "成都蓉城", "away": "梅州客家", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "天津津门虎", "away": "河南", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "长春亚泰", "away": "青岛海牛", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "武汉三镇", "away": "山东泰山", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第17轮", "date": "2024-07-02", "home": "沧州雄狮", "away": "南通支云", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "浙江", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "青岛西海岸", "away": "上海申花", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "深圳新鹏城", "away": "成都蓉城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "山东泰山", "away": "天津津门虎", "home_goals": 4, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "青岛海牛", "away": "北京国安", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "河南", "away": "长春亚泰", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "南通支云", "away": "武汉三镇", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第16轮", "date": "2024-06-24", "home": "上海海港", "away": "沧州雄狮", "home_goals": 4, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "北京国安", "away": "青岛海牛", "home_goals": 4, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "上海申花", "away": "山东泰山", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "成都蓉城", "away": "浙江", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "天津津门虎", "away": "上海海港", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "长春亚泰", "away": "南通支云", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "青岛西海岸", "away": "河南", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "武汉三镇", "away": "沧州雄狮", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第15轮", "date": "2024-06-17", "home": "梅州客家", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "上海海港", "away": "长春亚泰", "home_goals": 5, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "山东泰山", "away": "青岛西海岸", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "浙江", "away": "武汉三镇", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "深圳新鹏城", "away": "梅州客家", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "天津津门虎", "away": "成都蓉城", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "青岛海牛", "away": "河南", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "沧州雄狮", "away": "北京国安", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第14轮", "date": "2024-06-10", "home": "南通支云", "away": "上海申花", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "北京国安", "away": "梅州客家", "home_goals": 5, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "上海申花", "away": "长春亚泰", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 5, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "山东泰山", "away": "深圳新鹏城", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "青岛西海岸", "away": "上海海港", "home_goals": 3, "away_goals": 4, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "浙江", "away": "沧州雄狮", "home_goals": 4, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "武汉三镇", "away": "南通支云", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第13轮", "date": "2024-06-02", "home": "河南", "away": "天津津门虎", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "上海海港", "away": "武汉三镇", "home_goals": 4, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "上海申花", "away": "河南", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "北京国安", "away": "成都蓉城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "天津津门虎", "away": "浙江", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "长春亚泰", "away": "青岛海牛", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "深圳新鹏城", "away": "沧州雄狮", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "梅州客家", "away": "青岛西海岸", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第12轮", "date": "2024-05-26", "home": "南通支云", "away": "山东泰山", "home_goals": 0, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "成都蓉城", "away": "上海海港", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "浙江", "away": "梅州客家", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "青岛海牛", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "山东泰山", "away": "天津津门虎", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "青岛西海岸", "away": "北京国安", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "河南", "away": "长春亚泰", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "沧州雄狮", "away": "武汉三镇", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第11轮", "date": "2024-05-19", "home": "南通支云", "away": "上海申花", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "上海海港", "away": "上海申花", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "北京国安", "away": "浙江", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "天津津门虎", "away": "青岛海牛", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "长春亚泰", "away": "青岛西海岸", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "深圳新鹏城", "away": "河南", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "武汉三镇", "away": "成都蓉城", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "梅州客家", "away": "沧州雄狮", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第10轮", "date": "2024-05-11", "home": "山东泰山", "away": "南通支云", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "上海申花", "away": "北京国安", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "成都蓉城", "away": "天津津门虎", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "浙江", "away": "上海海港", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "青岛海牛", "away": "山东泰山", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "青岛西海岸", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "河南", "away": "南通支云", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "沧州雄狮", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第9轮", "date": "2024-05-04", "home": "长春亚泰", "away": "武汉三镇", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "上海海港", "away": "上海申花", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "北京国安", "away": "山东泰山", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "天津津门虎", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "长春亚泰", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "浙江", "away": "青岛西海岸", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "武汉三镇", "away": "河南", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第8轮", "date": "2024-04-27", "home": "南通支云", "away": "沧州雄狮", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "上海申花", "away": "武汉三镇", "home_goals": 4, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "上海海港", "away": "青岛海牛", "home_goals": 5, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "山东泰山", "away": "成都蓉城", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "北京国安", "away": "天津津门虎", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "深圳新鹏城", "away": "长春亚泰", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "青岛西海岸", "away": "河南", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "梅州客家", "away": "浙江", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第7轮", "date": "2024-04-21", "home": "沧州雄狮", "away": "南通支云", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "青岛海牛", "away": "上海申花", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "浙江", "away": "上海海港", "home_goals": 2, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "天津津门虎", "away": "山东泰山", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "成都蓉城", "away": "北京国安", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "长春亚泰", "away": "沧州雄狮", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "青岛西海岸", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "武汉三镇", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第6轮", "date": "2024-04-15", "home": "南通支云", "away": "河南", "home_goals": 1, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "上海海港", "away": "河南", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "上海申花", "away": "长春亚泰", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "北京国安", "away": "深圳新鹏城", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "山东泰山", "away": "浙江", "home_goals": 3, "away_goals": 3, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "天津津门虎", "away": "青岛西海岸", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 4, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "武汉三镇", "away": "南通支云", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第5轮", "date": "2024-04-09", "home": "梅州客家", "away": "沧州雄狮", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "青岛海牛", "away": "武汉三镇", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "浙江", "away": "北京国安", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "青岛西海岸", "away": "上海申花", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "深圳新鹏城", "away": "上海海港", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "沧州雄狮", "away": "天津津门虎", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "河南", "away": "成都蓉城", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "长春亚泰", "away": "山东泰山", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第4轮", "date": "2024-04-03", "home": "南通支云", "away": "梅州客家", "home_goals": 1, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "上海海港", "away": "北京国安", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "上海申花", "away": "河南", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "天津津门虎", "away": "长春亚泰", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "山东泰山", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "青岛西海岸", "away": "沧州雄狮", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "浙江", "away": "南通支云", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-29", "home": "武汉三镇", "away": "梅州客家", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "青岛海牛", "away": "上海申花", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "北京国安", "away": "山东泰山", "home_goals": 3, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "天津津门虎", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "成都蓉城", "away": "沧州雄狮", "home_goals": 3, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "长春亚泰", "away": "青岛西海岸", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "浙江", "away": "河南", "home_goals": 1, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "南通支云", "away": "梅州客家", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第2轮", "date": "2024-01-01", "home": "上海海港", "away": "武汉三镇", "home_goals": 0, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "山东泰山", "away": "长春亚泰", "home_goals": 4, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "青岛西海岸", "away": "河南", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "上海海港", "away": "武汉三镇", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "天津津门虎", "away": "南通支云", "home_goals": 3, "away_goals": 1, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "沧州雄狮", "away": "北京国安", "home_goals": 2, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "成都蓉城", "away": "青岛海牛", "home_goals": 4, "away_goals": 0, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "浙江", "away": "深圳新鹏城", "home_goals": 2, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第1轮", "date": "2024-01-01", "home": "梅州客家", "away": "上海申花", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "season_txt"}, {"round": "第3轮", "date": "2024-03-30", "home": "武汉三镇", "away": "北京国安", "home_goals": 0, "away_goals": 1, "status": "finished", "source": "web_verified"}, {"round": "第18轮", "date": "2024-07-07", "home": "北京国安", "away": "武汉三镇", "home_goals": 1, "away_goals": 2, "status": "finished", "source": "web_verified"}]}
+{
+  "season": "2024",
+  "name": "中超联赛 2024",
+  "matches": [
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "北京国安",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "长春亚泰",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "成都蓉城",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "青岛海牛",
+      "away": "沧州雄狮",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "山东泰山",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "上海海港",
+      "away": "天津津门虎",
+      "home_goals": 5,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "深圳新鹏城",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第30轮",
+      "date": "2024-11-02",
+      "home": "武汉三镇",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "河南",
+      "away": "上海海港",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "浙江",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "沧州雄狮",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "天津津门虎",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "南通支云",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "梅州客家",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "青岛西海岸",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第29轮",
+      "date": "2024-10-20",
+      "home": "青岛海牛",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "上海海港",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "上海申花",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "北京国安",
+      "away": "青岛西海岸",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "山东泰山",
+      "away": "沧州雄狮",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "长春亚泰",
+      "away": "河南",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "深圳新鹏城",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "武汉三镇",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第28轮",
+      "date": "2024-10-07",
+      "home": "南通支云",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "成都蓉城",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "青岛海牛",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "浙江",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "河南",
+      "away": "武汉三镇",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "青岛西海岸",
+      "away": "南通支云",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "长春亚泰",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "沧州雄狮",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第27轮",
+      "date": "2024-09-24",
+      "home": "梅州客家",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "上海海港",
+      "away": "深圳新鹏城",
+      "home_goals": 4,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "上海申花",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "北京国安",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "山东泰山",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "天津津门虎",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "武汉三镇",
+      "away": "南通支云",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "成都蓉城",
+      "away": "河南",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第26轮",
+      "date": "2024-09-11",
+      "home": "青岛海牛",
+      "away": "梅州客家",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "浙江",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "深圳新鹏城",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "青岛西海岸",
+      "away": "长春亚泰",
+      "home_goals": 3,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "河南",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "沧州雄狮",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "南通支云",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "梅州客家",
+      "away": "武汉三镇",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第25轮",
+      "date": "2024-08-30",
+      "home": "上海海港",
+      "away": "山东泰山",
+      "home_goals": 5,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "上海申花",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "北京国安",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "天津津门虎",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "长春亚泰",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "浙江",
+      "away": "武汉三镇",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "青岛西海岸",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第24轮",
+      "date": "2024-08-22",
+      "home": "河南",
+      "away": "南通支云",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "上海海港",
+      "away": "青岛海牛",
+      "home_goals": 6,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "山东泰山",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "青岛西海岸",
+      "away": "浙江",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "深圳新鹏城",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "沧州雄狮",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "梅州客家",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第23轮",
+      "date": "2024-08-15",
+      "home": "天津津门虎",
+      "away": "上海申花",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "北京国安",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "上海申花",
+      "away": "梅州客家",
+      "home_goals": 4,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "成都蓉城",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "浙江",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "青岛西海岸",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "长春亚泰",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "河南",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第22轮",
+      "date": "2024-08-07",
+      "home": "南通支云",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "青岛西海岸",
+      "away": "沧州雄狮",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "浙江",
+      "away": "青岛海牛",
+      "home_goals": 4,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "山东泰山",
+      "away": "上海海港",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "梅州客家",
+      "away": "天津津门虎",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "武汉三镇",
+      "away": "深圳新鹏城",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "成都蓉城",
+      "away": "长春亚泰",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "北京国安",
+      "away": "上海申花",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第21轮",
+      "date": "2024-07-31",
+      "home": "南通支云",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "大连英博",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "河南",
+      "away": "深圳新鹏城",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "山东泰山",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "上海申花",
+      "away": "上海海港",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "青岛海牛",
+      "away": "云南玉昆",
+      "home_goals": 5,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "天津津门虎",
+      "away": "青岛西海岸",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "浙江",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第20轮",
+      "date": "2024-07-24",
+      "home": "武汉三镇",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "上海海港",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "上海申花",
+      "away": "武汉三镇",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "成都蓉城",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "青岛海牛",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "长春亚泰",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "深圳新鹏城",
+      "away": "青岛西海岸",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "天津津门虎",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第19轮",
+      "date": "2024-07-16",
+      "home": "沧州雄狮",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "北京国安",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "山东泰山",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "浙江",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "青岛西海岸",
+      "away": "青岛海牛",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "武汉三镇",
+      "away": "沧州雄狮",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "河南",
+      "away": "上海申花",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "南通支云",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-09",
+      "home": "梅州客家",
+      "away": "上海海港",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "上海海港",
+      "away": "浙江",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "上海申花",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "北京国安",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "成都蓉城",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "天津津门虎",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "长春亚泰",
+      "away": "青岛海牛",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "武汉三镇",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第17轮",
+      "date": "2024-07-02",
+      "home": "沧州雄狮",
+      "away": "南通支云",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "浙江",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "青岛西海岸",
+      "away": "上海申花",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "深圳新鹏城",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "山东泰山",
+      "away": "天津津门虎",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "青岛海牛",
+      "away": "北京国安",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "河南",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "南通支云",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第16轮",
+      "date": "2024-06-24",
+      "home": "上海海港",
+      "away": "沧州雄狮",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "北京国安",
+      "away": "青岛海牛",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "上海申花",
+      "away": "山东泰山",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "成都蓉城",
+      "away": "浙江",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "天津津门虎",
+      "away": "上海海港",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "长春亚泰",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "青岛西海岸",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "武汉三镇",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第15轮",
+      "date": "2024-06-17",
+      "home": "梅州客家",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "上海海港",
+      "away": "长春亚泰",
+      "home_goals": 5,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "山东泰山",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "浙江",
+      "away": "武汉三镇",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "深圳新鹏城",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "天津津门虎",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "青岛海牛",
+      "away": "河南",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "沧州雄狮",
+      "away": "北京国安",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第14轮",
+      "date": "2024-06-10",
+      "home": "南通支云",
+      "away": "上海申花",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "北京国安",
+      "away": "梅州客家",
+      "home_goals": 5,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "上海申花",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 5,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "山东泰山",
+      "away": "深圳新鹏城",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "青岛西海岸",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "浙江",
+      "away": "沧州雄狮",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "武汉三镇",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第13轮",
+      "date": "2024-06-02",
+      "home": "河南",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "上海海港",
+      "away": "武汉三镇",
+      "home_goals": 4,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "上海申花",
+      "away": "河南",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "北京国安",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "天津津门虎",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "长春亚泰",
+      "away": "青岛海牛",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "深圳新鹏城",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "梅州客家",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第12轮",
+      "date": "2024-05-26",
+      "home": "南通支云",
+      "away": "山东泰山",
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "成都蓉城",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "浙江",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "青岛海牛",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "山东泰山",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "青岛西海岸",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "河南",
+      "away": "长春亚泰",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "沧州雄狮",
+      "away": "武汉三镇",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第11轮",
+      "date": "2024-05-19",
+      "home": "南通支云",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "上海海港",
+      "away": "上海申花",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "北京国安",
+      "away": "浙江",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "天津津门虎",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "长春亚泰",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "深圳新鹏城",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "武汉三镇",
+      "away": "成都蓉城",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "梅州客家",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第10轮",
+      "date": "2024-05-11",
+      "home": "山东泰山",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "上海申花",
+      "away": "北京国安",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "成都蓉城",
+      "away": "天津津门虎",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "浙江",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "青岛海牛",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "青岛西海岸",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "河南",
+      "away": "南通支云",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "沧州雄狮",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第9轮",
+      "date": "2024-05-04",
+      "home": "长春亚泰",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "上海海港",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "北京国安",
+      "away": "山东泰山",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "天津津门虎",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "长春亚泰",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "浙江",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "武汉三镇",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第8轮",
+      "date": "2024-04-27",
+      "home": "南通支云",
+      "away": "沧州雄狮",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "上海申花",
+      "away": "武汉三镇",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "上海海港",
+      "away": "青岛海牛",
+      "home_goals": 5,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "山东泰山",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "北京国安",
+      "away": "天津津门虎",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "深圳新鹏城",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "青岛西海岸",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "梅州客家",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第7轮",
+      "date": "2024-04-21",
+      "home": "沧州雄狮",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "青岛海牛",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "浙江",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "天津津门虎",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "成都蓉城",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "长春亚泰",
+      "away": "沧州雄狮",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "青岛西海岸",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "武汉三镇",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第6轮",
+      "date": "2024-04-15",
+      "home": "南通支云",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "上海海港",
+      "away": "河南",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "上海申花",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "北京国安",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "山东泰山",
+      "away": "浙江",
+      "home_goals": 3,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "天津津门虎",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "武汉三镇",
+      "away": "南通支云",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第5轮",
+      "date": "2024-04-09",
+      "home": "梅州客家",
+      "away": "沧州雄狮",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "青岛海牛",
+      "away": "武汉三镇",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "浙江",
+      "away": "北京国安",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "青岛西海岸",
+      "away": "上海申花",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "深圳新鹏城",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "沧州雄狮",
+      "away": "天津津门虎",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "河南",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "长春亚泰",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第4轮",
+      "date": "2024-04-03",
+      "home": "南通支云",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "上海海港",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "上海申花",
+      "away": "河南",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "天津津门虎",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "山东泰山",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "青岛西海岸",
+      "away": "沧州雄狮",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "浙江",
+      "away": "南通支云",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-29",
+      "home": "武汉三镇",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "青岛海牛",
+      "away": "上海申花",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "北京国安",
+      "away": "山东泰山",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "天津津门虎",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "成都蓉城",
+      "away": "沧州雄狮",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "长春亚泰",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "浙江",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "南通支云",
+      "away": "梅州客家",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第2轮",
+      "date": "2024-01-01",
+      "home": "上海海港",
+      "away": "武汉三镇",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "山东泰山",
+      "away": "长春亚泰",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "青岛西海岸",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "上海海港",
+      "away": "武汉三镇",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "天津津门虎",
+      "away": "南通支云",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "沧州雄狮",
+      "away": "北京国安",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "成都蓉城",
+      "away": "青岛海牛",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "浙江",
+      "away": "深圳新鹏城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第1轮",
+      "date": "2024-01-01",
+      "home": "梅州客家",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "season_txt"
+    },
+    {
+      "round": "第3轮",
+      "date": "2024-03-30",
+      "home": "武汉三镇",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "web_verified"
+    },
+    {
+      "round": "第18轮",
+      "date": "2024-07-07",
+      "home": "北京国安",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "web_verified"
+    }
+  ]
+}
