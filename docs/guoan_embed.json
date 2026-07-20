@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T14:02:16.511979+00:00",
+    "generated_at_utc": "2026-07-20T14:03:34.055297+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dashboard-fix/data/dashboard_embed.json"
@@ -5989,12 +5989,12 @@
       },
       "浙江俱乐部": {
         "all_time": {
-          "played": 3,
-          "wins": 0,
-          "draws": 1,
+          "played": 8,
+          "wins": 3,
+          "draws": 3,
           "losses": 2,
-          "gf": 0,
-          "ga": 2
+          "gf": 12,
+          "ga": 10
         },
         "matches": [
           {
@@ -6020,6 +6020,66 @@
             "result": "L",
             "guoan_goals": 0,
             "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第4轮",
+            "date": "2024-04-03",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江俱乐部",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第10轮",
+            "date": "2024-05-11",
+            "venue": "",
+            "is_home": true,
+            "opponent": "浙江俱乐部",
+            "score": "1:1",
+            "result": "D",
+            "guoan_goals": 1,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第20轮",
+            "date": "2024-07-24",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江俱乐部",
+            "score": "3:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 3
+          },
+          {
+            "season": "2025",
+            "round": "第5轮",
+            "date": "2025-03-21",
+            "venue": "",
+            "is_home": true,
+            "opponent": "浙江俱乐部",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
+            "season": "2025",
+            "round": "第20轮",
+            "date": "2025-07-22",
+            "venue": "",
+            "is_home": false,
+            "opponent": "浙江俱乐部",
+            "score": "3:4",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 3
           },
           {
             "match_id": "5wqun7ch8f15eqo1f2e67h2j8",
@@ -6867,78 +6927,6 @@
               ]
             },
             "season": "2026"
-          }
-        ]
-      },
-      "浙江": {
-        "all_time": {
-          "played": 5,
-          "wins": 3,
-          "draws": 2,
-          "losses": 0,
-          "gf": 12,
-          "ga": 8
-        },
-        "matches": [
-          {
-            "season": "2024",
-            "round": "第4轮",
-            "date": "2024-04-03",
-            "venue": "",
-            "is_home": false,
-            "opponent": "浙江",
-            "score": "1:1",
-            "result": "D",
-            "guoan_goals": 1,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第10轮",
-            "date": "2024-05-11",
-            "venue": "",
-            "is_home": true,
-            "opponent": "浙江",
-            "score": "1:1",
-            "result": "D",
-            "guoan_goals": 1,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第20轮",
-            "date": "2024-07-24",
-            "venue": "",
-            "is_home": false,
-            "opponent": "浙江",
-            "score": "3:4",
-            "result": "W",
-            "guoan_goals": 4,
-            "opp_goals": 3
-          },
-          {
-            "season": "2025",
-            "round": "第5轮",
-            "date": "2025-03-21",
-            "venue": "",
-            "is_home": true,
-            "opponent": "浙江",
-            "score": "2:0",
-            "result": "W",
-            "guoan_goals": 2,
-            "opp_goals": 0
-          },
-          {
-            "season": "2025",
-            "round": "第20轮",
-            "date": "2025-07-22",
-            "venue": "",
-            "is_home": false,
-            "opponent": "浙江",
-            "score": "3:4",
-            "result": "W",
-            "guoan_goals": 4,
-            "opp_goals": 3
           }
         ]
       },
