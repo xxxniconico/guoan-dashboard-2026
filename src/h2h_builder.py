@@ -27,6 +27,13 @@ def load_season_matches(filepath: str) -> list:
     return []
 
 
+def _normalize_venue(venue) -> str:
+    """统一 venue 字段为字符串（处理 dict/None/str 三种输入）。"""
+    if isinstance(venue, dict):
+        return venue.get("name", "") or ""
+    return str(venue) if venue else ""
+
+
 def _normalize_club(name: str) -> str:
     """统一俱乐部名称用于匹配。"""
     n = str(name).strip()
@@ -99,10 +106,7 @@ def _parse_match(m: dict, season: str) -> Optional[dict]:
 
     # 场地
     venue = m.get("venue", {})
-    if isinstance(venue, dict):
-        venue_name = venue.get("name", "")
-    else:
-        venue_name = str(venue) if venue else ""
+    venue_name = _normalize_venue(venue)
 
     return {
         "season": season,
@@ -182,6 +186,8 @@ def build_h2h(season_matches_2023: list, season_matches_2024: list,
                 ag = sc.get("away") if sc.get("away") is not None else sc.get("away", 0)
                 try: m["score"] = f"{int(hg)}:{int(ag)}"
                 except: pass
+            # Normalize venue: dict/None -> str
+            m["venue"] = _normalize_venue(m.get("venue"))
             h2h[opp]["matches"].append(m)
 
     # 计算汇总

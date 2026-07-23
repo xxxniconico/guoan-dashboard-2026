@@ -19,7 +19,7 @@ from .form_utils import (
     last_completed_date, first_upcoming_date
 )
 from .guoan_context import get_guoan_matches, detect_ctx, CONTEXT_SIGNAL_LABELS, normalize_club
-from .h2h_builder import load_season_matches, build_h2h
+from .h2h_builder import load_season_matches, build_h2h, _normalize_venue
 from .player_analyzer import (
     analyze_goal_times, compute_goal_time_distribution,
     compute_rank_progression, analyze_player_performance
@@ -289,7 +289,7 @@ def enrich_guoan_matches(guoan_matches: list, all_league_matches: list,
             "match_id": m.get("match_id", ""),
             "round": m.get("round", ""),
             "date": m.get("date", ""),
-            "venue": m.get("venue", {}),
+            "venue": _normalize_venue(m.get("venue")),
             "opponent": opponent,
             "is_home": is_home,
             "status": m.get("status", "scheduled"),
