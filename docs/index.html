@@ -706,20 +706,12 @@ function renderMatches(){
     var penalty=D.standing.penalty_points||0;
     var effPts=cumMap[m.round]!==undefined?cumMap[m.round]-penalty:'—';
 
-    // 双方 LOGO 顺序: 左=主队, 右=客队
-    var leftTeam  = m.is_home ? {logo:'北京国安', name:'北京国安'} : {logo:m.opponent, name:m.opponent};
-    var rightTeam = m.is_home ? {logo:m.opponent, name:m.opponent} : {logo:'北京国安', name:'北京国安'};
     return'<div class="match-card '+cls+'" id="mc'+D.matches.indexOf(m)+'" onclick="openMatch('+D.matches.indexOf(m)+')">'+
       '<div class="match-round">'+esc(m.round).replace("第","").replace("轮","")+'</div>'+
-      '<div class="match-info">'+
-        '<div style="display:flex;align-items:center;gap:8px">'+
-          logoImg(leftTeam.logo,"club-logo-sm")+
-          '<span style="color:var(--text3);font-size:.7rem;font-weight:700">VS</span>'+
-          logoImg(rightTeam.logo,"club-logo-sm")+
-          '<div style="min-width:0;flex:1"><div class="match-opp">'+esc(leftTeam.name)+' <span style="color:var(--text3);font-size:.7rem">vs</span> '+esc(rightTeam.name)+'</div>'+
-          '<div class="match-venue">'+(m.is_home?'🏟 主场':'✈ 客场')+' · '+esc((m.date||"").slice(0,10))+'</div>'+
-        '</div>'+
-      '</div>'+
+      '<div class="match-info"><div style="display:flex;align-items:center;gap:8px">'+logoImg(m.opponent,"club-logo-sm")+'<div><div class="match-opp">'+
+        (m.is_home?'':'<span style="font-size:.7rem;color:var(--text2)">@ </span>')+
+        esc(m.opponent)+
+      '</div><div class="match-venue">'+(m.is_home?'🏟 主场':'✈ 客场')+' · '+esc((m.date||"").slice(0,10))+'</div></div></div></div>'+
       '<div class="match-right">'+
         (isFin?'<div style="display:flex;align-items:center;gap:8px"><div class="match-score">'+m.guoan_goals+':'+m.opp_goals+'</div><span class="match-result result-'+resultCls(m.result)+'">'+resultLabel(m.result)+'</span></div><div style="font-size:.58rem;color:var(--text2);margin-top:2px;text-align:right">'+(effPts!=='—'?'+'+cumMap[m.round]+' 分':'')+'</div>':
          '<span class="match-result '+(m.date&&(m.date||'').slice(0,10)<new Date().toISOString().slice(0,10)?'result-pp">延期':'result-up">未赛')+'</span>')+
