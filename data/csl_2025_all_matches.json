@@ -4,83 +4,124 @@
   "matches": [
     {
       "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "成都蓉城",
-      "away": "武汉三镇",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "上海申花",
-      "away": "长春亚泰",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "云南玉昆",
-      "away": "北京国安",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "青岛海牛",
-      "away": "青岛西海岸",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "浙江",
-      "away": "大连英博",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "山东泰山",
-      "away": "河南",
-      "home_goals": 0,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
-      "home": "天津津门虎",
-      "away": "梅州客家",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第1轮",
-      "date": "2025-01-01",
+      "date": "2025-02-23",
       "home": "上海海港",
       "away": "深圳新鹏城",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "71ak9o2vjo92yz1t92f4jt91w"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-22",
+      "home": "上海申花",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "6y4pxp04f4ljvauxb3w5vvcwk"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-22",
+      "home": "云南玉昆",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "6yn8zz03f8nvnbb64mv27ne38"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-23",
+      "home": "天津津门虎",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "70qbws8l4pmz1yzr1cj6pfh90"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-23",
+      "home": "山东泰山",
+      "away": "河南",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "707fjdo88jtmt7e38ykskolck"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-22",
+      "home": "成都蓉城",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "6xizxvk0gf84rb8gp7s10szdg"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-23",
+      "home": "浙江",
+      "away": "大连英博",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "6zoksgf8ai16ocf6rw9y8bspg"
+    },
+    {
+      "round": "第1轮",
+      "date": "2025-02-23",
+      "home": "青岛海牛",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "6z5r48h3p1zb419wqamfoa3v8"
+    },
+    {
+      "round": "第2轮",
+      "date": "2025-02-28",
+      "home": "上海海港",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "724qigrafrcfcxkfiorckw1zo"
+    },
+    {
+      "round": "第2轮",
+      "date": "2025-03-01",
+      "home": "上海申花",
+      "away": "北京国安",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "73e89act22etjn4pp7q65d7v8"
+    },
+    {
+      "round": "第2轮",
+      "date": "2025-03-01",
+      "home": "云南玉昆",
+      "away": "浙江",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "73tkvbio0csdqourpbb4x2u50"
     },
     {
       "round": "第2轮",
@@ -90,797 +131,844 @@
       "home_goals": 4,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "71pt5hpfwns7c7dwy9gezyh3o"
     },
     {
       "round": "第2轮",
-      "date": "2025-02-28",
-      "home": "上海海港",
-      "away": "长春亚泰",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第2轮",
-      "date": "2025-02-28",
-      "home": "青岛海牛",
-      "away": "深圳新鹏城",
-      "home_goals": 0,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第2轮",
-      "date": "2025-02-28",
-      "home": "梅州客家",
-      "away": "河南",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第2轮",
-      "date": "2025-02-28",
-      "home": "上海申花",
-      "away": "北京国安",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第2轮",
-      "date": "2025-02-28",
-      "home": "云南玉昆",
-      "away": "浙江",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第2轮",
-      "date": "2025-02-28",
+      "date": "2025-03-02",
       "home": "成都蓉城",
       "away": "天津津门虎",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "74od9nlsorthgcakr09b8ig44"
     },
     {
       "round": "第2轮",
-      "date": "2025-02-28",
+      "date": "2025-03-01",
+      "home": "梅州客家",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "72yvznk7ylk3qflus86rnszkk"
+    },
+    {
+      "round": "第2轮",
+      "date": "2025-03-01",
+      "home": "青岛海牛",
+      "away": "深圳新鹏城",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "72jbsqnr7xexaaau4gjlxvfo4"
+    },
+    {
+      "round": "第2轮",
+      "date": "2025-03-03",
       "home": "青岛西海岸",
       "away": "武汉三镇",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7499i1xb7nfso3yn1mhtscob8"
     },
     {
       "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "青岛西海岸",
-      "away": "上海海港",
-      "home_goals": 3,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "武汉三镇",
-      "away": "浙江",
-      "home_goals": 0,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "深圳新鹏城",
-      "away": "云南玉昆",
-      "home_goals": 3,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "大连英博",
-      "away": "长春亚泰",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "天津津门虎",
-      "away": "青岛海牛",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "河南",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
-      "home": "梅州客家",
-      "away": "山东泰山",
-      "home_goals": 3,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第3轮",
-      "date": "2025-03-07",
+      "date": "2025-03-29",
       "home": "北京国安",
       "away": "成都蓉城",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "785t15gheqz0sy8zbcy4zs74k"
     },
     {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "河南",
-      "away": "青岛西海岸",
+      "round": "第3轮",
+      "date": "2025-03-29",
+      "home": "大连英博",
+      "away": "长春亚泰",
       "home_goals": 2,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "浙江",
-      "away": "深圳新鹏城",
-      "home_goals": 3,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "76g3gnhqhwoinv0y5fr7d0y6s"
     },
     {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "长春亚泰",
-      "away": "武汉三镇",
+      "round": "第3轮",
+      "date": "2025-03-29",
+      "home": "天津津门虎",
+      "away": "青岛海牛",
       "home_goals": 1,
-      "away_goals": 1,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "76vi1txvydqpmtw5ujymrqfx0"
     },
     {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "上海申花",
-      "away": "云南玉昆",
+      "round": "第3轮",
+      "date": "2025-03-29",
+      "home": "梅州客家",
+      "away": "山东泰山",
       "home_goals": 3,
-      "away_goals": 1,
+      "away_goals": 4,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "77q38tmhtsb4tfoeg1do1knpw"
     },
     {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "青岛海牛",
-      "away": "大连英博",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "山东泰山",
-      "away": "成都蓉城",
+      "round": "第3轮",
+      "date": "2025-03-28",
+      "home": "武汉三镇",
+      "away": "浙江",
       "home_goals": 0,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "75iwefovr1xtdbmjupfjh589g"
+    },
+    {
+      "round": "第3轮",
+      "date": "2025-03-29",
+      "home": "河南",
+      "away": "上海申花",
+      "home_goals": 1,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "77b9ddy7brdcoii11phe6dnh0"
     },
     {
-      "round": "第4轮",
-      "date": "2025-03-14",
-      "home": "天津津门虎",
-      "away": "北京国安",
-      "home_goals": 2,
-      "away_goals": 2,
+      "round": "第3轮",
+      "date": "2025-03-28",
+      "home": "深圳新鹏城",
+      "away": "云南玉昆",
+      "home_goals": 3,
+      "away_goals": 4,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "75yh6afdbmk8rjmp60trxurys"
+    },
+    {
+      "round": "第3轮",
+      "date": "2025-03-28",
+      "home": "青岛西海岸",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7535b3u7ftb0govtmq67q8il0"
     },
     {
       "round": "第4轮",
-      "date": "2025-03-14",
+      "date": "2025-04-02",
       "home": "上海海港",
       "away": "梅州客家",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7bjv576vwyg4gksei4a2upa8k"
     },
     {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "深圳新鹏城",
-      "away": "河南",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "长春亚泰",
-      "away": "山东泰山",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "青岛西海岸",
-      "away": "天津津门虎",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "成都蓉城",
-      "away": "大连英博",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "梅州客家",
-      "away": "武汉三镇",
+      "round": "第4轮",
+      "date": "2025-04-02",
+      "home": "上海申花",
+      "away": "云南玉昆",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "79uo7dw1tzlkwdjqyrupsg6qc"
     },
     {
-      "round": "第5轮",
-      "date": "2025-03-21",
-      "home": "北京国安",
-      "away": "浙江",
+      "round": "第4轮",
+      "date": "2025-04-02",
+      "home": "天津津门虎",
+      "away": "北京国安",
       "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7b3h9klbae9pfykj34p0bwpw4"
+    },
+    {
+      "round": "第4轮",
+      "date": "2025-04-02",
+      "home": "山东泰山",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7aoo76n256qu1n5g2tifa4x04"
+    },
+    {
+      "round": "第4轮",
+      "date": "2025-04-01",
+      "home": "河南",
+      "away": "青岛西海岸",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "78kqwh3mlphqo51fpdl39ncwk"
+    },
+    {
+      "round": "第4轮",
+      "date": "2025-04-01",
+      "home": "浙江",
+      "away": "深圳新鹏城",
+      "home_goals": 3,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "78zs3nhypyc58oqhtl9lexams"
+    },
+    {
+      "round": "第4轮",
+      "date": "2025-04-02",
+      "home": "长春亚泰",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "79fkvjrtdn9cdma0ev2j9fjmc"
+    },
+    {
+      "round": "第4轮",
+      "date": "2025-04-02",
+      "home": "青岛海牛",
+      "away": "大连英博",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7a9n1ulltvfvdth0dc1zztvys"
     },
     {
       "round": "第5轮",
-      "date": "2025-03-21",
+      "date": "2025-04-06",
       "home": "上海海港",
       "away": "上海申花",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7e1lnwbwk6bzn8hokx48p7mdw"
     },
     {
       "round": "第5轮",
-      "date": "2025-03-21",
+      "date": "2025-04-06",
       "home": "云南玉昆",
       "away": "青岛海牛",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7ewdlfavin6w17s9y5n2xwdn8"
     },
     {
-      "round": "第6轮",
-      "date": "2025-03-28",
-      "home": "梅州客家",
-      "away": "长春亚泰",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第6轮",
-      "date": "2025-03-28",
-      "home": "山东泰山",
-      "away": "深圳新鹏城",
-      "home_goals": 4,
+      "round": "第5轮",
+      "date": "2025-04-06",
+      "home": "北京国安",
+      "away": "浙江",
+      "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7eh31f4f1okg2drkeyacjpatw"
     },
     {
-      "round": "第6轮",
-      "date": "2025-03-28",
-      "home": "大连英博",
-      "away": "天津津门虎",
-      "home_goals": 1,
-      "away_goals": 1,
+      "round": "第5轮",
+      "date": "2025-04-06",
+      "home": "成都蓉城",
+      "away": "大连英博",
+      "home_goals": 2,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7dmlpa1k670gtudt1ac2a5jx0"
     },
     {
-      "round": "第6轮",
-      "date": "2025-03-28",
-      "home": "青岛海牛",
-      "away": "成都蓉城",
-      "home_goals": 0,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第6轮",
-      "date": "2025-03-28",
-      "home": "武汉三镇",
-      "away": "云南玉昆",
+      "round": "第5轮",
+      "date": "2025-04-06",
+      "home": "梅州客家",
+      "away": "武汉三镇",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7d7l06mv0jzntkzhg3289csus"
+    },
+    {
+      "round": "第5轮",
+      "date": "2025-04-05",
+      "home": "深圳新鹏城",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7bymld7rachaijchbuo4ehfdg"
+    },
+    {
+      "round": "第5轮",
+      "date": "2025-04-06",
+      "home": "长春亚泰",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7cdsq2nzn9nvj73ug07c852xg"
+    },
+    {
+      "round": "第5轮",
+      "date": "2025-04-06",
+      "home": "青岛西海岸",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7csod7f6l9ab30c1skzbnqsk4"
     },
     {
       "round": "第6轮",
-      "date": "2025-03-28",
+      "date": "2025-04-12",
       "home": "上海申花",
       "away": "浙江",
       "home_goals": 3,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7icgh6xoxyhzkvsk66khcnaqc"
     },
     {
       "round": "第6轮",
-      "date": "2025-03-28",
+      "date": "2025-06-17",
       "home": "北京国安",
       "away": "青岛西海岸",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7g695ap0rnjra27l908uwcjkk"
     },
     {
       "round": "第6轮",
-      "date": "2025-03-28",
+      "date": "2025-04-12",
+      "home": "大连英博",
+      "away": "天津津门虎",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7gn9cqg4fhnv0sxmxn8r786j8"
+    },
+    {
+      "round": "第6轮",
+      "date": "2025-04-11",
+      "home": "山东泰山",
+      "away": "深圳新鹏城",
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7fbolxxfdhu3gexr2263g43dg"
+    },
+    {
+      "round": "第6轮",
+      "date": "2025-04-11",
+      "home": "梅州客家",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7fr2j9zpx2xpyiduoerb9b2fo"
+    },
+    {
+      "round": "第6轮",
+      "date": "2025-04-12",
+      "home": "武汉三镇",
+      "away": "云南玉昆",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7hwzefeqf0r1852iixfgf6vx0"
+    },
+    {
+      "round": "第6轮",
+      "date": "2025-06-18",
       "home": "河南",
       "away": "上海海港",
       "home_goals": 1,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7h2jhi1yr7wxrvz3qpejj4ydw"
+    },
+    {
+      "round": "第6轮",
+      "date": "2025-04-12",
+      "home": "青岛海牛",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7hhvbff43irahvu94km1w3p5g"
     },
     {
       "round": "第7轮",
-      "date": "2025-04-04",
+      "date": "2025-04-16",
+      "home": "上海申花",
+      "away": "青岛海牛",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7ltcdi5adeprrpkw5q8tlqo7o"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-16",
+      "home": "大连英博",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7kh88bgm5ybbtbxswadzl1638"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-16",
+      "home": "天津津门虎",
+      "away": "上海海港",
+      "home_goals": 1,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7k260c93rnavr7u8doxnayoes"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-16",
+      "home": "成都蓉城",
+      "away": "云南玉昆",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7lbzpg1fqslxkud5roz10qm1g"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-15",
+      "home": "武汉三镇",
+      "away": "北京国安",
+      "home_goals": 4,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7j751qtpfh28h62p6draxm0pg"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-16",
+      "home": "浙江",
+      "away": "梅州客家",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7kwpzficdha3m604eao7un2fo"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-15",
+      "home": "深圳新鹏城",
+      "away": "长春亚泰",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7jmo4bymi68ml7j2zuxoca8lw"
+    },
+    {
+      "round": "第7轮",
+      "date": "2025-04-15",
       "home": "青岛西海岸",
       "away": "山东泰山",
       "home_goals": 1,
       "away_goals": 5,
       "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "武汉三镇",
-      "away": "北京国安",
-      "home_goals": 4,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "深圳新鹏城",
-      "away": "长春亚泰",
-      "home_goals": 3,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "天津津门虎",
-      "away": "上海海港",
-      "home_goals": 1,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "大连英博",
-      "away": "河南",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "浙江",
-      "away": "梅州客家",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "成都蓉城",
-      "away": "云南玉昆",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第7轮",
-      "date": "2025-04-04",
-      "home": "上海申花",
-      "away": "青岛海牛",
-      "home_goals": 3,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7irru4s8rh2vgfb10jef989as"
     },
     {
       "round": "第8轮",
-      "date": "2025-04-11",
+      "date": "2025-04-20",
+      "home": "上海海港",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7p7qtps3rkpksmce5uy5pr02c"
+    },
+    {
+      "round": "第8轮",
+      "date": "2025-04-19",
       "home": "上海申花",
       "away": "武汉三镇",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7m8s3uvetaz42bjxvk7t9iec4"
     },
     {
       "round": "第8轮",
-      "date": "2025-04-11",
+      "date": "2025-04-19",
       "home": "北京国安",
       "away": "山东泰山",
       "home_goals": 6,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7mo1pt8te78em3ug7vyz48dg4"
     },
     {
       "round": "第8轮",
-      "date": "2025-04-11",
-      "home": "长春亚泰",
-      "away": "云南玉昆",
-      "home_goals": 0,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第8轮",
-      "date": "2025-04-11",
-      "home": "河南",
-      "away": "青岛海牛",
-      "home_goals": 3,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第8轮",
-      "date": "2025-04-11",
-      "home": "青岛西海岸",
-      "away": "大连英博",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第8轮",
-      "date": "2025-04-11",
-      "home": "梅州客家",
-      "away": "深圳新鹏城",
-      "home_goals": 3,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第8轮",
-      "date": "2025-04-11",
-      "home": "上海海港",
-      "away": "成都蓉城",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第8轮",
-      "date": "2025-04-11",
+      "date": "2025-04-20",
       "home": "天津津门虎",
       "away": "浙江",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7osehm0f1aea8bjbnmairfn6c"
+    },
+    {
+      "round": "第8轮",
+      "date": "2025-04-20",
+      "home": "梅州客家",
+      "away": "深圳新鹏城",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7odewwaea9rn7suod82jkdwk4"
+    },
+    {
+      "round": "第8轮",
+      "date": "2025-04-20",
+      "home": "河南",
+      "away": "青岛海牛",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7nium5repouloj3lukjq7hlhw"
+    },
+    {
+      "round": "第8轮",
+      "date": "2025-04-20",
+      "home": "长春亚泰",
+      "away": "云南玉昆",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7n3k3yvfeur21ae9wx3d9zlsk"
+    },
+    {
+      "round": "第8轮",
+      "date": "2025-04-20",
+      "home": "青岛西海岸",
+      "away": "大连英博",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7ny65fp9kq27ne4zyowaoefis"
     },
     {
       "round": "第9轮",
-      "date": "2025-04-18",
+      "date": "2025-04-25",
+      "home": "云南玉昆",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7q2g0ren2tqs70vaaexf7sdg4"
+    },
+    {
+      "round": "第9轮",
+      "date": "2025-04-25",
       "home": "北京国安",
       "away": "河南",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7pmvnhrtpr5r3oezvdkm3d1xw"
     },
     {
       "round": "第9轮",
-      "date": "2025-04-18",
-      "home": "云南玉昆",
-      "away": "上海海港",
-      "home_goals": 2,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第9轮",
-      "date": "2025-04-18",
-      "home": "长春亚泰",
-      "away": "成都蓉城",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第9轮",
-      "date": "2025-04-18",
-      "home": "深圳新鹏城",
-      "away": "大连英博",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第9轮",
-      "date": "2025-04-18",
+      "date": "2025-04-26",
       "home": "山东泰山",
       "away": "上海申花",
       "home_goals": 0,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7rdtfweif0pk36g7vn6yvmzv8"
     },
     {
       "round": "第9轮",
-      "date": "2025-04-18",
+      "date": "2025-04-27",
       "home": "武汉三镇",
       "away": "天津津门虎",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7s7sl9i24hc1fbvko8x674v84"
     },
     {
       "round": "第9轮",
-      "date": "2025-04-18",
-      "home": "青岛海牛",
-      "away": "梅州客家",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第9轮",
-      "date": "2025-04-18",
+      "date": "2025-04-27",
       "home": "浙江",
       "away": "青岛西海岸",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7rsqqr2ge0e0vr80f37sh1ces"
+    },
+    {
+      "round": "第9轮",
+      "date": "2025-04-26",
+      "home": "深圳新鹏城",
+      "away": "大连英博",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7qyk2zmrkwnx2uksvqob86lg4"
+    },
+    {
+      "round": "第9轮",
+      "date": "2025-04-26",
+      "home": "长春亚泰",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7qhn2jvvh4zzaoao6bgm20xzo"
+    },
+    {
+      "round": "第9轮",
+      "date": "2025-04-27",
+      "home": "青岛海牛",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7sn3x6fqtplasjxdh4i3s9zx0"
     },
     {
       "round": "第10轮",
-      "date": "2025-04-25",
+      "date": "2025-05-01",
+      "home": "上海海港",
+      "away": "北京国安",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7v6qct7q0e65z162mx6xthxqs"
+    },
+    {
+      "round": "第10轮",
+      "date": "2025-05-01",
       "home": "大连英博",
       "away": "云南玉昆",
       "home_goals": 3,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7t2cyunr1eb0trhl5lq1wa0pg"
     },
     {
       "round": "第10轮",
-      "date": "2025-04-25",
-      "home": "深圳新鹏城",
-      "away": "天津津门虎",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第10轮",
-      "date": "2025-04-25",
-      "home": "河南",
-      "away": "武汉三镇",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第10轮",
-      "date": "2025-04-25",
-      "home": "浙江",
-      "away": "长春亚泰",
-      "home_goals": 4,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第10轮",
-      "date": "2025-04-25",
+      "date": "2025-05-01",
       "home": "山东泰山",
       "away": "青岛海牛",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7urcv6d6p0h71iu8duv9uuhhw"
     },
     {
       "round": "第10轮",
-      "date": "2025-04-25",
-      "home": "上海海港",
-      "away": "北京国安",
+      "date": "2025-05-02",
+      "home": "成都蓉城",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7w2vsq45u68b5ls408375b6dw"
+    },
+    {
+      "round": "第10轮",
+      "date": "2025-05-01",
+      "home": "河南",
+      "away": "武汉三镇",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7uc17ccestji76clmiielz2tw"
     },
     {
       "round": "第10轮",
-      "date": "2025-04-25",
+      "date": "2025-05-01",
+      "home": "浙江",
+      "away": "长春亚泰",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7twwlpqh2a8yb14asbay9dzis"
+    },
+    {
+      "round": "第10轮",
+      "date": "2025-05-01",
+      "home": "深圳新鹏城",
+      "away": "天津津门虎",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7thnigyx9vqe5we45ium4xez8"
+    },
+    {
+      "round": "第10轮",
+      "date": "2025-05-02",
       "home": "青岛西海岸",
       "away": "梅州客家",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第10轮",
-      "date": "2025-04-25",
-      "home": "成都蓉城",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7vly4mlj5barxyts8x9v1bwgk"
     },
     {
       "round": "第11轮",
-      "date": "2025-05-02",
-      "home": "大连英博",
-      "away": "北京国安",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第11轮",
-      "date": "2025-05-02",
-      "home": "河南",
-      "away": "天津津门虎",
-      "home_goals": 3,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第11轮",
-      "date": "2025-05-02",
-      "home": "武汉三镇",
-      "away": "上海海港",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第11轮",
-      "date": "2025-05-02",
-      "home": "成都蓉城",
-      "away": "浙江",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第11轮",
-      "date": "2025-05-02",
-      "home": "青岛海牛",
-      "away": "长春亚泰",
-      "home_goals": 3,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第11轮",
-      "date": "2025-05-02",
+      "date": "2025-05-05",
       "home": "云南玉昆",
       "away": "山东泰山",
       "home_goals": 3,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7ymqkbilaxsdjx00efyo823h0"
     },
     {
       "round": "第11轮",
-      "date": "2025-05-02",
+      "date": "2025-05-05",
+      "home": "大连英博",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7wiayjawqkew6393xgnyryiok"
+    },
+    {
+      "round": "第11轮",
+      "date": "2025-05-05",
+      "home": "成都蓉城",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7y74uec09ezo6rnbeqrudpjx0"
+    },
+    {
+      "round": "第11轮",
+      "date": "2025-05-06",
       "home": "梅州客家",
       "away": "上海申花",
       "home_goals": 1,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7z22lpat8f8f5khxowz9xnz10"
     },
     {
       "round": "第11轮",
-      "date": "2025-05-02",
+      "date": "2025-05-05",
+      "home": "武汉三镇",
+      "away": "上海海港",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7xctbfhhofb8r6psetvcxv3tg"
+    },
+    {
+      "round": "第11轮",
+      "date": "2025-05-05",
+      "home": "河南",
+      "away": "天津津门虎",
+      "home_goals": 3,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7wxjgzztx0qcc1vaa94fp44r8"
+    },
+    {
+      "round": "第11轮",
+      "date": "2025-05-05",
+      "home": "青岛海牛",
+      "away": "长春亚泰",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "7xrxkw9eml7ayjcunbmw6hdsk"
+    },
+    {
+      "round": "第11轮",
+      "date": "2025-05-06",
       "home": "青岛西海岸",
       "away": "深圳新鹏城",
       "home_goals": 0,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7zhecnzb84kd6i8m17o8ncjro"
     },
     {
       "round": "第12轮",
@@ -890,87 +978,96 @@
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "7zx0y00rrzdsq2wq35iuqw2dw"
     },
     {
       "round": "第12轮",
-      "date": "2025-05-09",
+      "date": "2025-05-10",
       "home": "上海申花",
       "away": "青岛西海岸",
       "home_goals": 4,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "80c3g091cmpk7l3wut0bla7mc"
     },
     {
       "round": "第12轮",
-      "date": "2025-05-09",
-      "home": "梅州客家",
-      "away": "成都蓉城",
-      "home_goals": 0,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第12轮",
-      "date": "2025-05-09",
-      "home": "山东泰山",
-      "away": "浙江",
-      "home_goals": 4,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第12轮",
-      "date": "2025-05-09",
+      "date": "2025-05-10",
       "home": "北京国安",
       "away": "深圳新鹏城",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "81nbqr42j31cil0nr0465kf10"
     },
     {
       "round": "第12轮",
-      "date": "2025-05-09",
-      "home": "长春亚泰",
-      "away": "河南",
-      "home_goals": 0,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第12轮",
-      "date": "2025-05-09",
+      "date": "2025-05-11",
       "home": "天津津门虎",
       "away": "云南玉昆",
       "home_goals": 0,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "82htzwvfne15584i48cod3h1w"
     },
     {
       "round": "第12轮",
-      "date": "2025-05-09",
+      "date": "2025-05-10",
+      "home": "山东泰山",
+      "away": "浙江",
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8183po0pmus5ceesmubs4e8es"
+    },
+    {
+      "round": "第12轮",
+      "date": "2025-05-10",
+      "home": "梅州客家",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "80r458cq3ezylme40dpnra6fo"
+    },
+    {
+      "round": "第12轮",
+      "date": "2025-05-11",
       "home": "武汉三镇",
       "away": "大连英博",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "82x7yidudpkquon89gsjnwums"
+    },
+    {
+      "round": "第12轮",
+      "date": "2025-05-11",
+      "home": "长春亚泰",
+      "away": "河南",
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "822imn2qc1okamcw73vmtgidw"
     },
     {
       "round": "第13轮",
-      "date": "2025-05-16",
-      "home": "浙江",
-      "away": "河南",
-      "home_goals": 2,
-      "away_goals": 2,
+      "date": "2025-05-17",
+      "home": "上海海港",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "86elkqbrzmiqfyu9j9m7zrlsk"
     },
     {
       "round": "第13轮",
@@ -980,1027 +1077,1141 @@
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "83ry8e08mpm47evmduun3gjkk"
     },
     {
       "round": "第13轮",
-      "date": "2025-05-16",
+      "date": "2025-05-17",
       "home": "大连英博",
       "away": "上海申花",
       "home_goals": 0,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "847568lertuy8p1ghe507etxw"
     },
     {
       "round": "第13轮",
-      "date": "2025-05-16",
-      "home": "长春亚泰",
-      "away": "天津津门虎",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第13轮",
-      "date": "2025-05-16",
+      "date": "2025-05-17",
       "home": "成都蓉城",
       "away": "青岛西海岸",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "85wwm0xxb49nc3pdtnmcnn66s"
     },
     {
       "round": "第13轮",
       "date": "2025-05-16",
-      "home": "青岛海牛",
-      "away": "北京国安",
-      "home_goals": 1,
-      "away_goals": 1,
+      "home": "浙江",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "83cki4peysitgwhkanworezh0"
     },
     {
       "round": "第13轮",
-      "date": "2025-05-16",
-      "home": "上海海港",
-      "away": "山东泰山",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第13轮",
-      "date": "2025-05-16",
+      "date": "2025-06-18",
       "home": "深圳新鹏城",
       "away": "武汉三镇",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "84mkswe32wfp78ft7xlhv6rys"
     },
     {
-      "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "大连英博",
-      "away": "梅州客家",
+      "round": "第13轮",
+      "date": "2025-05-17",
+      "home": "长春亚泰",
+      "away": "天津津门虎",
       "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "武汉三镇",
-      "away": "青岛海牛",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "浙江",
-      "away": "上海海港",
-      "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "851xgq7dmfj15zuwc2vt9fl78"
+    },
+    {
+      "round": "第13轮",
+      "date": "2025-05-17",
+      "home": "青岛海牛",
+      "away": "北京国安",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "85hhqxybqhk0sw2za0qyjr9xw"
     },
     {
       "round": "第14轮",
-      "date": "2025-05-25",
+      "date": "2025-06-14",
       "home": "北京国安",
       "away": "长春亚泰",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "88j3pz1k274ypf5v6aeb7utxw"
     },
     {
       "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "青岛西海岸",
-      "away": "云南玉昆",
-      "home_goals": 0,
+      "date": "2025-06-13",
+      "home": "大连英博",
+      "away": "梅州客家",
+      "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "86tys542qxzzvf8o6pri6akus"
     },
     {
       "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "河南",
-      "away": "成都蓉城",
-      "home_goals": 3,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第14轮",
-      "date": "2025-05-25",
-      "home": "深圳新鹏城",
-      "away": "上海申花",
-      "home_goals": 3,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第14轮",
-      "date": "2025-05-25",
+      "date": "2025-06-14",
       "home": "天津津门虎",
       "away": "山东泰山",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "89tlspaalcfauug5grqh19nv8"
     },
     {
-      "round": "第15轮",
-      "date": "2025-06-04",
-      "home": "青岛海牛",
-      "away": "浙江",
-      "home_goals": 0,
-      "away_goals": 3,
+      "round": "第14轮",
+      "date": "2025-06-13",
+      "home": "武汉三镇",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8797okxhvw8u1rrgqrk9o43dg"
+    },
+    {
+      "round": "第14轮",
+      "date": "2025-06-14",
+      "home": "河南",
+      "away": "成都蓉城",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "89eiqm5sk622g1vxjnxdy0cno"
+    },
+    {
+      "round": "第14轮",
+      "date": "2025-06-14",
+      "home": "浙江",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "87ocvu4hjtyuwmcz1e2d5t1jo"
+    },
+    {
+      "round": "第14轮",
+      "date": "2025-06-14",
+      "home": "深圳新鹏城",
+      "away": "上海申花",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "88ytr0yey1g8akzamxovadvdg"
+    },
+    {
+      "round": "第14轮",
+      "date": "2025-06-14",
+      "home": "青岛西海岸",
+      "away": "云南玉昆",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "883ss8wwa2ilz4gueqhy9cbh0"
     },
     {
       "round": "第15轮",
-      "date": "2025-06-04",
+      "date": "2025-06-26",
+      "home": "上海海港",
+      "away": "大连英博",
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8cu8yl9hpnprhzpaxrw64m044"
+    },
+    {
+      "round": "第15轮",
+      "date": "2025-06-25",
       "home": "上海申花",
       "away": "天津津门虎",
       "home_goals": 3,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8a8zw1x3qjldig8xlsbwbufpw"
     },
     {
       "round": "第15轮",
-      "date": "2025-06-04",
-      "home": "长春亚泰",
-      "away": "青岛西海岸",
-      "home_goals": 1,
-      "away_goals": 0,
+      "date": "2025-06-26",
+      "home": "云南玉昆",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8d9ema4pwzmc32eqp8q43m1w4"
     },
     {
       "round": "第15轮",
-      "date": "2025-06-04",
-      "home": "梅州客家",
-      "away": "北京国安",
-      "home_goals": 0,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第15轮",
-      "date": "2025-06-04",
+      "date": "2025-06-25",
       "home": "山东泰山",
       "away": "武汉三镇",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8b3lfmdf9lrwlofu5fqq9gyz8"
     },
     {
       "round": "第15轮",
-      "date": "2025-06-04",
+      "date": "2025-06-25",
       "home": "成都蓉城",
       "away": "深圳新鹏城",
       "home_goals": 5,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8ceyraz3jf6fut218s3f3idxw"
     },
     {
       "round": "第15轮",
-      "date": "2025-06-04",
-      "home": "上海海港",
-      "away": "大连英博",
-      "home_goals": 3,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第15轮",
-      "date": "2025-06-04",
-      "home": "云南玉昆",
-      "away": "河南",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第16轮",
-      "date": "2025-06-13",
-      "home": "长春亚泰",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第16轮",
-      "date": "2025-06-13",
-      "home": "青岛西海岸",
-      "away": "青岛海牛",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第16轮",
-      "date": "2025-06-13",
+      "date": "2025-06-25",
       "home": "梅州客家",
-      "away": "天津津门虎",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8bzrj9tgiyxuxuqwoh325tdec"
+    },
+    {
+      "round": "第15轮",
+      "date": "2025-06-25",
+      "home": "长春亚泰",
+      "away": "青岛西海岸",
       "home_goals": 1,
-      "away_goals": 2,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8bkoshl6wsjc72ftuzafom1p0"
+    },
+    {
+      "round": "第15轮",
+      "date": "2025-06-25",
+      "home": "青岛海牛",
+      "away": "浙江",
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8aoa1gzw006f6eps8pn7drac4"
     },
     {
       "round": "第16轮",
-      "date": "2025-06-13",
-      "home": "武汉三镇",
-      "away": "成都蓉城",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第16轮",
-      "date": "2025-06-13",
-      "home": "河南",
-      "away": "山东泰山",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第16轮",
-      "date": "2025-06-13",
+      "date": "2025-06-30",
       "home": "北京国安",
       "away": "云南玉昆",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8g7qsi8kl7fh4rkeri7e3qntg"
     },
     {
       "round": "第16轮",
-      "date": "2025-06-13",
+      "date": "2025-06-30",
       "home": "大连英博",
       "away": "浙江",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8fsgl611obgrty23lztkk5d78"
     },
     {
       "round": "第16轮",
-      "date": "2025-06-13",
+      "date": "2025-06-29",
+      "home": "梅州客家",
+      "away": "天津津门虎",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8eirvkchbxaxqxhz71ahix9uc"
+    },
+    {
+      "round": "第16轮",
+      "date": "2025-06-29",
+      "home": "武汉三镇",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8ey486grcvh6t2rnn3jghxkb8"
+    },
+    {
+      "round": "第16轮",
+      "date": "2025-06-30",
+      "home": "河南",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8fddmpwv1bcr3l7j7nxwye5n8"
+    },
+    {
+      "round": "第16轮",
+      "date": "2025-06-30",
       "home": "深圳新鹏城",
       "away": "上海海港",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8gouu1a7txdalfjgx2cdnxc0k"
+    },
+    {
+      "round": "第16轮",
+      "date": "2025-06-29",
+      "home": "长春亚泰",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8dofe1rom4ltfpgje3bs30pw4"
+    },
+    {
+      "round": "第16轮",
+      "date": "2025-06-29",
+      "home": "青岛西海岸",
+      "away": "青岛海牛",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8e3ktql5rufhjitwc4d90cx04"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
-      "home": "长春亚泰",
-      "away": "上海海港",
+      "date": "2025-07-19",
+      "home": "北京国安",
+      "away": "上海申花",
       "home_goals": 1,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8jocim7jc9abq9k413x1xhnh0"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
-      "home": "武汉三镇",
-      "away": "青岛西海岸",
-      "home_goals": 1,
-      "away_goals": 1,
+      "date": "2025-07-19",
+      "home": "大连英博",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8its5b2v6innn9c76067cwtn8"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
+      "date": "2025-07-18",
       "home": "天津津门虎",
       "away": "成都蓉城",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8hyydy01n3f82cypc1aiq48ic"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
+      "date": "2025-07-18",
+      "home": "武汉三镇",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8h47425rou0sjypyj66al37kk"
+    },
+    {
+      "round": "第17轮",
+      "date": "2025-07-19",
+      "home": "河南",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8k3nka89dkx1ixiol128mag44"
+    },
+    {
+      "round": "第17轮",
+      "date": "2025-07-18",
       "home": "浙江",
       "away": "云南玉昆",
       "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8ie8ni0djgx0vcix3vzwq46xg"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
-      "home": "大连英博",
-      "away": "山东泰山",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第17轮",
-      "date": "2025-06-23",
-      "home": "北京国安",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第17轮",
-      "date": "2025-06-23",
+      "date": "2025-07-19",
       "home": "深圳新鹏城",
       "away": "青岛海牛",
       "home_goals": 4,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8j91k0pq4u0rxxg3fsgjwydqs"
     },
     {
       "round": "第17轮",
-      "date": "2025-06-23",
-      "home": "河南",
-      "away": "梅州客家",
+      "date": "2025-07-18",
+      "home": "长春亚泰",
+      "away": "上海海港",
       "home_goals": 1,
-      "away_goals": 1,
+      "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8hjglt94u8qj9tz5ydtmf4h04"
     },
     {
       "round": "第18轮",
-      "date": "2025-07-03",
+      "date": "2025-07-26",
       "home": "上海海港",
       "away": "青岛西海岸",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8kj5z8nuhzudsn045syohev4k"
     },
     {
       "round": "第18轮",
-      "date": "2025-07-03",
-      "home": "成都蓉城",
-      "away": "北京国安",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第18轮",
-      "date": "2025-07-03",
-      "home": "云南玉昆",
-      "away": "深圳新鹏城",
-      "home_goals": 3,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第18轮",
-      "date": "2025-07-03",
-      "home": "长春亚泰",
-      "away": "大连英博",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第18轮",
-      "date": "2025-07-03",
-      "home": "青岛海牛",
-      "away": "天津津门虎",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第18轮",
-      "date": "2025-07-03",
+      "date": "2025-07-27",
       "home": "上海申花",
       "away": "河南",
       "home_goals": 3,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8n4na66jojx9j37f5gk96uvpw"
     },
     {
       "round": "第18轮",
-      "date": "2025-07-03",
-      "home": "浙江",
-      "away": "武汉三镇",
+      "date": "2025-07-26",
+      "home": "云南玉昆",
+      "away": "深圳新鹏城",
       "home_goals": 3,
-      "away_goals": 2,
+      "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8ldolm0tmsz4owbntk5h8kf84"
     },
     {
       "round": "第18轮",
-      "date": "2025-07-03",
+      "date": "2025-07-27",
       "home": "山东泰山",
       "away": "梅州客家",
       "home_goals": 3,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8njzi5g1tuj7zm00ufyhr728k"
+    },
+    {
+      "round": "第18轮",
+      "date": "2025-07-26",
+      "home": "成都蓉城",
+      "away": "北京国安",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8kyexqqcxfxw0vj54he567ytw"
+    },
+    {
+      "round": "第18轮",
+      "date": "2025-07-27",
+      "home": "浙江",
+      "away": "武汉三镇",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8mplklwtqoi40bnq8n5oobkt0"
+    },
+    {
+      "round": "第18轮",
+      "date": "2025-07-27",
+      "home": "长春亚泰",
+      "away": "大连英博",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8ma5gbjz10jcbpk7gease9p90"
+    },
+    {
+      "round": "第18轮",
+      "date": "2025-07-27",
+      "home": "青岛海牛",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8luyg2z8mj9us3og1asyqbsb8"
     },
     {
       "round": "第19轮",
-      "date": "2025-07-12",
+      "date": "2025-08-02",
       "home": "云南玉昆",
       "away": "上海申花",
       "home_goals": 4,
       "away_goals": 4,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8nz6d6wabcy2s43244f6ha978"
     },
     {
       "round": "第19轮",
-      "date": "2025-07-12",
-      "home": "成都蓉城",
-      "away": "山东泰山",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第19轮",
-      "date": "2025-07-12",
-      "home": "青岛西海岸",
-      "away": "河南",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第19轮",
-      "date": "2025-07-12",
-      "home": "梅州客家",
-      "away": "上海海港",
-      "home_goals": 2,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第19轮",
-      "date": "2025-07-12",
-      "home": "大连英博",
-      "away": "青岛海牛",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第19轮",
-      "date": "2025-07-12",
+      "date": "2025-08-03",
       "home": "北京国安",
       "away": "天津津门虎",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8q3iaxgcj9ku6nmvg0wpjqf4k"
     },
     {
       "round": "第19轮",
-      "date": "2025-07-12",
+      "date": "2025-08-03",
+      "home": "大连英博",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8pocolnth0dall6oyn17ta61g"
+    },
+    {
+      "round": "第19轮",
+      "date": "2025-08-02",
+      "home": "成都蓉城",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8otr4vns8yic22y479xim8k5w"
+    },
+    {
+      "round": "第19轮",
+      "date": "2025-08-02",
+      "home": "梅州客家",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8p97328wgld0tsl81bt38366s"
+    },
+    {
+      "round": "第19轮",
+      "date": "2025-08-03",
       "home": "武汉三镇",
       "away": "长春亚泰",
       "home_goals": 0,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8qij52nifudk0dbp4rl5j0s9g"
     },
     {
       "round": "第19轮",
-      "date": "2025-07-12",
+      "date": "2025-08-03",
       "home": "深圳新鹏城",
       "away": "浙江",
       "home_goals": 2,
       "away_goals": 4,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8qz8yp7753ultuknz54eshtzo"
     },
     {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "大连英博",
-      "away": "成都蓉城",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "河南",
-      "away": "深圳新鹏城",
-      "home_goals": 4,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "山东泰山",
-      "away": "长春亚泰",
+      "round": "第19轮",
+      "date": "2025-08-02",
+      "home": "青岛西海岸",
+      "away": "河南",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8oee6wk3zv1ibemfldb92kt1w"
     },
     {
       "round": "第20轮",
-      "date": "2025-07-22",
+      "date": "2025-08-09",
       "home": "上海申花",
       "away": "上海海港",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8snye0hbf3qyq8psu5osw6yvo"
     },
     {
       "round": "第20轮",
-      "date": "2025-07-22",
+      "date": "2025-08-08",
+      "home": "大连英博",
+      "away": "成都蓉城",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8rede17liuqe9226of9mj4sus"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-10",
+      "home": "天津津门虎",
+      "away": "青岛西海岸",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8tie7ugg55t23nsv0frnzrims"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-09",
+      "home": "山东泰山",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8s8tcfhbt14a0l4xnrf4opvys"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-10",
+      "home": "武汉三镇",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8ud0r9kxoho7w9yg0ujrdgb9w"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-08",
+      "home": "河南",
+      "away": "深圳新鹏城",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8rtpwhpmvjhjgk0ixxmwvxxck"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-10",
+      "home": "浙江",
+      "away": "北京国安",
+      "home_goals": 3,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8txu0f723i77f2d9ig4kdzv9w"
+    },
+    {
+      "round": "第20轮",
+      "date": "2025-08-09",
       "home": "青岛海牛",
       "away": "云南玉昆",
       "home_goals": 5,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "天津津门虎",
-      "away": "青岛西海岸",
-      "home_goals": 0,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "浙江",
-      "away": "北京国安",
-      "home_goals": 3,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第20轮",
-      "date": "2025-07-22",
-      "home": "武汉三镇",
-      "away": "梅州客家",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8t38lmi6k7g9tv2rg32baamfo"
     },
     {
       "round": "第21轮",
-      "date": "2025-07-31",
+      "date": "2025-08-15",
       "home": "上海海港",
       "away": "河南",
       "home_goals": 4,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8us8szaielujwttwbj8b0epsk"
     },
     {
       "round": "第21轮",
-      "date": "2025-07-31",
+      "date": "2025-08-15",
       "home": "云南玉昆",
       "away": "武汉三镇",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8v7npdncwmfjb1dyukjf4ep04"
     },
     {
       "round": "第21轮",
-      "date": "2025-07-31",
+      "date": "2025-08-16",
       "home": "天津津门虎",
       "away": "大连英博",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8vn544e7w4w0b5yc2n3si50yc"
     },
     {
       "round": "第21轮",
-      "date": "2025-07-31",
-      "home": "长春亚泰",
-      "away": "梅州客家",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第21轮",
-      "date": "2025-07-31",
-      "home": "青岛西海岸",
-      "away": "北京国安",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第21轮",
-      "date": "2025-07-31",
-      "home": "深圳新鹏城",
-      "away": "山东泰山",
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第21轮",
-      "date": "2025-07-31",
-      "home": "浙江",
-      "away": "上海申花",
-      "home_goals": 0,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第21轮",
-      "date": "2025-07-31",
+      "date": "2025-08-16",
       "home": "成都蓉城",
       "away": "青岛海牛",
       "home_goals": 0,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8xtdbf2eiunjr5rtqdyinitqs"
+    },
+    {
+      "round": "第21轮",
+      "date": "2025-08-16",
+      "home": "浙江",
+      "away": "上海申花",
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8xdysiz8decyhvfwlmur1vkes"
+    },
+    {
+      "round": "第21轮",
+      "date": "2025-08-16",
+      "home": "深圳新鹏城",
+      "away": "山东泰山",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8wysymi06qhjomjyyxvcdow7o"
+    },
+    {
+      "round": "第21轮",
+      "date": "2025-08-16",
+      "home": "长春亚泰",
+      "away": "梅州客家",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8wj9k7owcga2dhaxscyhs5tsk"
+    },
+    {
+      "round": "第21轮",
+      "date": "2025-08-16",
+      "home": "青岛西海岸",
+      "away": "北京国安",
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8w47n82ig79rk6tps42jb97o4"
     },
     {
       "round": "第22轮",
-      "date": "2025-08-10",
+      "date": "2025-08-24",
+      "home": "上海海港",
+      "away": "天津津门虎",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8y8jpvq1tweuees5n6j66zrx0"
+    },
+    {
+      "round": "第22轮",
+      "date": "2025-08-23",
       "home": "云南玉昆",
       "away": "成都蓉城",
       "home_goals": 1,
       "away_goals": 5,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8ynj5ld21o38qhhw4pv9nzm6s"
     },
     {
       "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "青岛海牛",
-      "away": "上海申花",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "上海海港",
-      "away": "天津津门虎",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "长春亚泰",
-      "away": "深圳新鹏城",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "梅州客家",
-      "away": "浙江",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "河南",
-      "away": "大连英博",
-      "home_goals": 4,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
-      "home": "山东泰山",
-      "away": "青岛西海岸",
-      "home_goals": 3,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第22轮",
-      "date": "2025-08-10",
+      "date": "2025-08-25",
       "home": "北京国安",
       "away": "武汉三镇",
       "home_goals": 4,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8z2m2edisf5x5ep3mpqfwmpec"
     },
     {
-      "round": "第23轮",
-      "date": "2025-08-20",
-      "home": "浙江",
-      "away": "天津津门虎",
+      "round": "第22轮",
+      "date": "2025-08-24",
+      "home": "山东泰山",
+      "away": "青岛西海岸",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "918pl1u2paispua99e7r1fbpw"
+    },
+    {
+      "round": "第22轮",
+      "date": "2025-08-24",
+      "home": "梅州客家",
+      "away": "浙江",
       "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "8zhv93ymp4g4ytgx328bf0etw"
+    },
+    {
+      "round": "第22轮",
+      "date": "2025-08-24",
+      "home": "河南",
+      "away": "大连英博",
+      "home_goals": 4,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "90rp61e9x1qtqx4gfg3xst9n8"
     },
     {
-      "round": "第23轮",
-      "date": "2025-08-20",
-      "home": "青岛海牛",
-      "away": "河南",
+      "round": "第22轮",
+      "date": "2025-08-24",
+      "home": "长春亚泰",
+      "away": "深圳新鹏城",
       "home_goals": 1,
-      "away_goals": 1,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "8zwwvuo1xgtw7juwucoizkowk"
+    },
+    {
+      "round": "第22轮",
+      "date": "2025-08-23",
+      "home": "青岛海牛",
+      "away": "上海申花",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "90c6yyj4s28i3bmo9kmt47g9g"
     },
     {
       "round": "第23轮",
-      "date": "2025-08-20",
-      "home": "成都蓉城",
-      "away": "上海海港",
-      "home_goals": 4,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第23轮",
-      "date": "2025-08-20",
+      "date": "2025-08-30",
       "home": "云南玉昆",
       "away": "长春亚泰",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "93cq6soohevreaqwzs7kdskyc"
     },
     {
       "round": "第23轮",
-      "date": "2025-08-20",
-      "home": "武汉三镇",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 0,
+      "date": "2025-10-04",
+      "home": "大连英博",
+      "away": "青岛西海岸",
+      "home_goals": 0,
+      "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "92in34l6pnolh1ychh3r87190"
     },
     {
       "round": "第23轮",
-      "date": "2025-08-20",
+      "date": "2025-08-31",
       "home": "山东泰山",
       "away": "北京国安",
       "home_goals": 6,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "94lwl3df9fekaklmzmtz3a1p0"
+    },
+    {
+      "round": "第23轮",
+      "date": "2025-08-30",
+      "home": "成都蓉城",
+      "away": "上海海港",
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "92xr74umkk6u5r0xfsz58k5qs"
+    },
+    {
+      "round": "第23轮",
+      "date": "2025-08-31",
+      "home": "武汉三镇",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "93rqogj15pppleo9bpxo66238"
     },
     {
       "round": "第23轮",
       "date": "2025-08-20",
+      "home": "浙江",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "923dvv5ptkbgjexrygk5qqn84"
+    },
+    {
+      "round": "第23轮",
+      "date": "2025-08-31",
       "home": "深圳新鹏城",
       "away": "梅州客家",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "946ufykxohuckztk9wlcvefpw"
     },
     {
       "round": "第23轮",
-      "date": "2025-08-20",
-      "home": "大连英博",
-      "away": "青岛西海岸",
-      "home_goals": 0,
-      "away_goals": 2,
+      "date": "2025-08-29",
+      "home": "青岛海牛",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "91o26egl31juevvomgbhov1n8"
     },
     {
       "round": "第24轮",
-      "date": "2025-09-01",
+      "date": "2025-09-12",
       "home": "上海海港",
       "away": "云南玉昆",
       "home_goals": 4,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "951fpdbig2fyv20z04jk3i3o4"
     },
     {
       "round": "第24轮",
-      "date": "2025-09-01",
-      "home": "成都蓉城",
-      "away": "长春亚泰",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第24轮",
-      "date": "2025-09-01",
-      "home": "河南",
-      "away": "北京国安",
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第24轮",
-      "date": "2025-09-01",
+      "date": "2025-09-12",
       "home": "上海申花",
       "away": "山东泰山",
       "home_goals": 3,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "96chmiogbqvmfhseyoi7e1wr8"
     },
     {
       "round": "第24轮",
-      "date": "2025-09-01",
-      "home": "青岛西海岸",
-      "away": "浙江",
-      "home_goals": 0,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第24轮",
-      "date": "2025-09-01",
+      "date": "2025-09-14",
       "home": "大连英博",
       "away": "深圳新鹏城",
       "home_goals": 2,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "97luj8c6lzjtpd0fo554fmrys"
     },
     {
       "round": "第24轮",
-      "date": "2025-09-01",
+      "date": "2025-09-14",
       "home": "天津津门虎",
       "away": "武汉三镇",
       "home_goals": 4,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "980x8jft2tsum8sq4oqtd8zdg"
     },
     {
       "round": "第24轮",
-      "date": "2025-09-01",
+      "date": "2025-09-12",
+      "home": "成都蓉城",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "95ghxmrq4iefr823at49s6vpw"
+    },
+    {
+      "round": "第24轮",
+      "date": "2025-10-04",
       "home": "梅州客家",
       "away": "青岛海牛",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "96rleswadeltpq8zb3qwyhkwk"
     },
     {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "武汉三镇",
-      "away": "河南",
+      "round": "第24轮",
+      "date": "2025-09-12",
+      "home": "河南",
+      "away": "北京国安",
       "home_goals": 2,
-      "away_goals": 5,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "云南玉昆",
-      "away": "大连英博",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "长春亚泰",
-      "away": "浙江",
-      "home_goals": 3,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "梅州客家",
-      "away": "青岛西海岸",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "青岛海牛",
-      "away": "山东泰山",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "北京国安",
-      "away": "上海海港",
-      "home_goals": 2,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第25轮",
-      "date": "2025-09-13",
-      "home": "天津津门虎",
-      "away": "深圳新鹏城",
-      "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "95vlrxbiq0jxfpnulcem14glw"
+    },
+    {
+      "round": "第24轮",
+      "date": "2025-09-13",
+      "home": "青岛西海岸",
+      "away": "浙江",
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "976n2xbgbphqiciktzcllrjtg"
     },
     {
       "round": "第25轮",
-      "date": "2025-09-13",
+      "date": "2025-09-21",
       "home": "上海申花",
       "away": "成都蓉城",
       "home_goals": 1,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9bht1zdnl25ke13ro0y2fxmac"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-19",
+      "home": "云南玉昆",
+      "away": "大连英博",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "98g5vfy0r7s7b625vzwrh9vro"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-21",
+      "home": "北京国安",
+      "away": "上海海港",
+      "home_goals": 2,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9akst77bhakyb1e9efj03kzys"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-21",
+      "home": "天津津门虎",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9b0aej7s5nlmnepuv6eo1zo5w"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-20",
+      "home": "梅州客家",
+      "away": "青岛西海岸",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "99asjrb9chqugygks8elk17v8"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-19",
+      "home": "武汉三镇",
+      "away": "河南",
+      "home_goals": 2,
+      "away_goals": 5,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "99q1ffe40hljdwr09pr0qrdas"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-20",
+      "home": "长春亚泰",
+      "away": "浙江",
+      "home_goals": 3,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "98vl8rgyzfzuuy0z6cvoz21as"
+    },
+    {
+      "round": "第25轮",
+      "date": "2025-09-20",
+      "home": "青岛海牛",
+      "away": "山东泰山",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9a5dtj2e8p4pb7mdeebltgphw"
+    },
+    {
+      "round": "第26轮",
+      "date": "2025-09-26",
+      "home": "上海海港",
+      "away": "武汉三镇",
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9d72z6pwxx65kv3w29no0uhw4"
     },
     {
       "round": "第26轮",
@@ -2010,7 +2221,8 @@
       "home_goals": 6,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9bwydeklipsvz1hvwr5y9zhuc"
     },
     {
       "round": "第26轮",
@@ -2020,17 +2232,30 @@
       "home_goals": 4,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9cc7xj85vkbv5ze4buw23wges"
     },
     {
       "round": "第26轮",
-      "date": "2025-09-26",
-      "home": "上海海港",
-      "away": "武汉三镇",
-      "home_goals": 3,
-      "away_goals": 2,
+      "date": "2025-09-28",
+      "home": "天津津门虎",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9ehf1aix4ckykaum8879xyuxg"
+    },
+    {
+      "round": "第26轮",
+      "date": "2025-10-04",
+      "home": "山东泰山",
+      "away": "云南玉昆",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9e22appi6toqj0r7wkqoyelg4"
     },
     {
       "round": "第26轮",
@@ -2040,207 +2265,206 @@
       "home_goals": 3,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9crqqbnwbepl11te7ukludmok"
     },
     {
       "round": "第26轮",
-      "date": "2025-09-26",
-      "home": "长春亚泰",
-      "away": "青岛海牛",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第26轮",
-      "date": "2025-09-26",
-      "home": "天津津门虎",
-      "away": "河南",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第26轮",
-      "date": "2025-09-26",
+      "date": "2025-09-28",
       "home": "深圳新鹏城",
       "away": "青岛西海岸",
       "home_goals": 1,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9ewjytd7y053v2cydjxau2dck"
     },
     {
       "round": "第26轮",
-      "date": "2025-09-26",
-      "home": "山东泰山",
-      "away": "云南玉昆",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第27轮",
-      "date": "2025-10-07",
-      "home": "青岛海牛",
-      "away": "上海海港",
-      "home_goals": 3,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第27轮",
-      "date": "2025-10-07",
-      "home": "成都蓉城",
-      "away": "梅州客家",
-      "home_goals": 3,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第27轮",
-      "date": "2025-10-07",
-      "home": "青岛西海岸",
-      "away": "上海申花",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第27轮",
-      "date": "2025-10-07",
-      "home": "深圳新鹏城",
-      "away": "北京国安",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第27轮",
-      "date": "2025-10-07",
-      "home": "浙江",
-      "away": "山东泰山",
+      "date": "2025-09-27",
+      "home": "长春亚泰",
+      "away": "青岛海牛",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9dmu70y22mpd7yz9msekba2hg"
     },
     {
       "round": "第27轮",
-      "date": "2025-10-07",
+      "date": "2025-10-18",
       "home": "云南玉昆",
       "away": "天津津门虎",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9hhj8iemf948gjqmc03pqh5w4"
     },
     {
       "round": "第27轮",
-      "date": "2025-10-07",
+      "date": "2025-10-19",
       "home": "大连英博",
       "away": "武汉三镇",
       "home_goals": 0,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9hwobrkqkdst2ro37wpkpc6qc"
     },
     {
       "round": "第27轮",
-      "date": "2025-10-07",
+      "date": "2025-10-17",
+      "home": "成都蓉城",
+      "away": "梅州客家",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9fqz8uwi0mpgnvjzcav9dg07o"
+    },
+    {
+      "round": "第27轮",
+      "date": "2025-10-19",
       "home": "河南",
       "away": "长春亚泰",
       "home_goals": 2,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9ibtylxjg9h0ob4bsy8qqjc44"
     },
     {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "梅州客家",
-      "away": "云南玉昆",
-      "home_goals": 1,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "武汉三镇",
-      "away": "深圳新鹏城",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "天津津门虎",
-      "away": "长春亚泰",
+      "round": "第27轮",
+      "date": "2025-10-18",
+      "home": "浙江",
+      "away": "山东泰山",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9h27406cx7vn6xj3metcu42z8"
     },
     {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "河南",
-      "away": "浙江",
+      "round": "第27轮",
+      "date": "2025-10-18",
+      "home": "深圳新鹏城",
+      "away": "北京国安",
       "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "山东泰山",
-      "away": "上海海港",
-      "home_goals": 3,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9gn3pw4i7rz7zqsytt27254wk"
     },
     {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "青岛西海岸",
-      "away": "成都蓉城",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第28轮",
-      "date": "2025-10-19",
-      "home": "北京国安",
-      "away": "青岛海牛",
-      "home_goals": 2,
+      "round": "第27轮",
+      "date": "2025-10-17",
+      "home": "青岛海牛",
+      "away": "上海海港",
+      "home_goals": 3,
       "away_goals": 4,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9fbsyztjfgw7ihs17krakbdp0"
+    },
+    {
+      "round": "第27轮",
+      "date": "2025-10-17",
+      "home": "青岛西海岸",
+      "away": "上海申花",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9g5zkyth6ai92b9nspnrgowes"
     },
     {
       "round": "第28轮",
-      "date": "2025-10-19",
+      "date": "2025-10-26",
       "home": "上海申花",
       "away": "大连英博",
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9lrpq0p7j08oghrb9oewv6vx0"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-26",
+      "home": "北京国安",
+      "away": "青岛海牛",
+      "home_goals": 2,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9ladmu2vxpzaitarr06fyd7o4"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-25",
+      "home": "天津津门虎",
+      "away": "长春亚泰",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9j6idzz56ksvx8ufmqsh1z4es"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-26",
+      "home": "山东泰山",
+      "away": "上海海港",
+      "home_goals": 3,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9kfsly60kciy93yy3pqqcq9ec"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-24",
+      "home": "梅州客家",
+      "away": "云南玉昆",
+      "home_goals": 1,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9ircjj86yln4yimulpmnulu6s"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-24",
+      "home": "武汉三镇",
+      "away": "深圳新鹏城",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9k0qfm282ajuifiqhgavfrw2c"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-25",
+      "home": "河南",
+      "away": "浙江",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9jlm6li356hnmnxskfh9fawic"
+    },
+    {
+      "round": "第28轮",
+      "date": "2025-10-26",
+      "home": "青岛西海岸",
+      "away": "成都蓉城",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9kuyx1ud8edcjcnq3zfzj9fkk"
     },
     {
       "round": "第29轮",
@@ -2250,17 +2474,8 @@
       "home_goals": 3,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第29轮",
-      "date": "2025-10-31",
-      "home": "成都蓉城",
-      "away": "河南",
-      "home_goals": 1,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9m6powsw57at2opu9q6s4rbbo"
     },
     {
       "round": "第29轮",
@@ -2270,57 +2485,74 @@
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9n161yqgyeylcltu3d5sza784"
     },
     {
       "round": "第29轮",
-      "date": "2025-10-31",
-      "home": "长春亚泰",
-      "away": "北京国安",
-      "home_goals": 0,
-      "away_goals": 4,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第29轮",
-      "date": "2025-10-31",
-      "home": "山东泰山",
-      "away": "天津津门虎",
-      "home_goals": 2,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第29轮",
-      "date": "2025-10-31",
-      "home": "梅州客家",
-      "away": "大连英博",
-      "home_goals": 2,
-      "away_goals": 2,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第29轮",
-      "date": "2025-10-31",
-      "home": "青岛海牛",
-      "away": "武汉三镇",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第29轮",
-      "date": "2025-10-31",
+      "date": "2025-11-02",
       "home": "云南玉昆",
       "away": "青岛西海岸",
       "home_goals": 1,
       "away_goals": 0,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9p5nyf8kghwcu5i3ipkeaia6s"
+    },
+    {
+      "round": "第29轮",
+      "date": "2025-11-01",
+      "home": "山东泰山",
+      "away": "天津津门虎",
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9nw1u6jsoujspqxsave6ose1g"
+    },
+    {
+      "round": "第29轮",
+      "date": "2025-10-31",
+      "home": "成都蓉城",
+      "away": "河南",
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9mltoczeyy2yvwc6ku1vd5v6c"
+    },
+    {
+      "round": "第29轮",
+      "date": "2025-11-01",
+      "home": "梅州客家",
+      "away": "大连英博",
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9ob4zsucmwbhhphktpyk8kg0k"
+    },
+    {
+      "round": "第29轮",
+      "date": "2025-11-01",
+      "home": "长春亚泰",
+      "away": "北京国安",
+      "home_goals": 0,
+      "away_goals": 4,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9ngf2aitlwsexor4z9mbowbh0"
+    },
+    {
+      "round": "第29轮",
+      "date": "2025-11-02",
+      "home": "青岛海牛",
+      "away": "武汉三镇",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9oqff4vy2frdr5simu2ijrml0"
     },
     {
       "round": "第30轮",
@@ -2330,7 +2562,8 @@
       "home_goals": 5,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9pkyrtlvqyb9vdtdylzrd6txw"
     },
     {
       "round": "第30轮",
@@ -2340,37 +2573,8 @@
       "home_goals": 0,
       "away_goals": 1,
       "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第30轮",
-      "date": "2025-11-22",
-      "home": "河南",
-      "away": "云南玉昆",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第30轮",
-      "date": "2025-11-22",
-      "home": "青岛西海岸",
-      "away": "长春亚泰",
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "season_txt"
-    },
-    {
-      "round": "第30轮",
-      "date": "2025-11-22",
-      "home": "深圳新鹏城",
-      "away": "成都蓉城",
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9sll7v2xxhtl611okkjygkphw"
     },
     {
       "round": "第30轮",
@@ -2380,7 +2584,8 @@
       "home_goals": 1,
       "away_goals": 3,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9q0bgc67dzcturwjvmtn5ri8k"
     },
     {
       "round": "第30轮",
@@ -2390,7 +2595,19 @@
       "home_goals": 1,
       "away_goals": 5,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9rr3revs57vasawjcrbp5cw0k"
+    },
+    {
+      "round": "第30轮",
+      "date": "2025-11-22",
+      "home": "河南",
+      "away": "云南玉昆",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9qwen3u061fkf5z241e0oj1g4"
     },
     {
       "round": "第30轮",
@@ -2400,7 +2617,30 @@
       "home_goals": 2,
       "away_goals": 2,
       "status": "finished",
-      "source": "season_txt"
+      "source": "leisu",
+      "match_id": "9qfo1b5427sifqx8v8rjxpic4"
+    },
+    {
+      "round": "第30轮",
+      "date": "2025-11-22",
+      "home": "深圳新鹏城",
+      "away": "成都蓉城",
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9s6btl0tfch7n2dk4r0iaijo4"
+    },
+    {
+      "round": "第30轮",
+      "date": "2025-11-22",
+      "home": "青岛西海岸",
+      "away": "长春亚泰",
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "leisu",
+      "match_id": "9rbhmj5lpn1jityp95zydad5g"
     }
   ]
 }

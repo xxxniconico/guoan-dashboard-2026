@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T08:42:34.859129+00:00",
+    "generated_at_utc": "2026-07-23T11:20:49.510844+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/xxxsuli/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -3726,6 +3726,30 @@
         }
       },
       {
+        "player_name": "刘俊泽",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 57,
+        "cfl_profile": {
+          "height": "157",
+          "weight": "53",
+          "nationality": "中国",
+          "date_of_birth": "2008-04-17",
+          "player_icon": "",
+          "player_name_en": "Liu Junze"
+        }
+      },
+      {
         "player_name": "刘邵子洋",
         "team_name": "北京国安",
         "appearances": 0,
@@ -3822,6 +3846,30 @@
         }
       },
       {
+        "player_name": "夏晓雨",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 43,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "72",
+          "nationality": "中国",
+          "date_of_birth": "2007-09-26",
+          "player_icon": "",
+          "player_name_en": "Xia Xiaoyu"
+        }
+      },
+      {
         "player_name": "孔特",
         "team_name": "北京国安",
         "appearances": 3,
@@ -3883,6 +3931,30 @@
         }
       },
       {
+        "player_name": "张昊冉",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 50,
+        "cfl_profile": {
+          "height": "153",
+          "weight": "40",
+          "nationality": "中国",
+          "date_of_birth": "2007-10-17",
+          "player_icon": "",
+          "player_name_en": "Zhang Haoran"
+        }
+      },
+      {
         "player_name": "恩科洛洛",
         "team_name": "北京国安",
         "appearances": 2,
@@ -3913,30 +3985,6 @@
           "date_of_birth": "1996-11-06",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/恩科洛洛.jpg",
           "player_name_en": "Nkololo Béni"
-        }
-      },
-      {
-        "player_name": "斯帕吉奇",
-        "team_name": "北京国安",
-        "appearances": 0,
-        "goals": 0,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [],
-        "card_calendar": [],
-        "goal_contribution_pct": 0.0,
-        "form_5": [],
-        "streak": "",
-        "position": "后卫",
-        "shirt_number": "",
-        "cfl_profile": {
-          "height": "188",
-          "weight": "82",
-          "nationality": "塞尔维亚",
-          "date_of_birth": "1993-02-13",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/斯帕伊奇.jpg",
-          "player_name_en": "SpajićUroš"
         }
       },
       {
@@ -4195,6 +4243,30 @@
         }
       },
       {
+        "player_name": "罗子祥",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "后卫",
+        "shirt_number": 55,
+        "cfl_profile": {
+          "height": "152",
+          "weight": null,
+          "nationality": "中国",
+          "date_of_birth": "2007-12-16",
+          "player_icon": "",
+          "player_name_en": "Luo Zixiang"
+        }
+      },
+      {
         "player_name": "范双杰",
         "team_name": "北京国安",
         "appearances": 0,
@@ -4216,6 +4288,30 @@
           "date_of_birth": "2005-08-25",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/范双杰_1.jpg",
           "player_name_en": "FanShuangjie"
+        }
+      },
+      {
+        "player_name": "蒋子承",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 58,
+        "cfl_profile": {
+          "height": "174",
+          "weight": "55",
+          "nationality": "中国",
+          "date_of_birth": "2007-09-11",
+          "player_icon": "",
+          "player_name_en": "Jiang Zicheng"
         }
       },
       {
@@ -4304,6 +4400,30 @@
         }
       },
       {
+        "player_name": "陈康悦",
+        "team_name": "北京国安",
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [],
+        "card_calendar": [],
+        "goal_contribution_pct": 0.0,
+        "form_5": [],
+        "streak": "",
+        "position": "中场",
+        "shirt_number": 59,
+        "cfl_profile": {
+          "height": "165",
+          "weight": "53",
+          "nationality": "中国",
+          "date_of_birth": "2008-05-26",
+          "player_icon": "",
+          "player_name_en": "Chen Kangyue"
+        }
+      },
+      {
         "player_name": "韩佳奇",
         "team_name": "北京国安",
         "appearances": 0,
@@ -4379,12 +4499,12 @@
     "h2h_records": {
       "梅州客家": {
         "all_time": {
-          "played": 5,
-          "wins": 3,
+          "played": 6,
+          "wins": 4,
           "draws": 1,
           "losses": 1,
-          "gf": 16,
-          "ga": 7
+          "gf": 17,
+          "ga": 8
         },
         "matches": [
           {
@@ -4413,20 +4533,32 @@
           },
           {
             "season": "2024",
-            "round": "第13轮",
-            "date": "2024-06-02",
+            "round": "第11轮",
+            "date": "2024-05-11",
             "venue": "",
             "is_home": true,
             "opponent": "梅州客家",
-            "score": "5:2",
+            "score": "3:2",
             "result": "W",
-            "guoan_goals": 5,
+            "guoan_goals": 3,
             "opp_goals": 2
+          },
+          {
+            "season": "2024",
+            "round": "第26轮",
+            "date": "2024-09-20",
+            "venue": "",
+            "is_home": false,
+            "opponent": "梅州客家",
+            "score": "1:3",
+            "result": "W",
+            "guoan_goals": 3,
+            "opp_goals": 1
           },
           {
             "season": "2025",
             "round": "第15轮",
-            "date": "2025-06-04",
+            "date": "2025-06-25",
             "venue": "",
             "is_home": false,
             "opponent": "梅州客家",
@@ -4510,7 +4642,7 @@
           {
             "season": "2025",
             "round": "第7轮",
-            "date": "2025-04-04",
+            "date": "2025-04-15",
             "venue": "",
             "is_home": false,
             "opponent": "武汉三镇",
@@ -4522,7 +4654,7 @@
           {
             "season": "2025",
             "round": "第22轮",
-            "date": "2025-08-10",
+            "date": "2025-08-25",
             "venue": "",
             "is_home": true,
             "opponent": "武汉三镇",
@@ -4733,10 +4865,10 @@
         "all_time": {
           "played": 7,
           "wins": 3,
-          "draws": 1,
-          "losses": 3,
-          "gf": 15,
-          "ga": 12
+          "draws": 2,
+          "losses": 2,
+          "gf": 17,
+          "ga": 11
         },
         "matches": [
           {
@@ -4765,32 +4897,32 @@
           },
           {
             "season": "2024",
-            "round": "第15轮",
-            "date": "2024-06-17",
-            "venue": "",
-            "is_home": true,
-            "opponent": "青岛海牛",
-            "score": "4:0",
-            "result": "W",
-            "guoan_goals": 4,
-            "opp_goals": 0
-          },
-          {
-            "season": "2024",
-            "round": "第16轮",
-            "date": "2024-06-24",
+            "round": "第13轮",
+            "date": "2024-05-21",
             "venue": "",
             "is_home": false,
             "opponent": "青岛海牛",
-            "score": "2:1",
-            "result": "L",
+            "score": "1:1",
+            "result": "D",
             "guoan_goals": 1,
-            "opp_goals": 2
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第28轮",
+            "date": "2024-10-19",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛海牛",
+            "score": "6:0",
+            "result": "W",
+            "guoan_goals": 6,
+            "opp_goals": 0
           },
           {
             "season": "2025",
             "round": "第13轮",
-            "date": "2025-05-16",
+            "date": "2025-05-17",
             "venue": "",
             "is_home": false,
             "opponent": "青岛海牛",
@@ -4802,7 +4934,7 @@
           {
             "season": "2025",
             "round": "第28轮",
-            "date": "2025-10-19",
+            "date": "2025-10-26",
             "venue": "",
             "is_home": true,
             "opponent": "青岛海牛",
@@ -4954,12 +5086,12 @@
       },
       "山东泰山": {
         "all_time": {
-          "played": 9,
-          "wins": 4,
+          "played": 8,
+          "wins": 3,
           "draws": 2,
           "losses": 3,
-          "gf": 17,
-          "ga": 17
+          "gf": 11,
+          "ga": 12
         },
         "matches": [
           {
@@ -4989,43 +5121,31 @@
           {
             "season": "2024",
             "round": "第2轮",
-            "date": "2024-01-01",
+            "date": "2024-03-09",
             "venue": "",
-            "is_home": true,
+            "is_home": false,
             "opponent": "山东泰山",
-            "score": "3:2",
-            "result": "W",
-            "guoan_goals": 3,
-            "opp_goals": 2
-          },
-          {
-            "season": "2024",
-            "round": "第8轮",
-            "date": "2024-04-27",
-            "venue": "",
-            "is_home": true,
-            "opponent": "山东泰山",
-            "score": "3:1",
-            "result": "W",
-            "guoan_goals": 3,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第24轮",
-            "date": "2024-08-22",
-            "venue": "",
-            "is_home": true,
-            "opponent": "山东泰山",
-            "score": "2:2",
+            "score": "0:0",
             "result": "D",
+            "guoan_goals": 0,
+            "opp_goals": 0
+          },
+          {
+            "season": "2024",
+            "round": "第17轮",
+            "date": "2024-06-30",
+            "venue": "",
+            "is_home": true,
+            "opponent": "山东泰山",
+            "score": "2:0",
+            "result": "W",
             "guoan_goals": 2,
-            "opp_goals": 2
+            "opp_goals": 0
           },
           {
             "season": "2025",
             "round": "第8轮",
-            "date": "2025-04-11",
+            "date": "2025-04-19",
             "venue": "",
             "is_home": true,
             "opponent": "山东泰山",
@@ -5037,7 +5157,7 @@
           {
             "season": "2025",
             "round": "第23轮",
-            "date": "2025-08-20",
+            "date": "2025-08-31",
             "venue": "",
             "is_home": false,
             "opponent": "山东泰山",
@@ -5264,12 +5384,12 @@
       },
       "河南俱乐部": {
         "all_time": {
-          "played": 6,
+          "played": 7,
           "wins": 3,
           "draws": 1,
-          "losses": 2,
-          "gf": 7,
-          "ga": 6
+          "losses": 3,
+          "gf": 8,
+          "ga": 8
         },
         "matches": [
           {
@@ -5298,6 +5418,18 @@
           },
           {
             "season": "2024",
+            "round": "第15轮",
+            "date": "2024-06-15",
+            "venue": "",
+            "is_home": false,
+            "opponent": "河南俱乐部",
+            "score": "2:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "season": "2024",
             "round": "第30轮",
             "date": "2024-11-02",
             "venue": "",
@@ -5311,7 +5443,7 @@
           {
             "season": "2025",
             "round": "第9轮",
-            "date": "2025-04-18",
+            "date": "2025-04-25",
             "venue": "",
             "is_home": true,
             "opponent": "河南俱乐部",
@@ -5323,7 +5455,7 @@
           {
             "season": "2025",
             "round": "第24轮",
-            "date": "2025-09-01",
+            "date": "2025-09-12",
             "venue": "",
             "is_home": false,
             "opponent": "河南俱乐部",
@@ -5445,12 +5577,12 @@
       },
       "天津津门虎": {
         "all_time": {
-          "played": 8,
-          "wins": 3,
+          "played": 7,
+          "wins": 2,
           "draws": 4,
           "losses": 1,
-          "gf": 13,
-          "ga": 11
+          "gf": 10,
+          "ga": 9
         },
         "matches": [
           {
@@ -5479,32 +5611,8 @@
           },
           {
             "season": "2024",
-            "round": "第7轮",
-            "date": "2024-04-21",
-            "venue": "",
-            "is_home": true,
-            "opponent": "天津津门虎",
-            "score": "3:1",
-            "result": "W",
-            "guoan_goals": 3,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第22轮",
-            "date": "2024-08-07",
-            "venue": "",
-            "is_home": true,
-            "opponent": "天津津门虎",
-            "score": "2:1",
-            "result": "W",
-            "guoan_goals": 2,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第29轮",
-            "date": "2024-10-20",
+            "round": "第9轮",
+            "date": "2024-04-30",
             "venue": "",
             "is_home": false,
             "opponent": "天津津门虎",
@@ -5514,9 +5622,21 @@
             "opp_goals": 0
           },
           {
+            "season": "2024",
+            "round": "第24轮",
+            "date": "2024-07-21",
+            "venue": "",
+            "is_home": true,
+            "opponent": "天津津门虎",
+            "score": "2:0",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
+          },
+          {
             "season": "2025",
             "round": "第4轮",
-            "date": "2025-03-14",
+            "date": "2025-04-02",
             "venue": "",
             "is_home": false,
             "opponent": "天津津门虎",
@@ -5528,7 +5648,7 @@
           {
             "season": "2025",
             "round": "第19轮",
-            "date": "2025-07-12",
+            "date": "2025-08-03",
             "venue": "",
             "is_home": true,
             "opponent": "天津津门虎",
@@ -5666,12 +5786,12 @@
       },
       "南通支云": {
         "all_time": {
-          "played": 3,
-          "wins": 3,
+          "played": 4,
+          "wins": 4,
           "draws": 0,
           "losses": 0,
-          "gf": 5,
-          "ga": 0
+          "gf": 10,
+          "ga": 3
         },
         "matches": [
           {
@@ -5700,15 +5820,27 @@
           },
           {
             "season": "2024",
-            "round": "第25轮",
-            "date": "2024-08-30",
+            "round": "第14轮",
+            "date": "2024-05-26",
+            "venue": "",
+            "is_home": true,
+            "opponent": "南通支云",
+            "score": "5:2",
+            "result": "W",
+            "guoan_goals": 5,
+            "opp_goals": 2
+          },
+          {
+            "season": "2024",
+            "round": "第29轮",
+            "date": "2024-10-27",
             "venue": "",
             "is_home": false,
             "opponent": "南通支云",
-            "score": "0:3",
+            "score": "1:3",
             "result": "W",
             "guoan_goals": 3,
-            "opp_goals": 0
+            "opp_goals": 1
           }
         ]
       },
@@ -5716,10 +5848,10 @@
         "all_time": {
           "played": 7,
           "wins": 2,
-          "draws": 3,
-          "losses": 2,
+          "draws": 4,
+          "losses": 1,
           "gf": 10,
-          "ga": 11
+          "ga": 10
         },
         "matches": [
           {
@@ -5748,20 +5880,20 @@
           },
           {
             "season": "2024",
-            "round": "第9轮",
-            "date": "2024-05-04",
+            "round": "第6轮",
+            "date": "2024-04-13",
             "venue": "",
             "is_home": false,
             "opponent": "上海申花",
-            "score": "2:1",
-            "result": "L",
+            "score": "1:1",
+            "result": "D",
             "guoan_goals": 1,
-            "opp_goals": 2
+            "opp_goals": 1
           },
           {
             "season": "2024",
             "round": "第21轮",
-            "date": "2024-07-31",
+            "date": "2024-08-04",
             "venue": "",
             "is_home": true,
             "opponent": "上海申花",
@@ -5773,7 +5905,7 @@
           {
             "season": "2025",
             "round": "第2轮",
-            "date": "2025-02-28",
+            "date": "2025-03-01",
             "venue": "",
             "is_home": false,
             "opponent": "上海申花",
@@ -5785,7 +5917,7 @@
           {
             "season": "2025",
             "round": "第17轮",
-            "date": "2025-06-23",
+            "date": "2025-07-19",
             "venue": "",
             "is_home": true,
             "opponent": "上海申花",
@@ -5917,12 +6049,12 @@
       },
       "沧州雄狮": {
         "all_time": {
-          "played": 5,
-          "wins": 3,
-          "draws": 1,
-          "losses": 1,
-          "gf": 14,
-          "ga": 6
+          "played": 4,
+          "wins": 4,
+          "draws": 0,
+          "losses": 0,
+          "gf": 17,
+          "ga": 3
         },
         "matches": [
           {
@@ -5952,37 +6084,25 @@
           {
             "season": "2024",
             "round": "第1轮",
-            "date": "2024-01-01",
+            "date": "2024-03-02",
             "venue": "",
             "is_home": false,
             "opponent": "沧州雄狮",
-            "score": "2:0",
-            "result": "L",
-            "guoan_goals": 0,
-            "opp_goals": 2
+            "score": "0:2",
+            "result": "W",
+            "guoan_goals": 2,
+            "opp_goals": 0
           },
           {
             "season": "2024",
-            "round": "第14轮",
-            "date": "2024-06-10",
-            "venue": "",
-            "is_home": false,
-            "opponent": "沧州雄狮",
-            "score": "1:1",
-            "result": "D",
-            "guoan_goals": 1,
-            "opp_goals": 1
-          },
-          {
-            "season": "2024",
-            "round": "第26轮",
-            "date": "2024-09-11",
+            "round": "第16轮",
+            "date": "2024-06-26",
             "venue": "",
             "is_home": true,
             "opponent": "沧州雄狮",
-            "score": "2:0",
+            "score": "4:0",
             "result": "W",
-            "guoan_goals": 2,
+            "guoan_goals": 4,
             "opp_goals": 0
           }
         ]
@@ -6048,7 +6168,7 @@
           {
             "season": "2025",
             "round": "第5轮",
-            "date": "2025-03-21",
+            "date": "2025-04-06",
             "venue": "",
             "is_home": true,
             "opponent": "浙江俱乐部",
@@ -6060,7 +6180,7 @@
           {
             "season": "2025",
             "round": "第20轮",
-            "date": "2025-07-22",
+            "date": "2025-08-10",
             "venue": "",
             "is_home": false,
             "opponent": "浙江俱乐部",
@@ -6174,12 +6294,12 @@
       },
       "长春亚泰": {
         "all_time": {
-          "played": 5,
-          "wins": 3,
-          "draws": 2,
-          "losses": 0,
-          "gf": 13,
-          "ga": 7
+          "played": 6,
+          "wins": 4,
+          "draws": 1,
+          "losses": 1,
+          "gf": 21,
+          "ga": 9
         },
         "matches": [
           {
@@ -6208,20 +6328,32 @@
           },
           {
             "season": "2024",
-            "round": "第18轮",
-            "date": "2024-07-09",
+            "round": "第12轮",
+            "date": "2024-05-17",
+            "venue": "",
+            "is_home": false,
+            "opponent": "长春亚泰",
+            "score": "3:2",
+            "result": "L",
+            "guoan_goals": 2,
+            "opp_goals": 3
+          },
+          {
+            "season": "2024",
+            "round": "第27轮",
+            "date": "2024-09-28",
             "venue": "",
             "is_home": true,
             "opponent": "长春亚泰",
-            "score": "2:2",
-            "result": "D",
-            "guoan_goals": 2,
-            "opp_goals": 2
+            "score": "8:1",
+            "result": "W",
+            "guoan_goals": 8,
+            "opp_goals": 1
           },
           {
             "season": "2025",
             "round": "第14轮",
-            "date": "2025-05-25",
+            "date": "2025-06-14",
             "venue": "",
             "is_home": true,
             "opponent": "长春亚泰",
@@ -6233,7 +6365,7 @@
           {
             "season": "2025",
             "round": "第29轮",
-            "date": "2025-10-31",
+            "date": "2025-11-01",
             "venue": "",
             "is_home": false,
             "opponent": "长春亚泰",
@@ -6284,10 +6416,10 @@
         "all_time": {
           "played": 7,
           "wins": 2,
-          "draws": 1,
-          "losses": 4,
+          "draws": 2,
+          "losses": 3,
           "gf": 12,
-          "ga": 15
+          "ga": 16
         },
         "matches": [
           {
@@ -6316,32 +6448,32 @@
           },
           {
             "season": "2024",
-            "round": "第3轮",
-            "date": "2024-03-29",
+            "round": "第4轮",
+            "date": "2024-04-05",
             "venue": "",
-            "is_home": false,
+            "is_home": true,
             "opponent": "上海海港",
-            "score": "3:2",
-            "result": "L",
+            "score": "2:2",
+            "result": "D",
             "guoan_goals": 2,
-            "opp_goals": 3
+            "opp_goals": 2
           },
           {
             "season": "2024",
             "round": "第19轮",
-            "date": "2024-07-16",
+            "date": "2024-07-12",
             "venue": "",
             "is_home": false,
             "opponent": "上海海港",
-            "score": "3:1",
+            "score": "5:1",
             "result": "L",
             "guoan_goals": 1,
-            "opp_goals": 3
+            "opp_goals": 5
           },
           {
             "season": "2025",
             "round": "第10轮",
-            "date": "2025-04-25",
+            "date": "2025-05-01",
             "venue": "",
             "is_home": false,
             "opponent": "上海海港",
@@ -6353,7 +6485,7 @@
           {
             "season": "2025",
             "round": "第25轮",
-            "date": "2025-09-13",
+            "date": "2025-09-21",
             "venue": "",
             "is_home": true,
             "opponent": "上海海港",
@@ -6493,12 +6625,12 @@
       },
       "成都蓉城": {
         "all_time": {
-          "played": 8,
+          "played": 7,
           "wins": 2,
-          "draws": 1,
-          "losses": 5,
+          "draws": 2,
+          "losses": 3,
           "gf": 9,
-          "ga": 15
+          "ga": 11
         },
         "matches": [
           {
@@ -6527,20 +6659,8 @@
           },
           {
             "season": "2024",
-            "round": "第6轮",
-            "date": "2024-04-15",
-            "venue": "",
-            "is_home": false,
-            "opponent": "成都蓉城",
-            "score": "3:1",
-            "result": "L",
-            "guoan_goals": 1,
-            "opp_goals": 3
-          },
-          {
-            "season": "2024",
-            "round": "第12轮",
-            "date": "2024-05-26",
+            "round": "第10轮",
+            "date": "2024-05-05",
             "venue": "",
             "is_home": true,
             "opponent": "成都蓉城",
@@ -6551,20 +6671,20 @@
           },
           {
             "season": "2024",
-            "round": "第27轮",
-            "date": "2024-09-24",
+            "round": "第25轮",
+            "date": "2024-09-14",
             "venue": "",
             "is_home": false,
             "opponent": "成都蓉城",
-            "score": "3:1",
-            "result": "L",
-            "guoan_goals": 1,
-            "opp_goals": 3
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
           },
           {
             "season": "2025",
             "round": "第3轮",
-            "date": "2025-03-07",
+            "date": "2025-03-29",
             "venue": "",
             "is_home": true,
             "opponent": "成都蓉城",
@@ -6576,7 +6696,7 @@
           {
             "season": "2025",
             "round": "第18轮",
-            "date": "2025-07-03",
+            "date": "2025-07-26",
             "venue": "",
             "is_home": false,
             "opponent": "成都蓉城",
@@ -6742,35 +6862,47 @@
           }
         ]
       },
-      "青岛西海岸": {
+      "深圳新鹏城": {
         "all_time": {
           "played": 5,
-          "wins": 3,
-          "draws": 2,
-          "losses": 0,
-          "gf": 8,
-          "ga": 3
+          "wins": 2,
+          "draws": 0,
+          "losses": 3,
+          "gf": 6,
+          "ga": 6
         },
         "matches": [
           {
             "season": "2024",
-            "round": "第11轮",
-            "date": "2024-05-19",
+            "round": "第5轮",
+            "date": "2024-04-09",
             "venue": "",
-            "is_home": false,
-            "opponent": "青岛西海岸",
-            "score": "0:0",
-            "result": "D",
-            "guoan_goals": 0,
-            "opp_goals": 0
+            "is_home": true,
+            "opponent": "深圳新鹏城",
+            "score": "1:2",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
           },
           {
             "season": "2024",
-            "round": "第28轮",
-            "date": "2024-10-07",
+            "round": "第20轮",
+            "date": "2024-07-26",
+            "venue": "",
+            "is_home": false,
+            "opponent": "深圳新鹏城",
+            "score": "1:0",
+            "result": "L",
+            "guoan_goals": 0,
+            "opp_goals": 1
+          },
+          {
+            "season": "2025",
+            "round": "第12轮",
+            "date": "2025-05-10",
             "venue": "",
             "is_home": true,
-            "opponent": "青岛西海岸",
+            "opponent": "深圳新鹏城",
             "score": "3:1",
             "result": "W",
             "guoan_goals": 3,
@@ -6778,8 +6910,157 @@
           },
           {
             "season": "2025",
+            "round": "第27轮",
+            "date": "2025-10-18",
+            "venue": "",
+            "is_home": false,
+            "opponent": "深圳新鹏城",
+            "score": "2:1",
+            "result": "L",
+            "guoan_goals": 1,
+            "opp_goals": 2
+          },
+          {
+            "match_id": "5zpjmjdkmnei1smbpd60yoydw",
+            "round": "第7轮",
+            "date": "2026-04-21 19:00:00",
+            "venue": {
+              "name": "深圳市体育场",
+              "city": null
+            },
+            "opponent": "深圳新鹏城",
+            "is_home": false,
+            "status": "finished",
+            "score": "0:1",
+            "guoan_goals": 1,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "yellow_card",
+                "player": "王刚",
+                "player_name": "王刚",
+                "minute": 11
+              },
+              {
+                "type": "yellow_card",
+                "player": "卡尔采夫",
+                "player_name": "卡尔采夫",
+                "minute": 41
+              },
+              {
+                "type": "yellow_card",
+                "player": "玄智健",
+                "player_name": "玄智健",
+                "minute": 46
+              },
+              {
+                "type": "yellow_card",
+                "player": "曹永竞",
+                "player_name": "曹永竞",
+                "minute": 59
+              },
+              {
+                "type": "goal",
+                "player": "张稀哲",
+                "player_name": "张稀哲",
+                "minute": 89
+              }
+            ],
+            "formation": {
+              "home": "343",
+              "away": "4141"
+            },
+            "opponent_tier": "B",
+            "context_signals": {},
+            "form_before": "DLLDL",
+            "opponent_info": {
+              "current_rank": 10,
+              "current_form": "LWLLW",
+              "goals_for": 0,
+              "goals_against": 0,
+              "top_scorers": [],
+              "tier": "B",
+              "recent_matches": [
+                {
+                  "date": "2026-07-18",
+                  "opponent": "武汉三镇",
+                  "is_home": false,
+                  "score": "0:2",
+                  "result": "L"
+                },
+                {
+                  "date": "2026-07-11",
+                  "opponent": "青岛西海岸",
+                  "is_home": true,
+                  "score": "3:0",
+                  "result": "W"
+                },
+                {
+                  "date": "2026-07-04",
+                  "opponent": "天津津门虎",
+                  "is_home": false,
+                  "score": "0:3",
+                  "result": "L"
+                },
+                {
+                  "date": "2026-06-27",
+                  "opponent": "成都蓉城",
+                  "is_home": true,
+                  "score": "2:3",
+                  "result": "L"
+                },
+                {
+                  "date": "2026-05-30",
+                  "opponent": "青岛海牛",
+                  "is_home": true,
+                  "score": "3:2",
+                  "result": "W"
+                }
+              ]
+            },
+            "season": "2026"
+          }
+        ]
+      },
+      "青岛西海岸": {
+        "all_time": {
+          "played": 5,
+          "wins": 3,
+          "draws": 2,
+          "losses": 0,
+          "gf": 11,
+          "ga": 5
+        },
+        "matches": [
+          {
+            "season": "2024",
+            "round": "第7轮",
+            "date": "2024-04-21",
+            "venue": "",
+            "is_home": true,
+            "opponent": "青岛西海岸",
+            "score": "4:1",
+            "result": "W",
+            "guoan_goals": 4,
+            "opp_goals": 1
+          },
+          {
+            "season": "2024",
+            "round": "第22轮",
+            "date": "2024-08-11",
+            "venue": "",
+            "is_home": false,
+            "opponent": "青岛西海岸",
+            "score": "2:2",
+            "result": "D",
+            "guoan_goals": 2,
+            "opp_goals": 2
+          },
+          {
+            "season": "2025",
             "round": "第6轮",
-            "date": "2025-03-28",
+            "date": "2025-06-17",
             "venue": "",
             "is_home": true,
             "opponent": "青岛西海岸",
@@ -6791,7 +7072,7 @@
           {
             "season": "2025",
             "round": "第21轮",
-            "date": "2025-07-31",
+            "date": "2025-08-16",
             "venue": "",
             "is_home": false,
             "opponent": "青岛西海岸",
@@ -6918,167 +7199,6 @@
           }
         ]
       },
-      "深圳新鹏城": {
-        "all_time": {
-          "played": 5,
-          "wins": 4,
-          "draws": 0,
-          "losses": 1,
-          "gf": 8,
-          "ga": 4
-        },
-        "matches": [
-          {
-            "season": "2024",
-            "round": "第5轮",
-            "date": "2024-04-09",
-            "venue": "",
-            "is_home": true,
-            "opponent": "深圳新鹏城",
-            "score": "1:0",
-            "result": "W",
-            "guoan_goals": 1,
-            "opp_goals": 0
-          },
-          {
-            "season": "2024",
-            "round": "第17轮",
-            "date": "2024-07-02",
-            "venue": "",
-            "is_home": true,
-            "opponent": "深圳新鹏城",
-            "score": "2:1",
-            "result": "W",
-            "guoan_goals": 2,
-            "opp_goals": 1
-          },
-          {
-            "season": "2025",
-            "round": "第12轮",
-            "date": "2025-05-09",
-            "venue": "",
-            "is_home": true,
-            "opponent": "深圳新鹏城",
-            "score": "3:1",
-            "result": "W",
-            "guoan_goals": 3,
-            "opp_goals": 1
-          },
-          {
-            "season": "2025",
-            "round": "第27轮",
-            "date": "2025-10-07",
-            "venue": "",
-            "is_home": false,
-            "opponent": "深圳新鹏城",
-            "score": "2:1",
-            "result": "L",
-            "guoan_goals": 1,
-            "opp_goals": 2
-          },
-          {
-            "match_id": "5zpjmjdkmnei1smbpd60yoydw",
-            "round": "第7轮",
-            "date": "2026-04-21 19:00:00",
-            "venue": {
-              "name": "深圳市体育场",
-              "city": null
-            },
-            "opponent": "深圳新鹏城",
-            "is_home": false,
-            "status": "finished",
-            "score": "0:1",
-            "guoan_goals": 1,
-            "opp_goals": 0,
-            "result": "W",
-            "events": [
-              {
-                "type": "yellow_card",
-                "player": "王刚",
-                "player_name": "王刚",
-                "minute": 11
-              },
-              {
-                "type": "yellow_card",
-                "player": "卡尔采夫",
-                "player_name": "卡尔采夫",
-                "minute": 41
-              },
-              {
-                "type": "yellow_card",
-                "player": "玄智健",
-                "player_name": "玄智健",
-                "minute": 46
-              },
-              {
-                "type": "yellow_card",
-                "player": "曹永竞",
-                "player_name": "曹永竞",
-                "minute": 59
-              },
-              {
-                "type": "goal",
-                "player": "张稀哲",
-                "player_name": "张稀哲",
-                "minute": 89
-              }
-            ],
-            "formation": {
-              "home": "343",
-              "away": "4141"
-            },
-            "opponent_tier": "B",
-            "context_signals": {},
-            "form_before": "DLLDL",
-            "opponent_info": {
-              "current_rank": 10,
-              "current_form": "LWLLW",
-              "goals_for": 0,
-              "goals_against": 0,
-              "top_scorers": [],
-              "tier": "B",
-              "recent_matches": [
-                {
-                  "date": "2026-07-18",
-                  "opponent": "武汉三镇",
-                  "is_home": false,
-                  "score": "0:2",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-11",
-                  "opponent": "青岛西海岸",
-                  "is_home": true,
-                  "score": "3:0",
-                  "result": "W"
-                },
-                {
-                  "date": "2026-07-04",
-                  "opponent": "天津津门虎",
-                  "is_home": false,
-                  "score": "0:3",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-06-27",
-                  "opponent": "成都蓉城",
-                  "is_home": true,
-                  "score": "2:3",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-05-30",
-                  "opponent": "青岛海牛",
-                  "is_home": true,
-                  "score": "3:2",
-                  "result": "W"
-                }
-              ]
-            },
-            "season": "2026"
-          }
-        ]
-      },
       "云南玉昆": {
         "all_time": {
           "played": 3,
@@ -7092,7 +7212,7 @@
           {
             "season": "2025",
             "round": "第1轮",
-            "date": "2025-01-01",
+            "date": "2025-02-22",
             "venue": "",
             "is_home": false,
             "opponent": "云南玉昆",
@@ -7104,7 +7224,7 @@
           {
             "season": "2025",
             "round": "第16轮",
-            "date": "2025-06-13",
+            "date": "2025-06-30",
             "venue": "",
             "is_home": true,
             "opponent": "云南玉昆",
@@ -7238,7 +7358,7 @@
           {
             "season": "2025",
             "round": "第11轮",
-            "date": "2025-05-02",
+            "date": "2025-05-05",
             "venue": "",
             "is_home": false,
             "opponent": "大连英博",
