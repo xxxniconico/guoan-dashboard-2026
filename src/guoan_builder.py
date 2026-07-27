@@ -148,9 +148,9 @@ def fetch_cfl_guoan_data() -> dict:
                         # Parse cards
                         for side in ("home", "away"):
                             for c in cards_data.get("data", {}).get(side, []):
-                                card_type = str(c.get("type", "")).upper()
+                                card_type = str(c.get("card_type", "")).upper()
                                 events.append({
-                                    "type": "yellow_card" if "Y" in card_type else "red_card",
+                                    "type": "yellow_card" if card_type == "YC" else "red_card",
                                     "minute": c.get("time_min", 0),
                                     "player": c.get("player_name", "未知"),
                                     "player_name": c.get("player_name", "未知"),
