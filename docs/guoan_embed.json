@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T15:53:53.241091+00:00",
+    "generated_at_utc": "2026-07-27T10:08:19.438881+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/home/xxxsuli/guoan-dashboard-2026/data/dashboard_embed.json"
+    "source": "/tmp/guoan-dash/data/dashboard_embed.json"
   },
   "guoan": {
     "standing": {
@@ -3886,7 +3886,7 @@
         "goal_contribution_pct": 0.0,
         "form_5": [],
         "streak": "",
-        "position": "前锋",
+        "position": "中场",
         "shirt_number": 20,
         "cfl_profile": {
           "height": "178",
@@ -4213,7 +4213,7 @@
         "goal_contribution_pct": 0.0,
         "form_5": [],
         "streak": "",
-        "position": "中场",
+        "position": "前锋",
         "shirt_number": 58,
         "cfl_profile": {
           "height": "174",
