@@ -66,6 +66,63 @@ def fetch_csl_data() -> dict:
         raise RuntimeError("无法获取 CSL 数据（在线失败且本地无缓存）")
 
 
+
+def fetch_cfl_guoan_data() -> dict:
+    """从 CFL 官方 API 获取国安比赛数据（作为补充/备用数据源）。
+    返回 {opponent_date_key: {status, home_score, away_score, ...}}"""
+    from urllib.request import urlopen, Request
+    from urllib.error import URLError
+    import json as _json
+
+    API_BASE = "https://api.cfl-china.cn/frontweb/api"
+    CALENDAR_ID = "e6818x4pwankpph8awr91m1hw"  # 2026 中超
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.cfl-china.cn/",
+    }
+
+    result = {}
+    try:
+        for week in range(1, 31):
+            url = f"{API_BASE}/matches/page?tournament_calendar_id={CALENDAR_ID}&competition_code=CSL&week={week}&size=50"
+            req = Request(url, headers=headers)
+            try:
+                with urlopen(req, timeout=20) as resp:
+                    data = _json.loads(resp.read().decode("utf-8"))
+            except Exception:
+                continue
+
+            for m in data.get("data", {}).get("dataList", []):
+                home = m.get("home_contestant_name", "")
+                away = m.get("away_contestant_name", "")
+                if "国安" not in home and "国安" not in away:
+                    continue
+
+                date = m.get("local_date", "")
+                key = f"{date}|{home}|{away}"
+                cfl_status = str(m.get("match_status", "")).lower()
+
+                entry = {
+                    "status": "finished" if cfl_status == "played" else
+                             "postponed" if cfl_status == "postponed" else
+                             "scheduled",
+                    "ft_home_score": m.get("ft_home_score"),
+                    "ft_away_score": m.get("ft_away_score"),
+                    "home_formation": m.get("home_formation_used", ""),
+                    "away_formation": m.get("away_formation_used", ""),
+                }
+                result[key] = entry
+
+        print(f"[guoan_builder] CFL API: 获取到 {len(result)} 场国安比赛数据")
+    except Exception as e:
+        print(f"[guoan_builder] CFL API 拉取失败: {e}")
+
+    return result
+
+
+
 def compute_standings_from_matches(all_matches: list, deductions: dict = None) -> list:
     """从比赛结果实时计算积分榜（仿 CSL 仪表盘前端 buildLiveStandingsRows 逻辑）。
     自动合并俱乐部名变体（如 浙江俱乐部绿城 → 浙江）。
@@ -424,6 +481,44 @@ def main():
 
     # 4. 富化国安比赛（使用修正后的积分榜计算对手排名）
     guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, computed_standings)
+
+    # 4a. 从 CFL API 补充最新比赛数据
+    try:
+        cfl_data = fetch_cfl_guoan_data()
+        _updated = 0
+        for m in guoan_matches:
+            date = str(m.get("date", ""))[:10]
+            opp = m.get("opponent", "")
+            is_home = m.get("is_home", False)
+            for key, cfl in cfl_data.items():
+                if key.startswith(date) and opp in key:
+                    if cfl["status"] == "finished" and m.get("result") == "?":
+                        hs = cfl["ft_home_score"]
+                        aws = cfl["ft_away_score"]
+                        if hs is not None and aws is not None:
+                            m["status"] = "finished"
+                            m["score"] = {"home": int(hs), "away": int(aws)}
+                            m["guoan_goals"] = int(hs) if is_home else int(aws)
+                            m["opp_goals"] = int(aws) if is_home else int(hs)
+                            if hs == aws:
+                                m["result"] = "D"
+                            elif (is_home and hs > aws) or (not is_home and aws > hs):
+                                m["result"] = "W"
+                            else:
+                                m["result"] = "L"
+                            m["formation"] = {
+                                "home": cfl.get("home_formation", ""),
+                                "away": cfl.get("away_formation", ""),
+                            }
+                            _updated += 1
+                    elif cfl["status"] == "postponed" and m.get("status") == "scheduled":
+                        m["status"] = "postponed"
+                        _updated += 1
+                    break
+        if _updated:
+            print(f"[guoan_builder] CFL API: 更新了 {_updated} 场比赛数据")
+    except Exception as e:
+        print(f"[guoan_builder] CFL API 合并失败: {e}")
 
     # 4b. 数据完整性检测：日期已过但无结果的比赛（可能数据暂缺）
     from datetime import date as _date
