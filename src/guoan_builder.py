@@ -424,6 +424,21 @@ def main():
 
     # 4. 富化国安比赛（使用修正后的积分榜计算对手排名）
     guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, computed_standings)
+
+    # 4b. 数据完整性检测：日期已过但无结果的比赛（可能数据暂缺）
+    from datetime import date as _date
+    _today = _date.today().isoformat()
+    _stale_matches = [
+        m for m in guoan_matches
+        if m.get("result", "?") == "?"
+        and str(m.get("status", "")).lower() not in ("postponed", "cancelled", "canceled")
+        and str(m.get("date", ""))[:10] < _today
+    ]
+    if _stale_matches:
+        print(f"[guoan_builder] ⚠️ 数据暂缺: {len(_stale_matches)} 场比赛日期已过但无结果（非延期）:")
+        for sm in _stale_matches:
+            print(f"  - {sm.get('round','?')} vs {sm.get('opponent','?')} ({sm.get('date','')[:10]}) status={sm.get('status','?')}")
+
     guoan_standing = extract_guoan_standing(None, all_matches, deductions)
     guoan_standing["all_standings"] = computed_standings  # 完整实时积分榜
 
