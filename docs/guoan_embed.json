@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T10:18:53.287999+00:00",
+    "generated_at_utc": "2026-07-27T10:23:05.668374+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/tmp/guoan-dash/data/dashboard_embed.json"
@@ -2315,7 +2315,68 @@
         "guoan_goals": 2,
         "opp_goals": 2,
         "result": "D",
-        "events": [],
+        "events": [
+          {
+            "type": "goal",
+            "minute": 52,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "red_card",
+            "minute": 59,
+            "player": "李扬",
+            "player_name": "李扬",
+            "team_name": "成都蓉城"
+          },
+          {
+            "type": "goal",
+            "minute": 70,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "red_card",
+            "minute": 76,
+            "player": "费利佩",
+            "player_name": "费利佩",
+            "team_name": "成都蓉城"
+          },
+          {
+            "type": "red_card",
+            "minute": 76,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "red_card",
+            "minute": 81,
+            "player": "贾非凡",
+            "player_name": "贾非凡",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "goal",
+            "minute": 87,
+            "player": "费利佩",
+            "player_name": "费利佩",
+            "team_name": "成都蓉城",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 93,
+            "player": "索罗金",
+            "player_name": "索罗金",
+            "team_name": "成都蓉城",
+            "is_own_goal": false
+          }
+        ],
         "formation": {
           "home": "442",
           "away": "442"
@@ -3065,8 +3126,8 @@
       {
         "player_name": "张玉宁",
         "team_name": "北京国安",
-        "appearances": 8,
-        "goals": 7,
+        "appearances": 9,
+        "goals": 9,
         "assists": 0,
         "yellow_cards": 1,
         "red_cards": 0,
@@ -3112,6 +3173,18 @@
             "date": "2026-05-15",
             "opponent": "青岛海牛",
             "goals": 1
+          },
+          {
+            "round": "第20轮",
+            "date": "2026-07-26",
+            "opponent": "成都蓉城",
+            "goals": 1
+          },
+          {
+            "round": "第20轮",
+            "date": "2026-07-26",
+            "opponent": "成都蓉城",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -3120,7 +3193,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 24.1,
+        "goal_contribution_pct": 29.0,
         "form_5": [
           "goal",
           "goal",
@@ -3128,7 +3201,7 @@
           "goal",
           "goal"
         ],
-        "streak": "连续7场进球",
+        "streak": "连续9场进球",
         "position": "前锋",
         "shirt_number": 9,
         "cfl_profile": {
@@ -3143,11 +3216,11 @@
       {
         "player_name": "法比奥",
         "team_name": "北京国安",
-        "appearances": 5,
+        "appearances": 6,
         "goals": 5,
         "assists": 0,
         "yellow_cards": 1,
-        "red_cards": 0,
+        "red_cards": 1,
         "goal_calendar": [
           {
             "round": "第1轮",
@@ -3184,9 +3257,13 @@
           {
             "round": "第3轮",
             "type": "yellow"
+          },
+          {
+            "round": "第20轮",
+            "type": "red"
           }
         ],
-        "goal_contribution_pct": 17.2,
+        "goal_contribution_pct": 16.1,
         "form_5": [
           "goal",
           "goal",
@@ -3246,7 +3323,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 13.8,
+        "goal_contribution_pct": 12.9,
         "form_5": [
           "goal",
           "goal",
@@ -3313,7 +3390,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 13.8,
+        "goal_contribution_pct": 12.9,
         "form_5": [
           "goal",
           "goal",
@@ -3376,7 +3453,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 13.8,
+        "goal_contribution_pct": 12.9,
         "form_5": [
           "goal",
           "goal",
@@ -3431,7 +3508,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 6.9,
+        "goal_contribution_pct": 6.5,
         "form_5": [
           "goal",
           "goal"
@@ -3474,7 +3551,7 @@
             "type": "red"
           }
         ],
-        "goal_contribution_pct": 3.4,
+        "goal_contribution_pct": 3.2,
         "form_5": [
           "goal"
         ],
@@ -3507,7 +3584,7 @@
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 3.4,
+        "goal_contribution_pct": 3.2,
         "form_5": [
           "goal"
         ],
@@ -3540,7 +3617,7 @@
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 3.4,
+        "goal_contribution_pct": 3.2,
         "form_5": [
           "goal"
         ],
@@ -4225,13 +4302,18 @@
       {
         "player_name": "贾非凡",
         "team_name": "北京国安",
-        "appearances": 0,
+        "appearances": 1,
         "goals": 0,
         "assists": 0,
         "yellow_cards": 0,
-        "red_cards": 0,
+        "red_cards": 1,
         "goal_calendar": [],
-        "card_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第20轮",
+            "type": "red"
+          }
+        ],
         "goal_contribution_pct": 0.0,
         "form_5": [],
         "streak": "",
@@ -6711,7 +6793,68 @@
             "guoan_goals": 2,
             "opp_goals": 2,
             "result": "D",
-            "events": [],
+            "events": [
+              {
+                "type": "goal",
+                "minute": 52,
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "red_card",
+                "minute": 59,
+                "player": "李扬",
+                "player_name": "李扬",
+                "team_name": "成都蓉城"
+              },
+              {
+                "type": "goal",
+                "minute": 70,
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "red_card",
+                "minute": 76,
+                "player": "费利佩",
+                "player_name": "费利佩",
+                "team_name": "成都蓉城"
+              },
+              {
+                "type": "red_card",
+                "minute": 76,
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "red_card",
+                "minute": 81,
+                "player": "贾非凡",
+                "player_name": "贾非凡",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "goal",
+                "minute": 87,
+                "player": "费利佩",
+                "player_name": "费利佩",
+                "team_name": "成都蓉城",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 93,
+                "player": "索罗金",
+                "player_name": "索罗金",
+                "team_name": "成都蓉城",
+                "is_own_goal": false
+              }
+            ],
             "formation": {
               "home": "442",
               "away": "442"
@@ -8204,8 +8347,8 @@
       "16-30": 5,
       "31-45": 3,
       "45+": 0,
-      "46-60": 4,
-      "61-75": 7,
+      "46-60": 5,
+      "61-75": 8,
       "76-90": 9,
       "90+": 0
     },

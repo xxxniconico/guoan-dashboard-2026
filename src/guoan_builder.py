@@ -112,7 +112,56 @@ def fetch_cfl_guoan_data() -> dict:
                     "ft_away_score": m.get("ft_away_score"),
                     "home_formation": m.get("home_formation_used", ""),
                     "away_formation": m.get("away_formation_used", ""),
+                    "events": [],
                 }
+
+                # 获取比赛事件（进球 + 红黄牌）
+                match_id = m.get("id", "")
+                if match_id and cfl_status == "played":
+                    try:
+                        # Goals
+                        goals_url = f"{API_BASE}/matches/match/event/goals?match_id={match_id}"
+                        req_g = Request(goals_url, headers=headers)
+                        with urlopen(req_g, timeout=15) as resp_g:
+                            goals_data = _json.loads(resp_g.read().decode("utf-8"))
+                        # Cards (continue on error)
+                        cards_url = f"{API_BASE}/matches/match/event/cards?match_id={match_id}"
+                        try:
+                            req_c = Request(cards_url, headers=headers)
+                            with urlopen(req_c, timeout=15) as resp_c:
+                                cards_data = _json.loads(resp_c.read().decode("utf-8"))
+                        except Exception:
+                            cards_data = {}
+
+                        events = []
+                        # Parse goals from both home and away
+                        for side in ("home", "away"):
+                            for g in goals_data.get("data", {}).get(side, []):
+                                events.append({
+                                    "type": "goal",
+                                    "minute": g.get("time_min", 0),
+                                    "player": g.get("player_name", "未知"),
+                                    "player_name": g.get("player_name", "未知"),
+                                    "team_name": home if side == "home" else away,
+                                    "is_own_goal": False,
+                                })
+                        # Parse cards
+                        for side in ("home", "away"):
+                            for c in cards_data.get("data", {}).get(side, []):
+                                card_type = str(c.get("type", "")).upper()
+                                events.append({
+                                    "type": "yellow_card" if "Y" in card_type else "red_card",
+                                    "minute": c.get("time_min", 0),
+                                    "player": c.get("player_name", "未知"),
+                                    "player_name": c.get("player_name", "未知"),
+                                    "team_name": home if side == "home" else away,
+                                })
+                        # Sort by minute
+                        events.sort(key=lambda e: e.get("minute", 0))
+                        entry["events"] = events
+                    except Exception:
+                        pass  # events are optional
+
                 result[key] = entry
 
         print(f"[guoan_builder] CFL API: 获取到 {len(result)} 场国安比赛数据")
@@ -510,6 +559,10 @@ def main():
                                 "home": cfl.get("home_formation", ""),
                                 "away": cfl.get("away_formation", ""),
                             }
+                            # 合并 CFL 事件数据
+                            cfl_events = cfl.get("events", [])
+                            if cfl_events:
+                                m["events"] = cfl_events
                             _updated += 1
                     elif cfl["status"] == "postponed" and m.get("status") == "scheduled":
                         m["status"] = "postponed"
