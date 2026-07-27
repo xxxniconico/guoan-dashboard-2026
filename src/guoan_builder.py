@@ -191,15 +191,19 @@ def compute_standings_from_matches(all_matches: list, deductions: dict = None) -
     def _sort_key(m):
         status = str(m.get("status","")).lower()
         is_finished = 1 if status in ("finished","completed","ft") else 0
-        has_score = 1 if (m.get("score",{}).get("home") is not None
-                          and m.get("score",{}).get("away") is not None) else 0
+        sc = m.get("score", {})
+        if isinstance(sc, dict):
+            has_score = 1 if (sc.get("home") is not None and sc.get("away") is not None) else 0
+        else:
+            has_score = 0
         return (-is_finished, -has_score, str(m.get("date","")))
     
     sorted_matches = sorted(all_matches, key=_sort_key)
 
     # Stats per club (normalized names)
     stats = {}
-    seen = set()
+    seen = {}  # key -> match dict (保存最优版本)
+    _processed = set()
     for m in sorted_matches:
         h_norm = normalize_club(str(m.get("home_club","")))
         a_norm = normalize_club(str(m.get("away_club","")))
@@ -211,10 +215,22 @@ def compute_standings_from_matches(all_matches: list, deductions: dict = None) -
         else:
             key = f"{m.get('date','')}|{h_norm}|{a_norm}"
         dedup_key = f"norm:{m.get('date','')[:10]}|{h_norm}|{a_norm}"
+        
         if key in seen or dedup_key in seen:
-            continue
-        seen.add(key)
-        seen.add(dedup_key)
+            # 如果已有记录是 scheduled 而新纪录是 finished，替换
+            existing = seen.get(key) or seen.get(dedup_key)
+            if existing:
+                old_status = str(existing.get("status","")).lower()
+                new_status = str(m.get("status","")).lower()
+                if old_status not in ("finished","completed","ft") and new_status in ("finished","completed","ft"):
+                    # 替换旧记录：从未处理集中移除旧 key，用新纪录
+                    if key in seen: del seen[key]
+                    if dedup_key in seen: del seen[dedup_key]
+                    # 回退旧记录的积分贡献（简单做法：跳过，让新纪录计入）
+                else:
+                    continue
+        seen[key] = m
+        seen[dedup_key] = m
 
         status = str(m.get("status","")).lower()
         if status not in ("finished","completed","ft"): continue
@@ -224,8 +240,16 @@ def compute_standings_from_matches(all_matches: list, deductions: dict = None) -
         if not h or not a: continue
 
         sc = m.get("score",{})
-        try: hs, aws = int(sc.get("home",0)), int(sc.get("away",0))
-        except: continue
+        if isinstance(sc, dict):
+            try: hs, aws = int(sc.get("home",0)), int(sc.get("away",0))
+            except: continue
+        elif isinstance(sc, str) and ':' in sc:
+            try:
+                parts = sc.split(':')
+                hs, aws = int(parts[0]), int(parts[1])
+            except: continue
+        else:
+            continue
 
         if h not in stats: stats[h] = {"played":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
         if a not in stats: stats[a] = {"played":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
@@ -398,6 +422,8 @@ def enrich_guoan_matches(guoan_matches: list, all_league_matches: list,
             "venue": _normalize_venue(m.get("venue")),
             "opponent": opponent,
             "is_home": is_home,
+            "home_club": m.get("home_club", "北京国安" if is_home else opponent),
+            "away_club": m.get("away_club", opponent if is_home else "北京国安"),
             "status": m.get("status", "scheduled"),
             "score": m.get("score", {}),
             "guoan_goals": guoan_goals,
@@ -532,6 +558,7 @@ def main():
     guoan_matches = enrich_guoan_matches(guoan_raw, all_matches, computed_standings)
 
     # 4a. 从 CFL API 补充最新比赛数据
+    _merged_matches = all_matches  # fallback
     try:
         cfl_data = fetch_cfl_guoan_data()
         _updated = 0
@@ -573,7 +600,16 @@ def main():
     except Exception as e:
         print(f"[guoan_builder] CFL API 合并失败: {e}")
 
-    # 4b. 数据完整性检测：日期已过但无结果的比赛（可能数据暂缺）
+    # 4b. 用 CFL 更新后的数据重建积分榜
+    if _updated > 0:
+        # 将 CFL 更新的国安比赛合并到 all_matches（用于积分计算）
+        _guoan_ids = {m.get("match_id") for m in guoan_matches if m.get("match_id")}  # 排除空 match_id
+        _csl_others = [m for m in all_matches if m.get("match_id", "") not in _guoan_ids]
+        _merged_matches = _csl_others + guoan_matches
+        computed_standings = compute_standings_from_matches(_merged_matches, deductions)
+        print(f"[guoan_builder] CFL 更新后重新计算积分榜: {len(computed_standings)} 队")
+
+    # 4c. 数据完整性检测：日期已过但无结果的比赛（可能数据暂缺）
     from datetime import date as _date
     _today = _date.today().isoformat()
     _stale_matches = [
@@ -587,7 +623,7 @@ def main():
         for sm in _stale_matches:
             print(f"  - {sm.get('round','?')} vs {sm.get('opponent','?')} ({sm.get('date','')[:10]}) status={sm.get('status','?')}")
 
-    guoan_standing = extract_guoan_standing(None, all_matches, deductions)
+    guoan_standing = extract_guoan_standing(computed_standings, _merged_matches if _updated > 0 else all_matches, deductions)
     guoan_standing["all_standings"] = computed_standings  # 完整实时积分榜
 
     # 5. 球员分析
