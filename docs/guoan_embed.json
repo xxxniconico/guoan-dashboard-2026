@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T10:08:19.438881+00:00",
+    "generated_at_utc": "2026-07-27T10:18:03.306025+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/tmp/guoan-dash/data/dashboard_embed.json"
+    "source": "CFL API (api.cfl-china.cn) + CSL Dashboard"
   },
   "guoan": {
     "standing": {
@@ -239,7 +239,10 @@
         "opponent": "武汉三镇",
         "is_home": false,
         "status": "finished",
-        "score": "0:2",
+        "score": {
+          "home": 0,
+          "away": 2
+        },
         "guoan_goals": 2,
         "opp_goals": 0,
         "result": "W",
@@ -331,7 +334,10 @@
         "opponent": "山东泰山",
         "is_home": false,
         "status": "finished",
-        "score": "2:1",
+        "score": {
+          "home": 2,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 2,
         "result": "L",
@@ -441,7 +447,10 @@
         "opponent": "上海申花",
         "is_home": true,
         "status": "finished",
-        "score": "1:1",
+        "score": {
+          "home": 1,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 1,
         "result": "D",
@@ -557,7 +566,10 @@
         "opponent": "辽宁铁人",
         "is_home": false,
         "status": "finished",
-        "score": "2:1",
+        "score": {
+          "home": 2,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 2,
         "result": "L",
@@ -606,8 +618,8 @@
           }
         ],
         "formation": {
-          "home": "",
-          "away": ""
+          "home": "4411",
+          "away": "442"
         },
         "opponent_tier": "C",
         "context_signals": {},
@@ -667,7 +679,10 @@
         "opponent": "成都蓉城",
         "is_home": true,
         "status": "finished",
-        "score": "1:2",
+        "score": {
+          "home": 1,
+          "away": 2
+        },
         "guoan_goals": 1,
         "opp_goals": 2,
         "result": "L",
@@ -783,7 +798,10 @@
         "opponent": "浙江俱乐部",
         "is_home": false,
         "status": "finished",
-        "score": "0:0",
+        "score": {
+          "home": 0,
+          "away": 0
+        },
         "guoan_goals": 0,
         "opp_goals": 0,
         "result": "D",
@@ -881,7 +899,10 @@
         "opponent": "深圳新鹏城",
         "is_home": false,
         "status": "finished",
-        "score": "0:1",
+        "score": {
+          "home": 0,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 0,
         "result": "W",
@@ -979,7 +1000,10 @@
         "opponent": "天津津门虎",
         "is_home": true,
         "status": "finished",
-        "score": "2:4",
+        "score": {
+          "home": 2,
+          "away": 4
+        },
         "guoan_goals": 2,
         "opp_goals": 4,
         "result": "L",
@@ -1101,7 +1125,10 @@
         "opponent": "云南玉昆",
         "is_home": false,
         "status": "finished",
-        "score": "3:3",
+        "score": {
+          "home": 3,
+          "away": 3
+        },
         "guoan_goals": 3,
         "opp_goals": 3,
         "result": "D",
@@ -1208,7 +1235,10 @@
         "opponent": "大连英博",
         "is_home": true,
         "status": "finished",
-        "score": "3:0",
+        "score": {
+          "home": 3,
+          "away": 0
+        },
         "guoan_goals": 3,
         "opp_goals": 0,
         "result": "W",
@@ -1339,7 +1369,10 @@
         "opponent": "上海海港",
         "is_home": true,
         "status": "finished",
-        "score": "2:2",
+        "score": {
+          "home": 2,
+          "away": 2
+        },
         "guoan_goals": 2,
         "opp_goals": 2,
         "result": "D",
@@ -1463,7 +1496,10 @@
         "opponent": "青岛海牛",
         "is_home": true,
         "status": "finished",
-        "score": "4:2",
+        "score": {
+          "home": 4,
+          "away": 2
+        },
         "guoan_goals": 4,
         "opp_goals": 2,
         "result": "W",
@@ -1599,7 +1635,10 @@
         "opponent": "青岛西海岸",
         "is_home": false,
         "status": "finished",
-        "score": "1:1",
+        "score": {
+          "home": 1,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 1,
         "result": "D",
@@ -1712,7 +1751,10 @@
         "opponent": "河南俱乐部",
         "is_home": true,
         "status": "finished",
-        "score": "1:2",
+        "score": {
+          "home": 1,
+          "away": 2
+        },
         "guoan_goals": 1,
         "opp_goals": 2,
         "result": "L",
@@ -1818,7 +1860,10 @@
         "opponent": "重庆铜梁龙",
         "is_home": false,
         "status": "finished",
-        "score": "2:3",
+        "score": {
+          "home": 2,
+          "away": 3
+        },
         "guoan_goals": 3,
         "opp_goals": 2,
         "result": "W",
@@ -1940,7 +1985,10 @@
         "opponent": "武汉三镇",
         "is_home": true,
         "status": "finished",
-        "score": "1:0",
+        "score": {
+          "home": 1,
+          "away": 0
+        },
         "guoan_goals": 1,
         "opp_goals": 0,
         "result": "W",
@@ -2038,7 +2086,10 @@
         "opponent": "山东泰山",
         "is_home": true,
         "status": "finished",
-        "score": "2:0",
+        "score": {
+          "home": 2,
+          "away": 0
+        },
         "guoan_goals": 2,
         "opp_goals": 0,
         "result": "W",
@@ -2135,7 +2186,7 @@
         "venue": "上海体育场",
         "opponent": "上海申花",
         "is_home": false,
-        "status": "scheduled",
+        "status": "postponed",
         "score": {
           "home": null,
           "away": null
@@ -2205,7 +2256,10 @@
         "opponent": "辽宁铁人",
         "is_home": true,
         "status": "finished",
-        "score": "1:1",
+        "score": {
+          "home": 1,
+          "away": 1
+        },
         "guoan_goals": 1,
         "opp_goals": 1,
         "result": "D",
@@ -2310,18 +2364,18 @@
         "venue": "五粮液文化体育中心专业足球场",
         "opponent": "成都蓉城",
         "is_home": false,
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
+        "guoan_goals": 2,
+        "opp_goals": 2,
+        "result": "D",
         "events": [],
         "formation": {
-          "home": "",
-          "away": ""
+          "home": "442",
+          "away": "442"
         },
         "opponent_tier": "A",
         "context_signals": {},
@@ -7958,6 +8012,7 @@
       "W",
       "W",
       "W",
+      "D",
       "D"
     ],
     "round_progression": [
@@ -8122,6 +8177,15 @@
         "cumulative_points": 27,
         "gf_total": 30,
         "ga_total": 24
+      },
+      {
+        "round": "第20轮",
+        "opponent": "成都蓉城",
+        "result": "D",
+        "score": "2:2",
+        "cumulative_points": 28,
+        "gf_total": 32,
+        "ga_total": 26
       }
     ],
     "goal_time_distribution": {
