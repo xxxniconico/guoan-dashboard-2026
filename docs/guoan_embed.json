@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T00:22:09.895319+00:00",
+    "generated_at_utc": "2026-08-07T19:27:07.096669+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -8,17 +8,17 @@
   "guoan": {
     "standing": {
       "club_name": "北京国安",
-      "played": 20,
-      "wins": 8,
+      "played": 21,
+      "wins": 9,
       "draws": 7,
       "losses": 5,
-      "goals_for": 34,
+      "goals_for": 38,
       "goals_against": 27,
-      "goal_difference": 7,
-      "match_points": 31,
+      "goal_difference": 11,
+      "match_points": 34,
       "penalty_points": 5,
-      "effective_points": 26,
-      "position": 7,
+      "effective_points": 29,
+      "position": 3,
       "all_standings": [
         {
           "club_name": "成都蓉城",
@@ -45,6 +45,19 @@
           "match_points": 31,
           "penalty_points": 0,
           "effective_points": 31
+        },
+        {
+          "club_name": "北京国安",
+          "played": 21,
+          "wins": 9,
+          "draws": 7,
+          "losses": 5,
+          "goals_for": 38,
+          "goals_against": 27,
+          "goal_difference": 11,
+          "match_points": 34,
+          "penalty_points": 5,
+          "effective_points": 29
         },
         {
           "club_name": "重庆铜梁龙",
@@ -99,19 +112,6 @@
           "effective_points": 27
         },
         {
-          "club_name": "北京国安",
-          "played": 20,
-          "wins": 8,
-          "draws": 7,
-          "losses": 5,
-          "goals_for": 34,
-          "goals_against": 27,
-          "goal_difference": 7,
-          "match_points": 31,
-          "penalty_points": 5,
-          "effective_points": 26
-        },
-        {
           "club_name": "辽宁铁人",
           "played": 20,
           "wins": 7,
@@ -139,13 +139,13 @@
         },
         {
           "club_name": "深圳新鹏城",
-          "played": 21,
+          "played": 22,
           "wins": 7,
           "draws": 2,
-          "losses": 12,
+          "losses": 13,
           "goals_for": 30,
-          "goals_against": 37,
-          "goal_difference": -7,
+          "goals_against": 41,
+          "goal_difference": -11,
           "match_points": 23,
           "penalty_points": 0,
           "effective_points": 23
@@ -391,7 +391,7 @@
         "context_signals": {},
         "form_before": "W",
         "opponent_info": {
-          "current_rank": 6,
+          "current_rank": 7,
           "current_form": "WLLWL",
           "goals_for": 0,
           "goals_against": 0,
@@ -945,12 +945,19 @@
         "form_before": "DLLDL",
         "opponent_info": {
           "current_rank": 10,
-          "current_form": "WLLWL",
+          "current_form": "LWLLW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-07",
+              "opponent": "北京国安",
+              "is_home": false,
+              "score": "0:4",
+              "result": "L"
+            },
             {
               "date": "2026-08-02",
               "opponent": "重庆铜梁龙",
@@ -978,13 +985,6 @@
               "is_home": true,
               "score": "3:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-04",
-              "opponent": "天津津门虎",
-              "is_home": false,
-              "score": "0:3",
-              "result": "L"
             }
           ]
         },
@@ -1177,7 +1177,7 @@
         },
         "form_before": "LWDLL",
         "opponent_info": {
-          "current_rank": 5,
+          "current_rank": 6,
           "current_form": "LWDLW",
           "goals_for": 0,
           "goals_against": 0,
@@ -1310,7 +1310,7 @@
         },
         "form_before": "DLWDL",
         "opponent_info": {
-          "current_rank": 4,
+          "current_rank": 5,
           "current_form": "DLWWL",
           "goals_for": 0,
           "goals_against": 0,
@@ -1921,7 +1921,7 @@
         "context_signals": {},
         "form_before": "LDWDW",
         "opponent_info": {
-          "current_rank": 3,
+          "current_rank": 4,
           "current_form": "LLDDL",
           "goals_for": 0,
           "goals_against": 0,
@@ -2121,7 +2121,7 @@
         "context_signals": {},
         "form_before": "WWLDW",
         "opponent_info": {
-          "current_rank": 6,
+          "current_rank": 7,
           "current_form": "WLLWL",
           "goals_for": 0,
           "goals_against": 0,
@@ -2605,15 +2605,80 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "深圳新鹏城",
-        "status": "scheduled",
-        "score": {
-          "home": null,
-          "away": null
-        },
-        "guoan_goals": 0,
+        "status": "finished",
+        "score": "4:0",
+        "guoan_goals": 4,
         "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "result": "W",
+        "events": [
+          {
+            "type": "goal",
+            "minute": 16,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 26,
+            "player": "周定洋",
+            "player_name": "周定洋",
+            "team_name": "深圳新鹏城",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 41,
+            "player": "申桓铭",
+            "player_name": "申桓铭",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 50,
+            "player": "张宇峰",
+            "player_name": "张宇峰",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "goal",
+            "minute": 51,
+            "player": "达万",
+            "player_name": "达万",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 56,
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 68,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 75,
+            "player": "姜至鹏",
+            "player_name": "姜至鹏",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "goal",
+            "minute": 79,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          }
+        ],
         "formation": {
           "home": "",
           "away": ""
@@ -2623,12 +2688,19 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 10,
-          "current_form": "WLLWL",
+          "current_form": "LWLLW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-07",
+              "opponent": "北京国安",
+              "is_home": false,
+              "score": "0:4",
+              "result": "L"
+            },
             {
               "date": "2026-08-02",
               "opponent": "重庆铜梁龙",
@@ -2656,16 +2728,10 @@
               "is_home": true,
               "score": "3:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-04",
-              "opponent": "天津津门虎",
-              "is_home": false,
-              "score": "0:3",
-              "result": "L"
             }
           ]
-        }
+        },
+        "season": "2026"
       },
       {
         "match_id": "54389961",
@@ -2764,7 +2830,7 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 5,
+          "current_rank": 6,
           "current_form": "LWDLW",
           "goals_for": 0,
           "goals_against": 0,
@@ -2835,7 +2901,7 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 4,
+          "current_rank": 5,
           "current_form": "DLWWL",
           "goals_for": 0,
           "goals_against": 0,
@@ -3190,7 +3256,7 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 3,
+          "current_rank": 4,
           "current_form": "LLDDL",
           "goals_for": 0,
           "goals_against": 0,
@@ -3240,8 +3306,8 @@
       {
         "player_name": "张玉宁",
         "team_name": "北京国安",
-        "appearances": 9,
-        "goals": 9,
+        "appearances": 10,
+        "goals": 10,
         "assists": 0,
         "yellow_cards": 1,
         "red_cards": 0,
@@ -3299,6 +3365,12 @@
             "date": "2026-07-26",
             "opponent": "成都蓉城",
             "goals": 1
+          },
+          {
+            "round": "第22轮",
+            "date": "2026-08-07",
+            "opponent": "深圳新鹏城",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -3307,7 +3379,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 27.3,
+        "goal_contribution_pct": 27.8,
         "form_5": [
           "goal",
           "goal",
@@ -3315,7 +3387,7 @@
           "goal",
           "goal"
         ],
-        "streak": "连续9场进球",
+        "streak": "连续10场进球",
         "position": "前锋",
         "shirt_number": 9,
         "cfl_profile": {
@@ -3330,10 +3402,10 @@
       {
         "player_name": "法比奥",
         "team_name": "北京国安",
-        "appearances": 7,
-        "goals": 6,
+        "appearances": 8,
+        "goals": 7,
         "assists": 0,
-        "yellow_cards": 2,
+        "yellow_cards": 3,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3371,6 +3443,12 @@
             "date": "2026-08-01",
             "opponent": "浙江俱乐部",
             "goals": 1
+          },
+          {
+            "round": "第22轮",
+            "date": "2026-08-07",
+            "opponent": "深圳新鹏城",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -3381,9 +3459,13 @@
           {
             "round": "第20轮",
             "type": "yellow"
+          },
+          {
+            "round": "第22轮",
+            "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 18.2,
+        "goal_contribution_pct": 19.4,
         "form_5": [
           "goal",
           "goal",
@@ -3391,7 +3473,7 @@
           "goal",
           "goal"
         ],
-        "streak": "连续6场进球",
+        "streak": "连续7场进球",
         "position": "前锋",
         "shirt_number": 29,
         "cfl_profile": {
@@ -3457,7 +3539,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 15.2,
+        "goal_contribution_pct": 13.9,
         "form_5": [
           "goal",
           "goal",
@@ -3517,7 +3599,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 12.1,
+        "goal_contribution_pct": 11.1,
         "form_5": [
           "goal",
           "goal",
@@ -3580,7 +3662,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 12.1,
+        "goal_contribution_pct": 11.1,
         "form_5": [
           "goal",
           "goal",
@@ -3602,10 +3684,10 @@
       {
         "player_name": "拉莫斯",
         "team_name": "北京国安",
-        "appearances": 5,
+        "appearances": 6,
         "goals": 2,
         "assists": 0,
-        "yellow_cards": 3,
+        "yellow_cards": 4,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3633,9 +3715,13 @@
           {
             "round": "第14轮",
             "type": "yellow"
+          },
+          {
+            "round": "第22轮",
+            "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 6.1,
+        "goal_contribution_pct": 5.6,
         "form_5": [
           "goal",
           "goal"
@@ -3650,6 +3736,46 @@
           "date_of_birth": "1997-08-11",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吉列尔梅-拉莫斯.jpg",
           "player_name_en": "Magro Pires Ramos Guilherme"
+        }
+      },
+      {
+        "player_name": "达万",
+        "team_name": "北京国安",
+        "appearances": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第14轮",
+            "date": "2026-05-23",
+            "opponent": "河南俱乐部",
+            "goals": 1
+          },
+          {
+            "round": "第22轮",
+            "date": "2026-08-07",
+            "opponent": "深圳新鹏城",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 5.6,
+        "form_5": [
+          "goal",
+          "goal"
+        ],
+        "streak": "连续2场进球",
+        "position": "中场",
+        "shirt_number": 23,
+        "cfl_profile": {
+          "height": "177",
+          "weight": "69",
+          "nationality": "巴西",
+          "date_of_birth": "1996-06-03",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
+          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
         }
       },
       {
@@ -3678,7 +3804,7 @@
             "type": "red"
           }
         ],
-        "goal_contribution_pct": 3.0,
+        "goal_contribution_pct": 2.8,
         "form_5": [
           "goal"
         ],
@@ -3716,7 +3842,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 3.0,
+        "goal_contribution_pct": 2.8,
         "form_5": [
           "goal"
         ],
@@ -3730,39 +3856,6 @@
           "date_of_birth": "1998-05-12",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/茹子楠_1.jpg",
           "player_name_en": "YueTze Nam"
-        }
-      },
-      {
-        "player_name": "达万",
-        "team_name": "北京国安",
-        "appearances": 1,
-        "goals": 1,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [
-          {
-            "round": "第14轮",
-            "date": "2026-05-23",
-            "opponent": "河南俱乐部",
-            "goals": 1
-          }
-        ],
-        "card_calendar": [],
-        "goal_contribution_pct": 3.0,
-        "form_5": [
-          "goal"
-        ],
-        "streak": "上场比赛有进球",
-        "position": "中场",
-        "shirt_number": 23,
-        "cfl_profile": {
-          "height": "177",
-          "weight": "69",
-          "nationality": "巴西",
-          "date_of_birth": "1996-06-03",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
-          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
         }
       },
       {
@@ -5355,7 +5448,7 @@
             "context_signals": {},
             "form_before": "W",
             "opponent_info": {
-              "current_rank": 6,
+              "current_rank": 7,
               "current_form": "WLLWL",
               "goals_for": 0,
               "goals_against": 0,
@@ -5455,7 +5548,7 @@
             "context_signals": {},
             "form_before": "WWLDW",
             "opponent_info": {
-              "current_rank": 6,
+              "current_rank": 7,
               "current_form": "WLLWL",
               "goals_for": 0,
               "goals_against": 0,
@@ -7234,11 +7327,11 @@
       },
       "深圳新鹏城": {
         "all_time": {
-          "played": 5,
-          "wins": 2,
+          "played": 6,
+          "wins": 3,
           "draws": 0,
           "losses": 3,
-          "gf": 6,
+          "gf": 10,
           "ga": 6
         },
         "matches": [
@@ -7345,12 +7438,19 @@
             "form_before": "DLLDL",
             "opponent_info": {
               "current_rank": 10,
-              "current_form": "WLLWL",
+              "current_form": "LWLLW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-07",
+                  "opponent": "北京国安",
+                  "is_home": false,
+                  "score": "0:4",
+                  "result": "L"
+                },
                 {
                   "date": "2026-08-02",
                   "opponent": "重庆铜梁龙",
@@ -7378,13 +7478,143 @@
                   "is_home": true,
                   "score": "3:0",
                   "result": "W"
+                }
+              ]
+            },
+            "season": "2026"
+          },
+          {
+            "match_id": "54389968",
+            "round": "第22轮",
+            "date": "2026-08-07 19:35",
+            "venue": "工人体育场",
+            "opponent": "深圳新鹏城",
+            "is_home": true,
+            "home_club": "北京国安",
+            "away_club": "深圳新鹏城",
+            "status": "finished",
+            "score": "4:0",
+            "guoan_goals": 4,
+            "opp_goals": 0,
+            "result": "W",
+            "events": [
+              {
+                "type": "goal",
+                "minute": 16,
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 26,
+                "player": "周定洋",
+                "player_name": "周定洋",
+                "team_name": "深圳新鹏城",
+                "is_own_goal": false
+              },
+              {
+                "type": "yellow_card",
+                "minute": 41,
+                "player": "申桓铭",
+                "player_name": "申桓铭",
+                "team_name": "深圳新鹏城"
+              },
+              {
+                "type": "yellow_card",
+                "minute": 50,
+                "player": "张宇峰",
+                "player_name": "张宇峰",
+                "team_name": "深圳新鹏城"
+              },
+              {
+                "type": "goal",
+                "minute": 51,
+                "player": "达万",
+                "player_name": "达万",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "yellow_card",
+                "minute": 56,
+                "player": "拉莫斯",
+                "player_name": "拉莫斯",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "yellow_card",
+                "minute": 68,
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "yellow_card",
+                "minute": 75,
+                "player": "姜至鹏",
+                "player_name": "姜至鹏",
+                "team_name": "深圳新鹏城"
+              },
+              {
+                "type": "goal",
+                "minute": 79,
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              }
+            ],
+            "formation": {
+              "home": "",
+              "away": ""
+            },
+            "opponent_tier": "B",
+            "context_signals": {},
+            "form_before": "",
+            "opponent_info": {
+              "current_rank": 10,
+              "current_form": "LWLLW",
+              "goals_for": 0,
+              "goals_against": 0,
+              "top_scorers": [],
+              "tier": "B",
+              "recent_matches": [
+                {
+                  "date": "2026-08-07",
+                  "opponent": "北京国安",
+                  "is_home": false,
+                  "score": "0:4",
+                  "result": "L"
                 },
                 {
-                  "date": "2026-07-04",
-                  "opponent": "天津津门虎",
+                  "date": "2026-08-02",
+                  "opponent": "重庆铜梁龙",
+                  "is_home": true,
+                  "score": "2:0",
+                  "result": "W"
+                },
+                {
+                  "date": "2026-07-26",
+                  "opponent": "云南玉昆",
                   "is_home": false,
-                  "score": "0:3",
+                  "score": "3:4",
                   "result": "L"
+                },
+                {
+                  "date": "2026-07-18",
+                  "opponent": "武汉三镇",
+                  "is_home": false,
+                  "score": "0:2",
+                  "result": "L"
+                },
+                {
+                  "date": "2026-07-11",
+                  "opponent": "青岛西海岸",
+                  "is_home": true,
+                  "score": "3:0",
+                  "result": "W"
                 }
               ]
             },
@@ -7664,7 +7894,7 @@
             },
             "form_before": "LWDLL",
             "opponent_info": {
-              "current_rank": 5,
+              "current_rank": 6,
               "current_form": "LWDLW",
               "goals_for": 0,
               "goals_against": 0,
@@ -7833,7 +8063,7 @@
             },
             "form_before": "DLWDL",
             "opponent_info": {
-              "current_rank": 4,
+              "current_rank": 5,
               "current_form": "DLWWL",
               "goals_for": 0,
               "goals_against": 0,
@@ -8201,7 +8431,7 @@
             "context_signals": {},
             "form_before": "LDWDW",
             "opponent_info": {
-              "current_rank": 3,
+              "current_rank": 4,
               "current_form": "LLDDL",
               "goals_for": 0,
               "goals_against": 0,
@@ -8332,12 +8562,12 @@
       "深圳新鹏城": {
         "tier": "B",
         "tier_label": "中游",
-        "home_result": null,
+        "home_result": "W",
         "away_result": "W",
-        "home_score": null,
+        "home_score": "4:0",
         "away_score": "1:0",
         "record": {
-          "wins": 1,
+          "wins": 2,
           "draws": 0,
           "losses": 0
         }
@@ -8467,6 +8697,7 @@
       "W",
       "D",
       "D",
+      "W",
       "W"
     ],
     "round_progression": [
@@ -8649,16 +8880,25 @@
         "cumulative_points": 31,
         "gf_total": 34,
         "ga_total": 27
+      },
+      {
+        "round": "第22轮",
+        "opponent": "深圳新鹏城",
+        "result": "W",
+        "score": "4:0",
+        "cumulative_points": 34,
+        "gf_total": 38,
+        "ga_total": 27
       }
     ],
     "goal_time_distribution": {
       "0-15": 2,
-      "16-30": 5,
+      "16-30": 6,
       "31-45": 3,
       "45+": 0,
-      "46-60": 5,
+      "46-60": 6,
       "61-75": 8,
-      "76-90": 10,
+      "76-90": 11,
       "90+": 0
     },
     "club_profile": {
