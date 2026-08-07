@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T20:07:51.792197+00:00",
+    "generated_at_utc": "2026-08-07T00:22:09.895319+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -2370,12 +2370,40 @@
             "is_own_goal": false
           },
           {
+            "type": "yellow_card",
+            "minute": 59,
+            "player": "李扬",
+            "player_name": "李扬",
+            "team_name": "成都蓉城"
+          },
+          {
             "type": "goal",
             "minute": 70,
             "player": "张玉宁",
             "player_name": "张玉宁",
             "team_name": "北京国安",
             "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 76,
+            "player": "费利佩",
+            "player_name": "费利佩",
+            "team_name": "成都蓉城"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 76,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 81,
+            "player": "贾非凡",
+            "player_name": "贾非凡",
+            "team_name": "北京国安"
           },
           {
             "type": "goal",
@@ -3302,10 +3330,10 @@
       {
         "player_name": "法比奥",
         "team_name": "北京国安",
-        "appearances": 6,
+        "appearances": 7,
         "goals": 6,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3348,6 +3376,10 @@
         "card_calendar": [
           {
             "round": "第3轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第20轮",
             "type": "yellow"
           }
         ],
@@ -4402,13 +4434,17 @@
       {
         "player_name": "贾非凡",
         "team_name": "北京国安",
-        "appearances": 1,
+        "appearances": 2,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
+          {
+            "round": "第20轮",
+            "type": "yellow"
+          },
           {
             "round": "第21轮",
             "type": "yellow"
@@ -7052,12 +7088,40 @@
                 "is_own_goal": false
               },
               {
+                "type": "yellow_card",
+                "minute": 59,
+                "player": "李扬",
+                "player_name": "李扬",
+                "team_name": "成都蓉城"
+              },
+              {
                 "type": "goal",
                 "minute": 70,
                 "player": "张玉宁",
                 "player_name": "张玉宁",
                 "team_name": "北京国安",
                 "is_own_goal": false
+              },
+              {
+                "type": "yellow_card",
+                "minute": 76,
+                "player": "费利佩",
+                "player_name": "费利佩",
+                "team_name": "成都蓉城"
+              },
+              {
+                "type": "yellow_card",
+                "minute": 76,
+                "player": "法比奥",
+                "player_name": "法比奥",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "yellow_card",
+                "minute": 81,
+                "player": "贾非凡",
+                "player_name": "贾非凡",
+                "team_name": "北京国安"
               },
               {
                 "type": "goal",
