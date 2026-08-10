@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-09T19:10:24.305724+00:00",
+    "generated_at_utc": "2026-08-10T19:28:29.653083+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -2176,7 +2176,7 @@
         "is_home": false,
         "home_club": "上海申花",
         "away_club": "北京国安",
-        "status": "postponed",
+        "status": "scheduled",
         "score": {
           "home": null,
           "away": null
