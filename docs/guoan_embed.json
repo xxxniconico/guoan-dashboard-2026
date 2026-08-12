@@ -2426,14 +2426,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "浙江俱乐部",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
+        "guoan_goals": 2,
+        "opp_goals": 1,
+        "result": "W",
         "events": [],
         "formation": {
           "home": "",
@@ -2502,14 +2502,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "深圳新鹏城",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         },
-        "guoan_goals": 0,
+        "guoan_goals": 4,
         "opp_goals": 0,
-        "result": "?",
+        "result": "W",
         "events": [],
         "formation": {
           "home": "",
@@ -2573,14 +2573,14 @@
         "is_home": false,
         "home_club": "天津津门虎",
         "away_club": "北京国安",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
+        "guoan_goals": 2,
+        "opp_goals": 2,
+        "result": "D",
         "events": [],
         "formation": {
           "home": "",
