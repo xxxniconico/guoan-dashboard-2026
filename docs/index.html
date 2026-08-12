@@ -853,7 +853,7 @@ function closeModal(){$("modal").classList.remove("open");selMatchIdx=null}
 
 /* ═══════════ PLAYERS ═══════════ */
 function renderPlayers(){
-  var ps=(D.player_performance||[]).filter(function(p){var cfl=p.cfl_profile||{};return cfl.player_icon||p.goals>0;});
+  var ps=D.player_performance||[];  // 显示全部球员
   // Sort: goals desc, yellow cards desc, name asc
   ps.sort(function(a,b){
     if(a.goals!==b.goals)return b.goals-a.goals;
