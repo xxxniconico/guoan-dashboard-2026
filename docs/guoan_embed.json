@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T03:45:50.115746+00:00",
+    "generated_at_utc": "2026-08-12T03:52:02.746221+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -2284,14 +2284,14 @@
         "is_home": false,
         "home_club": "成都蓉城",
         "away_club": "北京国安",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 2,
-        "opp_goals": 2,
-        "result": "D",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -2355,14 +2355,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "浙江俱乐部",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 2,
-          "away": 1
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 2,
-        "opp_goals": 1,
-        "result": "W",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -2431,14 +2431,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "深圳新鹏城",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 4,
-          "away": 0
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 4,
+        "guoan_goals": 0,
         "opp_goals": 0,
-        "result": "W",
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -2502,14 +2502,14 @@
         "is_home": false,
         "home_club": "天津津门虎",
         "away_club": "北京国安",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 2,
-        "opp_goals": 2,
-        "result": "D",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
