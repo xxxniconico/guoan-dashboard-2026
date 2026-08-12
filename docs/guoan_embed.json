@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T04:08:06.719370+00:00",
+    "generated_at_utc": "2026-08-12T10:16:05.749969+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -3307,9 +3307,9 @@
         "player_name": "张玉宁",
         "team_name": "北京国安",
         "appearances": 10,
-        "goals": 10,
+        "goals": 14,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 0,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3400,12 +3400,149 @@
         }
       },
       {
+        "player_name": "张稀哲",
+        "team_name": "北京国安",
+        "appearances": 7,
+        "goals": 8,
+        "assists": 0,
+        "yellow_cards": 6,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第7轮",
+            "date": "2026-04-21",
+            "opponent": "深圳新鹏城",
+            "goals": 1
+          },
+          {
+            "round": "第9轮",
+            "date": "2026-05-02",
+            "opponent": "云南玉昆",
+            "goals": 1
+          },
+          {
+            "round": "第11轮",
+            "date": "2026-05-10",
+            "opponent": "上海海港",
+            "goals": 1
+          },
+          {
+            "round": "第12轮",
+            "date": "2026-05-15",
+            "opponent": "青岛海牛",
+            "goals": 1
+          },
+          {
+            "round": "第21轮",
+            "date": "2026-08-01",
+            "opponent": "浙江俱乐部",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第8轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第11轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第13轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 13.9,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续5场进球",
+        "position": "中场",
+        "shirt_number": 10,
+        "cfl_profile": {
+          "height": "180",
+          "weight": "69",
+          "nationality": "中国",
+          "date_of_birth": "1991-01-23",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张稀哲_1.jpg",
+          "player_name_en": "Zhang Xizhe"
+        }
+      },
+      {
+        "player_name": "林良铭",
+        "team_name": "北京国安",
+        "appearances": 5,
+        "goals": 6,
+        "assists": 0,
+        "yellow_cards": 4,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第8轮",
+            "date": "2026-04-25",
+            "opponent": "天津津门虎",
+            "goals": 1
+          },
+          {
+            "round": "第10轮",
+            "date": "2026-05-06",
+            "opponent": "大连英博",
+            "goals": 1
+          },
+          {
+            "round": "第13轮",
+            "date": "2026-05-19",
+            "opponent": "青岛西海岸",
+            "goals": 1
+          },
+          {
+            "round": "第17轮",
+            "date": "2026-07-04",
+            "opponent": "山东泰山",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第6轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第13轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 11.1,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续4场进球",
+        "position": "前锋",
+        "shirt_number": 11,
+        "cfl_profile": {
+          "height": "181",
+          "weight": "76",
+          "nationality": "中国",
+          "date_of_birth": "1997-06-04",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/林良铭_1.jpg",
+          "player_name_en": "LinLiangming"
+        }
+      },
+      {
         "player_name": "法比奥·阿布雷乌",
         "team_name": "北京国安",
         "appearances": 8,
-        "goals": 7,
+        "goals": 6,
         "assists": 0,
-        "yellow_cards": 3,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3486,86 +3623,12 @@
         }
       },
       {
-        "player_name": "张稀哲",
-        "team_name": "北京国安",
-        "appearances": 7,
-        "goals": 5,
-        "assists": 0,
-        "yellow_cards": 3,
-        "red_cards": 0,
-        "goal_calendar": [
-          {
-            "round": "第7轮",
-            "date": "2026-04-21",
-            "opponent": "深圳新鹏城",
-            "goals": 1
-          },
-          {
-            "round": "第9轮",
-            "date": "2026-05-02",
-            "opponent": "云南玉昆",
-            "goals": 1
-          },
-          {
-            "round": "第11轮",
-            "date": "2026-05-10",
-            "opponent": "上海海港",
-            "goals": 1
-          },
-          {
-            "round": "第12轮",
-            "date": "2026-05-15",
-            "opponent": "青岛海牛",
-            "goals": 1
-          },
-          {
-            "round": "第21轮",
-            "date": "2026-08-01",
-            "opponent": "浙江俱乐部",
-            "goals": 1
-          }
-        ],
-        "card_calendar": [
-          {
-            "round": "第8轮",
-            "type": "yellow"
-          },
-          {
-            "round": "第11轮",
-            "type": "yellow"
-          },
-          {
-            "round": "第13轮",
-            "type": "yellow"
-          }
-        ],
-        "goal_contribution_pct": 13.9,
-        "form_5": [
-          "goal",
-          "goal",
-          "goal",
-          "goal",
-          "goal"
-        ],
-        "streak": "连续5场进球",
-        "position": "中场",
-        "shirt_number": 10,
-        "cfl_profile": {
-          "height": "180",
-          "weight": "69",
-          "nationality": "中国",
-          "date_of_birth": "1991-01-23",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张稀哲_1.jpg",
-          "player_name_en": "Zhang Xizhe"
-        }
-      },
-      {
         "player_name": "塞尔吉尼奥",
         "team_name": "北京国安",
         "appearances": 4,
-        "goals": 4,
+        "goals": 2,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 0,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3616,69 +3679,6 @@
           "date_of_birth": "1995-03-15",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/塞尔吉尼奥_1.jpg",
           "player_name_en": "Soler de Oliveira JúniorSérgio Antônio"
-        }
-      },
-      {
-        "player_name": "林良铭",
-        "team_name": "北京国安",
-        "appearances": 5,
-        "goals": 4,
-        "assists": 0,
-        "yellow_cards": 2,
-        "red_cards": 0,
-        "goal_calendar": [
-          {
-            "round": "第8轮",
-            "date": "2026-04-25",
-            "opponent": "天津津门虎",
-            "goals": 1
-          },
-          {
-            "round": "第10轮",
-            "date": "2026-05-06",
-            "opponent": "大连英博",
-            "goals": 1
-          },
-          {
-            "round": "第13轮",
-            "date": "2026-05-19",
-            "opponent": "青岛西海岸",
-            "goals": 1
-          },
-          {
-            "round": "第17轮",
-            "date": "2026-07-04",
-            "opponent": "山东泰山",
-            "goals": 1
-          }
-        ],
-        "card_calendar": [
-          {
-            "round": "第6轮",
-            "type": "yellow"
-          },
-          {
-            "round": "第13轮",
-            "type": "yellow"
-          }
-        ],
-        "goal_contribution_pct": 11.1,
-        "form_5": [
-          "goal",
-          "goal",
-          "goal",
-          "goal"
-        ],
-        "streak": "连续4场进球",
-        "position": "前锋",
-        "shirt_number": 11,
-        "cfl_profile": {
-          "height": "181",
-          "weight": "76",
-          "nationality": "中国",
-          "date_of_birth": "1997-06-04",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/林良铭_1.jpg",
-          "player_name_en": "LinLiangming"
         }
       },
       {
@@ -3739,53 +3739,13 @@
         }
       },
       {
-        "player_name": "达万",
-        "team_name": "北京国安",
-        "appearances": 2,
-        "goals": 2,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [
-          {
-            "round": "第14轮",
-            "date": "2026-05-23",
-            "opponent": "河南俱乐部",
-            "goals": 1
-          },
-          {
-            "round": "第22轮",
-            "date": "2026-08-07",
-            "opponent": "深圳新鹏城",
-            "goals": 1
-          }
-        ],
-        "card_calendar": [],
-        "goal_contribution_pct": 5.6,
-        "form_5": [
-          "goal",
-          "goal"
-        ],
-        "streak": "连续2场进球",
-        "position": "中场",
-        "shirt_number": 23,
-        "cfl_profile": {
-          "height": "177",
-          "weight": "69",
-          "nationality": "巴西",
-          "date_of_birth": "1996-06-03",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
-          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
-        }
-      },
-      {
         "player_name": "曹永竞",
         "team_name": "北京国安",
         "appearances": 3,
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "yellow_cards": 1,
-        "red_cards": 1,
+        "yellow_cards": 2,
+        "red_cards": 2,
         "goal_calendar": [
           {
             "round": "第12轮",
@@ -3824,9 +3784,9 @@
         "player_name": "茹子楠",
         "team_name": "北京国安",
         "appearances": 2,
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 0,
         "red_cards": 0,
         "goal_calendar": [
           {
@@ -3856,6 +3816,46 @@
           "date_of_birth": "1998-05-12",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/茹子楠_1.jpg",
           "player_name_en": "YueTze Nam"
+        }
+      },
+      {
+        "player_name": "达万",
+        "team_name": "北京国安",
+        "appearances": 2,
+        "goals": 2,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第14轮",
+            "date": "2026-05-23",
+            "opponent": "河南俱乐部",
+            "goals": 1
+          },
+          {
+            "round": "第22轮",
+            "date": "2026-08-07",
+            "opponent": "深圳新鹏城",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [],
+        "goal_contribution_pct": 5.6,
+        "form_5": [
+          "goal",
+          "goal"
+        ],
+        "streak": "连续2场进球",
+        "position": "中场",
+        "shirt_number": 23,
+        "cfl_profile": {
+          "height": "177",
+          "weight": "69",
+          "nationality": "巴西",
+          "date_of_birth": "1996-06-03",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
+          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
         }
       },
       {
@@ -4037,7 +4037,7 @@
         "appearances": 3,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 3,
+        "yellow_cards": 6,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
@@ -4098,7 +4098,7 @@
         "appearances": 2,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 2,
+        "yellow_cards": 4,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
@@ -4133,7 +4133,7 @@
         "appearances": 0,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_contribution_pct": 0.0,
         "goal_calendar": [],
@@ -4148,7 +4148,7 @@
         "appearances": 1,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
@@ -4297,7 +4297,7 @@
         "appearances": 1,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
@@ -4326,7 +4326,7 @@
         "appearances": 1,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 1,
+        "yellow_cards": 2,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
@@ -4484,7 +4484,7 @@
         "appearances": 3,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 3,
+        "yellow_cards": 8,
         "red_cards": 0,
         "goal_calendar": [],
         "card_calendar": [
