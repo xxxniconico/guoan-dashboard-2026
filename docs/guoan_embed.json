@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T10:47:38.500001+00:00",
+    "generated_at_utc": "2026-08-12T10:51:00.355272+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
+    "source": "C:\\Users\\xxxsu\\AppData\\Local\\Temp\\reasonix-session-tmp-698780901\\guoan-dash\\data\\dashboard_embed.json"
   },
   "guoan": {
     "standing": {
@@ -3395,8 +3395,9 @@
           "weight": 80,
           "nationality": "中国",
           "date_of_birth": "1997-01-15",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张玉宁_1.jpg",
-          "player_name_en": "ZhangYuning"
+          "player_icon": "http://www.fcguoan.com/images/person/618_1775515180670749.png",
+          "player_name_en": "ZhangYuning",
+          "joined_year": 2019
         }
       },
       {
@@ -3469,8 +3470,9 @@
           "weight": 69,
           "nationality": "中国",
           "date_of_birth": "1991-01-23",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张稀哲_1.jpg",
-          "player_name_en": "Zhang Xizhe"
+          "player_icon": "http://www.fcguoan.com/images/person/16_1775515198360853.png",
+          "player_name_en": "Zhang Xizhe",
+          "joined_year": 2009
         }
       },
       {
@@ -3530,10 +3532,11 @@
         "cfl_profile": {
           "height": 180,
           "weight": 73,
-          "nationality": "中国",
+          "nationality": "生",
           "date_of_birth": "1997-06-04",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/林良铭_1.jpg",
-          "player_name_en": "LinLiangming"
+          "player_icon": "http://www.fcguoan.com/images/person/1114_1775515212950689.png",
+          "player_name_en": "LinLiangming",
+          "joined_year": 2024
         }
       },
       {
@@ -3618,8 +3621,9 @@
           "weight": 76,
           "nationality": "安哥拉",
           "date_of_birth": "1993-01-29",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/法比奥_1.jpg",
-          "player_name_en": "Gonçalves de AbreuFábio"
+          "player_icon": "http://www.fcguoan.com/images/person/1108_1775515687224827.png",
+          "player_name_en": "Gonçalves de AbreuFábio",
+          "joined_year": 2023
         }
       },
       {
@@ -3673,12 +3677,13 @@
         "position": "中场",
         "shirt_number": 7,
         "cfl_profile": {
-          "height": 180,
-          "weight": 75,
+          "height": "180",
+          "weight": "84",
           "nationality": "中国",
           "date_of_birth": "1995-03-15",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/塞尔吉尼奥_1.jpg",
-          "player_name_en": "Soler de Oliveira JúniorSérgio Antônio"
+          "player_icon": "http://www.fcguoan.com/images/person/1126_1775515015741210.png",
+          "player_name_en": "Soler de Oliveira JúniorSérgio Antônio",
+          "joined_year": 2025
         }
       },
       {
@@ -3734,8 +3739,9 @@
           "weight": 86,
           "nationality": "葡萄牙",
           "date_of_birth": "1997-08-11",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吉列尔梅-拉莫斯.jpg",
-          "player_name_en": "Magro Pires Ramos Guilherme"
+          "player_icon": "http://www.fcguoan.com/images/person/1128_1775514676732577.png",
+          "player_name_en": "Magro Pires Ramos Guilherme",
+          "joined_year": 2026
         }
       },
       {
@@ -3776,8 +3782,9 @@
           "weight": 73,
           "nationality": "中国",
           "date_of_birth": "1997-02-15",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/曹永竞_1.jpg",
-          "player_name_en": "CaoYongjing"
+          "player_icon": "http://www.fcguoan.com/images/person/146_1775515778039640.png",
+          "player_name_en": "CaoYongjing",
+          "joined_year": 2021
         }
       },
       {
@@ -3814,8 +3821,9 @@
           "weight": 68,
           "nationality": "中国香港",
           "date_of_birth": "1998-05-12",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/茹子楠_1.jpg",
-          "player_name_en": "YueTze Nam"
+          "player_icon": "http://www.fcguoan.com/images/person/1133_1775515572455866.png",
+          "player_name_en": "YueTze Nam",
+          "joined_year": 2026
         }
       },
       {
@@ -3854,8 +3862,9 @@
           "weight": 69,
           "nationality": "巴西",
           "date_of_birth": "1996-06-03",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
-          "player_name_en": "da Purificação OliveiraDawhan Fran Urano"
+          "player_icon": "http://www.fcguoan.com/images/person/1123_1775515607738438.png",
+          "player_name_en": "da Purificação OliveiraDawhan Fran Urano",
+          "joined_year": 2025
         }
       },
       {
@@ -3878,8 +3887,9 @@
           "weight": 69,
           "nationality": "中国",
           "date_of_birth": "1999-12-05",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/何宇鹏.jpg",
-          "player_name_en": "HeYupeng"
+          "player_icon": "http://www.fcguoan.com/images/person/1112_1775516055073277.png",
+          "player_name_en": "HeYupeng",
+          "joined_year": 2024
         }
       },
       {
@@ -3907,8 +3917,9 @@
           "weight": 81,
           "nationality": "中国",
           "date_of_birth": "1989-06-30",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/侯森_1.jpg",
-          "player_name_en": "HouSen"
+          "player_icon": "http://www.fcguoan.com/images/person/8_1775515180670749.png",
+          "player_name_en": "HouSen",
+          "joined_year": 2007
         }
       },
       {
@@ -3929,10 +3940,11 @@
         "cfl_profile": {
           "height": 173,
           "weight": 68,
-          "nationality": "中国",
+          "nationality": "生",
           "date_of_birth": "2008-04-17",
-          "player_icon": "",
-          "player_name_en": "Liu Junze"
+          "player_icon": "http://www.fcguoan.com/images/person/1139_1784848259471123.png",
+          "player_name_en": "Liu Junze",
+          "joined_year": 2026
         }
       },
       {
@@ -3955,8 +3967,9 @@
           "weight": 88,
           "nationality": "中国",
           "date_of_birth": "2004-12-11",
-          "player_icon": "",
-          "player_name_en": "Liu Shaoziyang"
+          "player_icon": "http://www.fcguoan.com/images/person/1113_1784510113433302.png",
+          "player_name_en": "Liu Shaoziyang",
+          "joined_year": 2026
         }
       },
       {
@@ -3979,8 +3992,9 @@
           "weight": 77,
           "nationality": "中国",
           "date_of_birth": "2004-09-26",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/努尔艾力-阿巴斯.jpg",
-          "player_name_en": "AbbasNureli"
+          "player_icon": "http://www.fcguoan.com/images/person/1082_1775515711683876.png",
+          "player_name_en": "AbbasNureli",
+          "joined_year": 2023
         }
       },
       {
@@ -4003,8 +4017,9 @@
           "weight": 80,
           "nationality": "中国",
           "date_of_birth": "2000-03-20",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吴少聪_1.jpg",
-          "player_name_en": "WuShaocong"
+          "player_icon": "http://www.fcguoan.com/images/person/1121_1775514950227356.png",
+          "player_name_en": "WuShaocong",
+          "joined_year": 2025
         }
       },
       {
@@ -4025,10 +4040,11 @@
         "cfl_profile": {
           "height": 180,
           "weight": 72,
-          "nationality": "中国",
+          "nationality": "生",
           "date_of_birth": "2007-09-26",
-          "player_icon": "",
-          "player_name_en": "Xia Xiaoyu"
+          "player_icon": "http://www.fcguoan.com/images/person/1115_1784847564410830.png",
+          "player_name_en": "Xia Xiaoyu",
+          "joined_year": 2026
         }
       },
       {
@@ -4064,8 +4080,9 @@
           "weight": 62,
           "nationality": "马里",
           "date_of_birth": "2001-03-02",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/孔特.jpg",
-          "player_name_en": "Konté Boubacar"
+          "player_icon": "http://www.fcguoan.com/images/person/1129_1775515131603701.png",
+          "player_name_en": "Konté Boubacar",
+          "joined_year": 2026
         }
       },
       {
@@ -4088,8 +4105,9 @@
           "weight": 68,
           "nationality": "中国",
           "date_of_birth": "2007-10-17",
-          "player_icon": "",
-          "player_name_en": "Zhang Haoran"
+          "player_icon": "http://www.fcguoan.com/images/person/1137_1784847664205961.png",
+          "player_name_en": "Zhang Haoran",
+          "joined_year": 2026
         }
       },
       {
@@ -4119,10 +4137,11 @@
         "cfl_profile": {
           "height": 186,
           "weight": 75,
-          "nationality": "法国",
+          "nationality": "民主刚果",
           "date_of_birth": "1996-11-06",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/恩科洛洛.jpg",
-          "player_name_en": "Nkololo Béni"
+          "player_icon": "http://www.fcguoan.com/images/person/1132_1775515493455001.png",
+          "player_name_en": "Nkololo Béni",
+          "joined_year": 2026
         }
       },
       {
@@ -4143,7 +4162,10 @@
         "cfl_profile": {
           "height": 188,
           "weight": 80,
-          "date_of_birth": "1993-02-13"
+          "date_of_birth": "1993-02-13",
+          "nationality": "塞尔维亚",
+          "joined_year": 2025,
+          "player_icon": "http://www.fcguoan.com/images/person/1122_1775515339019881.png"
         }
       },
       {
@@ -4171,8 +4193,9 @@
           "weight": 66,
           "nationality": "中国",
           "date_of_birth": "1992-05-30",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/李磊_1.jpg",
-          "player_name_en": "LiLei"
+          "player_icon": "http://www.fcguoan.com/images/person/10_1775514987584121.png",
+          "player_name_en": "LiLei",
+          "joined_year": 2015
         }
       },
       {
@@ -4193,10 +4216,11 @@
         "cfl_profile": {
           "height": 176,
           "weight": 70,
-          "nationality": "",
+          "nationality": "中国",
           "date_of_birth": "1995-08-28",
-          "player_icon": "",
-          "player_name_en": ""
+          "player_icon": "http://www.fcguoan.com/images/person/1130_1785888034812965.png",
+          "player_name_en": "",
+          "joined_year": 2026
         }
       },
       {
@@ -4219,8 +4243,9 @@
           "weight": 65,
           "nationality": "中国",
           "date_of_birth": "1997-02-13",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/杨立瑜_1.jpg",
-          "player_name_en": "YangLiyu"
+          "player_icon": "http://www.fcguoan.com/images/person/1078_1775515362136344.png",
+          "player_name_en": "YangLiyu",
+          "joined_year": 2022
         }
       },
       {
@@ -4243,8 +4268,9 @@
           "weight": 75,
           "nationality": "中国",
           "date_of_birth": "1998-03-06",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/柏杨_1.jpg",
-          "player_name_en": "BaiYang"
+          "player_icon": "http://www.fcguoan.com/images/person/971_1775515634362168.png",
+          "player_name_en": "BaiYang",
+          "joined_year": 2021
         }
       },
       {
@@ -4267,7 +4293,7 @@
           "weight": 65,
           "nationality": "中国",
           "date_of_birth": "1989-10-26",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/池忠国_1.jpg",
+          "player_icon": "http://www.fcguoan.com/images/person/263_1775515003647404.png",
           "player_name_en": "ChiZhongguo"
         }
       },
@@ -4289,10 +4315,11 @@
         "cfl_profile": {
           "height": 172,
           "weight": 72,
-          "nationality": "",
+          "nationality": "民主刚果",
           "date_of_birth": "1995-04-01",
-          "player_icon": "",
-          "player_name_en": ""
+          "player_icon": "http://www.fcguoan.com/images/person/1127_1785887973257381.png",
+          "player_name_en": "",
+          "joined_year": 2026
         }
       },
       {
@@ -4320,8 +4347,9 @@
           "weight": 81,
           "nationality": "中国",
           "date_of_birth": "1989-02-17",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王刚_1.jpg",
-          "player_name_en": "WangGang"
+          "player_icon": "http://www.fcguoan.com/images/person/620_1775515646533508.png",
+          "player_name_en": "WangGang",
+          "joined_year": 2019
         }
       },
       {
@@ -4349,8 +4377,9 @@
           "weight": 70,
           "nationality": "中国",
           "date_of_birth": "2002-04-28",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王禹_1.jpg",
-          "player_name_en": "WangYu"
+          "player_icon": "http://www.fcguoan.com/images/person/1131_1775515427465011.png",
+          "player_name_en": "WangYu",
+          "joined_year": 2026
         }
       },
       {
@@ -4373,8 +4402,9 @@
           "weight": 64,
           "nationality": "中国",
           "date_of_birth": "2007-12-16",
-          "player_icon": "",
-          "player_name_en": "Luo Zixiang"
+          "player_icon": "http://www.fcguoan.com/images/person/1111_1784847402507392.png",
+          "player_name_en": "Luo Zixiang",
+          "joined_year": 2026
         }
       },
       {
@@ -4395,9 +4425,9 @@
         "cfl_profile": {
           "height": 178,
           "weight": 65,
-          "nationality": "中国",
+          "nationality": "生",
           "date_of_birth": "2005-08-25",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/范双杰_1.jpg",
+          "player_icon": "http://www.fcguoan.com/images/person/986_1775515697110075.png",
           "player_name_en": "FanShuangjie"
         }
       },
@@ -4419,10 +4449,11 @@
         "cfl_profile": {
           "height": 185,
           "weight": 73,
-          "nationality": "中国",
+          "nationality": "生",
           "date_of_birth": "2007-09-11",
-          "player_icon": "",
-          "player_name_en": "Jiang Zicheng"
+          "player_icon": "http://www.fcguoan.com/images/person/1138_1784848166136401.png",
+          "player_name_en": "Jiang Zicheng",
+          "joined_year": 2026
         }
       },
       {
@@ -4454,8 +4485,9 @@
           "weight": 70,
           "nationality": "中国",
           "date_of_birth": "2001-01-13",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/贾非凡_1.jpg",
-          "player_name_en": "JiaFeifan"
+          "player_icon": "http://www.fcguoan.com/images/person/1135_1775515919555636.png",
+          "player_name_en": "JiaFeifan",
+          "joined_year": 2026
         }
       },
       {
@@ -4478,8 +4510,9 @@
           "weight": 75,
           "nationality": "中国",
           "date_of_birth": "2007-06-28",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/邓捷夫.jpg",
-          "player_name_en": "Deng Jiefu"
+          "player_icon": "http://www.fcguoan.com/images/person/1136_1775515970747259.png",
+          "player_name_en": "Deng Jiefu",
+          "joined_year": 2026
         }
       },
       {
@@ -4515,8 +4548,9 @@
           "weight": 78,
           "nationality": "中国",
           "date_of_birth": "1998-03-10",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/阿不都海米提_1.jpg",
-          "player_name_en": "AbdugheniAbduhamit"
+          "player_icon": "http://www.fcguoan.com/images/person/1134_1775515833393134.png",
+          "player_name_en": "AbdugheniAbduhamit",
+          "joined_year": 2026
         }
       },
       {
@@ -4539,8 +4573,9 @@
           "weight": 75,
           "nationality": "中国",
           "date_of_birth": "2008-05-26",
-          "player_icon": "",
-          "player_name_en": "Chen Kangyue"
+          "player_icon": "http://www.fcguoan.com/images/person/1109_1784847844465845.png",
+          "player_name_en": "Chen Kangyue",
+          "joined_year": 2026
         }
       },
       {
@@ -4560,11 +4595,12 @@
         "shirt_number": 22,
         "cfl_profile": {
           "height": 185,
-          "weight": 80,
+          "weight": "79",
           "nationality": "中国",
           "date_of_birth": "1999-07-03",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/韩佳奇.jpg",
-          "player_name_en": "HanJiaqi"
+          "player_icon": "http://www.fcguoan.com/images/person/1075_1775515596027512.png",
+          "player_name_en": "HanJiaqi",
+          "joined_year": 2023
         }
       }
     ],
