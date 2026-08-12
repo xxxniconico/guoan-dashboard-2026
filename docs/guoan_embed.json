@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T10:41:15.569477+00:00",
+    "generated_at_utc": "2026-08-12T10:45:38.182871+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
+    "source": "C:\\Users\\xxxsu\\AppData\\Local\\Temp\\reasonix-session-tmp-698780901\\guoan-dash\\data\\dashboard_embed.json"
   },
   "guoan": {
     "standing": {
@@ -3391,10 +3391,10 @@
         "position": "前锋",
         "shirt_number": 9,
         "cfl_profile": {
-          "height": "186",
-          "weight": "85",
+          "height": 185,
+          "weight": 80,
           "nationality": "中国",
-          "date_of_birth": "1997-01-05",
+          "date_of_birth": "1997-01-15",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张玉宁_1.jpg",
           "player_name_en": "ZhangYuning"
         }
@@ -3465,8 +3465,8 @@
         "position": "中场",
         "shirt_number": 10,
         "cfl_profile": {
-          "height": "180",
-          "weight": "69",
+          "height": 180,
+          "weight": 69,
           "nationality": "中国",
           "date_of_birth": "1991-01-23",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张稀哲_1.jpg",
@@ -3528,8 +3528,8 @@
         "position": "前锋",
         "shirt_number": 11,
         "cfl_profile": {
-          "height": "181",
-          "weight": "76",
+          "height": 180,
+          "weight": 73,
           "nationality": "中国",
           "date_of_birth": "1997-06-04",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/林良铭_1.jpg",
@@ -3614,8 +3614,8 @@
         "position": "前锋",
         "shirt_number": 29,
         "cfl_profile": {
-          "height": "182",
-          "weight": "83",
+          "height": 182,
+          "weight": 76,
           "nationality": "安哥拉",
           "date_of_birth": "1993-01-29",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/法比奥_1.jpg",
@@ -3673,8 +3673,8 @@
         "position": "中场",
         "shirt_number": 7,
         "cfl_profile": {
-          "height": "180",
-          "weight": "84",
+          "height": 180,
+          "weight": 75,
           "nationality": "中国",
           "date_of_birth": "1995-03-15",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/塞尔吉尼奥_1.jpg",
@@ -3730,8 +3730,8 @@
         "position": "后卫",
         "shirt_number": 5,
         "cfl_profile": {
-          "height": "191",
-          "weight": "86",
+          "height": 191,
+          "weight": 86,
           "nationality": "葡萄牙",
           "date_of_birth": "1997-08-11",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吉列尔梅-拉莫斯.jpg",
@@ -3772,8 +3772,8 @@
         "position": "中场",
         "shirt_number": 37,
         "cfl_profile": {
-          "height": "180",
-          "weight": "73",
+          "height": 180,
+          "weight": 73,
           "nationality": "中国",
           "date_of_birth": "1997-02-15",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/曹永竞_1.jpg",
@@ -3810,8 +3810,8 @@
         "position": "后卫",
         "shirt_number": 21,
         "cfl_profile": {
-          "height": "171",
-          "weight": "68",
+          "height": 171,
+          "weight": 68,
           "nationality": "中国香港",
           "date_of_birth": "1998-05-12",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/茹子楠_1.jpg",
@@ -3850,8 +3850,8 @@
         "position": "中场",
         "shirt_number": 23,
         "cfl_profile": {
-          "height": "177",
-          "weight": "69",
+          "height": 177,
+          "weight": 69,
           "nationality": "巴西",
           "date_of_birth": "1996-06-03",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/达万_1.jpg",
@@ -3874,8 +3874,8 @@
         "position": "后卫",
         "shirt_number": 3,
         "cfl_profile": {
-          "height": "182",
-          "weight": "72",
+          "height": 182,
+          "weight": 69,
           "nationality": "中国",
           "date_of_birth": "1999-12-05",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/何宇鹏.jpg",
@@ -3903,8 +3903,8 @@
         "position": "门将",
         "shirt_number": 34,
         "cfl_profile": {
-          "height": "188",
-          "weight": "81",
+          "height": 188,
+          "weight": 81,
           "nationality": "中国",
           "date_of_birth": "1989-06-30",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/侯森_1.jpg",
@@ -3927,8 +3927,8 @@
         "position": "中场",
         "shirt_number": 57,
         "cfl_profile": {
-          "height": "157",
-          "weight": "53",
+          "height": 173,
+          "weight": 68,
           "nationality": "中国",
           "date_of_birth": "2008-04-17",
           "player_icon": "",
@@ -3951,10 +3951,10 @@
         "position": "门将",
         "shirt_number": 31,
         "cfl_profile": {
-          "height": "191",
-          "weight": "88",
+          "height": 191,
+          "weight": 88,
           "nationality": "中国",
-          "date_of_birth": "2003-12-11",
+          "date_of_birth": "2004-12-11",
           "player_icon": "",
           "player_name_en": "Liu Shaoziyang"
         }
@@ -3975,8 +3975,8 @@
         "position": "门将",
         "shirt_number": 33,
         "cfl_profile": {
-          "height": "193",
-          "weight": "77",
+          "height": 193,
+          "weight": 77,
           "nationality": "中国",
           "date_of_birth": "2004-09-26",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/努尔艾力-阿巴斯.jpg",
@@ -3999,8 +3999,8 @@
         "position": "后卫",
         "shirt_number": 2,
         "cfl_profile": {
-          "height": "192",
-          "weight": "81",
+          "height": 192,
+          "weight": 80,
           "nationality": "中国",
           "date_of_birth": "2000-03-20",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/吴少聪_1.jpg",
@@ -4023,8 +4023,8 @@
         "position": "前锋",
         "shirt_number": 43,
         "cfl_profile": {
-          "height": "180",
-          "weight": "72",
+          "height": 180,
+          "weight": 72,
           "nationality": "中国",
           "date_of_birth": "2007-09-26",
           "player_icon": "",
@@ -4060,8 +4060,8 @@
         "position": "中场",
         "shirt_number": 8,
         "cfl_profile": {
-          "height": "176",
-          "weight": "69",
+          "height": 175,
+          "weight": 62,
           "nationality": "马里",
           "date_of_birth": "2001-03-02",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/孔特.jpg",
@@ -4084,8 +4084,8 @@
         "position": "后卫",
         "shirt_number": 50,
         "cfl_profile": {
-          "height": "153",
-          "weight": "40",
+          "height": 184,
+          "weight": 68,
           "nationality": "中国",
           "date_of_birth": "2007-10-17",
           "player_icon": "",
@@ -4117,8 +4117,8 @@
         "position": "前锋",
         "shirt_number": 20,
         "cfl_profile": {
-          "height": "178",
-          "weight": "75",
+          "height": 186,
+          "weight": 75,
           "nationality": "法国",
           "date_of_birth": "1996-11-06",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/恩科洛洛.jpg",
@@ -4140,7 +4140,11 @@
         "card_calendar": [],
         "form_5": [],
         "streak": "",
-        "cfl_profile": null
+        "cfl_profile": {
+          "height": 188,
+          "weight": 80,
+          "date_of_birth": "1993-02-13"
+        }
       },
       {
         "player_name": "李磊",
@@ -4163,8 +4167,8 @@
         "position": "后卫",
         "shirt_number": 4,
         "cfl_profile": {
-          "height": "183",
-          "weight": "77",
+          "height": 183,
+          "weight": 66,
           "nationality": "中国",
           "date_of_birth": "1992-05-30",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/李磊_1.jpg",
@@ -4187,10 +4191,10 @@
         "position": "中场",
         "shirt_number": 98,
         "cfl_profile": {
-          "height": null,
-          "weight": null,
+          "height": 176,
+          "weight": 70,
           "nationality": "",
-          "date_of_birth": "",
+          "date_of_birth": "1995-08-28",
           "player_icon": "",
           "player_name_en": ""
         }
@@ -4211,8 +4215,8 @@
         "position": "前锋",
         "shirt_number": 17,
         "cfl_profile": {
-          "height": "180",
-          "weight": "65",
+          "height": 179,
+          "weight": 65,
           "nationality": "中国",
           "date_of_birth": "1997-02-13",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/杨立瑜_1.jpg",
@@ -4235,8 +4239,8 @@
         "position": "后卫",
         "shirt_number": 26,
         "cfl_profile": {
-          "height": "190",
-          "weight": "75",
+          "height": 190,
+          "weight": 75,
           "nationality": "中国",
           "date_of_birth": "1998-03-06",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/柏杨_1.jpg",
@@ -4259,8 +4263,8 @@
         "position": "中场",
         "shirt_number": 6,
         "cfl_profile": {
-          "height": "172",
-          "weight": "66",
+          "height": 174,
+          "weight": 65,
           "nationality": "中国",
           "date_of_birth": "1989-10-26",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/池忠国_1.jpg",
@@ -4283,10 +4287,10 @@
         "position": "前锋",
         "shirt_number": 98,
         "cfl_profile": {
-          "height": null,
-          "weight": null,
+          "height": 172,
+          "weight": 72,
           "nationality": "",
-          "date_of_birth": "",
+          "date_of_birth": "1995-04-01",
           "player_icon": "",
           "player_name_en": ""
         }
@@ -4312,8 +4316,8 @@
         "position": "后卫",
         "shirt_number": 27,
         "cfl_profile": {
-          "height": "188",
-          "weight": "81",
+          "height": 188,
+          "weight": 81,
           "nationality": "中国",
           "date_of_birth": "1989-02-17",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王刚_1.jpg",
@@ -4341,8 +4345,8 @@
         "position": "中场",
         "shirt_number": 18,
         "cfl_profile": {
-          "height": "178",
-          "weight": "70",
+          "height": 178,
+          "weight": 70,
           "nationality": "中国",
           "date_of_birth": "2002-04-28",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/王禹_1.jpg",
@@ -4365,8 +4369,8 @@
         "position": "后卫",
         "shirt_number": 55,
         "cfl_profile": {
-          "height": "152",
-          "weight": null,
+          "height": 173,
+          "weight": 64,
           "nationality": "中国",
           "date_of_birth": "2007-12-16",
           "player_icon": "",
@@ -4389,8 +4393,8 @@
         "position": "后卫",
         "shirt_number": 30,
         "cfl_profile": {
-          "height": "177",
-          "weight": "69",
+          "height": 178,
+          "weight": 65,
           "nationality": "中国",
           "date_of_birth": "2005-08-25",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/范双杰_1.jpg",
@@ -4413,8 +4417,8 @@
         "position": "前锋",
         "shirt_number": 58,
         "cfl_profile": {
-          "height": "174",
-          "weight": "55",
+          "height": 185,
+          "weight": 73,
           "nationality": "中国",
           "date_of_birth": "2007-09-11",
           "player_icon": "",
@@ -4446,8 +4450,8 @@
         "position": "中场",
         "shirt_number": 36,
         "cfl_profile": {
-          "height": "178",
-          "weight": "80",
+          "height": 178,
+          "weight": 70,
           "nationality": "中国",
           "date_of_birth": "2001-01-13",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/贾非凡_1.jpg",
@@ -4470,8 +4474,8 @@
         "position": "后卫",
         "shirt_number": 47,
         "cfl_profile": {
-          "height": "185",
-          "weight": "75",
+          "height": 185,
+          "weight": 75,
           "nationality": "中国",
           "date_of_birth": "2007-06-28",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/邓捷夫.jpg",
@@ -4507,8 +4511,8 @@
         "position": "后卫",
         "shirt_number": 24,
         "cfl_profile": {
-          "height": "185",
-          "weight": "75",
+          "height": 183,
+          "weight": 78,
           "nationality": "中国",
           "date_of_birth": "1998-03-10",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/阿不都海米提_1.jpg",
@@ -4531,8 +4535,8 @@
         "position": "中场",
         "shirt_number": 59,
         "cfl_profile": {
-          "height": "165",
-          "weight": "53",
+          "height": 177,
+          "weight": 75,
           "nationality": "中国",
           "date_of_birth": "2008-05-26",
           "player_icon": "",
@@ -4555,8 +4559,8 @@
         "position": "门将",
         "shirt_number": 22,
         "cfl_profile": {
-          "height": "187",
-          "weight": "79",
+          "height": 185,
+          "weight": 80,
           "nationality": "中国",
           "date_of_birth": "1999-07-03",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/韩佳奇.jpg",

@@ -7,42 +7,42 @@ from collections import defaultdict, Counter
 # 官方一线队名单（来源：http://www.fcguoan.com/team.php?cate=1）
 # 格式: {name: {number, position}}
 OFFICIAL_ROSTER = {
-    "吴少聪": {"number": 2, "position": "后卫"},
-    "何宇鹏": {"number": 3, "position": "后卫"},
-    "李磊": {"number": 4, "position": "后卫"},
-    "拉莫斯": {"number": 5, "position": "后卫"},
-    "池忠国": {"number": 6, "position": "中场"},
-    "塞尔吉尼奥": {"number": 7, "position": "中场"},
-    "孔特": {"number": 8, "position": "中场"},
-    "张玉宁": {"number": 9, "position": "前锋"},
-    "张稀哲": {"number": 10, "position": "中场"},
-    "林良铭": {"number": 11, "position": "前锋"},
-    "斯帕吉奇": {"number": 15, "position": "后卫"},
-    "杨立瑜": {"number": 17, "position": "前锋"},
-    "王禹": {"number": 18, "position": "中场"},
-    "恩科洛洛": {"number": 20, "position": "前锋"},
-    "茹子楠": {"number": 21, "position": "后卫"},
-    "韩佳奇": {"number": 22, "position": "门将"},
-    "达万": {"number": 23, "position": "中场"},
-    "阿不都海米提": {"number": 24, "position": "后卫"},
-    "柏杨": {"number": 26, "position": "后卫"},
-    "王刚": {"number": 27, "position": "后卫"},
-    "法比奥·阿布雷乌": {"number": 29, "position": "前锋"},
-    "范双杰": {"number": 30, "position": "后卫"},
-    "刘邵子洋": {"number": 31, "position": "门将"},
-    "努尔艾力": {"number": 33, "position": "门将"},
-    "侯森": {"number": 34, "position": "门将"},
-    "贾非凡": {"number": 36, "position": "中场"},
-    "曹永竞": {"number": 37, "position": "中场"},
-    "夏晓雨": {"number": 43, "position": "前锋"},
-    "邓捷夫": {"number": 47, "position": "后卫"},
-    "张昊冉": {"number": 50, "position": "后卫"},
-    "罗子祥": {"number": 55, "position": "后卫"},
-    "刘俊泽": {"number": 57, "position": "中场"},
-    "蒋子承": {"number": 58, "position": "前锋"},
-    "陈康悦": {"number": 59, "position": "中场"},
-    "沙德拉克": {"number": 98, "position": "前锋"},
-    "杜齐亚克": {"number": 98, "position": "中场"},
+    "吴少聪": {"number": 2, "position": "后卫", "height": 192, "weight": 80, "birth": "2000-03-20"},
+    "何宇鹏": {"number": 3, "position": "后卫", "height": 182, "weight": 69, "birth": "1999-12-05"},
+    "李磊": {"number": 4, "position": "后卫", "height": 183, "weight": 66, "birth": "1992-05-30"},
+    "拉莫斯": {"number": 5, "position": "后卫", "height": 191, "weight": 86, "birth": "1997-08-11"},
+    "池忠国": {"number": 6, "position": "中场", "height": 174, "weight": 65, "birth": ""},
+    "塞尔吉尼奥": {"number": 7, "position": "中场", "height": 180, "weight": 75, "birth": "1995-03-15"},
+    "孔特": {"number": 8, "position": "中场", "height": 175, "weight": 62, "birth": "2001-03-02"},
+    "张玉宁": {"number": 9, "position": "前锋", "height": 185, "weight": 80, "birth": "1997-01-15"},
+    "张稀哲": {"number": 10, "position": "中场", "height": 180, "weight": 69, "birth": "1991-01-23"},
+    "林良铭": {"number": 11, "position": "前锋", "height": 180, "weight": 73, "birth": "1997-06-04"},
+    "斯帕吉奇": {"number": 15, "position": "后卫", "height": 188, "weight": 80, "birth": "1993-02-13"},
+    "杨立瑜": {"number": 17, "position": "前锋", "height": 179, "weight": 65, "birth": "1997-02-13"},
+    "王禹": {"number": 18, "position": "中场", "height": 178, "weight": 70, "birth": "2002-04-28"},
+    "恩科洛洛": {"number": 20, "position": "前锋", "height": 186, "weight": 75, "birth": "1996-11-06"},
+    "茹子楠": {"number": 21, "position": "后卫", "height": 171, "weight": 68, "birth": "1998-05-12"},
+    "韩佳奇": {"number": 22, "position": "门将", "height": 185, "weight": 80, "birth": "1999-07-03"},
+    "达万": {"number": 23, "position": "中场", "height": 177, "weight": 69, "birth": "1996-06-03"},
+    "阿不都海米提": {"number": 24, "position": "后卫", "height": 183, "weight": 78, "birth": "1998-03-10"},
+    "柏杨": {"number": 26, "position": "后卫", "height": 190, "weight": 75, "birth": "1998-03-06"},
+    "王刚": {"number": 27, "position": "后卫", "height": 188, "weight": 81, "birth": "1989-02-17"},
+    "法比奥·阿布雷乌": {"number": 29, "position": "前锋", "height": 182, "weight": 76, "birth": "1993-01-29"},
+    "范双杰": {"number": 30, "position": "后卫", "height": 178, "weight": 65, "birth": "2005-08-25"},
+    "刘邵子洋": {"number": 31, "position": "门将", "height": 191, "weight": 88, "birth": "2004-12-11"},
+    "努尔艾力": {"number": 33, "position": "门将", "height": 193, "weight": 77, "birth": "2004-09-26"},
+    "侯森": {"number": 34, "position": "门将", "height": 188, "weight": 81, "birth": "1989-06-30"},
+    "贾非凡": {"number": 36, "position": "中场", "height": 178, "weight": 70, "birth": "2001-01-13"},
+    "曹永竞": {"number": 37, "position": "中场", "height": 180, "weight": 73, "birth": "1997-02-15"},
+    "夏晓雨": {"number": 43, "position": "前锋", "height": 180, "weight": 72, "birth": "2007-09-26"},
+    "邓捷夫": {"number": 47, "position": "后卫", "height": 185, "weight": 75, "birth": "2007-06-28"},
+    "张昊冉": {"number": 50, "position": "后卫", "height": 184, "weight": 68, "birth": "2007-10-17"},
+    "罗子祥": {"number": 55, "position": "后卫", "height": 173, "weight": 64, "birth": "2007-12-16"},
+    "刘俊泽": {"number": 57, "position": "中场", "height": 173, "weight": 68, "birth": "2008-04-17"},
+    "蒋子承": {"number": 58, "position": "前锋", "height": 185, "weight": 73, "birth": "2007-09-11"},
+    "陈康悦": {"number": 59, "position": "中场", "height": 177, "weight": 75, "birth": "2008-05-26"},
+    "沙德拉克": {"number": 98, "position": "前锋", "height": 172, "weight": 72, "birth": "1995-04-01"},
+    "杜齐亚克": {"number": 98, "position": "中场", "height": 176, "weight": 70, "birth": "1995-08-28"},
 }
 OFFICIAL_ROSTER_NAMES = set(OFFICIAL_ROSTER.keys())
 
@@ -380,6 +380,21 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
     for _p in player_map.values():
         if _p["player_name"] in _CFL_STATS:
             _g,_y,_r = _CFL_STATS[_p["player_name"]]; _p["goals"]=_g; _p["yellow_cards"]=_y; _p["red_cards"]=_r
+
+    # 用官网数据补充身高/体重/生日（覆盖可能不准确的 CFL 档案）
+    for _p in player_map.values():
+        _n = _p.get("player_name", "")
+        if _n in OFFICIAL_ROSTER:
+            _info = OFFICIAL_ROSTER[_n]
+            _cfl = _p.get("cfl_profile")
+            if not _cfl or not isinstance(_cfl, dict):
+                _p["cfl_profile"] = {}
+                _cfl = _p["cfl_profile"]
+            if _info.get("height"): _cfl["height"] = _info["height"]
+            if _info.get("weight"): _cfl["weight"] = _info["weight"]
+            if _info.get("birth"): _cfl["date_of_birth"] = _info["birth"]
+            _p["position"] = _info.get("position", _p.get("position", ""))
+            _p["shirt_number"] = _info.get("number", _p.get("shirt_number", 0))
 
     # 排序: 进球 desc, 助攻 desc, 名字 asc
     result = sorted(player_map.values(),
