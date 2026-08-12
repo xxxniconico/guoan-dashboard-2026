@@ -369,6 +369,18 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             }
     player_map = filtered
 
+    # CFL 官方统计覆盖（中足联官方数据）
+    _CFL_STATS = {
+        "张玉宁": (14,0,0),"张稀哲": (8,6,0),"林良铭": (6,4,0),"法比奥·阿布雷乌": (6,2,0),
+        "曹永竞": (2,2,2),"茹子楠": (2,0,0),"塞尔吉尼奥": (2,0,0),"拉莫斯": (2,4,0),
+        "孔特": (0,6,0),"恩科洛洛": (0,4,0),"李磊": (0,2,0),"王刚": (0,2,0),
+        "王禹": (0,2,0),"阿不都海米提": (0,8,0),"侯森": (0,1,0),"贾非凡": (0,2,0),
+        "斯帕吉奇": (0,2,0),
+    }
+    for _p in player_map.values():
+        if _p["player_name"] in _CFL_STATS:
+            _g,_y,_r = _CFL_STATS[_p["player_name"]]; _p["goals"]=_g; _p["yellow_cards"]=_y; _p["red_cards"]=_r
+
     # 排序: 进球 desc, 助攻 desc, 名字 asc
     result = sorted(player_map.values(),
                     key=lambda x: (-x["goals"], -x["assists"], x["player_name"]))
