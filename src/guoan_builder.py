@@ -106,6 +106,7 @@ def fetch_cfl_all_data() -> list:
                     "home_club": home,
                     "away_club": away,
                     "date": date,
+                    "round": f"第{week}轮",
                     "status": "finished" if cfl_status == "played" else
                              "postponed" if cfl_status == "postponed" else
                              "scheduled",
@@ -719,8 +720,90 @@ def main():
     guoan_standing = extract_guoan_standing(computed_standings, all_matches, deductions)
     guoan_standing["all_standings"] = computed_standings  # 完整实时积分榜
 
+    # 用 CFL 轮次数据修正比赛结果和事件
+    try:
+        _cfl_by_round = {}
+        for cm in cfl_matches:
+            r = cm.get("round", "")
+            h = cm.get("home_club", "")
+            a = cm.get("away_club", "")
+            if r and ("国安" in h or "国安" in a):
+                _cfl_by_round.setdefault(r, []).append(cm)
+        for m in guoan_matches:
+            r = m.get("round", "")
+            opp = m.get("opponent", "")
+            for cm in _cfl_by_round.get(r, []):
+                ch = cm.get("home_club", ""); ca = cm.get("away_club", "")
+                if opp not in ch and opp not in ca:
+                    continue
+                # Update date
+                nd = cm.get("date", "")
+                if nd and str(m.get("date", ""))[:10] != str(nd)[:10]:
+                    m["date"] = nd
+                # Update result
+                if cm["status"] == "finished" and m.get("result") == "?":
+                    sc = cm.get("score", {})
+                    hs = sc.get("home"); aws = sc.get("away")
+                    if hs is not None and aws is not None:
+                        is_home = m.get("is_home", False)
+                        m["status"] = "finished"
+                        m["score"] = {"home": int(hs), "away": int(aws)}
+                        m["guoan_goals"] = int(hs) if is_home else int(aws)
+                        m["opp_goals"] = int(aws) if is_home else int(hs)
+                        if hs == aws: m["result"] = "D"
+                        elif (is_home and hs > aws) or (not is_home and aws > hs): m["result"] = "W"
+                        else: m["result"] = "L"
+                        if cm.get("events"): m["events"] = cm["events"]
+                elif cm["status"] == "postponed" and m.get("status") == "scheduled":
+                    m["status"] = "postponed"
+                break
+        print("[guoan_builder] CFL 轮次匹配: 数据已同步")
+    except Exception as e:
+        print(f"[guoan_builder] CFL 轮次匹配失败: {e}")
+
     # Sort by date (rescheduled matches may be out of round order)
     guoan_matches.sort(key=lambda m: str(m.get("date", "")))
+
+    # 用 CFL 轮次数据修正比赛结果和事件
+    try:
+        _cfl_by_round = {}
+        for cm in cfl_matches:
+            r = cm.get("round", "")
+            h = cm.get("home_club", "")
+            a = cm.get("away_club", "")
+            if r and ("国安" in h or "国安" in a):
+                _cfl_by_round.setdefault(r, []).append(cm)
+        for m in guoan_matches:
+            r = m.get("round", "")
+            opp = m.get("opponent", "")
+            for cm in _cfl_by_round.get(r, []):
+                ch = cm.get("home_club", ""); ca = cm.get("away_club", "")
+                if opp not in ch and opp not in ca:
+                    continue
+                # Update date
+                nd = cm.get("date", "")
+                if nd and str(m.get("date", ""))[:10] != str(nd)[:10]:
+                    m["date"] = nd
+                # Update result
+                if cm["status"] == "finished" and m.get("result") == "?":
+                    sc = cm.get("score", {})
+                    hs = sc.get("home"); aws = sc.get("away")
+                    if hs is not None and aws is not None:
+                        is_home = m.get("is_home", False)
+                        m["status"] = "finished"
+                        m["score"] = {"home": int(hs), "away": int(aws)}
+                        m["guoan_goals"] = int(hs) if is_home else int(aws)
+                        m["opp_goals"] = int(aws) if is_home else int(hs)
+                        if hs == aws: m["result"] = "D"
+                        elif (is_home and hs > aws) or (not is_home and aws > hs): m["result"] = "W"
+                        else: m["result"] = "L"
+                        if cm.get("events"): m["events"] = cm["events"]
+                elif cm["status"] == "postponed" and m.get("status") == "scheduled":
+                    m["status"] = "postponed"
+                break
+        print("[guoan_builder] CFL 轮次匹配: 数据已同步")
+    except Exception as e:
+        print(f"[guoan_builder] CFL 轮次匹配失败: {e}")
 
     # Sort by date (rescheduled matches may be out of round order)
     guoan_matches.sort(key=lambda m: str(m.get("date", "")))
