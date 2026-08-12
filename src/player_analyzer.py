@@ -576,6 +576,7 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             if _info.get("nationality"): _cfl["nationality"] = _info["nationality"]
             if _info.get("joined"): _cfl["joined_year"] = _info["joined"]
             if _info.get("player_icon"): _cfl["player_icon"] = _info["player_icon"]
+            else: _cfl["player_icon"] = f"players/{_n}.png"  # 本地图片路径
             _p["position"] = _info.get("position", _p.get("position", ""))
             _p["shirt_number"] = _info.get("number", _p.get("shirt_number", 0))
 
