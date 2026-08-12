@@ -2168,77 +2168,6 @@
         "season": "2026"
       },
       {
-        "match_id": "54389993",
-        "round": "第18轮",
-        "date": "2026-08-18 19:35",
-        "venue": "上海体育场",
-        "opponent": "上海申花",
-        "is_home": false,
-        "home_club": "上海申花",
-        "away_club": "北京国安",
-        "status": "scheduled",
-        "score": {
-          "home": null,
-          "away": null
-        },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
-        "events": [],
-        "formation": {
-          "home": "",
-          "away": ""
-        },
-        "opponent_tier": "S",
-        "context_signals": {},
-        "form_before": "",
-        "opponent_info": {
-          "current_rank": 12,
-          "current_form": "WLLLW",
-          "goals_for": 0,
-          "goals_against": 0,
-          "top_scorers": [],
-          "tier": "S",
-          "recent_matches": [
-            {
-              "date": "2026-08-08",
-              "opponent": "青岛海牛",
-              "is_home": false,
-              "score": "1:0",
-              "result": "W"
-            },
-            {
-              "date": "2026-08-02",
-              "opponent": "辽宁铁人",
-              "is_home": false,
-              "score": "1:3",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-25",
-              "opponent": "上海海港",
-              "is_home": false,
-              "score": "0:2",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "天津津门虎",
-              "is_home": true,
-              "score": "0:2",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-05",
-              "opponent": "浙江俱乐部",
-              "is_home": true,
-              "score": "3:2",
-              "result": "W"
-            }
-          ]
-        }
-      },
-      {
         "match_id": "7g84pzc41udkj4gtp3hbvemtw",
         "round": "第19轮",
         "date": "2026-07-17 19:35:00",
@@ -2355,14 +2284,14 @@
         "is_home": false,
         "home_club": "成都蓉城",
         "away_club": "北京国安",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
+        "guoan_goals": 2,
+        "opp_goals": 2,
+        "result": "D",
         "events": [],
         "formation": {
           "home": "",
@@ -2630,6 +2559,77 @@
               "opponent": "深圳新鹏城",
               "is_home": true,
               "score": "3:0",
+              "result": "W"
+            }
+          ]
+        }
+      },
+      {
+        "match_id": "54389993",
+        "round": "第18轮",
+        "date": "2026-08-18 19:35",
+        "venue": "上海体育场",
+        "opponent": "上海申花",
+        "is_home": false,
+        "home_club": "上海申花",
+        "away_club": "北京国安",
+        "status": "scheduled",
+        "score": {
+          "home": null,
+          "away": null
+        },
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
+        "events": [],
+        "formation": {
+          "home": "",
+          "away": ""
+        },
+        "opponent_tier": "S",
+        "context_signals": {},
+        "form_before": "",
+        "opponent_info": {
+          "current_rank": 12,
+          "current_form": "WLLLW",
+          "goals_for": 0,
+          "goals_against": 0,
+          "top_scorers": [],
+          "tier": "S",
+          "recent_matches": [
+            {
+              "date": "2026-08-08",
+              "opponent": "青岛海牛",
+              "is_home": false,
+              "score": "1:0",
+              "result": "W"
+            },
+            {
+              "date": "2026-08-02",
+              "opponent": "辽宁铁人",
+              "is_home": false,
+              "score": "1:3",
+              "result": "L"
+            },
+            {
+              "date": "2026-07-25",
+              "opponent": "上海海港",
+              "is_home": false,
+              "score": "0:2",
+              "result": "L"
+            },
+            {
+              "date": "2026-07-18",
+              "opponent": "天津津门虎",
+              "is_home": true,
+              "score": "0:2",
+              "result": "L"
+            },
+            {
+              "date": "2026-07-05",
+              "opponent": "浙江俱乐部",
+              "is_home": true,
+              "score": "3:2",
               "result": "W"
             }
           ]

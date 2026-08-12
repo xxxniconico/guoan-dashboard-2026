@@ -722,6 +722,9 @@ def main():
     # Sort by date (rescheduled matches may be out of round order)
     guoan_matches.sort(key=lambda m: str(m.get("date", "")))
 
+    # Sort by date (rescheduled matches may be out of round order)
+    guoan_matches.sort(key=lambda m: str(m.get("date", "")))
+
     # 5. 球员分析
     player_performance = analyze_player_performance(guoan_matches, cfl_profiles)
     print(f"[guoan_builder] 球员: {len(player_performance)} 人")
