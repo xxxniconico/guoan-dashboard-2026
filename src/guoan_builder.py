@@ -563,12 +563,49 @@ def main():
 
         # 更新 guoan_matches（比分、事件、状态）
         _guoan_updated = 0
+        # 构建多维度索引（用于匹配改期比赛）
+        _cfl_by_id = {cm.get("match_id", ""): cm for cm in cfl_matches if cm.get("match_id")}
+        # 按对手名+主客场构建索引（不依赖日期，支持改期）
+        _cfl_by_opp = {}
+        for cm in cfl_matches:
+            h = cm.get("home_club", "")
+            a = cm.get("away_club", "")
+            for club in (h, a):
+                if club:
+                    _cfl_by_opp.setdefault(club, []).append(cm)
         for m in guoan_matches:
             date = str(m.get("date", ""))[:10]
             opp = m.get("opponent", "")
             is_home = m.get("is_home", False)
-            for (cd, ch, ca), cm in _cfl_index.items():
-                if cd == date and (opp in ch or opp in ca):
+            # 优先通过 match_id 匹配（支持改期比赛）
+            mid = m.get("match_id", "")
+            cfl_match = _cfl_by_id.get(mid) if mid else None
+            if cfl_match:
+                # 直接用 match_id 匹配到的 CFL 数据
+                cm = cfl_match
+            else:
+                cm = None
+                for (cd, ch, ca), _cm in _cfl_index.items():
+                    if cd == date and (opp in ch or opp in ca):
+                        cm = _cm
+                        break
+            # 如果日期+对手和 match_id 都没匹配到，尝试对手名匹配（支持改期）
+            if not cm:
+                opp_candidates = _cfl_by_opp.get(opp, []) if opp else []
+                if not opp_candidates:
+                    # 尝试部分匹配（对手名包含关系）
+                    for k, v in _cfl_by_opp.items():
+                        if opp and (opp in k or k in opp):
+                            opp_candidates = v
+                            break
+                # 选择日期最新的那场未完成比赛
+                opp_candidates = [c for c in opp_candidates if c.get("status") != "finished"]
+                opp_candidates.sort(key=lambda c: str(c.get("date", "")), reverse=True)
+                if opp_candidates:
+                    cm = opp_candidates[0]
+                    if cm.get("date", "") != m.get("date", ""):
+                        pass  # 日期不同是正常的（改期）
+            if cm:
                     if cm["status"] == "finished" and m.get("result") == "?":
                         sc = cm.get("score", {})
                         hs = sc.get("home")
@@ -587,6 +624,20 @@ def main():
                             _guoan_updated += 1
                     elif cm["status"] == "postponed" and m.get("status") == "scheduled":
                         m["status"] = "postponed"
+                        _guoan_updated += 1
+                    elif cm["status"] == "scheduled" and m.get("status") == "postponed":
+                        new_date = cm.get("date", "")
+                        if new_date and str(m.get("date", ""))[:10] != str(new_date)[:10]:
+                            m["date"] = new_date
+                        m["status"] = "scheduled"
+                        m["result"] = "?"
+                        m["guoan_goals"] = 0
+                        m["opp_goals"] = 0
+                        _guoan_updated += 1
+                    # 通用日期同步：CFL 有更新日期时同步
+                    new_date = cm.get("date", "")
+                    if new_date and m.get("result") == "?" and str(m.get("date", ""))[:10] != str(new_date)[:10]:
+                        m["date"] = new_date
                         _guoan_updated += 1
                     break
         if _guoan_updated:
@@ -614,6 +665,12 @@ def main():
                 elif cm["status"] == "postponed" and str(existing.get("status","")).lower() == "scheduled":
                     existing["status"] = cm["status"]
                     _cfl_added += 1
+                elif cm["status"] == "scheduled" and str(existing.get("status","")).lower() == "postponed":
+                    new_date = cm.get("date", "")
+                    if new_date:
+                        existing["date"] = new_date
+                    existing["status"] = cm["status"]
+                    _cfl_added += 1
             else:
                 # CFL 有新比赛（CSL 数据中没有）
                 all_matches.append(cm)
@@ -634,6 +691,16 @@ def main():
 
     except Exception as e:
         print(f"[guoan_builder] CFL API 合并失败: {e}")
+
+    # 比赛日期修正（CFL API 可能返回不同 match_id 导致匹配失败时的兜底）
+    for m in guoan_matches:
+        key = (m.get("round", ""), m.get("opponent", ""))
+        # 申花客场改期：7/11 → 8/18
+        if key == ("第18轮", "上海申花") and m.get("date", "")[:10] == "2026-07-11":
+            m["date"] = "2026-08-18 19:35"
+            m["status"] = "scheduled"
+            m["result"] = "?"
+            print("[guoan_builder] 已修正: 第18轮上海申花日期 7/11→8/18")
 
     # 4c. 数据完整性检测：日期已过但无结果的比赛（可能数据暂缺）
     from datetime import date as _date
