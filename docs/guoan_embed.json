@@ -2284,15 +2284,76 @@
         "is_home": false,
         "home_club": "成都蓉城",
         "away_club": "北京国安",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 2
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "guoan_goals": 2,
+        "opp_goals": 2,
+        "result": "D",
+        "events": [
+          {
+            "type": "goal",
+            "minute": 52,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 59,
+            "player": "李扬",
+            "player_name": "李扬",
+            "team_name": "成都蓉城"
+          },
+          {
+            "type": "goal",
+            "minute": 70,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 76,
+            "player": "费利佩",
+            "player_name": "费利佩",
+            "team_name": "成都蓉城"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 76,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 81,
+            "player": "贾非凡",
+            "player_name": "贾非凡",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "goal",
+            "minute": 87,
+            "player": "费利佩",
+            "player_name": "费利佩",
+            "team_name": "成都蓉城",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 93,
+            "player": "索罗金",
+            "player_name": "索罗金",
+            "team_name": "成都蓉城",
+            "is_own_goal": false
+          }
+        ],
         "formation": {
           "home": "",
           "away": ""
@@ -2355,15 +2416,61 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "浙江俱乐部",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "guoan_goals": 2,
+        "opp_goals": 1,
+        "result": "W",
+        "events": [
+          {
+            "type": "goal",
+            "minute": 8,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 12,
+            "player": "程进",
+            "player_name": "程进",
+            "team_name": "浙江俱乐部绿城",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 41,
+            "player": "茹子楠",
+            "player_name": "茹子楠",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 46,
+            "player": "托利奇",
+            "player_name": "托利奇",
+            "team_name": "浙江俱乐部绿城"
+          },
+          {
+            "type": "goal",
+            "minute": 82,
+            "player": "张稀哲",
+            "player_name": "张稀哲",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 95,
+            "player": "贾非凡",
+            "player_name": "贾非凡",
+            "team_name": "北京国安"
+          }
+        ],
         "formation": {
           "home": "",
           "away": ""
@@ -2431,15 +2538,83 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "深圳新鹏城",
-        "status": "scheduled",
+        "status": "finished",
         "score": {
-          "home": null,
-          "away": null
+          "home": 4,
+          "away": 0
         },
-        "guoan_goals": 0,
+        "guoan_goals": 4,
         "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "result": "W",
+        "events": [
+          {
+            "type": "goal",
+            "minute": 16,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 26,
+            "player": "周定洋",
+            "player_name": "周定洋",
+            "team_name": "深圳新鹏城",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 41,
+            "player": "申桓铭",
+            "player_name": "申桓铭",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 50,
+            "player": "张宇峰",
+            "player_name": "张宇峰",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "goal",
+            "minute": 51,
+            "player": "达万",
+            "player_name": "达万",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 56,
+            "player": "拉莫斯",
+            "player_name": "拉莫斯",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 68,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "yellow_card",
+            "minute": 75,
+            "player": "姜至鹏",
+            "player_name": "姜至鹏",
+            "team_name": "深圳新鹏城"
+          },
+          {
+            "type": "goal",
+            "minute": 79,
+            "player": "法比奥",
+            "player_name": "法比奥",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          }
+        ],
         "formation": {
           "home": "",
           "away": ""
