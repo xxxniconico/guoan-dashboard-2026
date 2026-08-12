@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T11:21:54.172995+00:00",
+    "generated_at_utc": "2026-08-12T11:28:33.643510+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
+    "source": "C:\\Users\\xxxsu\\AppData\\Local\\Temp\\reasonix-session-tmp-698780901\\guoan-dash\\data\\dashboard_embed.json"
   },
   "guoan": {
     "standing": {
@@ -3532,7 +3532,7 @@
         "cfl_profile": {
           "height": 180,
           "weight": 73,
-          "nationality": "生",
+          "nationality": "中国",
           "date_of_birth": "1997-06-04",
           "player_icon": "players/林良铭.png",
           "player_name_en": "LinLiangming",
@@ -3940,7 +3940,7 @@
         "cfl_profile": {
           "height": 173,
           "weight": 68,
-          "nationality": "生",
+          "nationality": "中国",
           "date_of_birth": "2008-04-17",
           "player_icon": "players/刘俊泽.png",
           "player_name_en": "Liu Junze",
@@ -4040,7 +4040,7 @@
         "cfl_profile": {
           "height": 180,
           "weight": 72,
-          "nationality": "生",
+          "nationality": "中国",
           "date_of_birth": "2007-09-26",
           "player_icon": "players/夏晓雨.png",
           "player_name_en": "Xia Xiaoyu",
@@ -4425,7 +4425,7 @@
         "cfl_profile": {
           "height": 178,
           "weight": 65,
-          "nationality": "生",
+          "nationality": "中国",
           "date_of_birth": "2005-08-25",
           "player_icon": "players/范双杰.png",
           "player_name_en": "FanShuangjie"
@@ -4449,7 +4449,7 @@
         "cfl_profile": {
           "height": 185,
           "weight": 73,
-          "nationality": "生",
+          "nationality": "中国",
           "date_of_birth": "2007-09-11",
           "player_icon": "players/蒋子承.png",
           "player_name_en": "Jiang Zicheng",

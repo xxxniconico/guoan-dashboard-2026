@@ -573,7 +573,8 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             if _info.get("height"): _cfl["height"] = _info["height"]
             if _info.get("weight"): _cfl["weight"] = _info["weight"]
             if _info.get("birth"): _cfl["date_of_birth"] = _info["birth"]
-            if _info.get("nationality"): _cfl["nationality"] = _info["nationality"]
+            if _info.get("nationality") and _info["nationality"] not in ("", "?", "生", "日"): _cfl["nationality"] = _info["nationality"]
+            else: _cfl["nationality"] = "中国"  # 默认中国（官网缺数据时）
             if _info.get("joined"): _cfl["joined_year"] = _info["joined"]
             if _info.get("player_icon"): _cfl["player_icon"] = _info["player_icon"]
             else: _cfl["player_icon"] = f"players/{_n}.png"  # 本地图片路径
