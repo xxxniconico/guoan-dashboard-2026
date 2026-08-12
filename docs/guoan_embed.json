@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T03:52:02.746221+00:00",
+    "generated_at_utc": "2026-08-12T03:58:20.860446+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -2284,14 +2284,14 @@
         "is_home": false,
         "home_club": "成都蓉城",
         "away_club": "北京国安",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 2,
-        "opp_goals": 2,
-        "result": "D",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -2355,14 +2355,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "浙江俱乐部",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 2,
-          "away": 1
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 2,
-        "opp_goals": 1,
-        "result": "W",
+        "guoan_goals": 0,
+        "opp_goals": 0,
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -2431,14 +2431,14 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "深圳新鹏城",
-        "status": "finished",
+        "status": "scheduled",
         "score": {
-          "home": 4,
-          "away": 0
+          "home": null,
+          "away": null
         },
-        "guoan_goals": 4,
+        "guoan_goals": 0,
         "opp_goals": 0,
-        "result": "W",
+        "result": "?",
         "events": [],
         "formation": {
           "home": "",
@@ -3270,12 +3270,12 @@
         "position": "前锋",
         "shirt_number": 29,
         "cfl_profile": {
-          "height": null,
-          "weight": null,
-          "nationality": "",
-          "date_of_birth": "",
-          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/%E6%B3%95%E6%AF%94%E5%A5%A5_1.jpg",
-          "player_name_en": ""
+          "height": "182",
+          "weight": "83",
+          "nationality": "安哥拉",
+          "date_of_birth": "1993-01-29",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/法比奥_1.jpg",
+          "player_name_en": "Gonçalves de AbreuFábio"
         }
       },
       {
@@ -3745,12 +3745,12 @@
         "position": "门将",
         "shirt_number": 33,
         "cfl_profile": {
-          "height": null,
-          "weight": null,
-          "nationality": "",
-          "date_of_birth": "",
-          "player_icon": "",
-          "player_name_en": ""
+          "height": "193",
+          "weight": "77",
+          "nationality": "中国",
+          "date_of_birth": "2004-09-26",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/努尔艾力-阿巴斯.jpg",
+          "player_name_en": "AbbasNureli"
         }
       },
       {
@@ -3898,26 +3898,19 @@
       {
         "player_name": "斯帕吉奇",
         "team_name": "北京国安",
+        "position": "后卫",
+        "shirt_number": 15,
         "appearances": 0,
         "goals": 0,
         "assists": 0,
         "yellow_cards": 0,
         "red_cards": 0,
+        "goal_contribution_pct": 0.0,
         "goal_calendar": [],
         "card_calendar": [],
-        "goal_contribution_pct": 0.0,
         "form_5": [],
         "streak": "",
-        "position": "后卫",
-        "shirt_number": 15,
-        "cfl_profile": {
-          "height": null,
-          "weight": null,
-          "nationality": "",
-          "date_of_birth": "",
-          "player_icon": "",
-          "player_name_en": ""
-        }
+        "cfl_profile": null
       },
       {
         "player_name": "李磊",
@@ -4275,12 +4268,12 @@
         "position": "后卫",
         "shirt_number": 24,
         "cfl_profile": {
-          "height": null,
-          "weight": null,
-          "nationality": "",
-          "date_of_birth": "",
-          "player_icon": "",
-          "player_name_en": ""
+          "height": "185",
+          "weight": "75",
+          "nationality": "中国",
+          "date_of_birth": "1998-03-10",
+          "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/阿不都海米提_1.jpg",
+          "player_name_en": "AbdugheniAbduhamit"
         }
       },
       {
