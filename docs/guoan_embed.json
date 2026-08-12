@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T02:46:34.466408+00:00",
+    "generated_at_utc": "2026-08-12T03:15:47.018209+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
-    "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
+    "source": "C:\\Users\\xxxsu\\AppData\\Local\\Temp\\reasonix-session-tmp-698780901\\guoan-dash\\data\\dashboard_embed.json"
   },
   "guoan": {
     "standing": {
@@ -3379,7 +3379,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 34.5,
+        "goal_contribution_pct": 27.8,
         "form_5": [
           "goal",
           "goal",
@@ -3397,6 +3397,92 @@
           "date_of_birth": "1997-01-05",
           "player_icon": "https://pic.cfl-china.cn/cfluat/default/content/张玉宁_1.jpg",
           "player_name_en": "ZhangYuning"
+        }
+      },
+      {
+        "player_name": "法比奥·阿布雷乌",
+        "team_name": "北京国安",
+        "appearances": 8,
+        "goals": 7,
+        "assists": 0,
+        "yellow_cards": 3,
+        "red_cards": 0,
+        "goal_calendar": [
+          {
+            "round": "第1轮",
+            "date": "2026-03-08",
+            "opponent": "武汉三镇",
+            "goals": 1
+          },
+          {
+            "round": "第11轮",
+            "date": "2026-05-10",
+            "opponent": "上海海港",
+            "goals": 1
+          },
+          {
+            "round": "第14轮",
+            "date": "2026-05-23",
+            "opponent": "河南俱乐部",
+            "goals": 1
+          },
+          {
+            "round": "第15轮",
+            "date": "2026-05-30",
+            "opponent": "重庆铜梁龙",
+            "goals": 1
+          },
+          {
+            "round": "第15轮",
+            "date": "2026-05-30",
+            "opponent": "重庆铜梁龙",
+            "goals": 1
+          },
+          {
+            "round": "第21轮",
+            "date": "2026-08-01",
+            "opponent": "浙江俱乐部",
+            "goals": 1
+          },
+          {
+            "round": "第22轮",
+            "date": "2026-08-07",
+            "opponent": "深圳新鹏城",
+            "goals": 1
+          }
+        ],
+        "card_calendar": [
+          {
+            "round": "第3轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第20轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第22轮",
+            "type": "yellow"
+          }
+        ],
+        "goal_contribution_pct": 19.4,
+        "form_5": [
+          "goal",
+          "goal",
+          "goal",
+          "goal",
+          "goal"
+        ],
+        "streak": "连续7场进球",
+        "position": "前锋",
+        "shirt_number": 29,
+        "cfl_profile": {
+          "height": null,
+          "weight": null,
+          "nationality": "",
+          "date_of_birth": "",
+          "player_icon": "",
+          "player_name_en": ""
         }
       },
       {
@@ -3453,7 +3539,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 17.2,
+        "goal_contribution_pct": 13.9,
         "form_5": [
           "goal",
           "goal",
@@ -3513,7 +3599,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 13.8,
+        "goal_contribution_pct": 11.1,
         "form_5": [
           "goal",
           "goal",
@@ -3576,7 +3662,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 13.8,
+        "goal_contribution_pct": 11.1,
         "form_5": [
           "goal",
           "goal",
@@ -3635,7 +3721,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 6.9,
+        "goal_contribution_pct": 5.6,
         "form_5": [
           "goal",
           "goal"
@@ -3675,7 +3761,7 @@
           }
         ],
         "card_calendar": [],
-        "goal_contribution_pct": 6.9,
+        "goal_contribution_pct": 5.6,
         "form_5": [
           "goal",
           "goal"
@@ -3718,7 +3804,7 @@
             "type": "red"
           }
         ],
-        "goal_contribution_pct": 3.4,
+        "goal_contribution_pct": 2.8,
         "form_5": [
           "goal"
         ],
@@ -3756,7 +3842,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 3.4,
+        "goal_contribution_pct": 2.8,
         "form_5": [
           "goal"
         ],
@@ -4213,30 +4299,6 @@
         }
       },
       {
-        "player_name": "法比奥·阿布雷乌",
-        "team_name": "北京国安",
-        "appearances": 0,
-        "goals": 0,
-        "assists": 0,
-        "yellow_cards": 0,
-        "red_cards": 0,
-        "goal_calendar": [],
-        "card_calendar": [],
-        "goal_contribution_pct": 0.0,
-        "form_5": [],
-        "streak": "",
-        "position": "前锋",
-        "shirt_number": 29,
-        "cfl_profile": {
-          "height": null,
-          "weight": null,
-          "nationality": "",
-          "date_of_birth": "",
-          "player_icon": "",
-          "player_name_en": ""
-        }
-      },
-      {
         "player_name": "王刚",
         "team_name": "北京国安",
         "appearances": 1,
@@ -4426,13 +4488,26 @@
       {
         "player_name": "阿不都海米提",
         "team_name": "北京国安",
-        "appearances": 0,
+        "appearances": 3,
         "goals": 0,
         "assists": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 3,
         "red_cards": 0,
         "goal_calendar": [],
-        "card_calendar": [],
+        "card_calendar": [
+          {
+            "round": "第1轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第3轮",
+            "type": "yellow"
+          },
+          {
+            "round": "第6轮",
+            "type": "yellow"
+          }
+        ],
         "goal_contribution_pct": 0.0,
         "form_5": [],
         "streak": "",

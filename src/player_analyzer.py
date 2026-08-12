@@ -236,6 +236,7 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
                 resolved = NAME_ALIASES[name]
             if not resolved:
                 continue  # 不是国安球员，跳过
+            matched_name = resolved  # 使用官方名单中的名字
 
             if matched_name not in player_map:
                 player_map[matched_name] = {
