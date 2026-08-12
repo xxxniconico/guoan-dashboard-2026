@@ -645,7 +645,7 @@ def main():
         and str(m.get("date", ""))[:10] < _today
     ]
     if _stale_matches:
-        print(f"[guoan_builder] ⚠️ 数据暂缺: {len(_stale_matches)} 场比赛日期已过但无结果（非延期）:")
+        print(f"[guoan_builder] 数据暂缺: {len(_stale_matches)} 场比赛日期已过但无结果（非延期）:")
         for sm in _stale_matches:
             print(f"  - {sm.get('round','?')} vs {sm.get('opponent','?')} ({sm.get('date','')[:10]}) status={sm.get('status','?')}")
 

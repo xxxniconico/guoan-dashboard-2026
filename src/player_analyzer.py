@@ -3,6 +3,56 @@
 纯 Python stdlib。
 """
 from collections import defaultdict, Counter
+
+# 官方一线队名单（来源：http://www.fcguoan.com/team.php?cate=1）
+# 格式: {name: {number, position}}
+OFFICIAL_ROSTER = {
+    "吴少聪": {"number": 2, "position": "后卫"},
+    "何宇鹏": {"number": 3, "position": "后卫"},
+    "李磊": {"number": 4, "position": "后卫"},
+    "拉莫斯": {"number": 5, "position": "后卫"},
+    "池忠国": {"number": 6, "position": "中场"},
+    "塞尔吉尼奥": {"number": 7, "position": "中场"},
+    "孔特": {"number": 8, "position": "中场"},
+    "张玉宁": {"number": 9, "position": "前锋"},
+    "张稀哲": {"number": 10, "position": "中场"},
+    "林良铭": {"number": 11, "position": "前锋"},
+    "斯帕吉奇": {"number": 15, "position": "后卫"},
+    "杨立瑜": {"number": 17, "position": "前锋"},
+    "王禹": {"number": 18, "position": "中场"},
+    "恩科洛洛": {"number": 20, "position": "前锋"},
+    "茹子楠": {"number": 21, "position": "后卫"},
+    "韩佳奇": {"number": 22, "position": "门将"},
+    "达万": {"number": 23, "position": "中场"},
+    "阿不都海米提": {"number": 24, "position": "后卫"},
+    "柏杨": {"number": 26, "position": "后卫"},
+    "王刚": {"number": 27, "position": "后卫"},
+    "法比奥·阿布雷乌": {"number": 29, "position": "前锋"},
+    "范双杰": {"number": 30, "position": "后卫"},
+    "刘邵子洋": {"number": 31, "position": "门将"},
+    "努尔艾力": {"number": 33, "position": "门将"},
+    "侯森": {"number": 34, "position": "门将"},
+    "贾非凡": {"number": 36, "position": "中场"},
+    "曹永竞": {"number": 37, "position": "中场"},
+    "夏晓雨": {"number": 43, "position": "前锋"},
+    "邓捷夫": {"number": 47, "position": "后卫"},
+    "张昊冉": {"number": 50, "position": "后卫"},
+    "罗子祥": {"number": 55, "position": "后卫"},
+    "刘俊泽": {"number": 57, "position": "中场"},
+    "蒋子承": {"number": 58, "position": "前锋"},
+    "陈康悦": {"number": 59, "position": "中场"},
+    "沙德拉克": {"number": 98, "position": "前锋"},
+    "杜齐亚克": {"number": 98, "position": "中场"},
+}
+OFFICIAL_ROSTER_NAMES = set(OFFICIAL_ROSTER.keys())
+
+# 旧名→新名映射（CFL档案中的名字可能与官网不同）
+NAME_ALIASES = {
+    "法比奥": "法比奥·阿布雷乌",
+    "阿不都海米提·阿不都格尼": "阿不都海米提",
+    "努尔艾力·阿巴斯": "努尔艾力",
+    "蒙哥马利": "斯帕吉奇",
+}
 from typing import Optional, Set
 
 
@@ -134,7 +184,7 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
     # Step 1: 从比赛事件汇总球员统计（只统计国安一方的球员）
     # 先构建国安球员名名单（从 CFL 档案）
     EXCLUDE = {"郝昱丞"}
-    guoan_cfl_names = set()
+    guoan_cfl_names = set(OFFICIAL_ROSTER_NAMES)  # 以官网名单为准
     cfl_by_name = {}
     for prof in cfl_profiles:
         club = str(prof.get("contestant_club_name", ""))
@@ -142,7 +192,7 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             continue
         name = _clean_player_name(prof.get("player_name", ""))
         if name and name not in EXCLUDE:
-            guoan_cfl_names.add(name)
+            pass  # name already in OFFICIAL_ROSTER_NAMES
             cfl_by_name[name] = prof
 
     player_map = {}
@@ -161,12 +211,30 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             if not name:
                 continue
             matched_name = name if name in guoan_cfl_names else None
-            if not matched_name:
+            # 尝试别名映射
+            resolved = NAME_ALIASES.get(matched_name, matched_name) if matched_name else None
+            if not resolved:
+                for gn in guoan_cfl_names:
+                    if gn in name or name in gn:
+                        resolved = gn
+                        break
+            if not resolved and name in NAME_ALIASES:
+                resolved = NAME_ALIASES[name]
+            if not resolved:
                 for gn in guoan_cfl_names:
                     if gn in name or name in gn:
                         matched_name = gn
                         break
-            if not matched_name:
+            # 尝试别名映射
+            resolved = NAME_ALIASES.get(matched_name, matched_name) if matched_name else None
+            if not resolved:
+                for gn in guoan_cfl_names:
+                    if gn in name or name in gn:
+                        resolved = gn
+                        break
+            if not resolved and name in NAME_ALIASES:
+                resolved = NAME_ALIASES[name]
+            if not resolved:
                 continue  # 不是国安球员，跳过
 
             if matched_name not in player_map:
@@ -279,6 +347,36 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
         elif streak >= 2: p["streak"] = f"连续{streak}场进球"
         elif streak == 1: p["streak"] = "上场比赛有进球"
         else: p["streak"] = ""
+
+    # 过滤：只保留官方一线队名单中的球员
+    filtered = {}
+    for name, p in player_map.items():
+        if name in OFFICIAL_ROSTER_NAMES:
+            filtered[name] = p
+            # 用官网数据覆盖号码和位置
+            if name in OFFICIAL_ROSTER:
+                p["shirt_number"] = OFFICIAL_ROSTER[name]["number"]
+                p["position"] = OFFICIAL_ROSTER[name]["position"]
+    
+    # 补充：官网有但统计中没有的球员（未出场）
+    for name, info in OFFICIAL_ROSTER.items():
+        if name not in filtered:
+            filtered[name] = {
+                "player_name": name,
+                "team_name": "北京国安",
+                "position": info["position"],
+                "shirt_number": info["number"],
+                "appearances": 0,
+                "goals": 0, "assists": 0,
+                "yellow_cards": 0, "red_cards": 0,
+                "goal_contribution_pct": 0.0,
+                "goal_calendar": [],
+                "card_calendar": [],
+                "form_5": [],
+                "streak": "",
+                "cfl_profile": None,
+            }
+    player_map = filtered
 
     # 排序: 进球 desc, 助攻 desc, 名字 asc
     result = sorted(player_map.values(),
