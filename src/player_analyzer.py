@@ -211,32 +211,16 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
             if not name:
                 continue
             matched_name = name if name in guoan_cfl_names else None
-            # 尝试别名映射
-            resolved = NAME_ALIASES.get(matched_name, matched_name) if matched_name else None
-            if not resolved:
-                for gn in guoan_cfl_names:
-                    if gn in name or name in gn:
-                        resolved = gn
-                        break
-            if not resolved and name in NAME_ALIASES:
-                resolved = NAME_ALIASES[name]
-            if not resolved:
+            # 通过官方名单匹配（含别名和部分匹配）
+            if not matched_name and name in NAME_ALIASES:
+                matched_name = NAME_ALIASES[name]
+            if not matched_name:
                 for gn in guoan_cfl_names:
                     if gn in name or name in gn:
                         matched_name = gn
                         break
-            # 尝试别名映射
-            resolved = NAME_ALIASES.get(matched_name, matched_name) if matched_name else None
-            if not resolved:
-                for gn in guoan_cfl_names:
-                    if gn in name or name in gn:
-                        resolved = gn
-                        break
-            if not resolved and name in NAME_ALIASES:
-                resolved = NAME_ALIASES[name]
-            if not resolved:
+            if not matched_name:
                 continue  # 不是国安球员，跳过
-            matched_name = resolved  # 使用官方名单中的名字
 
             if matched_name not in player_map:
                 player_map[matched_name] = {
@@ -287,6 +271,12 @@ def analyze_player_performance(guoan_matches: list, cfl_profiles: list) -> list:
     COACH_POSITIONS = {'主教练', '助理教练', 'head coach', 'assistant coach'}
     for name in guoan_cfl_names:
         cfl = cfl_by_name.get(name, {})
+        # 如果直接用官方名找不到，尝试通过别名反向查找
+        if not cfl:
+            for old_name, new_name in NAME_ALIASES.items():
+                if new_name == name and old_name in cfl_by_name:
+                    cfl = cfl_by_name[old_name]
+                    break
         pos = str(cfl.get('position_name', '')).strip()
         if pos in COACH_POSITIONS or '教练' in pos:
             continue
