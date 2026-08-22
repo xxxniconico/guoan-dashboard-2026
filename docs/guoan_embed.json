@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T19:09:37.250578+00:00",
+    "generated_at_utc": "2026-08-22T18:56:45.136442+00:00",
     "season": "2026",
     "last_match_round": "第30轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -8,81 +8,81 @@
   "guoan": {
     "standing": {
       "club_name": "北京国安",
-      "played": 23,
+      "played": 24,
       "wins": 11,
-      "draws": 7,
+      "draws": 8,
       "losses": 5,
-      "goals_for": 45,
-      "goals_against": 29,
+      "goals_for": 48,
+      "goals_against": 32,
       "goal_difference": 16,
-      "match_points": 40,
+      "match_points": 41,
       "penalty_points": 5,
-      "effective_points": 35,
+      "effective_points": 36,
       "position": 2,
       "all_standings": [
         {
           "club_name": "成都蓉城",
-          "played": 23,
+          "played": 24,
           "wins": 14,
           "draws": 6,
-          "losses": 3,
-          "goals_for": 45,
-          "goals_against": 24,
-          "goal_difference": 21,
+          "losses": 4,
+          "goals_for": 49,
+          "goals_against": 29,
+          "goal_difference": 20,
           "match_points": 48,
           "penalty_points": 0,
           "effective_points": 48
         },
         {
           "club_name": "北京国安",
-          "played": 23,
+          "played": 24,
           "wins": 11,
-          "draws": 7,
+          "draws": 8,
           "losses": 5,
-          "goals_for": 45,
-          "goals_against": 29,
+          "goals_for": 48,
+          "goals_against": 32,
           "goal_difference": 16,
-          "match_points": 40,
+          "match_points": 41,
           "penalty_points": 5,
-          "effective_points": 35
-        },
-        {
-          "club_name": "云南玉昆",
-          "played": 23,
-          "wins": 10,
-          "draws": 4,
-          "losses": 9,
-          "goals_for": 46,
-          "goals_against": 42,
-          "goal_difference": 4,
-          "match_points": 34,
-          "penalty_points": 0,
-          "effective_points": 34
-        },
-        {
-          "club_name": "山东泰山",
-          "played": 23,
-          "wins": 12,
-          "draws": 3,
-          "losses": 8,
-          "goals_for": 42,
-          "goals_against": 38,
-          "goal_difference": 4,
-          "match_points": 39,
-          "penalty_points": 6,
-          "effective_points": 33
+          "effective_points": 36
         },
         {
           "club_name": "青岛西海岸",
-          "played": 23,
-          "wins": 7,
+          "played": 24,
+          "wins": 8,
           "draws": 12,
           "losses": 4,
-          "goals_for": 26,
+          "goals_for": 28,
           "goals_against": 29,
-          "goal_difference": -3,
-          "match_points": 33,
+          "goal_difference": -1,
+          "match_points": 36,
           "penalty_points": 0,
+          "effective_points": 36
+        },
+        {
+          "club_name": "云南玉昆",
+          "played": 24,
+          "wins": 10,
+          "draws": 5,
+          "losses": 9,
+          "goals_for": 49,
+          "goals_against": 45,
+          "goal_difference": 4,
+          "match_points": 35,
+          "penalty_points": 0,
+          "effective_points": 35
+        },
+        {
+          "club_name": "山东泰山",
+          "played": 24,
+          "wins": 12,
+          "draws": 3,
+          "losses": 9,
+          "goals_for": 42,
+          "goals_against": 40,
+          "goal_difference": 2,
+          "match_points": 39,
+          "penalty_points": 6,
           "effective_points": 33
         },
         {
@@ -112,6 +112,32 @@
           "effective_points": 30
         },
         {
+          "club_name": "上海申花",
+          "played": 24,
+          "wins": 11,
+          "draws": 5,
+          "losses": 8,
+          "goals_for": 47,
+          "goals_against": 42,
+          "goal_difference": 5,
+          "match_points": 38,
+          "penalty_points": 10,
+          "effective_points": 28
+        },
+        {
+          "club_name": "深圳新鹏城",
+          "played": 24,
+          "wins": 8,
+          "draws": 3,
+          "losses": 13,
+          "goals_for": 33,
+          "goals_against": 43,
+          "goal_difference": -10,
+          "match_points": 27,
+          "penalty_points": 0,
+          "effective_points": 27
+        },
+        {
           "club_name": "上海海港",
           "played": 23,
           "wins": 8,
@@ -125,43 +151,17 @@
           "effective_points": 26
         },
         {
-          "club_name": "深圳新鹏城",
-          "played": 23,
-          "wins": 8,
-          "draws": 2,
-          "losses": 13,
-          "goals_for": 32,
-          "goals_against": 42,
-          "goal_difference": -10,
-          "match_points": 26,
-          "penalty_points": 0,
-          "effective_points": 26
-        },
-        {
-          "club_name": "上海申花",
-          "played": 23,
-          "wins": 10,
-          "draws": 5,
-          "losses": 8,
-          "goals_for": 42,
-          "goals_against": 38,
-          "goal_difference": 4,
-          "match_points": 35,
-          "penalty_points": 10,
-          "effective_points": 25
-        },
-        {
           "club_name": "浙江俱乐部",
-          "played": 22,
+          "played": 23,
           "wins": 8,
-          "draws": 5,
+          "draws": 6,
           "losses": 9,
-          "goals_for": 33,
-          "goals_against": 39,
+          "goals_for": 34,
+          "goals_against": 40,
           "goal_difference": -6,
-          "match_points": 29,
+          "match_points": 30,
           "penalty_points": 5,
-          "effective_points": 24
+          "effective_points": 25
         },
         {
           "club_name": "辽宁铁人",
@@ -191,29 +191,29 @@
         },
         {
           "club_name": "天津津门虎",
-          "played": 22,
+          "played": 23,
           "wins": 7,
-          "draws": 6,
+          "draws": 7,
           "losses": 9,
           "goals_for": 32,
           "goals_against": 30,
           "goal_difference": 2,
-          "match_points": 27,
+          "match_points": 28,
           "penalty_points": 10,
-          "effective_points": 17
+          "effective_points": 18
         },
         {
           "club_name": "武汉三镇",
-          "played": 21,
+          "played": 22,
           "wins": 4,
-          "draws": 8,
+          "draws": 9,
           "losses": 9,
           "goals_for": 30,
           "goals_against": 38,
           "goal_difference": -8,
-          "match_points": 20,
+          "match_points": 21,
           "penalty_points": 5,
-          "effective_points": 15
+          "effective_points": 16
         },
         {
           "club_name": "青岛海牛",
@@ -280,12 +280,19 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "LDWWL",
+          "current_form": "DLDWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "天津津门虎",
+              "is_home": true,
+              "score": "0:0",
+              "result": "D"
+            },
             {
               "date": "2026-08-14",
               "opponent": "上海海港",
@@ -313,13 +320,6 @@
               "is_home": true,
               "score": "2:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-04",
-              "opponent": "大连英博",
-              "is_home": false,
-              "score": "2:3",
-              "result": "L"
             }
           ]
         },
@@ -391,13 +391,20 @@
         "context_signals": {},
         "form_before": "W",
         "opponent_info": {
-          "current_rank": 4,
-          "current_form": "WWWLL",
+          "current_rank": 5,
+          "current_form": "LWWWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "青岛西海岸",
+              "is_home": false,
+              "score": "0:2",
+              "result": "L"
+            },
             {
               "date": "2026-08-14",
               "opponent": "青岛海牛",
@@ -424,13 +431,6 @@
               "opponent": "河南俱乐部",
               "is_home": true,
               "score": "1:2",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "大连英博",
-              "is_home": false,
-              "score": "1:3",
               "result": "L"
             }
           ]
@@ -509,13 +509,20 @@
         "context_signals": {},
         "form_before": "LW",
         "opponent_info": {
-          "current_rank": 10,
-          "current_form": "LWWLL",
+          "current_rank": 8,
+          "current_form": "WLWWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "S",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "成都蓉城",
+              "is_home": false,
+              "score": "5:4",
+              "result": "W"
+            },
             {
               "date": "2026-08-18",
               "opponent": "北京国安",
@@ -542,13 +549,6 @@
               "opponent": "辽宁铁人",
               "is_home": false,
               "score": "1:3",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-25",
-              "opponent": "上海海港",
-              "is_home": false,
-              "score": "0:2",
               "result": "L"
             }
           ]
@@ -740,12 +740,19 @@
         "form_before": "LDLW",
         "opponent_info": {
           "current_rank": 1,
-          "current_form": "WLDDD",
+          "current_form": "LWLDD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "上海申花",
+              "is_home": true,
+              "score": "4:5",
+              "result": "L"
+            },
             {
               "date": "2026-08-15",
               "opponent": "浙江俱乐部",
@@ -772,13 +779,6 @@
               "opponent": "北京国安",
               "is_home": true,
               "score": "2:2",
-              "result": "D"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "青岛西海岸",
-              "is_home": false,
-              "score": "1:1",
               "result": "D"
             }
           ]
@@ -840,7 +840,7 @@
         "form_before": "LLDLW",
         "opponent_info": {
           "current_rank": 11,
-          "current_form": "LLWDW",
+          "current_form": "DLLWD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [
@@ -851,6 +851,13 @@
           ],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "深圳新鹏城",
+              "is_home": false,
+              "score": "1:1",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "成都蓉城",
@@ -878,13 +885,6 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
-            },
-            {
-              "date": "2026-07-14",
-              "opponent": "青岛海牛",
-              "is_home": true,
-              "score": "3:2",
-              "result": "W"
             }
           ]
         },
@@ -945,12 +945,19 @@
         "form_before": "DLLDL",
         "opponent_info": {
           "current_rank": 9,
-          "current_form": "WLWLL",
+          "current_form": "DWLWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "浙江俱乐部",
+              "is_home": true,
+              "score": "1:1",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "辽宁铁人",
@@ -977,13 +984,6 @@
               "opponent": "云南玉昆",
               "is_home": false,
               "score": "3:4",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "武汉三镇",
-              "is_home": false,
-              "score": "0:2",
               "result": "L"
             }
           ]
@@ -1069,12 +1069,19 @@
         "form_before": "WDLLD",
         "opponent_info": {
           "current_rank": 14,
-          "current_form": "LLWWW",
+          "current_form": "DLLWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "武汉三镇",
+              "is_home": false,
+              "score": "0:0",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "北京国安",
@@ -1099,13 +1106,6 @@
             {
               "date": "2026-07-25",
               "opponent": "青岛海牛",
-              "is_home": false,
-              "score": "2:0",
-              "result": "W"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "上海申花",
               "is_home": false,
               "score": "2:0",
               "result": "W"
@@ -1177,13 +1177,20 @@
         },
         "form_before": "LWDLL",
         "opponent_info": {
-          "current_rank": 3,
-          "current_form": "WWLWD",
+          "current_rank": 4,
+          "current_form": "DWWLW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "北京国安",
+              "is_home": false,
+              "score": "3:3",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "大连英博",
@@ -1211,13 +1218,6 @@
               "is_home": true,
               "score": "4:3",
               "result": "W"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "上海海港",
-              "is_home": true,
-              "score": "2:2",
-              "result": "D"
             }
           ]
         },
@@ -1436,7 +1436,7 @@
         },
         "form_before": "WDLWD",
         "opponent_info": {
-          "current_rank": 8,
+          "current_rank": 10,
           "current_form": "DWWLW",
           "goals_for": 0,
           "goals_against": 0,
@@ -1689,13 +1689,20 @@
         },
         "form_before": "WDWDL",
         "opponent_info": {
-          "current_rank": 5,
-          "current_form": "DDWWD",
+          "current_rank": 3,
+          "current_form": "WDDWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "山东泰山",
+              "is_home": true,
+              "score": "2:0",
+              "result": "W"
+            },
             {
               "date": "2026-08-14",
               "opponent": "重庆铜梁龙",
@@ -1723,13 +1730,6 @@
               "is_home": false,
               "score": "1:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "成都蓉城",
-              "is_home": true,
-              "score": "1:1",
-              "result": "D"
             }
           ]
         },
@@ -2022,12 +2022,19 @@
         "form_before": "WLDWD",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "LDWWL",
+          "current_form": "DLDWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "天津津门虎",
+              "is_home": true,
+              "score": "0:0",
+              "result": "D"
+            },
             {
               "date": "2026-08-14",
               "opponent": "上海海港",
@@ -2055,13 +2062,6 @@
               "is_home": true,
               "score": "2:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-04",
-              "opponent": "大连英博",
-              "is_home": false,
-              "score": "2:3",
-              "result": "L"
             }
           ]
         },
@@ -2121,13 +2121,20 @@
         "context_signals": {},
         "form_before": "WWLDW",
         "opponent_info": {
-          "current_rank": 4,
-          "current_form": "WWWLL",
+          "current_rank": 5,
+          "current_form": "LWWWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "青岛西海岸",
+              "is_home": false,
+              "score": "0:2",
+              "result": "L"
+            },
             {
               "date": "2026-08-14",
               "opponent": "青岛海牛",
@@ -2154,13 +2161,6 @@
               "opponent": "河南俱乐部",
               "is_home": true,
               "score": "1:2",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "大连英博",
-              "is_home": false,
-              "score": "1:3",
               "result": "L"
             }
           ]
@@ -2360,12 +2360,19 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 1,
-          "current_form": "WLDDD",
+          "current_form": "LWLDD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "上海申花",
+              "is_home": true,
+              "score": "4:5",
+              "result": "L"
+            },
             {
               "date": "2026-08-15",
               "opponent": "浙江俱乐部",
@@ -2392,13 +2399,6 @@
               "opponent": "北京国安",
               "is_home": true,
               "score": "2:2",
-              "result": "D"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "青岛西海岸",
-              "is_home": false,
-              "score": "1:1",
               "result": "D"
             }
           ]
@@ -2475,7 +2475,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 11,
-          "current_form": "LLWDW",
+          "current_form": "DLLWD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [
@@ -2486,6 +2486,13 @@
           ],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "深圳新鹏城",
+              "is_home": false,
+              "score": "1:1",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "成都蓉城",
@@ -2513,13 +2520,6 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
-            },
-            {
-              "date": "2026-07-14",
-              "opponent": "青岛海牛",
-              "is_home": true,
-              "score": "3:2",
-              "result": "W"
             }
           ]
         },
@@ -2617,12 +2617,19 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 9,
-          "current_form": "WLWLL",
+          "current_form": "DWLWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "浙江俱乐部",
+              "is_home": true,
+              "score": "1:1",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "辽宁铁人",
@@ -2649,13 +2656,6 @@
               "opponent": "云南玉昆",
               "is_home": false,
               "score": "3:4",
-              "result": "L"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "武汉三镇",
-              "is_home": false,
-              "score": "0:2",
               "result": "L"
             }
           ]
@@ -2749,12 +2749,19 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 14,
-          "current_form": "LLWWW",
+          "current_form": "DLLWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "A",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "武汉三镇",
+              "is_home": false,
+              "score": "0:0",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "北京国安",
@@ -2779,13 +2786,6 @@
             {
               "date": "2026-07-25",
               "opponent": "青岛海牛",
-              "is_home": false,
-              "score": "2:0",
-              "result": "W"
-            },
-            {
-              "date": "2026-07-18",
-              "opponent": "上海申花",
               "is_home": false,
               "score": "2:0",
               "result": "W"
@@ -2884,13 +2884,20 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 10,
-          "current_form": "LWWLL",
+          "current_rank": 8,
+          "current_form": "WLWWL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "S",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "成都蓉城",
+              "is_home": false,
+              "score": "5:4",
+              "result": "W"
+            },
             {
               "date": "2026-08-18",
               "opponent": "北京国安",
@@ -2918,13 +2925,6 @@
               "is_home": false,
               "score": "1:3",
               "result": "L"
-            },
-            {
-              "date": "2026-07-25",
-              "opponent": "上海海港",
-              "is_home": false,
-              "score": "0:2",
-              "result": "L"
             }
           ]
         },
@@ -2939,15 +2939,75 @@
         "is_home": true,
         "home_club": "北京国安",
         "away_club": "云南玉昆",
-        "status": "scheduled",
-        "score": {
-          "home": null,
-          "away": null
-        },
-        "guoan_goals": 0,
-        "opp_goals": 0,
-        "result": "?",
-        "events": [],
+        "status": "finished",
+        "score": "3:3",
+        "guoan_goals": 3,
+        "opp_goals": 3,
+        "result": "D",
+        "events": [
+          {
+            "type": "yellow_card",
+            "minute": 15,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安"
+          },
+          {
+            "type": "goal",
+            "minute": 36,
+            "player": "达万",
+            "player_name": "达万",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 50,
+            "player": "张玉宁",
+            "player_name": "张玉宁",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 58,
+            "player": "布尼亚明·阿不都沙拉木",
+            "player_name": "布尼亚明·阿不都沙拉木",
+            "team_name": "云南玉昆",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 65,
+            "player": "奥斯卡",
+            "player_name": "奥斯卡",
+            "team_name": "云南玉昆",
+            "is_own_goal": false
+          },
+          {
+            "type": "goal",
+            "minute": 69,
+            "player": "塞尔吉尼奥",
+            "player_name": "塞尔吉尼奥",
+            "team_name": "北京国安",
+            "is_own_goal": false
+          },
+          {
+            "type": "yellow_card",
+            "minute": 86,
+            "player": "卡约",
+            "player_name": "卡约",
+            "team_name": "云南玉昆"
+          },
+          {
+            "type": "goal",
+            "minute": 91,
+            "player": "约尼查",
+            "player_name": "约尼查",
+            "team_name": "云南玉昆",
+            "is_own_goal": false
+          }
+        ],
         "formation": {
           "home": "",
           "away": ""
@@ -2956,13 +3016,20 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 3,
-          "current_form": "WWLWD",
+          "current_rank": 4,
+          "current_form": "DWWLW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "北京国安",
+              "is_home": false,
+              "score": "3:3",
+              "result": "D"
+            },
             {
               "date": "2026-08-15",
               "opponent": "大连英博",
@@ -2990,16 +3057,10 @@
               "is_home": true,
               "score": "4:3",
               "result": "W"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "上海海港",
-              "is_home": true,
-              "score": "2:2",
-              "result": "D"
             }
           ]
-        }
+        },
+        "season": "2026"
       },
       {
         "match_id": "54389926",
@@ -3098,7 +3159,7 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 8,
+          "current_rank": 10,
           "current_form": "DWWLW",
           "goals_for": 0,
           "goals_against": 0,
@@ -3240,13 +3301,20 @@
         "context_signals": {},
         "form_before": "",
         "opponent_info": {
-          "current_rank": 5,
-          "current_form": "DDWWD",
+          "current_rank": 3,
+          "current_form": "WDDWW",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
           "tier": "B",
           "recent_matches": [
+            {
+              "date": "2026-08-22",
+              "opponent": "山东泰山",
+              "is_home": true,
+              "score": "2:0",
+              "result": "W"
+            },
             {
               "date": "2026-08-14",
               "opponent": "重庆铜梁龙",
@@ -3274,13 +3342,6 @@
               "is_home": false,
               "score": "1:0",
               "result": "W"
-            },
-            {
-              "date": "2026-07-17",
-              "opponent": "成都蓉城",
-              "is_home": true,
-              "score": "1:1",
-              "result": "D"
             }
           ]
         }
@@ -3432,7 +3493,7 @@
       {
         "player_name": "张玉宁",
         "team_name": "北京国安",
-        "appearances": 10,
+        "appearances": 11,
         "goals": 14,
         "assists": 0,
         "yellow_cards": 0,
@@ -3497,15 +3558,25 @@
             "date": "2026-08-07",
             "opponent": "深圳新鹏城",
             "goals": 1
+          },
+          {
+            "round": "第24轮",
+            "date": "2026-08-22",
+            "opponent": "云南玉昆",
+            "goals": 1
           }
         ],
         "card_calendar": [
           {
             "round": "第16轮",
             "type": "yellow"
+          },
+          {
+            "round": "第24轮",
+            "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 23.3,
+        "goal_contribution_pct": 23.9,
         "form_5": [
           "goal",
           "goal",
@@ -3513,7 +3584,7 @@
           "goal",
           "goal"
         ],
-        "streak": "连续10场进球",
+        "streak": "连续11场进球",
         "position": "前锋",
         "shirt_number": 9,
         "cfl_profile": {
@@ -3586,7 +3657,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 14.0,
+        "goal_contribution_pct": 13.0,
         "form_5": [
           "goal",
           "goal",
@@ -3651,7 +3722,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 9.3,
+        "goal_contribution_pct": 8.7,
         "form_5": [
           "goal",
           "goal",
@@ -3749,7 +3820,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 20.9,
+        "goal_contribution_pct": 19.6,
         "form_5": [
           "goal",
           "goal",
@@ -3773,8 +3844,8 @@
       {
         "player_name": "达万",
         "team_name": "北京国安",
-        "appearances": 4,
-        "goals": 3,
+        "appearances": 5,
+        "goals": 4,
         "assists": 0,
         "yellow_cards": 1,
         "red_cards": 0,
@@ -3796,6 +3867,12 @@
             "date": "2026-08-15",
             "opponent": "天津津门虎",
             "goals": 1
+          },
+          {
+            "round": "第24轮",
+            "date": "2026-08-22",
+            "opponent": "云南玉昆",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -3804,13 +3881,14 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 7.0,
+        "goal_contribution_pct": 8.7,
         "form_5": [
+          "goal",
           "goal",
           "goal",
           "goal"
         ],
-        "streak": "连续3场进球",
+        "streak": "连续4场进球",
         "position": "中场",
         "shirt_number": 23,
         "cfl_profile": {
@@ -3826,7 +3904,7 @@
       {
         "player_name": "塞尔吉尼奥",
         "team_name": "北京国安",
-        "appearances": 4,
+        "appearances": 5,
         "goals": 2,
         "assists": 0,
         "yellow_cards": 0,
@@ -3855,6 +3933,12 @@
             "date": "2026-07-17",
             "opponent": "辽宁铁人",
             "goals": 1
+          },
+          {
+            "round": "第24轮",
+            "date": "2026-08-22",
+            "opponent": "云南玉昆",
+            "goals": 1
           }
         ],
         "card_calendar": [
@@ -3863,14 +3947,15 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 9.3,
+        "goal_contribution_pct": 10.9,
         "form_5": [
+          "goal",
           "goal",
           "goal",
           "goal",
           "goal"
         ],
-        "streak": "连续4场进球",
+        "streak": "连续5场进球",
         "position": "中场",
         "shirt_number": 7,
         "cfl_profile": {
@@ -3929,7 +4014,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 7.0,
+        "goal_contribution_pct": 6.5,
         "form_5": [
           "goal",
           "goal",
@@ -3994,7 +4079,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 7.0,
+        "goal_contribution_pct": 6.5,
         "form_5": [
           "goal",
           "goal",
@@ -4035,7 +4120,7 @@
             "type": "yellow"
           }
         ],
-        "goal_contribution_pct": 2.3,
+        "goal_contribution_pct": 2.2,
         "form_5": [
           "goal"
         ],
@@ -5017,12 +5102,19 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 15,
-              "current_form": "LDWWL",
+              "current_form": "DLDWW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "天津津门虎",
+                  "is_home": true,
+                  "score": "0:0",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-14",
                   "opponent": "上海海港",
@@ -5050,13 +5142,6 @@
                   "is_home": true,
                   "score": "2:0",
                   "result": "W"
-                },
-                {
-                  "date": "2026-07-04",
-                  "opponent": "大连英博",
-                  "is_home": false,
-                  "score": "2:3",
-                  "result": "L"
                 }
               ]
             },
@@ -5117,12 +5202,19 @@
             "form_before": "WLDWD",
             "opponent_info": {
               "current_rank": 15,
-              "current_form": "LDWWL",
+              "current_form": "DLDWW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "天津津门虎",
+                  "is_home": true,
+                  "score": "0:0",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-14",
                   "opponent": "上海海港",
@@ -5150,13 +5242,6 @@
                   "is_home": true,
                   "score": "2:0",
                   "result": "W"
-                },
-                {
-                  "date": "2026-07-04",
-                  "opponent": "大连英博",
-                  "is_home": false,
-                  "score": "2:3",
-                  "result": "L"
                 }
               ]
             },
@@ -5534,13 +5619,20 @@
             "context_signals": {},
             "form_before": "W",
             "opponent_info": {
-              "current_rank": 4,
-              "current_form": "WWWLL",
+              "current_rank": 5,
+              "current_form": "LWWWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "青岛西海岸",
+                  "is_home": false,
+                  "score": "0:2",
+                  "result": "L"
+                },
                 {
                   "date": "2026-08-14",
                   "opponent": "青岛海牛",
@@ -5567,13 +5659,6 @@
                   "opponent": "河南俱乐部",
                   "is_home": true,
                   "score": "1:2",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "大连英博",
-                  "is_home": false,
-                  "score": "1:3",
                   "result": "L"
                 }
               ]
@@ -5634,13 +5719,20 @@
             "context_signals": {},
             "form_before": "WWLDW",
             "opponent_info": {
-              "current_rank": 4,
-              "current_form": "WWWLL",
+              "current_rank": 5,
+              "current_form": "LWWWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "青岛西海岸",
+                  "is_home": false,
+                  "score": "0:2",
+                  "result": "L"
+                },
                 {
                   "date": "2026-08-14",
                   "opponent": "青岛海牛",
@@ -5667,13 +5759,6 @@
                   "opponent": "河南俱乐部",
                   "is_home": true,
                   "score": "1:2",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "大连英博",
-                  "is_home": false,
-                  "score": "1:3",
                   "result": "L"
                 }
               ]
@@ -6035,12 +6120,19 @@
             "form_before": "WDLLD",
             "opponent_info": {
               "current_rank": 14,
-              "current_form": "LLWWW",
+              "current_form": "DLLWW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "武汉三镇",
+                  "is_home": false,
+                  "score": "0:0",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "北京国安",
@@ -6065,13 +6157,6 @@
                 {
                   "date": "2026-07-25",
                   "opponent": "青岛海牛",
-                  "is_home": false,
-                  "score": "2:0",
-                  "result": "W"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "上海申花",
                   "is_home": false,
                   "score": "2:0",
                   "result": "W"
@@ -6167,12 +6252,19 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 14,
-              "current_form": "LLWWW",
+              "current_form": "DLLWW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "武汉三镇",
+                  "is_home": false,
+                  "score": "0:0",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "北京国安",
@@ -6197,13 +6289,6 @@
                 {
                   "date": "2026-07-25",
                   "opponent": "青岛海牛",
-                  "is_home": false,
-                  "score": "2:0",
-                  "result": "W"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "上海申花",
                   "is_home": false,
                   "score": "2:0",
                   "result": "W"
@@ -6428,13 +6513,20 @@
             "context_signals": {},
             "form_before": "LW",
             "opponent_info": {
-              "current_rank": 10,
-              "current_form": "LWWLL",
+              "current_rank": 8,
+              "current_form": "WLWWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "S",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "成都蓉城",
+                  "is_home": false,
+                  "score": "5:4",
+                  "result": "W"
+                },
                 {
                   "date": "2026-08-18",
                   "opponent": "北京国安",
@@ -6461,13 +6553,6 @@
                   "opponent": "辽宁铁人",
                   "is_home": false,
                   "score": "1:3",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-25",
-                  "opponent": "上海海港",
-                  "is_home": false,
-                  "score": "0:2",
                   "result": "L"
                 }
               ]
@@ -6564,13 +6649,20 @@
             "context_signals": {},
             "form_before": "",
             "opponent_info": {
-              "current_rank": 10,
-              "current_form": "LWWLL",
+              "current_rank": 8,
+              "current_form": "WLWWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "S",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "成都蓉城",
+                  "is_home": false,
+                  "score": "5:4",
+                  "result": "W"
+                },
                 {
                   "date": "2026-08-18",
                   "opponent": "北京国安",
@@ -6597,13 +6689,6 @@
                   "opponent": "辽宁铁人",
                   "is_home": false,
                   "score": "1:3",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-25",
-                  "opponent": "上海海港",
-                  "is_home": false,
-                  "score": "0:2",
                   "result": "L"
                 }
               ]
@@ -6809,7 +6894,7 @@
             "form_before": "LLDLW",
             "opponent_info": {
               "current_rank": 11,
-              "current_form": "LLWDW",
+              "current_form": "DLLWD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [
@@ -6820,6 +6905,13 @@
               ],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "深圳新鹏城",
+                  "is_home": false,
+                  "score": "1:1",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "成都蓉城",
@@ -6847,13 +6939,6 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
-                },
-                {
-                  "date": "2026-07-14",
-                  "opponent": "青岛海牛",
-                  "is_home": true,
-                  "score": "3:2",
-                  "result": "W"
                 }
               ]
             },
@@ -6929,7 +7014,7 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 11,
-              "current_form": "LLWDW",
+              "current_form": "DLLWD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [
@@ -6940,6 +7025,13 @@
               ],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "深圳新鹏城",
+                  "is_home": false,
+                  "score": "1:1",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "成都蓉城",
@@ -6967,13 +7059,6 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
-                },
-                {
-                  "date": "2026-07-14",
-                  "opponent": "青岛海牛",
-                  "is_home": true,
-                  "score": "3:2",
-                  "result": "W"
                 }
               ]
             },
@@ -7263,7 +7348,7 @@
             },
             "form_before": "WDLWD",
             "opponent_info": {
-              "current_rank": 8,
+              "current_rank": 10,
               "current_form": "DWWLW",
               "goals_for": 0,
               "goals_against": 0,
@@ -7466,12 +7551,19 @@
             "form_before": "LDLW",
             "opponent_info": {
               "current_rank": 1,
-              "current_form": "WLDDD",
+              "current_form": "LWLDD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "上海申花",
+                  "is_home": true,
+                  "score": "4:5",
+                  "result": "L"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "浙江俱乐部",
@@ -7498,13 +7590,6 @@
                   "opponent": "北京国安",
                   "is_home": true,
                   "score": "2:2",
-                  "result": "D"
-                },
-                {
-                  "date": "2026-07-17",
-                  "opponent": "青岛西海岸",
-                  "is_home": false,
-                  "score": "1:1",
                   "result": "D"
                 }
               ]
@@ -7596,12 +7681,19 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 1,
-              "current_form": "WLDDD",
+              "current_form": "LWLDD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "A",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "上海申花",
+                  "is_home": true,
+                  "score": "4:5",
+                  "result": "L"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "浙江俱乐部",
@@ -7628,13 +7720,6 @@
                   "opponent": "北京国安",
                   "is_home": true,
                   "score": "2:2",
-                  "result": "D"
-                },
-                {
-                  "date": "2026-07-17",
-                  "opponent": "青岛西海岸",
-                  "is_home": false,
-                  "score": "1:1",
                   "result": "D"
                 }
               ]
@@ -7792,12 +7877,19 @@
             "form_before": "DLLDL",
             "opponent_info": {
               "current_rank": 9,
-              "current_form": "WLWLL",
+              "current_form": "DWLWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "浙江俱乐部",
+                  "is_home": true,
+                  "score": "1:1",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "辽宁铁人",
@@ -7824,13 +7916,6 @@
                   "opponent": "云南玉昆",
                   "is_home": false,
                   "score": "3:4",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "武汉三镇",
-                  "is_home": false,
-                  "score": "0:2",
                   "result": "L"
                 }
               ]
@@ -7929,12 +8014,19 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 9,
-              "current_form": "WLWLL",
+              "current_form": "DWLWL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "浙江俱乐部",
+                  "is_home": true,
+                  "score": "1:1",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "辽宁铁人",
@@ -7961,13 +8053,6 @@
                   "opponent": "云南玉昆",
                   "is_home": false,
                   "score": "3:4",
-                  "result": "L"
-                },
-                {
-                  "date": "2026-07-18",
-                  "opponent": "武汉三镇",
-                  "is_home": false,
-                  "score": "0:2",
                   "result": "L"
                 }
               ]
@@ -8103,13 +8188,20 @@
             },
             "form_before": "WDWDL",
             "opponent_info": {
-              "current_rank": 5,
-              "current_form": "DDWWD",
+              "current_rank": 3,
+              "current_form": "WDDWW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "山东泰山",
+                  "is_home": true,
+                  "score": "2:0",
+                  "result": "W"
+                },
                 {
                   "date": "2026-08-14",
                   "opponent": "重庆铜梁龙",
@@ -8137,13 +8229,6 @@
                   "is_home": false,
                   "score": "1:0",
                   "result": "W"
-                },
-                {
-                  "date": "2026-07-17",
-                  "opponent": "成都蓉城",
-                  "is_home": true,
-                  "score": "1:1",
-                  "result": "D"
                 }
               ]
             },
@@ -8153,12 +8238,12 @@
       },
       "云南玉昆": {
         "all_time": {
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "gf": 7,
-          "ga": 4
+          "gf": 10,
+          "ga": 7
         },
         "matches": [
           {
@@ -8248,13 +8333,20 @@
             },
             "form_before": "LWDLL",
             "opponent_info": {
-              "current_rank": 3,
-              "current_form": "WWLWD",
+              "current_rank": 4,
+              "current_form": "DWWLW",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
               "tier": "B",
               "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "北京国安",
+                  "is_home": false,
+                  "score": "3:3",
+                  "result": "D"
+                },
                 {
                   "date": "2026-08-15",
                   "opponent": "大连英博",
@@ -8282,13 +8374,138 @@
                   "is_home": true,
                   "score": "4:3",
                   "result": "W"
+                }
+              ]
+            },
+            "season": "2026"
+          },
+          {
+            "match_id": "54389940",
+            "round": "第24轮",
+            "date": "2026-08-22 20:00",
+            "venue": "工人体育场",
+            "opponent": "云南玉昆",
+            "is_home": true,
+            "home_club": "北京国安",
+            "away_club": "云南玉昆",
+            "status": "finished",
+            "score": "3:3",
+            "guoan_goals": 3,
+            "opp_goals": 3,
+            "result": "D",
+            "events": [
+              {
+                "type": "yellow_card",
+                "minute": 15,
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "team_name": "北京国安"
+              },
+              {
+                "type": "goal",
+                "minute": 36,
+                "player": "达万",
+                "player_name": "达万",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 50,
+                "player": "张玉宁",
+                "player_name": "张玉宁",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 58,
+                "player": "布尼亚明·阿不都沙拉木",
+                "player_name": "布尼亚明·阿不都沙拉木",
+                "team_name": "云南玉昆",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 65,
+                "player": "奥斯卡",
+                "player_name": "奥斯卡",
+                "team_name": "云南玉昆",
+                "is_own_goal": false
+              },
+              {
+                "type": "goal",
+                "minute": 69,
+                "player": "塞尔吉尼奥",
+                "player_name": "塞尔吉尼奥",
+                "team_name": "北京国安",
+                "is_own_goal": false
+              },
+              {
+                "type": "yellow_card",
+                "minute": 86,
+                "player": "卡约",
+                "player_name": "卡约",
+                "team_name": "云南玉昆"
+              },
+              {
+                "type": "goal",
+                "minute": 91,
+                "player": "约尼查",
+                "player_name": "约尼查",
+                "team_name": "云南玉昆",
+                "is_own_goal": false
+              }
+            ],
+            "formation": {
+              "home": "",
+              "away": ""
+            },
+            "opponent_tier": "B",
+            "context_signals": {},
+            "form_before": "",
+            "opponent_info": {
+              "current_rank": 4,
+              "current_form": "DWWLW",
+              "goals_for": 0,
+              "goals_against": 0,
+              "top_scorers": [],
+              "tier": "B",
+              "recent_matches": [
+                {
+                  "date": "2026-08-22",
+                  "opponent": "北京国安",
+                  "is_home": false,
+                  "score": "3:3",
+                  "result": "D"
                 },
                 {
-                  "date": "2026-07-17",
-                  "opponent": "上海海港",
+                  "date": "2026-08-15",
+                  "opponent": "大连英博",
                   "is_home": true,
-                  "score": "2:2",
-                  "result": "D"
+                  "score": "3:1",
+                  "result": "W"
+                },
+                {
+                  "date": "2026-08-08",
+                  "opponent": "成都蓉城",
+                  "is_home": true,
+                  "score": "1:0",
+                  "result": "W"
+                },
+                {
+                  "date": "2026-08-01",
+                  "opponent": "天津津门虎",
+                  "is_home": false,
+                  "score": "2:3",
+                  "result": "L"
+                },
+                {
+                  "date": "2026-07-26",
+                  "opponent": "深圳新鹏城",
+                  "is_home": true,
+                  "score": "4:3",
+                  "result": "W"
                 }
               ]
             },
@@ -8942,13 +9159,13 @@
       "云南玉昆": {
         "tier": "B",
         "tier_label": "中游",
-        "home_result": null,
+        "home_result": "D",
         "away_result": "D",
-        "home_score": null,
+        "home_score": "3:3",
         "away_score": "3:3",
         "record": {
           "wins": 0,
-          "draws": 1,
+          "draws": 2,
           "losses": 0
         }
       },
@@ -9054,7 +9271,8 @@
       "W",
       "W",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "round_progression": [
       {
@@ -9263,15 +9481,24 @@
         "cumulative_points": 40,
         "gf_total": 45,
         "ga_total": 29
+      },
+      {
+        "round": "第24轮",
+        "opponent": "云南玉昆",
+        "result": "D",
+        "score": "3:3",
+        "cumulative_points": 41,
+        "gf_total": 48,
+        "ga_total": 32
       }
     ],
     "goal_time_distribution": {
       "0-15": 2,
       "16-30": 7,
-      "31-45": 4,
+      "31-45": 5,
       "45+": 0,
-      "46-60": 9,
-      "61-75": 9,
+      "46-60": 10,
+      "61-75": 10,
       "76-90": 12,
       "90+": 0
     },
