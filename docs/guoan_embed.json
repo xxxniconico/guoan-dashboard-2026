@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-13T22:58:55.511430+00:00",
+    "generated_at_utc": "2026-10-14T21:56:25.804730+00:00",
     "season": "2026",
     "last_match_round": "第26轮",
     "source": "/home/runner/work/guoan-dashboard-2026/guoan-dashboard-2026/data/dashboard_embed.json"
@@ -138,19 +138,6 @@
           "effective_points": 32
         },
         {
-          "club_name": "浙江俱乐部",
-          "played": 27,
-          "wins": 10,
-          "draws": 6,
-          "losses": 11,
-          "goals_for": 47,
-          "goals_against": 47,
-          "goal_difference": 0,
-          "match_points": 36,
-          "penalty_points": 5,
-          "effective_points": 31
-        },
-        {
           "club_name": "深圳新鹏城",
           "played": 27,
           "wins": 8,
@@ -190,6 +177,19 @@
           "effective_points": 28
         },
         {
+          "club_name": "浙江俱乐部",
+          "played": 26,
+          "wins": 9,
+          "draws": 6,
+          "losses": 11,
+          "goals_for": 43,
+          "goals_against": 46,
+          "goal_difference": -3,
+          "match_points": 33,
+          "penalty_points": 5,
+          "effective_points": 28
+        },
+        {
           "club_name": "辽宁铁人",
           "played": 27,
           "wins": 7,
@@ -204,13 +204,13 @@
         },
         {
           "club_name": "武汉三镇",
-          "played": 27,
+          "played": 26,
           "wins": 5,
           "draws": 12,
-          "losses": 10,
-          "goals_for": 40,
-          "goals_against": 47,
-          "goal_difference": -7,
+          "losses": 9,
+          "goals_for": 39,
+          "goals_against": 43,
+          "goal_difference": -4,
           "match_points": 27,
           "penalty_points": 5,
           "effective_points": 22
@@ -280,7 +280,7 @@
         "form_before": "",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "DLDDW",
+          "current_form": "DDDWD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
@@ -292,13 +292,6 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
-            },
-            {
-              "date": "2026-09-18",
-              "opponent": "浙江俱乐部",
-              "is_home": false,
-              "score": "1:4",
-              "result": "L"
             },
             {
               "date": "2026-09-12",
@@ -320,6 +313,13 @@
               "is_home": false,
               "score": "5:1",
               "result": "W"
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "天津津门虎",
+              "is_home": true,
+              "score": "0:0",
+              "result": "D"
             }
           ]
         },
@@ -842,8 +842,8 @@
         "context_signals": {},
         "form_before": "LLDLW",
         "opponent_info": {
-          "current_rank": 10,
-          "current_form": "LWLWD",
+          "current_rank": 13,
+          "current_form": "LLWDL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
@@ -855,13 +855,6 @@
               "is_home": true,
               "score": "2:4",
               "result": "L"
-            },
-            {
-              "date": "2026-09-18",
-              "opponent": "武汉三镇",
-              "is_home": true,
-              "score": "4:1",
-              "result": "W"
             },
             {
               "date": "2026-09-06",
@@ -883,6 +876,13 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
+            },
+            {
+              "date": "2026-08-15",
+              "opponent": "成都蓉城",
+              "is_home": true,
+              "score": "2:3",
+              "result": "L"
             }
           ]
         },
@@ -944,7 +944,7 @@
         },
         "form_before": "DLLDL",
         "opponent_info": {
-          "current_rank": 11,
+          "current_rank": 10,
           "current_form": "DDLDW",
           "goals_for": 0,
           "goals_against": 0,
@@ -1068,7 +1068,7 @@
         "context_signals": {},
         "form_before": "WDLLD",
         "opponent_info": {
-          "current_rank": 12,
+          "current_rank": 11,
           "current_form": "WWWDD",
           "goals_for": 0,
           "goals_against": 0,
@@ -1797,7 +1797,7 @@
         },
         "form_before": "DWDWD",
         "opponent_info": {
-          "current_rank": 13,
+          "current_rank": 12,
           "current_form": "DDDDD",
           "goals_for": 0,
           "goals_against": 0,
@@ -2022,7 +2022,7 @@
         "form_before": "WLDWD",
         "opponent_info": {
           "current_rank": 15,
-          "current_form": "DLDDW",
+          "current_form": "DDDWD",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
@@ -2034,13 +2034,6 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
-            },
-            {
-              "date": "2026-09-18",
-              "opponent": "浙江俱乐部",
-              "is_home": false,
-              "score": "1:4",
-              "result": "L"
             },
             {
               "date": "2026-09-12",
@@ -2062,6 +2055,13 @@
               "is_home": false,
               "score": "5:1",
               "result": "W"
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "天津津门虎",
+              "is_home": true,
+              "score": "0:0",
+              "result": "D"
             }
           ]
         },
@@ -2457,8 +2457,8 @@
         },
         "form_before": "DDWWW",
         "opponent_info": {
-          "current_rank": 10,
-          "current_form": "LWLWD",
+          "current_rank": 13,
+          "current_form": "LLWDL",
           "goals_for": 0,
           "goals_against": 0,
           "top_scorers": [],
@@ -2470,13 +2470,6 @@
               "is_home": true,
               "score": "2:4",
               "result": "L"
-            },
-            {
-              "date": "2026-09-18",
-              "opponent": "武汉三镇",
-              "is_home": true,
-              "score": "4:1",
-              "result": "W"
             },
             {
               "date": "2026-09-06",
@@ -2498,6 +2491,13 @@
               "is_home": false,
               "score": "1:1",
               "result": "D"
+            },
+            {
+              "date": "2026-08-15",
+              "opponent": "成都蓉城",
+              "is_home": true,
+              "score": "2:3",
+              "result": "L"
             }
           ]
         },
@@ -2583,7 +2583,7 @@
         },
         "form_before": "WDDWW",
         "opponent_info": {
-          "current_rank": 11,
+          "current_rank": 10,
           "current_form": "DDLDW",
           "goals_for": 0,
           "goals_against": 0,
@@ -2703,7 +2703,7 @@
         },
         "form_before": "WWDDW",
         "opponent_info": {
-          "current_rank": 12,
+          "current_rank": 11,
           "current_form": "WWWDD",
           "goals_for": 0,
           "goals_against": 0,
@@ -4841,7 +4841,7 @@
             "form_before": "",
             "opponent_info": {
               "current_rank": 15,
-              "current_form": "DLDDW",
+              "current_form": "DDDWD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
@@ -4853,13 +4853,6 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
-                },
-                {
-                  "date": "2026-09-18",
-                  "opponent": "浙江俱乐部",
-                  "is_home": false,
-                  "score": "1:4",
-                  "result": "L"
                 },
                 {
                   "date": "2026-09-12",
@@ -4881,6 +4874,13 @@
                   "is_home": false,
                   "score": "5:1",
                   "result": "W"
+                },
+                {
+                  "date": "2026-08-22",
+                  "opponent": "天津津门虎",
+                  "is_home": true,
+                  "score": "0:0",
+                  "result": "D"
                 }
               ]
             },
@@ -4941,7 +4941,7 @@
             "form_before": "WLDWD",
             "opponent_info": {
               "current_rank": 15,
-              "current_form": "DLDDW",
+              "current_form": "DDDWD",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
@@ -4953,13 +4953,6 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
-                },
-                {
-                  "date": "2026-09-18",
-                  "opponent": "浙江俱乐部",
-                  "is_home": false,
-                  "score": "1:4",
-                  "result": "L"
                 },
                 {
                   "date": "2026-09-12",
@@ -4981,6 +4974,13 @@
                   "is_home": false,
                   "score": "5:1",
                   "result": "W"
+                },
+                {
+                  "date": "2026-08-22",
+                  "opponent": "天津津门虎",
+                  "is_home": true,
+                  "score": "0:0",
+                  "result": "D"
                 }
               ]
             },
@@ -5650,7 +5650,7 @@
             },
             "form_before": "DWDWD",
             "opponent_info": {
-              "current_rank": 13,
+              "current_rank": 12,
               "current_form": "DDDDD",
               "goals_for": 0,
               "goals_against": 0,
@@ -5858,7 +5858,7 @@
             "context_signals": {},
             "form_before": "WDLLD",
             "opponent_info": {
-              "current_rank": 12,
+              "current_rank": 11,
               "current_form": "WWWDD",
               "goals_for": 0,
               "goals_against": 0,
@@ -5978,7 +5978,7 @@
             },
             "form_before": "WWDDW",
             "opponent_info": {
-              "current_rank": 12,
+              "current_rank": 11,
               "current_form": "WWWDD",
               "goals_for": 0,
               "goals_against": 0,
@@ -6610,8 +6610,8 @@
             "context_signals": {},
             "form_before": "LLDLW",
             "opponent_info": {
-              "current_rank": 10,
-              "current_form": "LWLWD",
+              "current_rank": 13,
+              "current_form": "LLWDL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
@@ -6623,13 +6623,6 @@
                   "is_home": true,
                   "score": "2:4",
                   "result": "L"
-                },
-                {
-                  "date": "2026-09-18",
-                  "opponent": "武汉三镇",
-                  "is_home": true,
-                  "score": "4:1",
-                  "result": "W"
                 },
                 {
                   "date": "2026-09-06",
@@ -6651,6 +6644,13 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
+                },
+                {
+                  "date": "2026-08-15",
+                  "opponent": "成都蓉城",
+                  "is_home": true,
+                  "score": "2:3",
+                  "result": "L"
                 }
               ]
             },
@@ -6718,8 +6718,8 @@
             },
             "form_before": "DDWWW",
             "opponent_info": {
-              "current_rank": 10,
-              "current_form": "LWLWD",
+              "current_rank": 13,
+              "current_form": "LLWDL",
               "goals_for": 0,
               "goals_against": 0,
               "top_scorers": [],
@@ -6731,13 +6731,6 @@
                   "is_home": true,
                   "score": "2:4",
                   "result": "L"
-                },
-                {
-                  "date": "2026-09-18",
-                  "opponent": "武汉三镇",
-                  "is_home": true,
-                  "score": "4:1",
-                  "result": "W"
                 },
                 {
                   "date": "2026-09-06",
@@ -6759,6 +6752,13 @@
                   "is_home": false,
                   "score": "1:1",
                   "result": "D"
+                },
+                {
+                  "date": "2026-08-15",
+                  "opponent": "成都蓉城",
+                  "is_home": true,
+                  "score": "2:3",
+                  "result": "L"
                 }
               ]
             },
@@ -7649,7 +7649,7 @@
             },
             "form_before": "DLLDL",
             "opponent_info": {
-              "current_rank": 11,
+              "current_rank": 10,
               "current_form": "DDLDW",
               "goals_for": 0,
               "goals_against": 0,
@@ -7775,7 +7775,7 @@
             },
             "form_before": "WDDWW",
             "opponent_info": {
-              "current_rank": 11,
+              "current_rank": 10,
               "current_form": "DDLDW",
               "goals_for": 0,
               "goals_against": 0,
